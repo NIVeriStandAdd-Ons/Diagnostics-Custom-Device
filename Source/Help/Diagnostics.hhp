@@ -1,0 +1,40 @@
+[OPTIONS]
+Compatibility=1.1 or later
+Compiled file=Diagnostics.chm
+Default topic=MainPage_Diag.html
+Display compile progress=No
+Language=0x409 English (United States)
+
+
+[FILES]
+common.js
+feedbacklink.js
+variables.js
+objectnames.js
+domtools.js
+arraytools.js
+osbrowser.js
+initpagedyn.js
+checkinstalled.js
+dynamiccontent.js
+dynamiclinks.js
+linking.js
+launchhelp.js
+stylesheets.js
+web.js
+pdf.js
+DPID.html
+DPIDs.html
+DTCs.html
+Input PIDs.html
+MainPage_Diag.html
+PID.html
+PIDs.html
+Status.html
+DID.html
+DIDs.html
+Output PIDs.html
+Commands.html
+
+[INFOTYPES]
+

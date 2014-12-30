@@ -1,0 +1,981 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomDevice xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Custom Device.xsd">
+<XSDVersion Major="2010" Minor="0" Fix="0" Build="0" />
+  <AddMenu>
+    <eng>Diagnostics Addon</eng>
+    <loc>Diagnostics Addon</loc>
+  </AddMenu>
+  <Version>1.0.0</Version>
+  <Type>Inline HW Interface</Type>
+  <MaxOccurrence>-1</MaxOccurrence>
+  <MainPageGUID>4e42e445-e1c9-40fb-b144-894b15ca645a</MainPageGUID>
+  <InitializationVI>
+    <Type>Action</Type>
+    <Item2Launch>
+      <Type>To Common Doc Dir</Type>
+		<Path>Custom Devices\Diagnostics Addon\Diagnostics Addon Configuration.llb\Initialization VI.vi</Path>
+    </Item2Launch>
+  </InitializationVI>
+  <CustomDeviceVI>
+		<SourceDistribution>
+			<Source>
+				<SupportedTarget>Windows</SupportedTarget>
+				<Source>
+					<Type>To Common Doc Dir</Type>
+					<Path>Custom Devices\Diagnostics Addon\Diagnostics Addon Engine.llb\RT Driver VI.vi</Path>
+				</Source>
+				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Diagnostics Addon\Diagnostics Addon Engine.llb\RT Driver VI.vi</RealTimeSystemDestination>
+			</Source>
+			<Source>
+				<SupportedTarget>Pharlap</SupportedTarget>
+				<Source>
+					<Type>To Common Doc Dir</Type>
+					<Path>Custom Devices\Diagnostics Addon\Diagnostics Addon Engine.llb\RT Driver VI.vi</Path>
+				</Source>
+				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Diagnostics Addon\Diagnostics Addon Engine.llb\RT Driver VI.vi</RealTimeSystemDestination>
+			</Source>
+		</SourceDistribution>
+	</CustomDeviceVI>
+  <Dependencies></Dependencies>
+  <Pages>
+    <Page>
+      <Name>
+        <eng>Diagnostics Addon</eng>
+        <loc>Diagnostics Addon</loc>
+      </Name>
+      <GUID>4e42e445-e1c9-40fb-b144-894b15ca645a</GUID>
+      <Glyph>
+        <Type>To Application Data Dir</Type>
+        <Path>System Explorer\Glyphs\NI-XNET Port.png</Path>
+      </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\Main Page.vi</Path>
+      </Item2Launch>
+      <RunTimeMenu>
+        <MenuItem>
+          <GUID>05db1cff-8593-4fa5-a642-5d7ff84d2ee3</GUID>
+          <Type>Action</Type>
+          <Name>
+            <eng>Disable</eng>
+            <loc>Disable</loc>
+          </Name>
+          <Item2Launch>
+            <Type>To Common Doc Dir</Type>
+            <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\EnableDisable Main Page.vi</Path>
+          </Item2Launch>
+        </MenuItem>
+        <MenuItem>
+          <GUID>b2ce9074-10ee-4035-b1de-8d57db17ae03</GUID>
+          <Type>Action</Type>
+          <Name>
+            <eng>Export Config</eng>
+            <loc>Export Config</loc>
+          </Name>
+          <Item2Launch>
+            <Type>To Common Doc Dir</Type>
+            <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\ExportConfigurationToFile.vi</Path>
+          </Item2Launch>
+        </MenuItem>
+        <MenuItem>
+          <GUID>7755077A-1485-13A6-5674A23FB86277FF</GUID>
+          <Type>Separator</Type>
+          <Name>
+            <eng>.</eng>
+            <loc>.</loc>
+          </Name>
+          <Item2Launch>
+            <Type>Absolute</Type>
+            <Path>.</Path>
+          </Item2Launch>
+        </MenuItem>
+        <MenuItem>
+          <GUID>77550670-1485-13A6-568B9AB41979630D</GUID>
+          <Type>Action</Type>
+          <Name>
+            <eng>Delete</eng>
+            <loc>Delete</loc>
+          </Name>
+          <Item2Launch>
+            <Type>Absolute</Type>
+            <Path>Actions\Delete.vi</Path>
+          </Item2Launch>
+        </MenuItem>
+        <MenuItem>
+          <GUID>03D3BE0A-1485-13A6-563AEB9BF271825A</GUID>
+          <Type>VI</Type>
+          <MinNrOfChilds>1</MinNrOfChilds>
+          <Name>
+            <eng>Delete Multiple Items</eng>
+            <loc>Delete Multiple Items</loc>
+          </Name>
+          <Item2Launch>
+            <Type>Absolute</Type>
+            <Path>Dialogs\Delete Multiple Items.vi</Path>
+          </Item2Launch>
+        </MenuItem>
+      </RunTimeMenu>
+      <ActionVIOnDelete>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\ActionVIOnDelete.vi</Path>
+      </ActionVIOnDelete>
+      <ActionVIOnSave>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\ActionVIOnSave.vi</Path>
+      </ActionVIOnSave>
+    </Page>
+    <Page>
+      <Name>
+        <eng>Diagnostics Addon</eng>
+        <loc>Diagnostics Addon</loc>
+      </Name>
+      <GUID>1dbbfb91-19dd-4678-8b23-0ef3a754a66d</GUID>
+      <Glyph>
+        <Type>To Application Data Dir</Type>
+        <Path>System Explorer\Glyphs\NI-XNET Port Disabled.png</Path>
+      </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\Main Page.vi</Path>
+      </Item2Launch>
+      <RunTimeMenu>
+        <MenuItem>
+          <GUID>05db1cff-8593-4fa5-a642-5d7ff84d2ee3</GUID>
+          <Type>Action</Type>
+          <Name>
+            <eng>Enable</eng>
+            <loc>Enable</loc>
+          </Name>
+          <Item2Launch>
+            <Type>To Common Doc Dir</Type>
+            <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\EnableDisable Main Page.vi</Path>
+          </Item2Launch>
+        </MenuItem>
+        <MenuItem>
+          <GUID>b2ce9074-10ee-4035-b1de-8d57db17ae03</GUID>
+          <Type>Action</Type>
+          <Name>
+            <eng>Export Config</eng>
+            <loc>Export Config</loc>
+          </Name>
+          <Item2Launch>
+            <Type>To Common Doc Dir</Type>
+            <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\ExportConfigurationToFile.vi</Path>
+          </Item2Launch>
+        </MenuItem>
+        <MenuItem>
+          <GUID>7755077A-1485-13A6-5674A23FB86277FF</GUID>
+          <Type>Separator</Type>
+          <Name>
+            <eng>.</eng>
+            <loc>.</loc>
+          </Name>
+          <Item2Launch>
+            <Type>Absolute</Type>
+            <Path>.</Path>
+          </Item2Launch>
+        </MenuItem>
+        <MenuItem>
+          <GUID>77550670-1485-13A6-568B9AB41979630D</GUID>
+          <Type>Action</Type>
+          <Name>
+            <eng>Delete</eng>
+            <loc>Delete</loc>
+          </Name>
+          <Item2Launch>
+            <Type>Absolute</Type>
+            <Path>Actions\Delete.vi</Path>
+          </Item2Launch>
+        </MenuItem>
+        <MenuItem>
+          <GUID>03D3BE0A-1485-13A6-563AEB9BF271825A</GUID>
+          <Type>VI</Type>
+          <MinNrOfChilds>1</MinNrOfChilds>
+          <Name>
+            <eng>Delete Multiple Items</eng>
+            <loc>Delete Multiple Items</loc>
+          </Name>
+          <Item2Launch>
+            <Type>Absolute</Type>
+            <Path>Dialogs\Delete Multiple Items.vi</Path>
+          </Item2Launch>
+        </MenuItem>
+      </RunTimeMenu>
+      <ActionVIOnDelete>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\ActionVIOnDelete.vi</Path>
+      </ActionVIOnDelete>
+      <ActionVIOnSave>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\ActionVIOnSave.vi</Path>
+      </ActionVIOnSave>
+    </Page>
+    <Page>
+      <Name>
+        <eng>DTCs</eng>
+        <loc>DTCs</loc>
+      </Name>
+      <DisallowRenaming>true</DisallowRenaming>
+      <DeleteProtection>true</DeleteProtection>
+      <GUID>631db7b8-0b52-4af9-934d-144228c2dbd8</GUID>
+      <Glyph>
+        <Type>To Application Data Dir</Type>
+        <Path>System Explorer\Glyphs\Warning.png</Path>
+      </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\DTCs.vi</Path>
+      </Item2Launch>
+    </Page>
+    <Page>
+      <Name>
+        <eng>PIDs</eng>
+        <loc>PIDs</loc>
+      </Name>
+      <DisallowRenaming>true</DisallowRenaming>
+      <DeleteProtection>true</DeleteProtection>
+      <GUID>1514cba4-fa1e-47dd-8223-616adb9fb21d</GUID>
+      <Glyph>
+        <Type>To Application Data Dir</Type>
+        <Path>System Explorer\Glyphs\NI-XNET Signal.png</Path>
+      </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\PIDs.vi</Path>
+      </Item2Launch>
+      <RunTimeMenu>
+        <MenuItem>
+          <GUID>03D3BE0A-1485-13A6-563AEB9BF271825A</GUID>
+          <Type>VI</Type>
+          <MinNrOfChilds>1</MinNrOfChilds>
+          <Name>
+            <eng>Delete Multiple Items</eng>
+            <loc>Delete Multiple Items</loc>
+          </Name>
+          <Item2Launch>
+            <Type>Absolute</Type>
+            <Path>Dialogs\Delete Multiple Items.vi</Path>
+          </Item2Launch>
+        </MenuItem>
+      </RunTimeMenu>
+    </Page>
+    <Page>
+      <Name>
+        <eng>Services</eng>
+        <loc>Services</loc>
+      </Name>
+      <DisallowRenaming>true</DisallowRenaming>
+      <DeleteProtection>true</DeleteProtection>
+      <GUID>846f9e44-937b-4fbd-9977-3745ffc89e9c</GUID>
+      <Glyph>
+        <Type>To Application Data Dir</Type>
+        <Path>System Explorer\Glyphs\default fpga category.png</Path>
+      </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\Services.vi</Path>
+      </Item2Launch>
+    </Page>
+    <Page>
+      <Name>
+        <eng>Status</eng>
+        <loc>Status</loc>
+      </Name>
+      <DisallowRenaming>true</DisallowRenaming>
+      <DeleteProtection>true</DeleteProtection>
+      <GUID>f7446a49-c995-4f37-8203-8e2b918d40c6</GUID>
+      <Glyph>
+        <Type>To Application Data Dir</Type>
+        <Path>System Explorer\Glyphs\NI-XNET Error.png</Path>
+      </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\Status.vi</Path>
+      </Item2Launch>
+    </Page>
+    <Page>
+      <Name>
+        <eng>Commands</eng>
+        <loc>Commands</loc>
+      </Name>
+      <DisallowRenaming>true</DisallowRenaming>
+      <DeleteProtection>true</DeleteProtection>
+      <GUID>14802196-9eef-416a-8ce6-e6467da1d504</GUID>
+      <Glyph>
+        <Type>To Application Data Dir</Type>
+        <Path>System Explorer\Glyphs\event-based.png</Path>
+      </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\Commands.vi</Path>
+      </Item2Launch>
+    </Page>
+    <Page>
+      <Name>
+        <eng>PID</eng>
+        <loc>PID</loc>
+      </Name>
+      <ExcludeFromAlphabeticalOrder>true</ExcludeFromAlphabeticalOrder>
+      <GUID>6b934904-49a9-4798-a421-a2da3be45ca1</GUID>
+      <Glyph>
+        <Type>To Application Data Dir</Type>
+        <Path>System Explorer\Glyphs\NI-XNET SignalFrame.png</Path>
+      </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\PID.vi</Path>
+      </Item2Launch>
+      <RunTimeMenu>
+        <MenuItem>
+          <GUID>284ec0d1-0279-4002-be6b-dd29e84743be</GUID>
+          <Type>Action</Type>
+          <Name>
+            <eng>Edit PID</eng>
+            <loc>Edit PID</loc>
+          </Name>
+          <Item2Launch>
+            <Type>To Common Doc Dir</Type>
+            <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\Edit PID.vi</Path>
+          </Item2Launch>
+        </MenuItem>
+        <MenuItem>
+          <GUID>7755077A-1485-13A6-5674A23FB86277FF</GUID>
+          <Type>Separator</Type>
+          <Name>
+            <eng>.</eng>
+            <loc>.</loc>
+          </Name>
+          <Item2Launch>
+            <Type>Absolute</Type>
+            <Path>.</Path>
+          </Item2Launch>
+        </MenuItem>
+        <MenuItem>
+          <GUID>77550670-1485-13A6-568B9AB41979630D</GUID>
+          <Type>Action</Type>
+          <Name>
+            <eng>Delete</eng>
+            <loc>Delete</loc>
+          </Name>
+          <Item2Launch>
+            <Type>Absolute</Type>
+            <Path>Actions\Delete.vi</Path>
+          </Item2Launch>
+        </MenuItem>
+        <MenuItem>
+          <GUID>03D3BE0A-1485-13A6-563AEB9BF271825A</GUID>
+          <Type>VI</Type>
+          <MinNrOfChilds>1</MinNrOfChilds>
+          <Name>
+            <eng>Delete Multiple Items</eng>
+            <loc>Delete Multiple Items</loc>
+          </Name>
+          <Item2Launch>
+            <Type>Absolute</Type>
+            <Path>Dialogs\Delete Multiple Items.vi</Path>
+          </Item2Launch>
+        </MenuItem>
+      </RunTimeMenu>
+      <ButtonList>
+        <Button>
+          <ID>Edit PID</ID>
+          <Glyph>
+            <Type>To Application Data Dir</Type>
+            <Path>System Explorer\Glyphs\editopen.png</Path>
+          </Glyph>
+          <Type>Action</Type>
+          <ReferencedGUID>284ec0d1-0279-4002-be6b-dd29e84743be</ReferencedGUID>
+          <ButtonText>
+            <eng>Edit PID</eng>
+            <loc>Edit PID</loc>
+          </ButtonText>
+          <Caption>
+            <eng>Edit PID</eng>
+            <loc>Edit PID</loc>
+          </Caption>
+          <TipStrip>
+            <eng>Edit PID</eng>
+            <loc>Edit PID</loc>
+          </TipStrip>
+          <Documentation>
+            <eng></eng>
+            <loc></loc>
+          </Documentation>
+        </Button>
+      </ButtonList>
+    </Page>
+    <Page>
+      <Name>
+        <eng>DID</eng>
+        <loc>DID</loc>
+      </Name>
+      <ExcludeFromAlphabeticalOrder>true</ExcludeFromAlphabeticalOrder>
+      <GUID>465d9377-cb59-4ae9-97ed-bc842761823f</GUID>
+      <Glyph>
+        <Type>To Application Data Dir</Type>
+        <Path>System Explorer\Glyphs\NI-XNET SignalFrame.png</Path>
+      </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\DID.vi</Path>
+      </Item2Launch>
+      <RunTimeMenu>
+        <MenuItem>
+          <GUID>8857c113-f58b-4d98-ac82-633826442a96</GUID>
+          <Type>Action</Type>
+          <Name>
+            <eng>Edit DID</eng>
+            <loc>Edit DID</loc>
+          </Name>
+          <Item2Launch>
+            <Type>To Common Doc Dir</Type>
+            <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\Edit DID.vi</Path>
+          </Item2Launch>
+        </MenuItem>
+        <MenuItem>
+          <GUID>7755077A-1485-13A6-5674A23FB86277FF</GUID>
+          <Type>Separator</Type>
+          <Name>
+            <eng>.</eng>
+            <loc>.</loc>
+          </Name>
+          <Item2Launch>
+            <Type>Absolute</Type>
+            <Path>.</Path>
+          </Item2Launch>
+        </MenuItem>
+        <MenuItem>
+          <GUID>77550670-1485-13A6-568B9AB41979630D</GUID>
+          <Type>Action</Type>
+          <Name>
+            <eng>Delete</eng>
+            <loc>Delete</loc>
+          </Name>
+          <Item2Launch>
+            <Type>Absolute</Type>
+            <Path>Actions\Delete.vi</Path>
+          </Item2Launch>
+        </MenuItem>
+        <MenuItem>
+          <GUID>03D3BE0A-1485-13A6-563AEB9BF271825A</GUID>
+          <Type>VI</Type>
+          <MinNrOfChilds>1</MinNrOfChilds>
+          <Name>
+            <eng>Delete Multiple Items</eng>
+            <loc>Delete Multiple Items</loc>
+          </Name>
+          <Item2Launch>
+            <Type>Absolute</Type>
+            <Path>Dialogs\Delete Multiple Items.vi</Path>
+          </Item2Launch>
+        </MenuItem>
+      </RunTimeMenu>
+      <ButtonList>
+        <Button>
+          <ID>Edit DID</ID>
+          <Glyph>
+            <Type>To Application Data Dir</Type>
+            <Path>System Explorer\Glyphs\editopen.png</Path>
+          </Glyph>
+          <Type>Action</Type>
+          <ReferencedGUID>8857c113-f58b-4d98-ac82-633826442a96</ReferencedGUID>
+          <ButtonText>
+            <eng>Edit DID</eng>
+            <loc>Edit DID</loc>
+          </ButtonText>
+          <Caption>
+            <eng>Edit DID</eng>
+            <loc>Edit DID</loc>
+          </Caption>
+          <TipStrip>
+            <eng>Edit DID</eng>
+            <loc>Edit DID</loc>
+          </TipStrip>
+          <Documentation>
+            <eng></eng>
+            <loc></loc>
+          </Documentation>
+        </Button>
+      </ButtonList>
+    </Page>
+    <Page>
+      <Name>
+        <eng>Inputs</eng>
+        <loc>Inputs</loc>
+      </Name>
+      <DisallowRenaming>true</DisallowRenaming>
+      <DeleteProtection>true</DeleteProtection>
+      <GUID>3a9eaf02-736d-4e36-bf88-b98c7e9eb737</GUID>
+      <Glyph>
+        <Type>To Application Data Dir</Type>
+        <Path>System Explorer\Glyphs\xnet incoming.png</Path>
+      </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\Inputs.vi</Path>
+      </Item2Launch>
+      <RunTimeMenu>
+        <MenuItem>
+          <GUID>352be800-ba9e-42f5-9bda-213a165cafce</GUID>
+          <Type>Action</Type>
+          <Name>
+            <eng>Add PID</eng>
+            <loc>Add PID</loc>
+          </Name>
+          <Item2Launch>
+            <Type>To Common Doc Dir</Type>
+            <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\Add PID.vi</Path>
+          </Item2Launch>
+        </MenuItem>
+        <MenuItem>
+          <GUID>7755077A-1485-13A6-5674A23FB86277FF</GUID>
+          <Type>Separator</Type>
+          <Name>
+            <eng>.</eng>
+            <loc>.</loc>
+          </Name>
+          <Item2Launch>
+            <Type>Absolute</Type>
+            <Path>.</Path>
+          </Item2Launch>
+        </MenuItem>
+        <MenuItem>
+          <GUID>03D3BE0A-1485-13A6-563AEB9BF271825A</GUID>
+          <Type>VI</Type>
+          <MinNrOfChilds>1</MinNrOfChilds>
+          <Name>
+            <eng>Delete Multiple Items</eng>
+            <loc>Delete Multiple Items</loc>
+          </Name>
+          <Item2Launch>
+            <Type>Absolute</Type>
+            <Path>Dialogs\Delete Multiple Items.vi</Path>
+          </Item2Launch>
+        </MenuItem>
+      </RunTimeMenu>
+      <ButtonList>
+        <Button>
+          <ID>Add PID</ID>
+          <Glyph>
+            <Type>To Application Data Dir</Type>
+            <Path>System Explorer\Glyphs\Add Procedures.png</Path>
+          </Glyph>
+          <Type>Action</Type>
+          <ReferencedGUID>352be800-ba9e-42f5-9bda-213a165cafce</ReferencedGUID>
+          <ButtonText>
+            <eng>Add PID</eng>
+            <loc>Add PID</loc>
+          </ButtonText>
+          <Caption>
+            <eng>Add PID</eng>
+            <loc>Add PID</loc>
+          </Caption>
+          <TipStrip>
+            <eng>Add PID</eng>
+            <loc>Add PID</loc>
+          </TipStrip>
+          <Documentation>
+            <eng></eng>
+            <loc></loc>
+          </Documentation>
+        </Button>
+      </ButtonList>
+    </Page>
+    <Page>
+      <Name>
+        <eng>Outputs</eng>
+        <loc>Outputs</loc>
+      </Name>
+      <DisallowRenaming>true</DisallowRenaming>
+      <DeleteProtection>true</DeleteProtection>
+      <GUID>edf3a6ba-361e-4d29-8f85-616268b5a338</GUID>
+      <Glyph>
+        <Type>To Application Data Dir</Type>
+        <Path>System Explorer\Glyphs\xnet outgoing.png</Path>
+      </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\Outputs.vi</Path>
+      </Item2Launch>
+      <RunTimeMenu>
+        <MenuItem>
+          <GUID>352be800-ba9e-42f5-9bda-213a165cafce</GUID>
+          <Type>Action</Type>
+          <Name>
+            <eng>Add PID</eng>
+            <loc>Add PID</loc>
+          </Name>
+          <Item2Launch>
+            <Type>To Common Doc Dir</Type>
+            <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\Add PID.vi</Path>
+          </Item2Launch>
+        </MenuItem>
+        <MenuItem>
+          <GUID>7755077A-1485-13A6-5674A23FB86277FF</GUID>
+          <Type>Separator</Type>
+          <Name>
+            <eng>.</eng>
+            <loc>.</loc>
+          </Name>
+          <Item2Launch>
+            <Type>Absolute</Type>
+            <Path>.</Path>
+          </Item2Launch>
+        </MenuItem>
+        <MenuItem>
+          <GUID>03D3BE0A-1485-13A6-563AEB9BF271825A</GUID>
+          <Type>VI</Type>
+          <MinNrOfChilds>1</MinNrOfChilds>
+          <Name>
+            <eng>Delete Multiple Items</eng>
+            <loc>Delete Multiple Items</loc>
+          </Name>
+          <Item2Launch>
+            <Type>Absolute</Type>
+            <Path>Dialogs\Delete Multiple Items.vi</Path>
+          </Item2Launch>
+        </MenuItem>
+      </RunTimeMenu>
+      <ButtonList>
+        <Button>
+          <ID>Add PID</ID>
+          <Glyph>
+            <Type>To Application Data Dir</Type>
+            <Path>System Explorer\Glyphs\Add Procedures.png</Path>
+          </Glyph>
+          <Type>Action</Type>
+          <ReferencedGUID>352be800-ba9e-42f5-9bda-213a165cafce</ReferencedGUID>
+          <ButtonText>
+            <eng>Add PID</eng>
+            <loc>Add PID</loc>
+          </ButtonText>
+          <Caption>
+            <eng>Add PID</eng>
+            <loc>Add PID</loc>
+          </Caption>
+          <TipStrip>
+            <eng>Add PID</eng>
+            <loc>Add PID</loc>
+          </TipStrip>
+          <Documentation>
+            <eng></eng>
+            <loc></loc>
+          </Documentation>
+        </Button>
+      </ButtonList>
+    </Page>
+    <Page>
+      <Name>
+        <eng>DIDs</eng>
+        <loc>DIDs</loc>
+      </Name>
+      <DisallowRenaming>true</DisallowRenaming>
+      <DeleteProtection>true</DeleteProtection>
+      <GUID>ae6faf55-1aff-4d2a-b6e8-d238aa342751</GUID>
+      <Glyph>
+        <Type>To Application Data Dir</Type>
+        <Path>System Explorer\Glyphs\NI-XNET Frame Information.png</Path>
+      </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\DIDs.vi</Path>
+      </Item2Launch>
+      <RunTimeMenu>
+        <MenuItem>
+          <GUID>b48b72c5-2dad-4106-88ae-b9e4557d868b</GUID>
+          <Type>Action</Type>
+          <Name>
+            <eng>Add DID</eng>
+            <loc>Add DID</loc>
+          </Name>
+          <Item2Launch>
+            <Type>To Common Doc Dir</Type>
+            <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\Add DID.vi</Path>
+          </Item2Launch>
+        </MenuItem>
+        <MenuItem>
+          <GUID>7755077A-1485-13A6-5674A23FB86277FF</GUID>
+          <Type>Separator</Type>
+          <Name>
+            <eng>.</eng>
+            <loc>.</loc>
+          </Name>
+          <Item2Launch>
+            <Type>Absolute</Type>
+            <Path>.</Path>
+          </Item2Launch>
+        </MenuItem>
+        <MenuItem>
+          <GUID>03D3BE0A-1485-13A6-563AEB9BF271825A</GUID>
+          <Type>VI</Type>
+          <MinNrOfChilds>1</MinNrOfChilds>
+          <Name>
+            <eng>Delete Multiple Items</eng>
+            <loc>Delete Multiple Items</loc>
+          </Name>
+          <Item2Launch>
+            <Type>Absolute</Type>
+            <Path>Dialogs\Delete Multiple Items.vi</Path>
+          </Item2Launch>
+        </MenuItem>
+      </RunTimeMenu>
+      <ButtonList>
+        <Button>
+          <ID>Add DID</ID>
+          <Glyph>
+            <Type>To Application Data Dir</Type>
+            <Path>System Explorer\Glyphs\Add Procedures.png</Path>
+          </Glyph>
+          <Type>Action</Type>
+          <ReferencedGUID>b48b72c5-2dad-4106-88ae-b9e4557d868b</ReferencedGUID>
+          <ButtonText>
+            <eng>Add DID</eng>
+            <loc>Add DID</loc>
+          </ButtonText>
+          <Caption>
+            <eng>Add DID</eng>
+            <loc>Add DID</loc>
+          </Caption>
+          <TipStrip>
+            <eng>Add DID</eng>
+            <loc>Add DID</loc>
+          </TipStrip>
+          <Documentation>
+            <eng></eng>
+            <loc></loc>
+          </Documentation>
+        </Button>
+      </ButtonList>
+    </Page>
+    <Page>
+      <Name>
+        <eng>DTC</eng>
+        <loc>DTC</loc>
+      </Name>
+      <DisallowRenaming>true</DisallowRenaming>
+      <DeleteProtection>true</DeleteProtection>
+      <GUID>7ba6be2c-4857-4b46-8446-f293283a3924</GUID>
+      <Glyph>
+        <Type>To Application Data Dir</Type>
+        <Path>System Explorer\Glyphs\NI-XNET SignalFrame.png</Path>
+      </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\DTC.vi</Path>
+      </Item2Launch>
+    </Page>
+    <Page>
+      <Name>
+        <eng>DPIDs</eng>
+        <loc>DPIDs</loc>
+      </Name>
+      <DisallowRenaming>true</DisallowRenaming>
+      <DeleteProtection>true</DeleteProtection>
+      <GUID>186cc3e9-a602-40ff-b933-3b68f6fbfaf8</GUID>
+      <Glyph>
+        <Type>To Application Data Dir</Type>
+        <Path>System Explorer\Glyphs\NI-XNET Periodic.png</Path>
+      </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\DPIDs.vi</Path>
+      </Item2Launch>
+      <RunTimeMenu>
+        <MenuItem>
+          <GUID>21b2910a-55ca-4795-a696-849d6748f9de</GUID>
+          <Type>Action</Type>
+          <Name>
+            <eng>Add DPID</eng>
+            <loc>Add DPID</loc>
+          </Name>
+          <Item2Launch>
+            <Type>To Common Doc Dir</Type>
+            <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\Add DPID.vi</Path>
+          </Item2Launch>
+        </MenuItem>
+        <MenuItem>
+          <GUID>7755077A-1485-13A6-5674A23FB86277FF</GUID>
+          <Type>Separator</Type>
+          <Name>
+            <eng>.</eng>
+            <loc>.</loc>
+          </Name>
+          <Item2Launch>
+            <Type>Absolute</Type>
+            <Path>.</Path>
+          </Item2Launch>
+        </MenuItem>
+        <MenuItem>
+          <GUID>03D3BE0A-1485-13A6-563AEB9BF271825A</GUID>
+          <Type>VI</Type>
+          <MinNrOfChilds>1</MinNrOfChilds>
+          <Name>
+            <eng>Delete Multiple Items</eng>
+            <loc>Delete Multiple Items</loc>
+          </Name>
+          <Item2Launch>
+            <Type>Absolute</Type>
+            <Path>Dialogs\Delete Multiple Items.vi</Path>
+          </Item2Launch>
+        </MenuItem>
+      </RunTimeMenu>
+      <ButtonList>
+        <Button>
+          <ID>Add DPID</ID>
+          <Glyph>
+            <Type>To Application Data Dir</Type>
+            <Path>System Explorer\Glyphs\Add Procedures.png</Path>
+          </Glyph>
+          <Type>Action</Type>
+          <ReferencedGUID>21b2910a-55ca-4795-a696-849d6748f9de</ReferencedGUID>
+          <ButtonText>
+            <eng>Add DPID</eng>
+            <loc>Add DPID</loc>
+          </ButtonText>
+          <Caption>
+            <eng>Add DPID</eng>
+            <loc>Add DPID</loc>
+          </Caption>
+          <TipStrip>
+            <eng>Add DPID</eng>
+            <loc>Add DPID</loc>
+          </TipStrip>
+          <Documentation>
+            <eng></eng>
+            <loc></loc>
+          </Documentation>
+        </Button>
+      </ButtonList>
+    </Page>
+    <Page>
+      <Name>
+        <eng>DPID</eng>
+        <loc>DPID</loc>
+      </Name>
+      <GUID>be84dd52-6fa5-4162-93da-bfddf126599b</GUID>
+      <Glyph>
+        <Type>To Application Data Dir</Type>
+        <Path>System Explorer\Glyphs\NI-XNET SignalFrame.png</Path>
+      </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\DPID.vi</Path>
+      </Item2Launch>
+      <RunTimeMenu>
+        <MenuItem>
+          <GUID>61a40440-050b-412c-9848-cf7e07fc3605</GUID>
+          <Type>Action</Type>
+          <Name>
+            <eng>Edit DPID</eng>
+            <loc>Edit DPID</loc>
+          </Name>
+          <Item2Launch>
+            <Type>To Common Doc Dir</Type>
+            <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\Edit DPID.vi</Path>
+          </Item2Launch>
+        </MenuItem>
+        <MenuItem>
+          <GUID>7755077A-1485-13A6-5674A23FB86277FF</GUID>
+          <Type>Separator</Type>
+          <Name>
+            <eng>.</eng>
+            <loc>.</loc>
+          </Name>
+          <Item2Launch>
+            <Type>Absolute</Type>
+            <Path>.</Path>
+          </Item2Launch>
+        </MenuItem>
+        <MenuItem>
+          <GUID>77550670-1485-13A6-568B9AB41979630D</GUID>
+          <Type>Action</Type>
+          <Name>
+            <eng>Delete</eng>
+            <loc>Delete</loc>
+          </Name>
+          <Item2Launch>
+            <Type>Absolute</Type>
+            <Path>Actions\Delete.vi</Path>
+          </Item2Launch>
+        </MenuItem>
+      </RunTimeMenu>
+      <ButtonList>
+        <Button>
+          <ID>Edit PID</ID>
+          <Glyph>
+            <Type>To Application Data Dir</Type>
+            <Path>System Explorer\Glyphs\editopen.png</Path>
+          </Glyph>
+          <Type>Action</Type>
+          <ReferencedGUID>61a40440-050b-412c-9848-cf7e07fc3605</ReferencedGUID>
+          <ButtonText>
+            <eng>Edit DPID</eng>
+            <loc>Edit DPID</loc>
+          </ButtonText>
+          <Caption>
+            <eng>Edit DPID</eng>
+            <loc>Edit DPID</loc>
+          </Caption>
+          <TipStrip>
+            <eng>Edit DPID</eng>
+            <loc>Edit DPID</loc>
+          </TipStrip>
+          <Documentation>
+            <eng></eng>
+            <loc></loc>
+          </Documentation>
+        </Button>
+      </ButtonList>
+    </Page>
+    <Page>
+      <Name>
+        <eng>Signal</eng>
+        <loc>Signal</loc>
+      </Name>
+      <DisallowRenaming>true</DisallowRenaming>
+      <GUID>813ed40a-6aa8-4ff9-92f7-887fb6dec76c</GUID>
+      <Glyph>
+        <Type>To Application Data Dir</Type>
+        <Path>System Explorer\Glyphs\NI-XNET Signal.png</Path>
+      </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\Signal Page.vi</Path>
+      </Item2Launch>
+      <RunTimeMenu>
+        <MenuItem>
+          <GUID>77550670-1485-13A6-568B9AB41979630D</GUID>
+          <Type>Action</Type>
+          <Name>
+            <eng>Delete</eng>
+            <loc>Delete</loc>
+          </Name>
+          <Item2Launch>
+            <Type>Absolute</Type>
+            <Path>Actions\Delete.vi</Path>
+          </Item2Launch>
+        </MenuItem>
+      </RunTimeMenu>
+    </Page>
+    <Page>
+      <Name>
+        <eng>Signal</eng>
+        <loc>Signal</loc>
+      </Name>
+      <DisallowRenaming>true</DisallowRenaming>
+      <DeleteProtection>true</DeleteProtection>
+      <GUID>edc2e041-ff43-4610-a968-1d89a067df1d</GUID>
+      <Glyph>
+        <Type>To Application Data Dir</Type>
+        <Path>System Explorer\Glyphs\NI-XNET Signal.png</Path>
+      </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\Protected Signal.vi</Path>
+      </Item2Launch>
+    </Page>
+  </Pages>
+  <CustomXML>
+    <Dummy></Dummy>
+  </CustomXML>
+</CustomDevice>

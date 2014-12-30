@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fx:FIBEX xmlns:fx="http://www.asam.net/xml/fbx" xmlns:can="http://www.asam.net/xml/fbx/can" xmlns:flexray="http://www.asam.net/xml/fbx/flexray" xmlns:lin="http://www.asam.net/xml/fbx/lin" xmlns:ho="http://www.asam.net/xml" xmlns:ni="http://www.ni.com/xnet" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.asam.net/xml/fbx/all \FIBEX311schema\fibex4multiplatform.xsd" VERSION="3.1.1">
+  <fx:PROJECT ID="NI-XNET">
+    <ho:SHORT-NAME>XNET1</ho:SHORT-NAME>
+  </fx:PROJECT>
+  <fx:ELEMENTS>
+  </fx:ELEMENTS>
+  <fx:PROCESSING-INFORMATION xmlns="http://www.asam.net/xml">
+  </fx:PROCESSING-INFORMATION>
+</fx:FIBEX>
