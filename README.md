@@ -22,7 +22,9 @@ Protocol support outside of GMLAN is partially implemented.
 ### Dependencies ###
 
 NI Automotive Diagnostic Command Set 14.0 or later
+
 NI XNET 14.0 or later
+
 NI STM 2.1.0.2 (ONLY)
 
 ### License ###
