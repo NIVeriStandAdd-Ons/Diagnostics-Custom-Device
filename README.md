@@ -1,25 +1,29 @@
 Diagnostics-Custom-Device
 =========================
 
-**IP Name** is a insert description of IP
+This addon reads DIDs, PIDs, and DTCs.  It writes CPIDs and clears DTCs.  It does this over various protocols with varying levels of support.  GMLAN and KWP are supported. UDS is not fully implemented.
 
 ### LabVIEW Version ###
 
-Describe the LabVIEW version used to develop this source
+LabVIEW 2013.
 
 ### Built Availability ###
 
-Describe the availability, or lack of availability of built versions of this IP and provide any links needed to go get builds
+Users are allowed to build anything under Build Specifications in the source's LabVIEW project(s).  Pre-built versions are available upon request through NI Field Sales. 
 
 ### Quality, Limitations ###
 
-Describe the maturity of the IP. Is this in use worldwide? Is this terrible code that needs lots of updates? Is this a work in progress?
+IP has been tested by developer. It meets VeriStand addon coding best practices. It is not currently widely used, though some customers are using the GMLAN portion.
 
-Describe any limitations of the IP.
+No database support for diagnostic messages (ODX or AUTOSARs).
+
+Protocol support outside of GMLAN is partially implemented.
 
 ### Dependencies ###
 
-Describe any dependencies of the IP
+NI Automotive Diagnostic Command Set 14.0 or later
+NI XNET 14.0 or later
+NI STM 2.1.0.2 (ONLY)
 
 ### License ###
 
