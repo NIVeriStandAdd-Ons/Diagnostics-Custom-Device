@@ -6,7 +6,7 @@
 	<Item Name="System Explorer" Type="Folder">
 		<Item Name="Dynamically Called" Type="Folder">
 			<Item Name="Actions" Type="Folder">
-				<Item Name="ActionVIOnDelete.vi" Type="VI" URL="../ActionVIOnDelete.vi"/>
+				<Item Name="ActionVIOnDelete.vi" Type="VI" URL="../Actions/ActionVIOnDelete.vi"/>
 				<Item Name="ActionVIOnSave.vi" Type="VI" URL="../Actions/ActionVIOnSave.vi"/>
 				<Item Name="EnableDisable Main Page.vi" Type="VI" URL="../Actions/EnableDisable Main Page.vi"/>
 			</Item>
@@ -49,17 +49,8 @@
 			<Item Name="Convert DIDPID Parameters Array to String Array.vi" Type="VI" URL="../SubVIs/Convert DIDPID Parameters Array to String Array.vi"/>
 			<Item Name="Convert DIDPID Signal Cluster to String Array.vi" Type="VI" URL="../SubVIs/Convert DIDPID Signal Cluster to String Array.vi"/>
 			<Item Name="Convert Signal Parameters String to Cluster.vi" Type="VI" URL="../SubVIs/Convert Signal Parameters String to Cluster.vi"/>
-			<Item Name="Create 986x Support.vi" Type="VI" URL="../SubVIs/Create 986x Support.vi"/>
-			<Item Name="Create Bitfile Dependency.vi" Type="VI" URL="../SubVIs/Create Bitfile Dependency.vi"/>
 			<Item Name="Create Configuration From File.vi" Type="VI" URL="../SubVIs/Create Configuration From File.vi"/>
-			<Item Name="Create DID.vi" Type="VI" URL="../SubVIs/Create DID.vi"/>
-			<Item Name="Create DIDPID HardwareInput Signal.vi" Type="VI" URL="../SubVIs/Create DIDPID HardwareInput Signal.vi"/>
-			<Item Name="Create DIDPID HardwareOutput Signal.vi" Type="VI" URL="../SubVIs/Create DIDPID HardwareOutput Signal.vi"/>
-			<Item Name="Create DPID.vi" Type="VI" URL="../SubVIs/Create DPID.vi"/>
-			<Item Name="Create PID VS Name.vi" Type="VI" URL="../SubVIs/Create PID VS Name.vi"/>
-			<Item Name="Create PID.vi" Type="VI" URL="../SubVIs/Create PID.vi"/>
 			<Item Name="Create Sections and Channels from Database.vi" Type="VI" URL="../SubVIs/Create Sections and Channels from Database.vi"/>
-			<Item Name="Create Sections and Channels.vi" Type="VI" URL="../SubVIs/Create Sections and Channels.vi"/>
 			<Item Name="DPID Dialog.vi" Type="VI" URL="../SubVIs/DPID Dialog.vi"/>
 			<Item Name="Get Exported 986x Support.vi" Type="VI" URL="../SubVIs/Get Exported 986x Support.vi"/>
 			<Item Name="Get Exported DIDPIDs.vi" Type="VI" URL="../SubVIs/Get Exported DIDPIDs.vi"/>
@@ -76,15 +67,6 @@
 			<Item Name="Set Help Document Display.vi" Type="VI" URL="../SubVIs/Set Help Document Display.vi"/>
 			<Item Name="Visible Control References.vi" Type="VI" URL="../SubVIs/Visible Control References.vi"/>
 		</Item>
-		<Item Name="Types" Type="Folder">
-			<Item Name="Exported 986x Support.ctl" Type="VI" URL="../SubVIs/Exported 986x Support.ctl"/>
-			<Item Name="Exported Command Cluster.ctl" Type="VI" URL="../SubVIs/Exported Command Cluster.ctl"/>
-			<Item Name="Exported Configuration.ctl" Type="VI" URL="../SubVIs/Exported Configuration.ctl"/>
-			<Item Name="Exported DIDPIDs Cluster.ctl" Type="VI" URL="../SubVIs/Exported DIDPIDs Cluster.ctl"/>
-			<Item Name="Exported DPID Parameters.ctl" Type="VI" URL="../SubVIs/Exported DPID Parameters.ctl"/>
-			<Item Name="Exported DPIDs Cluster.ctl" Type="VI" URL="../SubVIs/Exported DPIDs Cluster.ctl"/>
-			<Item Name="Exported DTC Cluster.ctl" Type="VI" URL="../SubVIs/Exported DTC Cluster.ctl"/>
-			<Item Name="Exported Status Cluster.ctl" Type="VI" URL="../SubVIs/Exported Status Cluster.ctl"/>
-		</Item>
+		<Item Name="Types" Type="Folder"/>
 	</Item>
 </Library>

@@ -1,8 +1,37 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Library LVVersion="13008000">
-	<Property Name="NI.Lib.Icon" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(]!!!*Q(C=\&gt;8"&lt;2MR%!813:!!O;K$1#V-#WJ",5Q,OPKI&amp;K9&amp;N;!7JA7VI";=JQVBZ"4F%#-ZG/O26X_ZZ$/87%&gt;M\6P%FXB^VL\_NHV=@X&lt;^39O0^N(_&lt;8NZOEH@@=^_CM?,3)VK63LD-&gt;8LS%=_]J'0@/1N&lt;XH,7^\SFJ?]Z#5P?=F,HP+5JTTF+5`Z&gt;MB$(P+1)YX*RU2DU$(![)Q3YW.YBG&gt;YBM@8'*\B':\B'2Z&gt;9HC':XC':XD=&amp;M-T0--T0-.DK%USWS(H'2\$2`-U4`-U4`/9-JKH!&gt;JE&lt;?!W#%;UC_WE?:KH?:R']T20]T20]\A=T&gt;-]T&gt;-]T?/7&lt;66[UTQ//9^BIHC+JXC+JXA-(=640-640-6DOCC?YCG)-G%:(#(+4;6$_6)]R?.8&amp;%`R&amp;%`R&amp;)^,WR/K&lt;75?GM=BZUG?Z%G?Z%E?1U4S*%`S*%`S'$;3*XG3*XG3RV320-G40!G3*D6^J-(3D;F4#J,(T\:&lt;=HN+P5FS/S,7ZIWV+7.NNFC&lt;+.&lt;GC0819TX-7!]JVO,(7N29CR6L%7,^=&lt;(1M4#R*IFV][.DX(X?V&amp;6&gt;V&amp;G&gt;V&amp;%&gt;V&amp;\N(L@_Z9\X_TVONVN=L^?Y8#ZR0J`D&gt;$L&amp;]8C-Q_%1_`U_&gt;LP&gt;WWPAO_0NB@$TP@4C`%`KH@[8`A@PRPA=PYZLD8Y![_ML^!!!!!!</Property>
+	<Property Name="Alarm Database Computer" Type="Str">localhost</Property>
+	<Property Name="Alarm Database Name" Type="Str">C__Program_Files_National_Instruments_LabVIEW_2013_data</Property>
+	<Property Name="Alarm Database Path" Type="Str">C:\Program Files\National Instruments\LabVIEW 2013\data</Property>
+	<Property Name="Data Lifespan" Type="UInt">3650</Property>
+	<Property Name="Database Computer" Type="Str">localhost</Property>
+	<Property Name="Database Name" Type="Str">C__Program_Files_National_Instruments_LabVIEW_2013_data</Property>
+	<Property Name="Database Path" Type="Str">C:\Program Files\National Instruments\LabVIEW 2013\data</Property>
+	<Property Name="Enable Alarms Logging" Type="Bool">true</Property>
+	<Property Name="Enable Data Logging" Type="Bool">true</Property>
+	<Property Name="NI.Lib.Icon" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!**!!!*Q(C=\&gt;5R&lt;BJ"&amp;-&lt;R,V'+3+[Y193%J61JXB7IH*ILP!OYI(54C3N]29KUX!"RB8=&amp;$J#'+WT_-QS9+**JECC+0-P!]OX-GZ^XF\85WXPJH;:&lt;\?\&amp;VI[X1?XD_&gt;MJ/OX=^1J8R^NL/E@4][TJH0QU=-Q_(ZJ_H4^&gt;6\UK=CHUMP^'UWN\&lt;@^X?\LZ)`DDPY-X;A]C?N&amp;.4XKI,4M6?:%8?:%8?:'&lt;X/1G.\H*4:\E3:\E3:\E32\E12\E12\E1&gt;YX=J',8/31CM7,B9KC29&amp;C-"16&lt;Y7H]"3?QM.8&amp;:\#5XA+4_&amp;BC!J0Y3E]B;@Q-%W&amp;J`!5HM*4?#D6*&gt;5X=DS&amp;B`)S(O-R(O-R(J;5]2C!7=Q5.E6AS"QU/]:D0-&lt;$LIT(?)T(?)S(QT)?YT%?YT%?JP3TYKZJ'TE?SCDR**\%EXA3$[76?"*0YEE]C9@FF(A34Y*)&amp;ES+1V!S+2G1@%E]C9=0*:\%EXA34_,B5,^#W=^-U\3.(%`A#4S"*`!%(EII]!3?Q".Y!A^F&amp;8A#4_!*0)'(J22Y!E`A#3$"ICSPI&amp;AQ-2A5")'(6\^&lt;IF]F&gt;UHU42IXL]:.K8'T;&gt;R%'D?(RE88O*A;&amp;UHDZ'O=6)W4J8%3.0YY$&lt;1'2G-2D=FNI)[](_B\_J;_I;`J+`K30K@0WN4@00"Y0/JQ/'C`XWO\X7KTW7C^8GOV7GGZ8'I_HWMWGVU?!R`9,A_%UX0JC@WP^Y_\&lt;`=0#X^`8(TZ^,$9@@S];`F@_0`]$TQ&lt;^6&lt;8;X#/@A![ZV:-!!!!!!</Property>
 	<Property Name="NI.Lib.SourceVersion" Type="Int">318799872</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
+	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
+	<Property Name="NI_IconEditor" Type="Str">49 51 48 48 56 48 53 49 13 0 0 0 0 1 23 21 76 111 97 100 32 38 32 85 110 108 111 97 100 46 108 118 99 108 97 115 115 0 0 1 0 0 0 0 0 9 0 0 4 43 1 100 1 100 80 84 72 48 0 0 0 4 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 15 13 76 97 121 101 114 46 108 118 99 108 97 115 115 0 0 1 0 0 0 0 0 7 0 0 3 191 0 0 0 0 0 0 0 0 0 0 3 162 0 40 0 0 3 156 0 0 3 96 0 0 0 0 0 9 0 32 0 24 0 0 0 0 0 255 255 255 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 0 0 0 0 0 0 255 204 0 255 204 0 0 0 0 0 0 0 0 0 0 255 204 0 0 0 0 255 204 0 255 204 0 0 0 0 255 204 0 255 204 0 0 0 0 0 0 0 255 204 0 255 204 0 0 0 0 0 0 0 0 0 0 255 204 0 255 204 0 0 0 0 0 0 0 0 0 0 255 204 0 0 0 0 0 0 0 0 0 0 255 204 0 255 204 0 0 0 0 0 0 0 255 204 0 0 0 0 255 204 0 255 204 0 255 204 0 255 204 0 0 0 0 255 204 0 255 204 0 0 0 0 255 204 0 255 204 0 0 0 0 0 0 0 255 204 0 255 204 0 0 0 0 255 204 0 255 204 0 0 0 0 255 204 0 0 0 0 255 204 0 255 204 0 255 204 0 0 0 0 255 204 0 255 204 0 0 0 0 255 204 0 0 0 0 0 0 0 255 204 0 255 204 0 0 0 0 0 0 0 255 204 0 255 204 0 0 0 0 0 0 0 0 0 0 0 0 0 255 204 0 0 0 0 255 204 0 255 204 0 0 0 0 255 204 0 0 0 0 0 0 0 0 0 0 255 204 0 255 204 0 0 0 0 0 0 0 255 204 0 255 204 0 0 0 0 255 204 0 255 204 0 0 0 0 255 204 0 0 0 0 0 0 0 255 204 0 255 204 0 255 204 0 255 204 0 0 0 0 255 204 0 0 0 0 255 204 0 255 204 0 0 0 0 255 204 0 0 0 0 0 0 0 0 0 0 0 0 0 255 204 0 0 0 0 255 204 0 255 204 0 0 0 0 255 204 0 0 0 0 255 204 0 255 204 0 255 204 0 0 0 0 255 204 0 255 204 0 0 0 0 255 204 0 0 0 0 0 0 0 255 204 0 0 0 0 0 0 0 0 0 0 255 204 0 255 204 0 0 0 0 255 204 0 255 204 0 0 0 0 255 204 0 0 0 0 255 204 0 255 204 0 0 0 0 255 204 0 0 0 0 255 204 0 255 204 0 0 0 0 255 204 0 0 0 0 0 0 0 0 0 0 255 204 0 0 0 0 0 0 0 0 0 0 255 204 0 255 204 0 0 0 0 0 0 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 0 0 0 9 67 108 105 112 98 111 97 114 100 100 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 11 83 109 97 108 108 32 70 111 110 116 115 0 1 9 1 1
+</Property>
+	<Property Name="OdbcAlarmLoggingTableName" Type="Str">NI_ALARM_EVENTS</Property>
+	<Property Name="OdbcBooleanLoggingTableName" Type="Str">NI_VARIABLE_BOOLEAN</Property>
+	<Property Name="OdbcConnectionRadio" Type="UInt">0</Property>
+	<Property Name="OdbcConnectionString" Type="Str"></Property>
+	<Property Name="OdbcCustomStringText" Type="Str"></Property>
+	<Property Name="OdbcDoubleLoggingTableName" Type="Str">NI_VARIABLE_NUMERIC</Property>
+	<Property Name="OdbcDSNText" Type="Str"></Property>
+	<Property Name="OdbcEnableAlarmLogging" Type="Bool">false</Property>
+	<Property Name="OdbcEnableDataLogging" Type="Bool">false</Property>
+	<Property Name="OdbcPassword" Type="Str"></Property>
+	<Property Name="OdbcReconnectPeriod" Type="UInt">0</Property>
+	<Property Name="OdbcReconnectTimeUnit" Type="Int">0</Property>
+	<Property Name="OdbcStringLoggingTableName" Type="Str">NI_VARIABLE_STRING</Property>
+	<Property Name="OdbcUsername" Type="Str"></Property>
+	<Property Name="SaveStatePeriod" Type="UInt">0</Property>
+	<Property Name="Serialized ACL" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!A1%!!!@````]!!".V&lt;H.J:WZF:#"C?82F)'&amp;S=G&amp;Z!!%!!1!!!!A)!!!!#!!!!!!!!!!</Property>
+	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
 	<Item Name="Shared" Type="Folder">
 		<Item Name="Types" Type="Folder">
 			<Item Name="Base Configuration.ctl" Type="VI" URL="../Base Configuration.ctl"/>
@@ -18,6 +47,14 @@
 			<Item Name="DPID Periodic Rate.ctl" Type="VI" URL="../DPID Periodic Rate.ctl"/>
 			<Item Name="DTC and Timestamp Cluster.ctl" Type="VI" URL="../DTC and Timestamp Cluster.ctl"/>
 			<Item Name="DTC Parameters.ctl" Type="VI" URL="../DTC Parameters.ctl"/>
+			<Item Name="Exported 986x Support.ctl" Type="VI" URL="../Exported 986x Support.ctl"/>
+			<Item Name="Exported Command Cluster.ctl" Type="VI" URL="../Exported Command Cluster.ctl"/>
+			<Item Name="Exported Configuration.ctl" Type="VI" URL="../Exported Configuration.ctl"/>
+			<Item Name="Exported DIDPIDs Cluster.ctl" Type="VI" URL="../Exported DIDPIDs Cluster.ctl"/>
+			<Item Name="Exported DPID Parameters.ctl" Type="VI" URL="../Exported DPID Parameters.ctl"/>
+			<Item Name="Exported DPIDs Cluster.ctl" Type="VI" URL="../Exported DPIDs Cluster.ctl"/>
+			<Item Name="Exported DTC Cluster.ctl" Type="VI" URL="../Exported DTC Cluster.ctl"/>
+			<Item Name="Exported Status Cluster.ctl" Type="VI" URL="../Exported Status Cluster.ctl"/>
 			<Item Name="FG Action.ctl" Type="VI" URL="../FG Action.ctl"/>
 			<Item Name="RequestResponse Data Cluster.ctl" Type="VI" URL="../RequestResponse Data Cluster.ctl"/>
 			<Item Name="Transport Protocols.ctl" Type="VI" URL="../Transport Protocols.ctl"/>
@@ -25,6 +62,15 @@
 		<Item Name="Calculate DIDPID Frame Length.vi" Type="VI" URL="../Calculate DIDPID Frame Length.vi"/>
 		<Item Name="CAN Parameters FG.vi" Type="VI" URL="../CAN Parameters FG.vi"/>
 		<Item Name="Convert DPID Name String to DPID ID.vi" Type="VI" URL="../Convert DPID Name String to DPID ID.vi"/>
+		<Item Name="Create 986x Support.vi" Type="VI" URL="../Create 986x Support.vi"/>
+		<Item Name="Create Bitfile Dependency.vi" Type="VI" URL="../Create Bitfile Dependency.vi"/>
+		<Item Name="Create DID.vi" Type="VI" URL="../Create DID.vi"/>
+		<Item Name="Create DIDPID HardwareInput Signal.vi" Type="VI" URL="../Create DIDPID HardwareInput Signal.vi"/>
+		<Item Name="Create DIDPID HardwareOutput Signal.vi" Type="VI" URL="../Create DIDPID HardwareOutput Signal.vi"/>
+		<Item Name="Create DPID.vi" Type="VI" URL="../Create DPID.vi"/>
+		<Item Name="Create PID VS Name.vi" Type="VI" URL="../Create PID VS Name.vi"/>
+		<Item Name="Create PID.vi" Type="VI" URL="../Create PID.vi"/>
+		<Item Name="Create Sections and Channels.vi" Type="VI" URL="../Create Sections and Channels.vi"/>
 		<Item Name="DIDPID ID FG.vi" Type="VI" URL="../DIDPID ID FG.vi"/>
 		<Item Name="DPID Parameters FG.vi" Type="VI" URL="../DPID Parameters FG.vi"/>
 		<Item Name="DTC Descriptor FG.vi" Type="VI" URL="../DTC Descriptor FG.vi"/>
