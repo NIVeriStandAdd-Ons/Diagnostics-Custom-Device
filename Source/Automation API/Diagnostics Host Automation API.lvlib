@@ -4,19 +4,23 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">318799872</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
-	<Item Name="ClearDTCs.vi" Type="VI" URL="../ClearDTCs.vi"/>
-	<Item Name="ConfigurePIDs.vi" Type="VI" URL="../ConfigurePIDs.vi"/>
-	<Item Name="Connect.vi" Type="VI" URL="../Connect.vi"/>
-	<Item Name="DisableChangeDTCsCount.vi" Type="VI" URL="../DisableChangeDTCsCount.vi"/>
-	<Item Name="DisableNormalCommunication.vi" Type="VI" URL="../DisableNormalCommunication.vi"/>
-	<Item Name="Disconnect.vi" Type="VI" URL="../Disconnect.vi"/>
-	<Item Name="EnableChangeDTCsCount.vi" Type="VI" URL="../EnableChangeDTCsCount.vi"/>
-	<Item Name="ReadActiveDTCs.vi" Type="VI" URL="../ReadActiveDTCs.vi"/>
-	<Item Name="ReadDTCByDTCNumber.vi" Type="VI" URL="../ReadDTCByDTCNumber.vi"/>
-	<Item Name="ReadPIDsOnDemand.vi" Type="VI" URL="../ReadPIDsOnDemand.vi"/>
-	<Item Name="ReturnToNormalMode.vi" Type="VI" URL="../ReturnToNormalMode.vi"/>
-	<Item Name="StartDIDs.vi" Type="VI" URL="../StartDIDs.vi"/>
-	<Item Name="StartDTCs.vi" Type="VI" URL="../StartDTCs.vi"/>
-	<Item Name="StartPIDs.vi" Type="VI" URL="../StartPIDs.vi"/>
-	<Item Name="StopPIDs.vi" Type="VI" URL="../StopPIDs.vi"/>
+	<Item Name="All" Type="Folder">
+		<Item Name="ClearDTCs.vi" Type="VI" URL="../ClearDTCs.vi"/>
+		<Item Name="Connect.vi" Type="VI" URL="../Connect.vi"/>
+		<Item Name="DisableNormalCommunication.vi" Type="VI" URL="../DisableNormalCommunication.vi"/>
+		<Item Name="Disconnect.vi" Type="VI" URL="../Disconnect.vi"/>
+		<Item Name="ReadActiveDTCs.vi" Type="VI" URL="../ReadActiveDTCs.vi"/>
+		<Item Name="ReadDataByIdentifiers.vi" Type="VI" URL="../ReadDataByIdentifiers.vi"/>
+		<Item Name="ReturnToNormalMode.vi" Type="VI" URL="../ReturnToNormalMode.vi"/>
+	</Item>
+	<Item Name="GMLAN Only" Type="Folder">
+		<Item Name="ConfigurePIDs.vi" Type="VI" URL="../ConfigurePIDs.vi"/>
+		<Item Name="DisableChangeDTCsCount.vi" Type="VI" URL="../DisableChangeDTCsCount.vi"/>
+		<Item Name="EnableChangeDTCsCount.vi" Type="VI" URL="../EnableChangeDTCsCount.vi"/>
+		<Item Name="ReadDIDs.vi" Type="VI" URL="../ReadDIDs.vi"/>
+		<Item Name="ReadDTCByDTCNumber.vi" Type="VI" URL="../ReadDTCByDTCNumber.vi"/>
+		<Item Name="StartDTCs.vi" Type="VI" URL="../StartDTCs.vi"/>
+		<Item Name="StartPIDs.vi" Type="VI" URL="../StartPIDs.vi"/>
+		<Item Name="StopPIDs.vi" Type="VI" URL="../StopPIDs.vi"/>
+	</Item>
 </Library>
