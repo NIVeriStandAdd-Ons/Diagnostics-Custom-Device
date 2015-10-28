@@ -5,7 +5,7 @@
     <eng>Diagnostics Addon</eng>
     <loc>Diagnostics Addon</loc>
   </AddMenu>
-  <Version>1.0.0</Version>
+  <Version>1.0.1</Version>
   <Type>Inline HW Interface</Type>
   <MaxOccurrence>-1</MaxOccurrence>
   <MainPageGUID>4e42e445-e1c9-40fb-b144-894b15ca645a</MainPageGUID>
@@ -119,6 +119,10 @@
         <Type>To Common Doc Dir</Type>
         <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\ActionVIOnDelete.vi</Path>
       </ActionVIOnDelete>
+      <ActionVIOnLoad>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\ActionVIOnLoad.vi</Path>
+      </ActionVIOnLoad>
       <ActionVIOnSave>
         <Type>To Common Doc Dir</Type>
         <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\ActionVIOnSave.vi</Path>
@@ -205,6 +209,10 @@
         <Type>To Common Doc Dir</Type>
         <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\ActionVIOnDelete.vi</Path>
       </ActionVIOnDelete>
+      <ActionVIOnLoad>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\ActionVIOnLoad.vi</Path>
+      </ActionVIOnLoad>
       <ActionVIOnSave>
         <Type>To Common Doc Dir</Type>
         <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\ActionVIOnSave.vi</Path>
