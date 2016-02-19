@@ -50,6 +50,7 @@
 			<Item Name="Convert DIDPID Parameters Array to String Array.vi" Type="VI" URL="../SubVIs/Convert DIDPID Parameters Array to String Array.vi"/>
 			<Item Name="Convert DIDPID Signal Cluster to String Array.vi" Type="VI" URL="../SubVIs/Convert DIDPID Signal Cluster to String Array.vi"/>
 			<Item Name="Convert Signal Parameters String to Cluster.vi" Type="VI" URL="../SubVIs/Convert Signal Parameters String to Cluster.vi"/>
+			<Item Name="Convert Signals from 1_0_1 to 3_0_0.vi" Type="VI" URL="../SubVIs/Convert Signals from 1_0_1 to 3_0_0.vi"/>
 			<Item Name="Create Configuration From File.vi" Type="VI" URL="../SubVIs/Create Configuration From File.vi"/>
 			<Item Name="Create Sections and Channels from Database.vi" Type="VI" URL="../SubVIs/Create Sections and Channels from Database.vi"/>
 			<Item Name="DPID Dialog.vi" Type="VI" URL="../SubVIs/DPID Dialog.vi"/>
