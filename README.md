@@ -5,7 +5,7 @@ This addon reads DIDs, PIDs, and DTCs.  It writes CPIDs and clears DTCs.  It doe
 
 ### LabVIEW Version ###
 
-LabVIEW 2013.
+LabVIEW 2015.
 
 ### Built Availability ###
 

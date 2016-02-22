@@ -30,10 +30,26 @@
 				<SupportedTarget>Pharlap</SupportedTarget>
 				<Source>
 					<Type>To Common Doc Dir</Type>
-					<Path>Custom Devices\Diagnostics Addon\c\Diagnostics Addon Engine Pharlap.llb\RT Driver VI.vi</Path>
+					<Path>Custom Devices\Diagnostics Addon\Pharlap\Diagnostics Addon Engine Pharlap.llb\RT Driver VI.vi</Path>
 				</Source>
 				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Diagnostics Addon\Diagnostics Addon Engine Pharlap.llb\RT Driver VI.vi</RealTimeSystemDestination>
 			</Source>
+			<Source>
+				<SupportedTarget>Linux_32_ARM</SupportedTarget>
+				<Source>
+					<Type>To Common Doc Dir</Type>
+					<Path>Custom Devices\Diagnostics Addon\Linux_32_ARM\Diagnostics Addon Engine LinuxARM.llb\RT Driver VI.vi</Path>
+				</Source>
+				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Diagnostics Addon\Diagnostics Addon Engine LinuxARM.llb\RT Driver VI.vi</RealTimeSystemDestination>
+			</Source>
+			<Source>
+				<SupportedTarget>Linux_x64</SupportedTarget>
+				<Source>
+					<Type>To Common Doc Dir</Type>
+					<Path>Custom Devices\Diagnostics Addon\Linux_x64\Diagnostics Addon Engine Linux64.llb\RT Driver VI.vi</Path>
+				</Source>
+				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Diagnostics Addon\Diagnostics Addon Engine Linux64.llb\RT Driver VI.vi</RealTimeSystemDestination>
+			</Source>			
 		</SourceDistribution>
 	</CustomDeviceVI>
   <Dependencies></Dependencies>
