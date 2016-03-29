@@ -97,6 +97,7 @@
 				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
 				<Item Name="DisableNormalMessageTransmission.vi" Type="VI" URL="/&lt;vilib&gt;/Automotive Diagnostic Command Set/Diagnostic Protocols.llb/DisableNormalMessageTransmission.vi"/>
 				<Item Name="DTC Descriptor.ctl" Type="VI" URL="/&lt;vilib&gt;/Automotive Diagnostic Command Set/Diagnostic Protocols.llb/DTC Descriptor.ctl"/>
+				<Item Name="ECUReset.vi" Type="VI" URL="/&lt;vilib&gt;/Automotive Diagnostic Command Set/Diagnostic Protocols.llb/ECUReset.vi"/>
 				<Item Name="EnableNormalMessageTransmission.vi" Type="VI" URL="/&lt;vilib&gt;/Automotive Diagnostic Command Set/Diagnostic Protocols.llb/EnableNormalMessageTransmission.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
@@ -155,6 +156,8 @@
 				<Item Name="UDS ClearDiagnosticInformation.vi" Type="VI" URL="/&lt;vilib&gt;/Automotive Diagnostic Command Set/Diagnostic Protocols.llb/UDS ClearDiagnosticInformation.vi"/>
 				<Item Name="UDS CommunicationControl.vi" Type="VI" URL="/&lt;vilib&gt;/Automotive Diagnostic Command Set/Diagnostic Protocols.llb/UDS CommunicationControl.vi"/>
 				<Item Name="UDS DiagnosticSessionControl.vi" Type="VI" URL="/&lt;vilib&gt;/Automotive Diagnostic Command Set/Diagnostic Protocols.llb/UDS DiagnosticSessionControl.vi"/>
+				<Item Name="UDS ECUReset.vi" Type="VI" URL="/&lt;vilib&gt;/Automotive Diagnostic Command Set/Diagnostic Protocols.llb/UDS ECUReset.vi"/>
+				<Item Name="UDS InputOutputControlByIdentifier.vi" Type="VI" URL="/&lt;vilib&gt;/Automotive Diagnostic Command Set/Diagnostic Protocols.llb/UDS InputOutputControlByIdentifier.vi"/>
 				<Item Name="UDS ReadDataByIdentifier.vi" Type="VI" URL="/&lt;vilib&gt;/Automotive Diagnostic Command Set/Diagnostic Protocols.llb/UDS ReadDataByIdentifier.vi"/>
 				<Item Name="UDS ReportDTCByStatusMask.vi" Type="VI" URL="/&lt;vilib&gt;/Automotive Diagnostic Command Set/Diagnostic Protocols.llb/UDS ReportDTCByStatusMask.vi"/>
 				<Item Name="UDS RequestSeed.vi" Type="VI" URL="/&lt;vilib&gt;/Automotive Diagnostic Command Set/Diagnostic Protocols.llb/UDS RequestSeed.vi"/>
