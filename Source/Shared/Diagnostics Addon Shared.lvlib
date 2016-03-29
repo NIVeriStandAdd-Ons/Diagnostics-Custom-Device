@@ -58,6 +58,7 @@
 			<Item Name="Exported Status Cluster.ctl" Type="VI" URL="../Exported Status Cluster.ctl"/>
 			<Item Name="FG Action.ctl" Type="VI" URL="../FG Action.ctl"/>
 			<Item Name="RequestResponse Data Cluster.ctl" Type="VI" URL="../RequestResponse Data Cluster.ctl"/>
+			<Item Name="Security.ctl" Type="VI" URL="../Security.ctl"/>
 			<Item Name="Transport Protocols.ctl" Type="VI" URL="../Transport Protocols.ctl"/>
 		</Item>
 		<Item Name="Calculate DIDPID Frame Length.vi" Type="VI" URL="../Calculate DIDPID Frame Length.vi"/>

@@ -66,6 +66,7 @@
 		<Item Name="Diagnostic Engine.vi" Type="VI" URL="../SubVIs/Diagnostic Engine.vi"/>
 		<Item Name="DIDPID XNET Conversion Global Properties.vi" Type="VI" URL="../SubVIs/DIDPID XNET Conversion Global Properties.vi"/>
 		<Item Name="Download Bitfile.vi" Type="VI" URL="../SubVIs/Download Bitfile.vi"/>
+		<Item Name="Execute Security DLL.vi" Type="VI" URL="../SubVIs/Execute Security DLL.vi"/>
 		<Item Name="Filter Changed DTCs.vi" Type="VI" URL="../SubVIs/Filter Changed DTCs.vi"/>
 		<Item Name="Get and Initialize Channel Refs.vi" Type="VI" URL="../SubVIs/Get and Initialize Channel Refs.vi"/>
 		<Item Name="Get and Initialize GMLAN PID Channel References.vi" Type="VI" URL="../SubVIs/Get and Initialize GMLAN PID Channel References.vi"/>
@@ -90,6 +91,7 @@
 		<Item Name="Sort DPID IDs by Speed.vi" Type="VI" URL="../SubVIs/Sort DPID IDs by Speed.vi"/>
 		<Item Name="UDS Diagnostics Engine.vi" Type="VI" URL="../SubVIs/UDS Diagnostics Engine.vi"/>
 		<Item Name="Unload Bitfile.vi" Type="VI" URL="../SubVIs/Unload Bitfile.vi"/>
+		<Item Name="Unlock ECU Security.vi" Type="VI" URL="../SubVIs/Unlock ECU Security.vi"/>
 	</Item>
 	<Item Name="Types" Type="Folder">
 		<Item Name="Change DTC Count Cluster.ctl" Type="VI" URL="../SubVIs/Change DTC Count Cluster.ctl"/>

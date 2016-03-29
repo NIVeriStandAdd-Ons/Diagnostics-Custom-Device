@@ -7,11 +7,14 @@
 	<Item Name="All" Type="Folder">
 		<Item Name="ClearDTCs.vi" Type="VI" URL="../ClearDTCs.vi"/>
 		<Item Name="Connect.vi" Type="VI" URL="../Connect.vi"/>
+		<Item Name="DisableDiagnosticSession.vi" Type="VI" URL="../DisableDiagnosticSession.vi"/>
 		<Item Name="DisableNormalCommunication.vi" Type="VI" URL="../DisableNormalCommunication.vi"/>
 		<Item Name="Disconnect.vi" Type="VI" URL="../Disconnect.vi"/>
+		<Item Name="EnableDiagnosticSession.vi" Type="VI" URL="../EnableDiagnosticSession.vi"/>
 		<Item Name="ReadActiveDTCs.vi" Type="VI" URL="../ReadActiveDTCs.vi"/>
 		<Item Name="ReadDataByIdentifiers.vi" Type="VI" URL="../ReadDataByIdentifiers.vi"/>
 		<Item Name="ReturnToNormalMode.vi" Type="VI" URL="../ReturnToNormalMode.vi"/>
+		<Item Name="UnlockECU.vi" Type="VI" URL="../UnlockECU.vi"/>
 	</Item>
 	<Item Name="GMLAN Only" Type="Folder">
 		<Item Name="ConfigurePIDs.vi" Type="VI" URL="../ConfigurePIDs.vi"/>
