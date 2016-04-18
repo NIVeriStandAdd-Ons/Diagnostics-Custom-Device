@@ -55,9 +55,14 @@
 			<Item Name="Exported DPID Parameters.ctl" Type="VI" URL="../Exported DPID Parameters.ctl"/>
 			<Item Name="Exported DPIDs Cluster.ctl" Type="VI" URL="../Exported DPIDs Cluster.ctl"/>
 			<Item Name="Exported DTC Cluster.ctl" Type="VI" URL="../Exported DTC Cluster.ctl"/>
+			<Item Name="Exported IO Control Cluster.ctl" Type="VI" URL="../Exported IO Control Cluster.ctl"/>
+			<Item Name="Exported Routines Cluster.ctl" Type="VI" URL="../Exported Routines Cluster.ctl"/>
 			<Item Name="Exported Status Cluster.ctl" Type="VI" URL="../Exported Status Cluster.ctl"/>
 			<Item Name="FG Action.ctl" Type="VI" URL="../FG Action.ctl"/>
+			<Item Name="Input and Output Signal Parameters.ctl" Type="VI" URL="../Input and Output Signal Parameters.ctl"/>
+			<Item Name="IO Control Parameters.ctl" Type="VI" URL="../IO Control Parameters.ctl"/>
 			<Item Name="RequestResponse Data Cluster.ctl" Type="VI" URL="../RequestResponse Data Cluster.ctl"/>
+			<Item Name="Routine Paramaters.ctl" Type="VI" URL="../Routine Paramaters.ctl"/>
 			<Item Name="Security.ctl" Type="VI" URL="../Security.ctl"/>
 			<Item Name="Transport Protocols.ctl" Type="VI" URL="../Transport Protocols.ctl"/>
 		</Item>
@@ -70,8 +75,10 @@
 		<Item Name="Create DIDPID HardwareInput Signal.vi" Type="VI" URL="../Create DIDPID HardwareInput Signal.vi"/>
 		<Item Name="Create DIDPID HardwareOutput Signal.vi" Type="VI" URL="../Create DIDPID HardwareOutput Signal.vi"/>
 		<Item Name="Create DPID.vi" Type="VI" URL="../Create DPID.vi"/>
+		<Item Name="Create IO Control.vi" Type="VI" URL="../Create IO Control.vi"/>
 		<Item Name="Create PID VS Name.vi" Type="VI" URL="../Create PID VS Name.vi"/>
 		<Item Name="Create PID.vi" Type="VI" URL="../Create PID.vi"/>
+		<Item Name="Create Routine.vi" Type="VI" URL="../Create Routine.vi"/>
 		<Item Name="Create Sections and Channels.vi" Type="VI" URL="../Create Sections and Channels.vi"/>
 		<Item Name="DIDPID ID FG.vi" Type="VI" URL="../DIDPID ID FG.vi"/>
 		<Item Name="DPID Parameters FG.vi" Type="VI" URL="../DPID Parameters FG.vi"/>

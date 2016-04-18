@@ -75,7 +75,6 @@
 		<Item Name="Get CD Properties.vi" Type="VI" URL="../SubVIs/Get CD Properties.vi"/>
 		<Item Name="Get CD Refs.vi" Type="VI" URL="../SubVIs/Get CD Refs.vi"/>
 		<Item Name="Get DIDPID VS References.vi" Type="VI" URL="../SubVIs/Get DIDPID VS References.vi"/>
-		<Item Name="GMLAN Diagnostics Engine.vi" Type="VI" URL="../SubVIs/GMLAN Diagnostics Engine.vi"/>
 		<Item Name="Initialize CAN Cluster.vi" Type="VI" URL="../SubVIs/Initialize CAN Cluster.vi"/>
 		<Item Name="Initialize CAN.vi" Type="VI" URL="../SubVIs/Initialize CAN.vi"/>
 		<Item Name="Initialize Database.vi" Type="VI" URL="../SubVIs/Initialize Database.vi"/>
@@ -84,11 +83,12 @@
 		<Item Name="Initialize DPIDs Cluster.vi" Type="VI" URL="../SubVIs/Initialize DPIDs Cluster.vi"/>
 		<Item Name="Initialize Raw XNET Frame.vi" Type="VI" URL="../SubVIs/Initialize Raw XNET Frame.vi"/>
 		<Item Name="Initialize TCP Refs.vi" Type="VI" URL="../SubVIs/Initialize TCP Refs.vi"/>
-		<Item Name="KWP Diagnostics Engine.vi" Type="VI" URL="../SubVIs/KWP Diagnostics Engine.vi"/>
 		<Item Name="Network Command Engine.vi" Type="VI" URL="../SubVIs/Network Command Engine.vi"/>
 		<Item Name="Read and Load Bitfile.vi" Type="VI" URL="../SubVIs/Read and Load Bitfile.vi"/>
 		<Item Name="Read GMLAN PIDs and DTCs.vi" Type="VI" URL="../SubVIs/Read GMLAN PIDs and DTCs.vi"/>
+		<Item Name="Read PIDDIDs.vi" Type="VI" URL="../SubVIs/Read PIDDIDs.vi"/>
 		<Item Name="Sort DPID IDs by Speed.vi" Type="VI" URL="../SubVIs/Sort DPID IDs by Speed.vi"/>
+		<Item Name="Tester Present.vi" Type="VI" URL="../SubVIs/Tester Present.vi"/>
 		<Item Name="UDS Diagnostics Engine.vi" Type="VI" URL="../SubVIs/UDS Diagnostics Engine.vi"/>
 		<Item Name="Unload Bitfile.vi" Type="VI" URL="../SubVIs/Unload Bitfile.vi"/>
 		<Item Name="Unlock ECU Security.vi" Type="VI" URL="../SubVIs/Unlock ECU Security.vi"/>

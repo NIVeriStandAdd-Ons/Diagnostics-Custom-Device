@@ -20,10 +20,12 @@
 				<Item Name="DTC.vi" Type="VI" URL="../Pages/DTC.vi"/>
 				<Item Name="DTCs.vi" Type="VI" URL="../Pages/DTCs.vi"/>
 				<Item Name="Inputs.vi" Type="VI" URL="../Pages/Inputs.vi"/>
+				<Item Name="IO Control.vi" Type="VI" URL="../Pages/IO Control.vi"/>
 				<Item Name="Outputs.vi" Type="VI" URL="../Pages/Outputs.vi"/>
 				<Item Name="PID.vi" Type="VI" URL="../Pages/PID.vi"/>
 				<Item Name="PIDs.vi" Type="VI" URL="../Pages/PIDs.vi"/>
 				<Item Name="Protected Signal.vi" Type="VI" URL="../Pages/Protected Signal.vi"/>
+				<Item Name="Routines.vi" Type="VI" URL="../Pages/Routines.vi"/>
 				<Item Name="Services.vi" Type="VI" URL="../Pages/Services.vi"/>
 				<Item Name="Signal Page.vi" Type="VI" URL="../Pages/Signal Page.vi"/>
 				<Item Name="Status.vi" Type="VI" URL="../Pages/Status.vi"/>
@@ -31,7 +33,9 @@
 			<Item Name="RTMs" Type="Folder">
 				<Item Name="Add DID.vi" Type="VI" URL="../RTMs/Add DID.vi"/>
 				<Item Name="Add DPID.vi" Type="VI" URL="../RTMs/Add DPID.vi"/>
+				<Item Name="Add IO Control.vi" Type="VI" URL="../RTMs/Add IO Control.vi"/>
 				<Item Name="Add PID.vi" Type="VI" URL="../RTMs/Add PID.vi"/>
+				<Item Name="Add Routine.vi" Type="VI" URL="../RTMs/Add Routine.vi"/>
 				<Item Name="Edit DID.vi" Type="VI" URL="../RTMs/Edit DID.vi"/>
 				<Item Name="Edit DPID.vi" Type="VI" URL="../RTMs/Edit DPID.vi"/>
 				<Item Name="Edit PID.vi" Type="VI" URL="../RTMs/Edit PID.vi"/>
@@ -44,9 +48,12 @@
 			<Item Name="Add Item to Listbox.vi" Type="VI" URL="../SubVIs/Add Item to Listbox.vi"/>
 			<Item Name="Add XNET Database to SysDef.vi" Type="VI" URL="../SubVIs/Add XNET Database to SysDef.vi"/>
 			<Item Name="Check Name for Special Characters.vi" Type="VI" URL="../SubVIs/Check Name for Special Characters.vi"/>
+			<Item Name="Check Name.vi" Type="VI" URL="../SubVIs/Check Name.vi"/>
 			<Item Name="CheckDIDPIDConfigurationforErrors.vi" Type="VI" URL="../SubVIs/CheckDIDPIDConfigurationforErrors.vi"/>
 			<Item Name="CheckDPIDConfigurationforErrors.vi" Type="VI" URL="../SubVIs/CheckDPIDConfigurationforErrors.vi"/>
 			<Item Name="Configure DID &amp; PID Dialog.vi" Type="VI" URL="../SubVIs/Configure DID &amp; PID Dialog.vi"/>
+			<Item Name="Configure IO Control.vi" Type="VI" URL="../SubVIs/Configure IO Control.vi"/>
+			<Item Name="Configure Routine.vi" Type="VI" URL="../SubVIs/Configure Routine.vi"/>
 			<Item Name="Convert DIDPID Parameters Array to String Array.vi" Type="VI" URL="../SubVIs/Convert DIDPID Parameters Array to String Array.vi"/>
 			<Item Name="Convert DIDPID Signal Cluster to String Array.vi" Type="VI" URL="../SubVIs/Convert DIDPID Signal Cluster to String Array.vi"/>
 			<Item Name="Convert Signal Parameters String to Cluster.vi" Type="VI" URL="../SubVIs/Convert Signal Parameters String to Cluster.vi"/>
