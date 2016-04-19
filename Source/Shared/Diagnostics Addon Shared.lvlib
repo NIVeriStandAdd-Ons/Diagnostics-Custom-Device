@@ -80,7 +80,6 @@
 		<Item Name="Create PID.vi" Type="VI" URL="../Create PID.vi"/>
 		<Item Name="Create Routine.vi" Type="VI" URL="../Create Routine.vi"/>
 		<Item Name="Create Sections and Channels.vi" Type="VI" URL="../Create Sections and Channels.vi"/>
-		<Item Name="DIDPID ID FG.vi" Type="VI" URL="../DIDPID ID FG.vi"/>
 		<Item Name="DPID Parameters FG.vi" Type="VI" URL="../DPID Parameters FG.vi"/>
 		<Item Name="DTC Descriptor FG.vi" Type="VI" URL="../DTC Descriptor FG.vi"/>
 		<Item Name="Get All DIDPID Properties.vi" Type="VI" URL="../Get All DIDPID Properties.vi"/>
@@ -89,8 +88,10 @@
 		<Item Name="Get DTC Masks.vi" Type="VI" URL="../Get DTC Masks.vi"/>
 		<Item Name="Get Signals from DIDPID.vi" Type="VI" URL="../Get Signals from DIDPID.vi"/>
 		<Item Name="GUID Lookup.vi" Type="VI" URL="../GUID Lookup.vi"/>
+		<Item Name="ID FG.vi" Type="VI" URL="../ID FG.vi"/>
 		<Item Name="Initialize CAN Frame.vi" Type="VI" URL="../Initialize CAN Frame.vi"/>
 		<Item Name="Initialize Signal.vi" Type="VI" URL="../Initialize Signal.vi"/>
+		<Item Name="Mode FG.vi" Type="VI" URL="../Mode FG.vi"/>
 		<Item Name="Signal Parameters FG.vi" Type="VI" URL="../Signal Parameters FG.vi"/>
 	</Item>
 </Library>

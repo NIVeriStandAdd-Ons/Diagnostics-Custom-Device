@@ -285,23 +285,6 @@
     </Page>
     <Page>
       <Name>
-        <eng>Services</eng>
-        <loc>Services</loc>
-      </Name>
-      <DisallowRenaming>true</DisallowRenaming>
-      <DeleteProtection>true</DeleteProtection>
-      <GUID>846f9e44-937b-4fbd-9977-3745ffc89e9c</GUID>
-      <Glyph>
-        <Type>To Application Data Dir</Type>
-        <Path>System Explorer\Glyphs\default fpga category.png</Path>
-      </Glyph>
-      <Item2Launch>
-        <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\Services.vi</Path>
-      </Item2Launch>
-    </Page>
-    <Page>
-      <Name>
         <eng>Status</eng>
         <loc>Status</loc>
       </Name>
@@ -347,7 +330,7 @@
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\PID.vi</Path>
+        <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\Frame.vi</Path>
       </Item2Launch>
       <RunTimeMenu>
         <MenuItem>
@@ -441,7 +424,7 @@
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\DID.vi</Path>
+        <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\Frame.vi</Path>
       </Item2Launch>
       <RunTimeMenu>
         <MenuItem>
@@ -524,8 +507,8 @@
     </Page>
     <Page>
       <Name>
-        <eng>Inputs</eng>
-        <loc>Inputs</loc>
+        <eng>PID Inputs</eng>
+        <loc>PID Inputs</loc>
       </Name>
       <DisallowRenaming>true</DisallowRenaming>
       <DeleteProtection>true</DeleteProtection>
@@ -536,7 +519,7 @@
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\Inputs.vi</Path>
+        <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\PID Inputs.vi</Path>
       </Item2Launch>
       <RunTimeMenu>
         <MenuItem>
@@ -607,8 +590,8 @@
     </Page>
     <Page>
       <Name>
-        <eng>Outputs</eng>
-        <loc>Outputs</loc>
+        <eng>PID Outputs</eng>
+        <loc>PID Outputs</loc>
       </Name>
       <DisallowRenaming>true</DisallowRenaming>
       <DeleteProtection>true</DeleteProtection>
@@ -619,7 +602,7 @@
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\Outputs.vi</Path>
+        <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\PID Outputs.vi</Path>
       </Item2Launch>
       <RunTimeMenu>
         <MenuItem>
@@ -1083,6 +1066,101 @@
     </Page>
     <Page>
       <Name>
+        <eng>IO</eng>
+        <loc>IO</loc>
+      </Name>
+      <DisallowRenaming>true</DisallowRenaming>
+      <GUID>340d50a8-4c77-4b9c-9e2b-69668480a08c</GUID>
+      <Glyph>
+        <Type>To Application Data Dir</Type>
+        <Path>System Explorer\Glyphs\ChannelMappingsDialog.png</Path>
+      </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\Routine.vi</Path>
+      </Item2Launch>
+      <RunTimeMenu>
+        <MenuItem>
+          <GUID>03D3BE0A-1485-13A6-563AEB9BF271825A</GUID>
+          <Type>VI</Type>
+          <MinNrOfChilds>1</MinNrOfChilds>
+          <Name>
+            <eng>Delete Multiple Items</eng>
+            <loc>Delete Multiple Items</loc>
+          </Name>
+          <Item2Launch>
+            <Type>Absolute</Type>
+            <Path>Dialogs\Delete Multiple Items.vi</Path>
+          </Item2Launch>
+        </MenuItem>
+      </RunTimeMenu>
+    </Page>
+    <Page>
+      <Name>
+        <eng>Command Data</eng>
+        <loc>Command Data</loc>
+      </Name>
+      <DisallowRenaming>true</DisallowRenaming>
+      <DeleteProtection>true</DeleteProtection>
+      <GUID>37a28eab-899c-4060-83a1-bccb94c61935</GUID>
+      <Glyph>
+        <Type>To Application Data Dir</Type>
+        <Path>System Explorer\Glyphs\ChannelMappingsDialog.png</Path>
+      </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\Frame.vi</Path>
+      </Item2Launch>
+      <RunTimeMenu>
+        <MenuItem>
+          <GUID>03D3BE0A-1485-13A6-563AEB9BF271825A</GUID>
+          <Type>VI</Type>
+          <MinNrOfChilds>1</MinNrOfChilds>
+          <Name>
+            <eng>Delete Multiple Items</eng>
+            <loc>Delete Multiple Items</loc>
+          </Name>
+          <Item2Launch>
+            <Type>Absolute</Type>
+            <Path>Dialogs\Delete Multiple Items.vi</Path>
+          </Item2Launch>
+        </MenuItem>
+      </RunTimeMenu>
+    </Page>
+    <Page>
+      <Name>
+        <eng>Response Data</eng>
+        <loc>Response Data</loc>
+      </Name>
+      <DisallowRenaming>true</DisallowRenaming>
+      <DeleteProtection>true</DeleteProtection>
+      <GUID>bc55b15e-e331-4782-b5d4-23fb44f573db</GUID>
+        <Glyph>
+        <Type>To Application Data Dir</Type>
+        <Path>System Explorer\Glyphs\ChannelMappingsDialog.png</Path>
+      </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\Frame.vi</Path>
+      </Item2Launch>
+      <RunTimeMenu>
+        <MenuItem>
+          <GUID>03D3BE0A-1485-13A6-563AEB9BF271825A</GUID>
+          <Type>VI</Type>
+          <MinNrOfChilds>1</MinNrOfChilds>
+          <Name>
+            <eng>Delete Multiple Items</eng>
+            <loc>Delete Multiple Items</loc>
+          </Name>
+          <Item2Launch>
+            <Type>Absolute</Type>
+            <Path>Dialogs\Delete Multiple Items.vi</Path>
+          </Item2Launch>
+        </MenuItem>
+      </RunTimeMenu>
+    </Page>
+    <Page>
+      <Name>
         <eng>Routines</eng>
         <loc>Routines</loc>
       </Name>
@@ -1138,7 +1216,7 @@
       </RunTimeMenu>
       <ButtonList>
         <Button>
-          <ID>Add IO</ID>
+          <ID>Add Routine</ID>
           <Glyph>
             <Type>To Application Data Dir</Type>
             <Path>System Explorer\Glyphs\Add Procedures.png</Path>
@@ -1197,37 +1275,6 @@
     </Page>
     <Page>
       <Name>
-        <eng>IO</eng>
-        <loc>IO</loc>
-      </Name>
-      <DisallowRenaming>true</DisallowRenaming>
-      <GUID>340d50a8-4c77-4b9c-9e2b-69668480a08c</GUID>
-      <Glyph>
-        <Type>To Application Data Dir</Type>
-        <Path>System Explorer\Glyphs\ChannelMappingsDialog.png</Path>
-      </Glyph>
-      <Item2Launch>
-        <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\Routine.vi</Path>
-      </Item2Launch>
-      <RunTimeMenu>
-        <MenuItem>
-          <GUID>03D3BE0A-1485-13A6-563AEB9BF271825A</GUID>
-          <Type>VI</Type>
-          <MinNrOfChilds>1</MinNrOfChilds>
-          <Name>
-            <eng>Delete Multiple Items</eng>
-            <loc>Delete Multiple Items</loc>
-          </Name>
-          <Item2Launch>
-            <Type>Absolute</Type>
-            <Path>Dialogs\Delete Multiple Items.vi</Path>
-          </Item2Launch>
-        </MenuItem>
-      </RunTimeMenu>
-    </Page>
-    <Page>
-      <Name>
         <eng>Start Routine</eng>
         <loc>Start Routine</loc>
       </Name>
@@ -1240,7 +1287,7 @@
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\Services.vi</Path>
+        <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\Protected Section.vi</Path>
       </Item2Launch>
     </Page>
     <Page>
@@ -1257,7 +1304,7 @@
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\Services.vi</Path>
+        <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\Protected Section.vi</Path>
       </Item2Launch>
     </Page>
     <Page>
@@ -1274,7 +1321,7 @@
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\Services.vi</Path>
+        <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\Protected Section.vi</Path>
       </Item2Launch>
     </Page>
   </Pages>

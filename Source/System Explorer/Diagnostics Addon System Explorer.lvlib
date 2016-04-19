@@ -13,20 +13,18 @@
 			</Item>
 			<Item Name="Extra Pages" Type="Folder">
 				<Item Name="Commands.vi" Type="VI" URL="../Pages/Commands.vi"/>
-				<Item Name="DID.vi" Type="VI" URL="../Pages/DID.vi"/>
 				<Item Name="DIDs.vi" Type="VI" URL="../Pages/DIDs.vi"/>
 				<Item Name="DPID.vi" Type="VI" URL="../Pages/DPID.vi"/>
 				<Item Name="DPIDs.vi" Type="VI" URL="../Pages/DPIDs.vi"/>
 				<Item Name="DTC.vi" Type="VI" URL="../Pages/DTC.vi"/>
 				<Item Name="DTCs.vi" Type="VI" URL="../Pages/DTCs.vi"/>
+				<Item Name="Frame.vi" Type="VI" URL="../Pages/Frame.vi"/>
 				<Item Name="Inputs.vi" Type="VI" URL="../Pages/Inputs.vi"/>
 				<Item Name="IO Control.vi" Type="VI" URL="../Pages/IO Control.vi"/>
 				<Item Name="Outputs.vi" Type="VI" URL="../Pages/Outputs.vi"/>
-				<Item Name="PID.vi" Type="VI" URL="../Pages/PID.vi"/>
 				<Item Name="PIDs.vi" Type="VI" URL="../Pages/PIDs.vi"/>
-				<Item Name="Protected Signal.vi" Type="VI" URL="../Pages/Protected Signal.vi"/>
+				<Item Name="Protected Section.vi" Type="VI" URL="../Pages/Protected Section.vi"/>
 				<Item Name="Routines.vi" Type="VI" URL="../Pages/Routines.vi"/>
-				<Item Name="Services.vi" Type="VI" URL="../Pages/Services.vi"/>
 				<Item Name="Signal Page.vi" Type="VI" URL="../Pages/Signal Page.vi"/>
 				<Item Name="Status.vi" Type="VI" URL="../Pages/Status.vi"/>
 			</Item>
