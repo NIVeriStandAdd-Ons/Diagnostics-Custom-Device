@@ -96,7 +96,7 @@
 	<Item Name="Types" Type="Folder">
 		<Item Name="Change DTC Count Cluster.ctl" Type="VI" URL="../SubVIs/Change DTC Count Cluster.ctl"/>
 		<Item Name="Channel Commands Enum.ctl" Type="VI" URL="../SubVIs/Channel Commands Enum.ctl"/>
-		<Item Name="Channel Refs.ctl" Type="VI" URL="../SubVIs/Channel Refs.ctl"/>
+		<Item Name="Compiled.Settings" Type="VI" URL="../SubVIs/Compiled.Settings"/>
 		<Item Name="CPID Conversion Cluster.ctl" Type="VI" URL="../SubVIs/CPID Conversion Cluster.ctl"/>
 		<Item Name="Datatable Lookup Positions.ctl" Type="VI" URL="../SubVIs/Datatable Lookup Positions.ctl"/>
 		<Item Name="DIDPID Selector.ctl" Type="VI" URL="../SubVIs/DIDPID Selector.ctl"/>

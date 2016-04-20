@@ -62,6 +62,7 @@
 			<Item Name="Get Exported DIDPIDs.vi" Type="VI" URL="../SubVIs/Get Exported DIDPIDs.vi"/>
 			<Item Name="Get Exported DPIDs.vi" Type="VI" URL="../SubVIs/Get Exported DPIDs.vi"/>
 			<Item Name="Get Exported DTC.vi" Type="VI" URL="../SubVIs/Get Exported DTC.vi"/>
+			<Item Name="Get FPGA Settings.vi" Type="VI" URL="../SubVIs/Get FPGA Settings.vi"/>
 			<Item Name="Get Listbox Row.vi" Type="VI" URL="../SubVIs/Get Listbox Row.vi"/>
 			<Item Name="Get SysDef Configuration.vi" Type="VI" URL="../SubVIs/Get SysDef Configuration.vi"/>
 			<Item Name="Get Target IP and Name.vi" Type="VI" URL="../SubVIs/Get Target IP and Name.vi"/>

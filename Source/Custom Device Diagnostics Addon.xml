@@ -143,6 +143,10 @@
         <Type>To Common Doc Dir</Type>
         <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\ActionVIOnSave.vi</Path>
       </ActionVIOnSave>
+      <ActionVIOnCompile>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\ActionVIOnCompile.vi</Path>
+      </ActionVIOnCompile>
     </Page>
     <Page>
       <Name>

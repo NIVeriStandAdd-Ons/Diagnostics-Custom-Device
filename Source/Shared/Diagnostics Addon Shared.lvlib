@@ -40,6 +40,7 @@
 			<Item Name="CAN Configuration.ctl" Type="VI" URL="../CAN Configuration.ctl"/>
 			<Item Name="CAN Frame.ctl" Type="VI" URL="../CAN Frame.ctl"/>
 			<Item Name="CAN Interface.ctl" Type="VI" URL="../CAN Interface.ctl"/>
+			<Item Name="Compiled.Refs.ctl" Type="VI" URL="../Compiled.Refs.ctl"/>
 			<Item Name="Database Parameters.ctl" Type="VI" URL="../Database Parameters.ctl"/>
 			<Item Name="Diagnostic Protocols.ctl" Type="VI" URL="../Diagnostic Protocols.ctl"/>
 			<Item Name="DIDPID Parameters.ctl" Type="VI" URL="../DIDPID Parameters.ctl"/>
@@ -59,6 +60,7 @@
 			<Item Name="Exported Routines Cluster.ctl" Type="VI" URL="../Exported Routines Cluster.ctl"/>
 			<Item Name="Exported Status Cluster.ctl" Type="VI" URL="../Exported Status Cluster.ctl"/>
 			<Item Name="FG Action.ctl" Type="VI" URL="../FG Action.ctl"/>
+			<Item Name="FPGA Bitfile Settings.ctl" Type="VI" URL="../FPGA Bitfile Settings.ctl"/>
 			<Item Name="Input and Output Signal Parameters.ctl" Type="VI" URL="../Input and Output Signal Parameters.ctl"/>
 			<Item Name="IO Control Parameters.ctl" Type="VI" URL="../IO Control Parameters.ctl"/>
 			<Item Name="RequestResponse Data Cluster.ctl" Type="VI" URL="../RequestResponse Data Cluster.ctl"/>
