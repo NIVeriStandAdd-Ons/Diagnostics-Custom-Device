@@ -6,6 +6,7 @@
 	<Item Name="System Explorer" Type="Folder">
 		<Item Name="Dynamically Called" Type="Folder">
 			<Item Name="Actions" Type="Folder">
+				<Item Name="ActionVIOnCompile.vi" Type="VI" URL="../Actions/ActionVIOnCompile.vi"/>
 				<Item Name="ActionVIOnDelete.vi" Type="VI" URL="../Actions/ActionVIOnDelete.vi"/>
 				<Item Name="ActionVIOnLoad.vi" Type="VI" URL="../Actions/ActionVIOnLoad.vi"/>
 				<Item Name="ActionVIOnSave.vi" Type="VI" URL="../Actions/ActionVIOnSave.vi"/>
@@ -13,30 +14,28 @@
 			</Item>
 			<Item Name="Extra Pages" Type="Folder">
 				<Item Name="Commands.vi" Type="VI" URL="../Pages/Commands.vi"/>
-				<Item Name="DIDs.vi" Type="VI" URL="../Pages/DIDs.vi"/>
 				<Item Name="DPID.vi" Type="VI" URL="../Pages/DPID.vi"/>
 				<Item Name="DPIDs.vi" Type="VI" URL="../Pages/DPIDs.vi"/>
 				<Item Name="DTC.vi" Type="VI" URL="../Pages/DTC.vi"/>
 				<Item Name="DTCs.vi" Type="VI" URL="../Pages/DTCs.vi"/>
 				<Item Name="Frame.vi" Type="VI" URL="../Pages/Frame.vi"/>
-				<Item Name="Inputs.vi" Type="VI" URL="../Pages/Inputs.vi"/>
+				<Item Name="Frames.vi" Type="VI" URL="../Pages/Frames.vi"/>
 				<Item Name="IO Control.vi" Type="VI" URL="../Pages/IO Control.vi"/>
-				<Item Name="Outputs.vi" Type="VI" URL="../Pages/Outputs.vi"/>
-				<Item Name="PIDs.vi" Type="VI" URL="../Pages/PIDs.vi"/>
+				<Item Name="IO.vi" Type="VI" URL="../Pages/IO.vi"/>
 				<Item Name="Protected Section.vi" Type="VI" URL="../Pages/Protected Section.vi"/>
+				<Item Name="Protected Signal.vi" Type="VI" URL="../Pages/Protected Signal.vi"/>
+				<Item Name="Routine.vi" Type="VI" URL="../Pages/Routine.vi"/>
 				<Item Name="Routines.vi" Type="VI" URL="../Pages/Routines.vi"/>
 				<Item Name="Signal Page.vi" Type="VI" URL="../Pages/Signal Page.vi"/>
 				<Item Name="Status.vi" Type="VI" URL="../Pages/Status.vi"/>
 			</Item>
 			<Item Name="RTMs" Type="Folder">
-				<Item Name="Add DID.vi" Type="VI" URL="../RTMs/Add DID.vi"/>
 				<Item Name="Add DPID.vi" Type="VI" URL="../RTMs/Add DPID.vi"/>
+				<Item Name="Add Frame.vi" Type="VI" URL="../RTMs/Add Frame.vi"/>
 				<Item Name="Add IO Control.vi" Type="VI" URL="../RTMs/Add IO Control.vi"/>
-				<Item Name="Add PID.vi" Type="VI" URL="../RTMs/Add PID.vi"/>
 				<Item Name="Add Routine.vi" Type="VI" URL="../RTMs/Add Routine.vi"/>
-				<Item Name="Edit DID.vi" Type="VI" URL="../RTMs/Edit DID.vi"/>
 				<Item Name="Edit DPID.vi" Type="VI" URL="../RTMs/Edit DPID.vi"/>
-				<Item Name="Edit PID.vi" Type="VI" URL="../RTMs/Edit PID.vi"/>
+				<Item Name="Edit Frame.vi" Type="VI" URL="../RTMs/Edit Frame.vi"/>
 				<Item Name="ExportConfigurationToFile.vi" Type="VI" URL="../SubVIs/ExportConfigurationToFile.vi"/>
 			</Item>
 			<Item Name="Initialization VI.vi" Type="VI" URL="../Initialization VI.vi"/>

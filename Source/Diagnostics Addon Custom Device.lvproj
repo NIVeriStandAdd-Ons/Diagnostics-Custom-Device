@@ -39,6 +39,8 @@
 		<Item Name="Diagnostics Addon SysDef API.lvlib" Type="Library" URL="../System Definition API/Diagnostics Addon SysDef API.lvlib"/>
 		<Item Name="Diagnostics Addon System Explorer.lvlib" Type="Library" URL="../System Explorer/Diagnostics Addon System Explorer.lvlib"/>
 		<Item Name="Diagnostics Host Automation API.lvlib" Type="Library" URL="../Automation API/Diagnostics Host Automation API.lvlib"/>
+		<Item Name="FPGA Bitfile Settings.ctl" Type="VI" URL="../Shared/FPGA Bitfile Settings.ctl"/>
+		<Item Name="Get FPGA Settings.vi" Type="VI" URL="../System Explorer/SubVIs/Get FPGA Settings.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="STM Get Connection Reference (Serial).vi" Type="VI" URL="/&lt;userlib&gt;/STM/Serial/STM Get Connection Reference (Serial).vi"/>
