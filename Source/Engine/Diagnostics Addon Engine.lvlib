@@ -69,12 +69,6 @@
 		<Item Name="Execute Security DLL.vi" Type="VI" URL="../SubVIs/Execute Security DLL.vi"/>
 		<Item Name="Filter Changed DTCs.vi" Type="VI" URL="../SubVIs/Filter Changed DTCs.vi"/>
 		<Item Name="Get and Initialize Channel Refs.vi" Type="VI" URL="../SubVIs/Get and Initialize Channel Refs.vi"/>
-		<Item Name="Get and Initialize GMLAN PID Channel References.vi" Type="VI" URL="../SubVIs/Get and Initialize GMLAN PID Channel References.vi"/>
-		<Item Name="Get and Intitialize CPID Channel References.vi" Type="VI" URL="../SubVIs/Get and Intitialize CPID Channel References.vi"/>
-		<Item Name="Get and Intitialize DIDPID Channel References.vi" Type="VI" URL="../SubVIs/Get and Intitialize DIDPID Channel References.vi"/>
-		<Item Name="Get CD Properties.vi" Type="VI" URL="../SubVIs/Get CD Properties.vi"/>
-		<Item Name="Get CD Refs.vi" Type="VI" URL="../SubVIs/Get CD Refs.vi"/>
-		<Item Name="Get DIDPID VS References.vi" Type="VI" URL="../SubVIs/Get DIDPID VS References.vi"/>
 		<Item Name="Initialize CAN Cluster.vi" Type="VI" URL="../SubVIs/Initialize CAN Cluster.vi"/>
 		<Item Name="Initialize CAN.vi" Type="VI" URL="../SubVIs/Initialize CAN.vi"/>
 		<Item Name="Initialize Database.vi" Type="VI" URL="../SubVIs/Initialize Database.vi"/>
@@ -94,16 +88,11 @@
 		<Item Name="Unlock ECU Security.vi" Type="VI" URL="../SubVIs/Unlock ECU Security.vi"/>
 	</Item>
 	<Item Name="Types" Type="Folder">
+		<Item Name="CAN Cluster.ctl" Type="VI" URL="../../Shared/CAN Cluster.ctl"/>
 		<Item Name="Change DTC Count Cluster.ctl" Type="VI" URL="../SubVIs/Change DTC Count Cluster.ctl"/>
 		<Item Name="Channel Commands Enum.ctl" Type="VI" URL="../SubVIs/Channel Commands Enum.ctl"/>
-		<Item Name="Compiled.Settings" Type="VI" URL="../SubVIs/Compiled.Settings"/>
 		<Item Name="CPID Conversion Cluster.ctl" Type="VI" URL="../SubVIs/CPID Conversion Cluster.ctl"/>
-		<Item Name="Datatable Lookup Positions.ctl" Type="VI" URL="../SubVIs/Datatable Lookup Positions.ctl"/>
 		<Item Name="DIDPID Selector.ctl" Type="VI" URL="../SubVIs/DIDPID Selector.ctl"/>
-		<Item Name="DIDPID Signal VS References.ctl" Type="VI" URL="../SubVIs/DIDPID Signal VS References.ctl"/>
-		<Item Name="DPID Lookup Cluster.ctl" Type="VI" URL="../SubVIs/DPID Lookup Cluster.ctl"/>
-		<Item Name="DPID Lookup PID Information.ctl" Type="VI" URL="../SubVIs/DPID Lookup PID Information.ctl"/>
-		<Item Name="DTC Signal VS References.ctl" Type="VI" URL="../SubVIs/DTC Signal VS References.ctl"/>
 		<Item Name="Filtered DPID IDs.ctl" Type="VI" URL="../SubVIs/Filtered DPID IDs.ctl"/>
 		<Item Name="Main Configuration.ctl" Type="VI" URL="../SubVIs/Main Configuration.ctl"/>
 		<Item Name="PID Data.ctl" Type="VI" URL="../SubVIs/PID Data.ctl"/>

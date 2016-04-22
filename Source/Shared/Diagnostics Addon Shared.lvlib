@@ -35,65 +35,31 @@
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
 	<Item Name="Shared" Type="Folder">
 		<Item Name="Types" Type="Folder">
-			<Item Name="Base Configuration.ctl" Type="VI" URL="../Base Configuration.ctl"/>
-			<Item Name="CAN Cluster.ctl" Type="VI" URL="../CAN Cluster.ctl"/>
 			<Item Name="CAN Configuration.ctl" Type="VI" URL="../CAN Configuration.ctl"/>
 			<Item Name="CAN Frame.ctl" Type="VI" URL="../CAN Frame.ctl"/>
 			<Item Name="CAN Interface.ctl" Type="VI" URL="../CAN Interface.ctl"/>
 			<Item Name="Compiled.Refs.ctl" Type="VI" URL="../Compiled.Refs.ctl"/>
-			<Item Name="Database Parameters.ctl" Type="VI" URL="../Database Parameters.ctl"/>
+			<Item Name="Compiled.Settings" Type="VI" URL="../../Engine/SubVIs/Compiled.Settings"/>
+			<Item Name="Datatable Lookup Positions.ctl" Type="VI" URL="../../Engine/SubVIs/Datatable Lookup Positions.ctl"/>
 			<Item Name="Diagnostic Protocols.ctl" Type="VI" URL="../Diagnostic Protocols.ctl"/>
-			<Item Name="DIDPID Parameters.ctl" Type="VI" URL="../DIDPID Parameters.ctl"/>
-			<Item Name="DIDPID Signal Parameters.ctl" Type="VI" URL="../DIDPID Signal Parameters.ctl"/>
+			<Item Name="DPID Lookup Cluster.ctl" Type="VI" URL="../../Engine/SubVIs/DPID Lookup Cluster.ctl"/>
+			<Item Name="DPID Lookup PID Information.ctl" Type="VI" URL="../../Engine/SubVIs/DPID Lookup PID Information.ctl"/>
 			<Item Name="DPID Parameters.ctl" Type="VI" URL="../DPID Parameters.ctl"/>
 			<Item Name="DPID Periodic Rate.ctl" Type="VI" URL="../DPID Periodic Rate.ctl"/>
 			<Item Name="DTC and Timestamp Cluster.ctl" Type="VI" URL="../DTC and Timestamp Cluster.ctl"/>
-			<Item Name="DTC Parameters.ctl" Type="VI" URL="../DTC Parameters.ctl"/>
-			<Item Name="Exported 986x Support.ctl" Type="VI" URL="../Exported 986x Support.ctl"/>
-			<Item Name="Exported Command Cluster.ctl" Type="VI" URL="../Exported Command Cluster.ctl"/>
-			<Item Name="Exported Configuration.ctl" Type="VI" URL="../Exported Configuration.ctl"/>
-			<Item Name="Exported DIDPIDs Cluster.ctl" Type="VI" URL="../Exported DIDPIDs Cluster.ctl"/>
-			<Item Name="Exported DPID Parameters.ctl" Type="VI" URL="../Exported DPID Parameters.ctl"/>
-			<Item Name="Exported DPIDs Cluster.ctl" Type="VI" URL="../Exported DPIDs Cluster.ctl"/>
-			<Item Name="Exported DTC Cluster.ctl" Type="VI" URL="../Exported DTC Cluster.ctl"/>
-			<Item Name="Exported IO Control Cluster.ctl" Type="VI" URL="../Exported IO Control Cluster.ctl"/>
-			<Item Name="Exported Routines Cluster.ctl" Type="VI" URL="../Exported Routines Cluster.ctl"/>
-			<Item Name="Exported Status Cluster.ctl" Type="VI" URL="../Exported Status Cluster.ctl"/>
-			<Item Name="FG Action.ctl" Type="VI" URL="../FG Action.ctl"/>
+			<Item Name="DTC Descriptor.ctl" Type="VI" URL="/&lt;vilib&gt;/Automotive Diagnostic Command Set/Diagnostic Protocols.llb/DTC Descriptor.ctl"/>
 			<Item Name="FPGA Bitfile Settings.ctl" Type="VI" URL="../FPGA Bitfile Settings.ctl"/>
+			<Item Name="Frame Parameters.ctl" Type="VI" URL="../Frame Parameters.ctl"/>
 			<Item Name="Input and Output Signal Parameters.ctl" Type="VI" URL="../Input and Output Signal Parameters.ctl"/>
 			<Item Name="IO Control Parameters.ctl" Type="VI" URL="../IO Control Parameters.ctl"/>
-			<Item Name="RequestResponse Data Cluster.ctl" Type="VI" URL="../RequestResponse Data Cluster.ctl"/>
 			<Item Name="Routine Paramaters.ctl" Type="VI" URL="../Routine Paramaters.ctl"/>
 			<Item Name="Security.ctl" Type="VI" URL="../Security.ctl"/>
+			<Item Name="Signal Parameters.ctl" Type="VI" URL="../Signal Parameters.ctl"/>
 			<Item Name="Transport Protocols.ctl" Type="VI" URL="../Transport Protocols.ctl"/>
 		</Item>
-		<Item Name="Calculate DIDPID Frame Length.vi" Type="VI" URL="../Calculate DIDPID Frame Length.vi"/>
-		<Item Name="CAN Parameters FG.vi" Type="VI" URL="../CAN Parameters FG.vi"/>
-		<Item Name="Convert DPID Name String to DPID ID.vi" Type="VI" URL="../Convert DPID Name String to DPID ID.vi"/>
-		<Item Name="Create 986x Support.vi" Type="VI" URL="../Create 986x Support.vi"/>
-		<Item Name="Create Bitfile Dependency.vi" Type="VI" URL="../Create Bitfile Dependency.vi"/>
-		<Item Name="Create DID.vi" Type="VI" URL="../Create DID.vi"/>
-		<Item Name="Create DIDPID HardwareInput Signal.vi" Type="VI" URL="../Create DIDPID HardwareInput Signal.vi"/>
-		<Item Name="Create DIDPID HardwareOutput Signal.vi" Type="VI" URL="../Create DIDPID HardwareOutput Signal.vi"/>
-		<Item Name="Create DPID.vi" Type="VI" URL="../Create DPID.vi"/>
-		<Item Name="Create IO Control.vi" Type="VI" URL="../Create IO Control.vi"/>
-		<Item Name="Create PID VS Name.vi" Type="VI" URL="../Create PID VS Name.vi"/>
-		<Item Name="Create PID.vi" Type="VI" URL="../Create PID.vi"/>
-		<Item Name="Create Routine.vi" Type="VI" URL="../Create Routine.vi"/>
-		<Item Name="Create Sections and Channels.vi" Type="VI" URL="../Create Sections and Channels.vi"/>
-		<Item Name="DPID Parameters FG.vi" Type="VI" URL="../DPID Parameters FG.vi"/>
-		<Item Name="DTC Descriptor FG.vi" Type="VI" URL="../DTC Descriptor FG.vi"/>
-		<Item Name="Get All DIDPID Properties.vi" Type="VI" URL="../Get All DIDPID Properties.vi"/>
-		<Item Name="Get DIDPID Name and ID from VS Name.vi" Type="VI" URL="../Get DIDPID Name and ID from VS Name.vi"/>
-		<Item Name="Get DIDPID.vi" Type="VI" URL="../Get DIDPID.vi"/>
-		<Item Name="Get DTC Masks.vi" Type="VI" URL="../Get DTC Masks.vi"/>
-		<Item Name="Get Signals from DIDPID.vi" Type="VI" URL="../Get Signals from DIDPID.vi"/>
+		<Item Name="Calculate Frame Size.vi" Type="VI" URL="../../System Explorer/SubVIs/Calculate Frame Size.vi"/>
 		<Item Name="GUID Lookup.vi" Type="VI" URL="../GUID Lookup.vi"/>
-		<Item Name="ID FG.vi" Type="VI" URL="../ID FG.vi"/>
 		<Item Name="Initialize CAN Frame.vi" Type="VI" URL="../Initialize CAN Frame.vi"/>
 		<Item Name="Initialize Signal.vi" Type="VI" URL="../Initialize Signal.vi"/>
-		<Item Name="Mode FG.vi" Type="VI" URL="../Mode FG.vi"/>
-		<Item Name="Signal Parameters FG.vi" Type="VI" URL="../Signal Parameters FG.vi"/>
 	</Item>
 </Library>
