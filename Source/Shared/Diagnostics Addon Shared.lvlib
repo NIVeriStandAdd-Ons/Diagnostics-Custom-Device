@@ -34,35 +34,37 @@
 	<Property Name="Serialized ACL" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!A1%!!!@````]!!".V&lt;H.J:WZF:#"C?82F)'&amp;S=G&amp;Z!!%!!1!!!!A)!!!!#!!!!!!!!!!</Property>
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
 	<Item Name="Shared" Type="Folder">
-		<Item Name="Types" Type="Folder">
-			<Item Name="CAN Configuration.ctl" Type="VI" URL="../CAN Configuration.ctl"/>
-			<Item Name="CAN Frame.ctl" Type="VI" URL="../CAN Frame.ctl"/>
-			<Item Name="CAN Interface.ctl" Type="VI" URL="../CAN Interface.ctl"/>
-			<Item Name="Compiled.Refs.ctl" Type="VI" URL="../Compiled.Refs.ctl"/>
-			<Item Name="Compiled.Settings" Type="VI" URL="../Compiled.Settings"/>
-			<Item Name="Datatable Lookup Positions.ctl" Type="VI" URL="../Datatable Lookup Positions.ctl"/>
-			<Item Name="Diagnostic Protocols.ctl" Type="VI" URL="../Diagnostic Protocols.ctl"/>
-			<Item Name="DPID Lookup Cluster.ctl" Type="VI" URL="../DPID Lookup Cluster.ctl"/>
-			<Item Name="DPID Lookup PID Information.ctl" Type="VI" URL="../DPID Lookup PID Information.ctl"/>
-			<Item Name="DPID Parameters.ctl" Type="VI" URL="../DPID Parameters.ctl"/>
-			<Item Name="DPID Periodic Rate.ctl" Type="VI" URL="../DPID Periodic Rate.ctl"/>
-			<Item Name="DTC and Timestamp Cluster.ctl" Type="VI" URL="../DTC and Timestamp Cluster.ctl"/>
-			<Item Name="DTC Descriptor.ctl" Type="VI" URL="/&lt;vilib&gt;/Automotive Diagnostic Command Set/Diagnostic Protocols.llb/DTC Descriptor.ctl"/>
-			<Item Name="FPGA Bitfile Settings.ctl" Type="VI" URL="../FPGA Bitfile Settings.ctl"/>
-			<Item Name="Frame Parameters.ctl" Type="VI" URL="../Frame Parameters.ctl"/>
-			<Item Name="Input and Output Signal Parameters.ctl" Type="VI" URL="../Input and Output Signal Parameters.ctl"/>
-			<Item Name="IO Control Parameters.ctl" Type="VI" URL="../IO Control Parameters.ctl"/>
-			<Item Name="ReadDTCbyDTCNumber Parameters.ctl" Type="VI" URL="../ReadDTCbyDTCNumber Parameters.ctl"/>
-			<Item Name="RequestResponse Data Cluster.ctl" Type="VI" URL="../RequestResponse Data Cluster.ctl"/>
-			<Item Name="Routine Paramaters.ctl" Type="VI" URL="../Routine Paramaters.ctl"/>
-			<Item Name="Section Properties.ctl" Type="VI" URL="../Section Properties.ctl"/>
-			<Item Name="Security.ctl" Type="VI" URL="../Security.ctl"/>
-			<Item Name="Signal Parameters.ctl" Type="VI" URL="../Signal Parameters.ctl"/>
-			<Item Name="Transport Protocols.ctl" Type="VI" URL="../Transport Protocols.ctl"/>
+		<Item Name="SubVIs" Type="Folder">
+			<Item Name="Calculate Frame Size.vi" Type="VI" URL="../SubVIs/Calculate Frame Size.vi"/>
+			<Item Name="GUID Lookup.vi" Type="VI" URL="../SubVIs/GUID Lookup.vi"/>
+			<Item Name="Initialize CAN Frame.vi" Type="VI" URL="../SubVIs/Initialize CAN Frame.vi"/>
+			<Item Name="Initialize Signal.vi" Type="VI" URL="../SubVIs/Initialize Signal.vi"/>
 		</Item>
-		<Item Name="Calculate Frame Size.vi" Type="VI" URL="../Calculate Frame Size.vi"/>
-		<Item Name="GUID Lookup.vi" Type="VI" URL="../GUID Lookup.vi"/>
-		<Item Name="Initialize CAN Frame.vi" Type="VI" URL="../Initialize CAN Frame.vi"/>
-		<Item Name="Initialize Signal.vi" Type="VI" URL="../Initialize Signal.vi"/>
+		<Item Name="Types" Type="Folder">
+			<Item Name="CAN Configuration.ctl" Type="VI" URL="../Types/CAN Configuration.ctl"/>
+			<Item Name="CAN Frame.ctl" Type="VI" URL="../Types/CAN Frame.ctl"/>
+			<Item Name="CAN Interface.ctl" Type="VI" URL="../Types/CAN Interface.ctl"/>
+			<Item Name="Compiled.Refs.ctl" Type="VI" URL="../Types/Compiled.Refs.ctl"/>
+			<Item Name="Compiled.Settings.ctl" Type="VI" URL="../Types/Compiled.Settings.ctl"/>
+			<Item Name="Datatable Lookup Positions.ctl" Type="VI" URL="../Types/Datatable Lookup Positions.ctl"/>
+			<Item Name="Diagnostic Protocols.ctl" Type="VI" URL="../Types/Diagnostic Protocols.ctl"/>
+			<Item Name="DPID Lookup Cluster.ctl" Type="VI" URL="../Types/DPID Lookup Cluster.ctl"/>
+			<Item Name="DPID Lookup PID Information.ctl" Type="VI" URL="../Types/DPID Lookup PID Information.ctl"/>
+			<Item Name="DPID Parameters.ctl" Type="VI" URL="../Types/DPID Parameters.ctl"/>
+			<Item Name="DPID Periodic Rate.ctl" Type="VI" URL="../Types/DPID Periodic Rate.ctl"/>
+			<Item Name="DTC and Timestamp Cluster.ctl" Type="VI" URL="../Types/DTC and Timestamp Cluster.ctl"/>
+			<Item Name="DTC Descriptor.ctl" Type="VI" URL="/&lt;vilib&gt;/Automotive Diagnostic Command Set/Diagnostic Protocols.llb/DTC Descriptor.ctl"/>
+			<Item Name="FPGA Bitfile Settings.ctl" Type="VI" URL="../Types/FPGA Bitfile Settings.ctl"/>
+			<Item Name="Frame Parameters.ctl" Type="VI" URL="../Types/Frame Parameters.ctl"/>
+			<Item Name="Input and Output Signal Parameters.ctl" Type="VI" URL="../Types/Input and Output Signal Parameters.ctl"/>
+			<Item Name="IO Control Parameters.ctl" Type="VI" URL="../Types/IO Control Parameters.ctl"/>
+			<Item Name="ReadDTCbyDTCNumber Parameters.ctl" Type="VI" URL="../Types/ReadDTCbyDTCNumber Parameters.ctl"/>
+			<Item Name="RequestResponse Data Cluster.ctl" Type="VI" URL="../Types/RequestResponse Data Cluster.ctl"/>
+			<Item Name="Routine Paramaters.ctl" Type="VI" URL="../Types/Routine Paramaters.ctl"/>
+			<Item Name="Section Properties.ctl" Type="VI" URL="../Types/Section Properties.ctl"/>
+			<Item Name="Security.ctl" Type="VI" URL="../Types/Security.ctl"/>
+			<Item Name="Signal Parameters.ctl" Type="VI" URL="../Types/Signal Parameters.ctl"/>
+			<Item Name="Transport Protocols.ctl" Type="VI" URL="../Types/Transport Protocols.ctl"/>
+		</Item>
 	</Item>
 </Library>

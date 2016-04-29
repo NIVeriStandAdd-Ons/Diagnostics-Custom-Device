@@ -893,6 +893,14 @@
 				<Item Name="XNET String To IO Name (Signal).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET String To IO Name (Signal).vi"/>
 				<Item Name="XNET String To IO Name (Subframe).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET String To IO Name (Subframe).vi"/>
 			</Item>
+			<Item Name="CAN Interface.ctl" Type="VI" URL="../Shared/Types/CAN Interface.ctl"/>
+			<Item Name="Compiled.Refs.ctl" Type="VI" URL="../Shared/Types/Compiled.Refs.ctl"/>
+			<Item Name="Compiled.Settings.ctl" Type="VI" URL="../Shared/Types/Compiled.Settings.ctl"/>
+			<Item Name="Diagnostic Protocols.ctl" Type="VI" URL="../Shared/Types/Diagnostic Protocols.ctl"/>
+			<Item Name="DPID Parameters.ctl" Type="VI" URL="../Shared/Types/DPID Parameters.ctl"/>
+			<Item Name="DPID Periodic Rate.ctl" Type="VI" URL="../Shared/Types/DPID Periodic Rate.ctl"/>
+			<Item Name="FPGA Bitfile Settings.ctl" Type="VI" URL="../Shared/Types/FPGA Bitfile Settings.ctl"/>
+			<Item Name="Frame Parameters.ctl" Type="VI" URL="../Shared/Types/Frame Parameters.ctl"/>
 			<Item Name="NationalInstruments.VeriStand.SystemStorage" Type="Document" URL="NationalInstruments.VeriStand.SystemStorage">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -908,6 +916,10 @@
 			<Item Name="niyanci.dll" Type="Document" URL="niyanci.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Section Properties.ctl" Type="VI" URL="../Shared/Types/Section Properties.ctl"/>
+			<Item Name="Security.ctl" Type="VI" URL="../Shared/Types/Security.ctl"/>
+			<Item Name="Signal Parameters.ctl" Type="VI" URL="../Shared/Types/Signal Parameters.ctl"/>
+			<Item Name="Transport Protocols.ctl" Type="VI" URL="../Shared/Types/Transport Protocols.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Engine Release" Type="Source Distribution">
@@ -1343,6 +1355,8 @@
 				<Item Name="XNET String To IO Name (Signal).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET String To IO Name (Signal).vi"/>
 				<Item Name="XNET String To IO Name (Subframe).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET String To IO Name (Subframe).vi"/>
 			</Item>
+			<Item Name="CAN Interface.ctl" Type="VI" URL="../Shared/CAN Interface.ctl"/>
+			<Item Name="Diagnostic Protocols.ctl" Type="VI" URL="../Shared/Diagnostic Protocols.ctl"/>
 			<Item Name="NationalInstruments.VeriStand.SystemStorage" Type="Document" URL="NationalInstruments.VeriStand.SystemStorage">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -1358,6 +1372,8 @@
 			<Item Name="niyanci.dll" Type="Document" URL="niyanci.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Security.ctl" Type="VI" URL="../Shared/Security.ctl"/>
+			<Item Name="Transport Protocols.ctl" Type="VI" URL="../Shared/Transport Protocols.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Engine Release" Type="Source Distribution">
@@ -1802,6 +1818,8 @@
 				<Item Name="XNET String To IO Name (Signal).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET String To IO Name (Signal).vi"/>
 				<Item Name="XNET String To IO Name (Subframe).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET String To IO Name (Subframe).vi"/>
 			</Item>
+			<Item Name="CAN Interface.ctl" Type="VI" URL="../Shared/CAN Interface.ctl"/>
+			<Item Name="Diagnostic Protocols.ctl" Type="VI" URL="../Shared/Diagnostic Protocols.ctl"/>
 			<Item Name="NationalInstruments.VeriStand.SystemStorage" Type="Document" URL="NationalInstruments.VeriStand.SystemStorage">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -1817,6 +1835,8 @@
 			<Item Name="niyanci.dll" Type="Document" URL="niyanci.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Security.ctl" Type="VI" URL="../Shared/Security.ctl"/>
+			<Item Name="Transport Protocols.ctl" Type="VI" URL="../Shared/Transport Protocols.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Engine Release" Type="Source Distribution">

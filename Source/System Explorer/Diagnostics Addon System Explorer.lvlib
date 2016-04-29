@@ -45,78 +45,78 @@
 		<Item Name="SubVIs" Type="Folder">
 			<Item Name="Add Item to Listbox.vi" Type="VI" URL="../SubVIs/Add Item to Listbox.vi"/>
 			<Item Name="Add XNET Database to SysDef.vi" Type="VI" URL="../SubVIs/Add XNET Database to SysDef.vi"/>
-			<Item Name="CAN Parameters FG.vi" Type="VI" URL="../../Shared/CAN Parameters FG.vi"/>
+			<Item Name="CAN Parameters FG.vi" Type="VI" URL="../SubVIs/CAN Parameters FG.vi"/>
 			<Item Name="Check Name for Special Characters.vi" Type="VI" URL="../SubVIs/Check Name for Special Characters.vi"/>
 			<Item Name="Check Name.vi" Type="VI" URL="../SubVIs/Check Name.vi"/>
 			<Item Name="CheckDIDPIDConfigurationforErrors.vi" Type="VI" URL="../SubVIs/CheckDIDPIDConfigurationforErrors.vi"/>
 			<Item Name="CheckDPIDConfigurationforErrors.vi" Type="VI" URL="../SubVIs/CheckDPIDConfigurationforErrors.vi"/>
-			<Item Name="Compile Incoming Frames.vi" Type="VI" URL="../../Engine/SubVIs/Compile Incoming Frames.vi"/>
-			<Item Name="Compile Outgoing Frames.vi" Type="VI" URL="../../Engine/SubVIs/Compile Outgoing Frames.vi"/>
+			<Item Name="Compile Incoming Frames.vi" Type="VI" URL="../SubVIs/Compile Incoming Frames.vi"/>
+			<Item Name="Compile Outgoing Frames.vi" Type="VI" URL="../SubVIs/Compile Outgoing Frames.vi"/>
 			<Item Name="Configure DID &amp; PID Dialog.vi" Type="VI" URL="../SubVIs/Configure DID &amp; PID Dialog.vi"/>
 			<Item Name="Configure IO Control.vi" Type="VI" URL="../SubVIs/Configure IO Control.vi"/>
 			<Item Name="Configure Routine.vi" Type="VI" URL="../SubVIs/Configure Routine.vi"/>
-			<Item Name="Convert DPID Name String to DPID ID.vi" Type="VI" URL="../../Shared/Convert DPID Name String to DPID ID.vi"/>
+			<Item Name="Convert DPID Name String to DPID ID.vi" Type="VI" URL="../SubVIs/Convert DPID Name String to DPID ID.vi"/>
 			<Item Name="Convert Frame Parameters Array to String Array.vi" Type="VI" URL="../SubVIs/Convert Frame Parameters Array to String Array.vi"/>
 			<Item Name="Convert Signal Cluster to String Array.vi" Type="VI" URL="../SubVIs/Convert Signal Cluster to String Array.vi"/>
 			<Item Name="Convert Signal Parameters String to Cluster.vi" Type="VI" URL="../SubVIs/Convert Signal Parameters String to Cluster.vi"/>
 			<Item Name="Convert Signals from 1_0_1 to 3_0_0.vi" Type="VI" URL="../SubVIs/Convert Signals from 1_0_1 to 3_0_0.vi"/>
-			<Item Name="Create 986x Support.vi" Type="VI" URL="../../Shared/Create 986x Support.vi"/>
-			<Item Name="Create Bitfile Dependency.vi" Type="VI" URL="../../Shared/Create Bitfile Dependency.vi"/>
+			<Item Name="Create 986x Support.vi" Type="VI" URL="../SubVIs/Create 986x Support.vi"/>
+			<Item Name="Create Bitfile Dependency.vi" Type="VI" URL="../SubVIs/Create Bitfile Dependency.vi"/>
 			<Item Name="Create Configuration From File.vi" Type="VI" URL="../SubVIs/Create Configuration From File.vi"/>
-			<Item Name="Create DPID.vi" Type="VI" URL="../../Shared/Create DPID.vi"/>
+			<Item Name="Create DPID.vi" Type="VI" URL="../SubVIs/Create DPID.vi"/>
 			<Item Name="Create File Dependency.vi" Type="VI" URL="../SubVIs/Create File Dependency.vi"/>
-			<Item Name="Create Frame VS Name.vi" Type="VI" URL="../../Shared/Create Frame VS Name.vi"/>
-			<Item Name="Create Frame.vi" Type="VI" URL="../../Shared/Create Frame.vi"/>
-			<Item Name="Create Input Signal.vi" Type="VI" URL="../../Shared/Create Input Signal.vi"/>
-			<Item Name="Create IO Control.vi" Type="VI" URL="../../Shared/Create IO Control.vi"/>
-			<Item Name="Create Output Signal.vi" Type="VI" URL="../../Shared/Create Output Signal.vi"/>
-			<Item Name="Create Routine.vi" Type="VI" URL="../../Shared/Create Routine.vi"/>
+			<Item Name="Create Frame VS Name.vi" Type="VI" URL="../SubVIs/Create Frame VS Name.vi"/>
+			<Item Name="Create Frame.vi" Type="VI" URL="../SubVIs/Create Frame.vi"/>
+			<Item Name="Create Input Signal.vi" Type="VI" URL="../SubVIs/Create Input Signal.vi"/>
+			<Item Name="Create IO Control.vi" Type="VI" URL="../SubVIs/Create IO Control.vi"/>
+			<Item Name="Create Output Signal.vi" Type="VI" URL="../SubVIs/Create Output Signal.vi"/>
+			<Item Name="Create Routine.vi" Type="VI" URL="../SubVIs/Create Routine.vi"/>
 			<Item Name="Create Sections and Channels from Database.vi" Type="VI" URL="../SubVIs/Create Sections and Channels from Database.vi"/>
-			<Item Name="Create Sections and Channels.vi" Type="VI" URL="../../Shared/Create Sections and Channels.vi"/>
+			<Item Name="Create Sections and Channels.vi" Type="VI" URL="../SubVIs/Create Sections and Channels.vi"/>
 			<Item Name="DPID Dialog.vi" Type="VI" URL="../SubVIs/DPID Dialog.vi"/>
-			<Item Name="DPID Parameters FG.vi" Type="VI" URL="../../Shared/DPID Parameters FG.vi"/>
-			<Item Name="DTC Descriptor FG.vi" Type="VI" URL="../../Shared/DTC Descriptor FG.vi"/>
-			<Item Name="Export Frames Properties.vi" Type="VI" URL="../../Shared/Export Frames Properties.vi"/>
-			<Item Name="Export Frames.vi" Type="VI" URL="../../Engine/SubVIs/Export Frames.vi"/>
-			<Item Name="Get All CD Parameters.vi" Type="VI" URL="../../Engine/SubVIs/Get All CD Parameters.vi"/>
-			<Item Name="Get and Initialize GMLAN PID Channel References.vi" Type="VI" URL="../../Engine/SubVIs/Get and Initialize GMLAN PID Channel References.vi"/>
+			<Item Name="DPID Parameters FG.vi" Type="VI" URL="../SubVIs/DPID Parameters FG.vi"/>
+			<Item Name="DTC Descriptor FG.vi" Type="VI" URL="../SubVIs/DTC Descriptor FG.vi"/>
+			<Item Name="Export Frames Properties.vi" Type="VI" URL="../SubVIs/Export Frames Properties.vi"/>
+			<Item Name="Export Frames.vi" Type="VI" URL="../SubVIs/Export Frames.vi"/>
+			<Item Name="Get All CD Parameters.vi" Type="VI" URL="../SubVIs/Get All CD Parameters.vi"/>
+			<Item Name="Get and Initialize GMLAN PID Channel References.vi" Type="VI" URL="../SubVIs/Get and Initialize GMLAN PID Channel References.vi"/>
 			<Item Name="Get Exported 986x Support.vi" Type="VI" URL="../SubVIs/Get Exported 986x Support.vi"/>
 			<Item Name="Get Exported DPIDs.vi" Type="VI" URL="../SubVIs/Get Exported DPIDs.vi"/>
 			<Item Name="Get Exported DTC.vi" Type="VI" URL="../SubVIs/Get Exported DTC.vi"/>
 			<Item Name="Get Exported Frames.vi" Type="VI" URL="../SubVIs/Get Exported Frames.vi"/>
 			<Item Name="Get File Dependency Target Path.vi" Type="VI" URL="../SubVIs/Get File Dependency Target Path.vi"/>
 			<Item Name="Get FPGA Settings.vi" Type="VI" URL="../SubVIs/Get FPGA Settings.vi"/>
-			<Item Name="Get Frame Name and ID from VS Name.vi" Type="VI" URL="../../Shared/Get Frame Name and ID from VS Name.vi"/>
-			<Item Name="Get Frame.vi" Type="VI" URL="../../Shared/Get Frame.vi"/>
+			<Item Name="Get Frame Name and ID from VS Name.vi" Type="VI" URL="../SubVIs/Get Frame Name and ID from VS Name.vi"/>
+			<Item Name="Get Frame.vi" Type="VI" URL="../SubVIs/Get Frame.vi"/>
 			<Item Name="Get Listbox Row.vi" Type="VI" URL="../SubVIs/Get Listbox Row.vi"/>
-			<Item Name="Get Signals.vi" Type="VI" URL="../../Shared/Get Signals.vi"/>
+			<Item Name="Get Signals.vi" Type="VI" URL="../SubVIs/Get Signals.vi"/>
 			<Item Name="Get SysDef Configuration.vi" Type="VI" URL="../SubVIs/Get SysDef Configuration.vi"/>
 			<Item Name="Get Target IP and Name.vi" Type="VI" URL="../SubVIs/Get Target IP and Name.vi"/>
-			<Item Name="ID FG.vi" Type="VI" URL="../../Shared/ID FG.vi"/>
+			<Item Name="ID FG.vi" Type="VI" URL="../SubVIs/ID FG.vi"/>
 			<Item Name="Initial Configuration Dialog.vi" Type="VI" URL="../SubVIs/Initial Configuration Dialog.vi"/>
 			<Item Name="Initialize Addon.vi" Type="VI" URL="../SubVIs/Initialize Addon.vi"/>
 			<Item Name="Initialize CAN Parameters.vi" Type="VI" URL="../SubVIs/Initialize CAN Parameters.vi"/>
-			<Item Name="Mode FG.vi" Type="VI" URL="../../Shared/Mode FG.vi"/>
+			<Item Name="Mode FG.vi" Type="VI" URL="../SubVIs/Mode FG.vi"/>
 			<Item Name="Remove Item from ListBox.vi" Type="VI" URL="../SubVIs/Remove Item from ListBox.vi"/>
 			<Item Name="Set Help Document Display.vi" Type="VI" URL="../SubVIs/Set Help Document Display.vi"/>
-			<Item Name="Signal Parameters FG.vi" Type="VI" URL="../../Shared/Signal Parameters FG.vi"/>
+			<Item Name="Signal Parameters FG.vi" Type="VI" URL="../SubVIs/Signal Parameters FG.vi"/>
 			<Item Name="Visible Control References.vi" Type="VI" URL="../SubVIs/Visible Control References.vi"/>
 		</Item>
 		<Item Name="Types" Type="Folder">
-			<Item Name="Base Configuration.ctl" Type="VI" URL="../../Shared/Base Configuration.ctl"/>
-			<Item Name="Exported 986x Support.ctl" Type="VI" URL="../../Shared/Exported 986x Support.ctl"/>
-			<Item Name="Exported Command Cluster.ctl" Type="VI" URL="../../Shared/Exported Command Cluster.ctl"/>
-			<Item Name="Exported Configuration.ctl" Type="VI" URL="../../Shared/Exported Configuration.ctl"/>
-			<Item Name="Exported DPID Parameters.ctl" Type="VI" URL="../../Shared/Exported DPID Parameters.ctl"/>
-			<Item Name="Exported DPIDs Cluster.ctl" Type="VI" URL="../../Shared/Exported DPIDs Cluster.ctl"/>
-			<Item Name="Exported DTC Cluster.ctl" Type="VI" URL="../../Shared/Exported DTC Cluster.ctl"/>
-			<Item Name="Exported Frames Cluster.ctl" Type="VI" URL="../../Shared/Exported Frames Cluster.ctl"/>
-			<Item Name="Exported IO Control Cluster.ctl" Type="VI" URL="../../Shared/Exported IO Control Cluster.ctl"/>
-			<Item Name="Exported Routines Cluster.ctl" Type="VI" URL="../../Shared/Exported Routines Cluster.ctl"/>
-			<Item Name="Exported Status Cluster.ctl" Type="VI" URL="../../Shared/Exported Status Cluster.ctl"/>
-			<Item Name="FG Action.ctl" Type="VI" URL="../../Shared/FG Action.ctl"/>
-			<Item Name="Frame Signal VS References.ctl" Type="VI" URL="../../Engine/SubVIs/Frame Signal VS References.ctl"/>
-			<Item Name="Frame Type.ctl" Type="VI" URL="../SubVIs/Frame Type.ctl"/>
+			<Item Name="Base Configuration.ctl" Type="VI" URL="../Types/Base Configuration.ctl"/>
+			<Item Name="Exported 986x Support.ctl" Type="VI" URL="../Types/Exported 986x Support.ctl"/>
+			<Item Name="Exported Command Cluster.ctl" Type="VI" URL="../Types/Exported Command Cluster.ctl"/>
+			<Item Name="Exported Configuration.ctl" Type="VI" URL="../Types/Exported Configuration.ctl"/>
+			<Item Name="Exported DPID Parameters.ctl" Type="VI" URL="../Types/Exported DPID Parameters.ctl"/>
+			<Item Name="Exported DPIDs Cluster.ctl" Type="VI" URL="../Types/Exported DPIDs Cluster.ctl"/>
+			<Item Name="Exported DTC Cluster.ctl" Type="VI" URL="../Types/Exported DTC Cluster.ctl"/>
+			<Item Name="Exported Frames Cluster.ctl" Type="VI" URL="../Types/Exported Frames Cluster.ctl"/>
+			<Item Name="Exported IO Control Cluster.ctl" Type="VI" URL="../Types/Exported IO Control Cluster.ctl"/>
+			<Item Name="Exported Routines Cluster.ctl" Type="VI" URL="../Types/Exported Routines Cluster.ctl"/>
+			<Item Name="Exported Status Cluster.ctl" Type="VI" URL="../Types/Exported Status Cluster.ctl"/>
+			<Item Name="FG Action.ctl" Type="VI" URL="../Types/FG Action.ctl"/>
+			<Item Name="Frame Signal VS References.ctl" Type="VI" URL="../Types/Frame Signal VS References.ctl"/>
+			<Item Name="Frame Type.ctl" Type="VI" URL="../Types/Frame Type.ctl"/>
 		</Item>
 	</Item>
 </Library>

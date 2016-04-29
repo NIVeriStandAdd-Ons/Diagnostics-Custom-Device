@@ -88,18 +88,18 @@
 		<Item Name="Unlock ECU Security.vi" Type="VI" URL="../SubVIs/Unlock ECU Security.vi"/>
 	</Item>
 	<Item Name="Types" Type="Folder">
-		<Item Name="CAN Cluster.ctl" Type="VI" URL="../../Shared/CAN Cluster.ctl"/>
-		<Item Name="Change DTC Count Cluster.ctl" Type="VI" URL="../SubVIs/Change DTC Count Cluster.ctl"/>
-		<Item Name="Channel Commands Enum.ctl" Type="VI" URL="../SubVIs/Channel Commands Enum.ctl"/>
-		<Item Name="CPID Conversion Cluster.ctl" Type="VI" URL="../SubVIs/CPID Conversion Cluster.ctl"/>
-		<Item Name="DIDPID Selector.ctl" Type="VI" URL="../SubVIs/DIDPID Selector.ctl"/>
-		<Item Name="Filtered DPID IDs.ctl" Type="VI" URL="../SubVIs/Filtered DPID IDs.ctl"/>
-		<Item Name="Main Configuration.ctl" Type="VI" URL="../SubVIs/Main Configuration.ctl"/>
-		<Item Name="PID Data.ctl" Type="VI" URL="../SubVIs/PID Data.ctl"/>
-		<Item Name="State Variables.ctl" Type="VI" URL="../SubVIs/State Variables.ctl"/>
-		<Item Name="TCP Refs.ctl" Type="VI" URL="../SubVIs/TCP Refs.ctl"/>
-		<Item Name="VS Data Channels.ctl" Type="VI" URL="../SubVIs/VS Data Channels.ctl"/>
-		<Item Name="XNET References.ctl" Type="VI" URL="../SubVIs/XNET References.ctl"/>
+		<Item Name="CAN Cluster.ctl" Type="VI" URL="../Types/CAN Cluster.ctl"/>
+		<Item Name="Change DTC Count Cluster.ctl" Type="VI" URL="../Types/Change DTC Count Cluster.ctl"/>
+		<Item Name="Channel Commands Enum.ctl" Type="VI" URL="../Types/Channel Commands Enum.ctl"/>
+		<Item Name="CPID Conversion Cluster.ctl" Type="VI" URL="../Types/CPID Conversion Cluster.ctl"/>
+		<Item Name="DIDPID Selector.ctl" Type="VI" URL="../Types/DIDPID Selector.ctl"/>
+		<Item Name="Filtered DPID IDs.ctl" Type="VI" URL="../Types/Filtered DPID IDs.ctl"/>
+		<Item Name="Main Configuration.ctl" Type="VI" URL="../Types/Main Configuration.ctl"/>
+		<Item Name="PID Data.ctl" Type="VI" URL="../Types/PID Data.ctl"/>
+		<Item Name="State Variables.ctl" Type="VI" URL="../Types/State Variables.ctl"/>
+		<Item Name="TCP Refs.ctl" Type="VI" URL="../Types/TCP Refs.ctl"/>
+		<Item Name="VS Data Channels.ctl" Type="VI" URL="../Types/VS Data Channels.ctl"/>
+		<Item Name="XNET References.ctl" Type="VI" URL="../Types/XNET References.ctl"/>
 	</Item>
 	<Item Name="Userlib" Type="Folder">
 		<Item Name="Error Handling API.lvlib" Type="Library" URL="../SubVIs/Error Handling API/Error Handling API.lvlib"/>
