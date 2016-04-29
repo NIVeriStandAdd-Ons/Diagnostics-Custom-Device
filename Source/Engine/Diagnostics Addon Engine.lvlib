@@ -96,8 +96,6 @@
 		<Item Name="Filtered DPID IDs.ctl" Type="VI" URL="../SubVIs/Filtered DPID IDs.ctl"/>
 		<Item Name="Main Configuration.ctl" Type="VI" URL="../SubVIs/Main Configuration.ctl"/>
 		<Item Name="PID Data.ctl" Type="VI" URL="../SubVIs/PID Data.ctl"/>
-		<Item Name="ReadDTCbyDTCNumber Parameters.ctl" Type="VI" URL="../SubVIs/ReadDTCbyDTCNumber Parameters.ctl"/>
-		<Item Name="Section Properties.ctl" Type="VI" URL="../SubVIs/Section Properties.ctl"/>
 		<Item Name="State Variables.ctl" Type="VI" URL="../SubVIs/State Variables.ctl"/>
 		<Item Name="TCP Refs.ctl" Type="VI" URL="../SubVIs/TCP Refs.ctl"/>
 		<Item Name="VS Data Channels.ctl" Type="VI" URL="../SubVIs/VS Data Channels.ctl"/>

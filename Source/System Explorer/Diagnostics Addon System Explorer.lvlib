@@ -6,11 +6,12 @@
 	<Item Name="System Explorer" Type="Folder">
 		<Item Name="Dynamically Called" Type="Folder">
 			<Item Name="Actions" Type="Folder">
-				<Item Name="ActionVIOnCompile.vi" Type="VI" URL="../Actions/ActionVIOnCompile.vi"/>
+				<Property Name="NI.SortType" Type="Int">3</Property>
 				<Item Name="ActionVIOnDelete.vi" Type="VI" URL="../Actions/ActionVIOnDelete.vi"/>
 				<Item Name="ActionVIOnLoad.vi" Type="VI" URL="../Actions/ActionVIOnLoad.vi"/>
 				<Item Name="ActionVIOnSave.vi" Type="VI" URL="../Actions/ActionVIOnSave.vi"/>
 				<Item Name="EnableDisable Main Page.vi" Type="VI" URL="../Actions/EnableDisable Main Page.vi"/>
+				<Item Name="ActionVIOnCompile.vi" Type="VI" URL="../Actions/ActionVIOnCompile.vi"/>
 			</Item>
 			<Item Name="Extra Pages" Type="Folder">
 				<Item Name="Commands.vi" Type="VI" URL="../Pages/Commands.vi"/>
@@ -63,6 +64,7 @@
 			<Item Name="Create Bitfile Dependency.vi" Type="VI" URL="../../Shared/Create Bitfile Dependency.vi"/>
 			<Item Name="Create Configuration From File.vi" Type="VI" URL="../SubVIs/Create Configuration From File.vi"/>
 			<Item Name="Create DPID.vi" Type="VI" URL="../../Shared/Create DPID.vi"/>
+			<Item Name="Create File Dependency.vi" Type="VI" URL="../SubVIs/Create File Dependency.vi"/>
 			<Item Name="Create Frame VS Name.vi" Type="VI" URL="../../Shared/Create Frame VS Name.vi"/>
 			<Item Name="Create Frame.vi" Type="VI" URL="../../Shared/Create Frame.vi"/>
 			<Item Name="Create Input Signal.vi" Type="VI" URL="../../Shared/Create Input Signal.vi"/>
@@ -82,6 +84,7 @@
 			<Item Name="Get Exported DPIDs.vi" Type="VI" URL="../SubVIs/Get Exported DPIDs.vi"/>
 			<Item Name="Get Exported DTC.vi" Type="VI" URL="../SubVIs/Get Exported DTC.vi"/>
 			<Item Name="Get Exported Frames.vi" Type="VI" URL="../SubVIs/Get Exported Frames.vi"/>
+			<Item Name="Get File Dependency Target Path.vi" Type="VI" URL="../SubVIs/Get File Dependency Target Path.vi"/>
 			<Item Name="Get FPGA Settings.vi" Type="VI" URL="../SubVIs/Get FPGA Settings.vi"/>
 			<Item Name="Get Frame Name and ID from VS Name.vi" Type="VI" URL="../../Shared/Get Frame Name and ID from VS Name.vi"/>
 			<Item Name="Get Frame.vi" Type="VI" URL="../../Shared/Get Frame.vi"/>
@@ -114,7 +117,6 @@
 			<Item Name="FG Action.ctl" Type="VI" URL="../../Shared/FG Action.ctl"/>
 			<Item Name="Frame Signal VS References.ctl" Type="VI" URL="../../Engine/SubVIs/Frame Signal VS References.ctl"/>
 			<Item Name="Frame Type.ctl" Type="VI" URL="../SubVIs/Frame Type.ctl"/>
-			<Item Name="RequestResponse Data Cluster.ctl" Type="VI" URL="../../Shared/RequestResponse Data Cluster.ctl"/>
 		</Item>
 	</Item>
 </Library>
