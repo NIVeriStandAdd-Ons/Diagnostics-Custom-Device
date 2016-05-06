@@ -133,6 +133,7 @@
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="ReadDataByLocalIdentifier.vi" Type="VI" URL="/&lt;vilib&gt;/Automotive Diagnostic Command Set/Diagnostic Protocols.llb/ReadDataByLocalIdentifier.vi"/>
 				<Item Name="ReadDTCByStatus.vi" Type="VI" URL="/&lt;vilib&gt;/Automotive Diagnostic Command Set/Diagnostic Protocols.llb/ReadDTCByStatus.vi"/>
+				<Item Name="ReadStatusOfDTC.vi" Type="VI" URL="/&lt;vilib&gt;/Automotive Diagnostic Command Set/Diagnostic Protocols.llb/ReadStatusOfDTC.vi"/>
 				<Item Name="RequestRoutineResultsByLocalIdentifier.vi" Type="VI" URL="/&lt;vilib&gt;/Automotive Diagnostic Command Set/Diagnostic Protocols.llb/RequestRoutineResultsByLocalIdentifier.vi"/>
 				<Item Name="RequestSeed.vi" Type="VI" URL="/&lt;vilib&gt;/Automotive Diagnostic Command Set/Diagnostic Protocols.llb/RequestSeed.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
@@ -163,7 +164,9 @@
 				<Item Name="UDS ECUReset.vi" Type="VI" URL="/&lt;vilib&gt;/Automotive Diagnostic Command Set/Diagnostic Protocols.llb/UDS ECUReset.vi"/>
 				<Item Name="UDS InputOutputControlByIdentifier.vi" Type="VI" URL="/&lt;vilib&gt;/Automotive Diagnostic Command Set/Diagnostic Protocols.llb/UDS InputOutputControlByIdentifier.vi"/>
 				<Item Name="UDS ReadDataByIdentifier.vi" Type="VI" URL="/&lt;vilib&gt;/Automotive Diagnostic Command Set/Diagnostic Protocols.llb/UDS ReadDataByIdentifier.vi"/>
+				<Item Name="UDS ReportDTCBySeverityMaskRecord.vi" Type="VI" URL="/&lt;vilib&gt;/Automotive Diagnostic Command Set/Diagnostic Protocols.llb/UDS ReportDTCBySeverityMaskRecord.vi"/>
 				<Item Name="UDS ReportDTCByStatusMask.vi" Type="VI" URL="/&lt;vilib&gt;/Automotive Diagnostic Command Set/Diagnostic Protocols.llb/UDS ReportDTCByStatusMask.vi"/>
+				<Item Name="UDS ReportSeverityInformationOfDTC.vi" Type="VI" URL="/&lt;vilib&gt;/Automotive Diagnostic Command Set/Diagnostic Protocols.llb/UDS ReportSeverityInformationOfDTC.vi"/>
 				<Item Name="UDS RequestSeed.vi" Type="VI" URL="/&lt;vilib&gt;/Automotive Diagnostic Command Set/Diagnostic Protocols.llb/UDS RequestSeed.vi"/>
 				<Item Name="UDS RoutineControl.vi" Type="VI" URL="/&lt;vilib&gt;/Automotive Diagnostic Command Set/Diagnostic Protocols.llb/UDS RoutineControl.vi"/>
 				<Item Name="UDS SendKey.vi" Type="VI" URL="/&lt;vilib&gt;/Automotive Diagnostic Command Set/Diagnostic Protocols.llb/UDS SendKey.vi"/>
@@ -705,6 +708,7 @@
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="ClearDiagnosticInformation.vi" Type="VI" URL="/&lt;vilib&gt;/Automotive Diagnostic Command Set/Diagnostic Protocols.llb/ClearDiagnosticInformation.vi"/>
+				<Item Name="ControlDTCSetting.vi" Type="VI" URL="/&lt;vilib&gt;/Automotive Diagnostic Command Set/Diagnostic Protocols.llb/ControlDTCSetting.vi"/>
 				<Item Name="Convert from Phys.vi" Type="VI" URL="/&lt;vilib&gt;/Automotive Diagnostic Command Set/Diagnostic Protocols.llb/Convert from Phys.vi"/>
 				<Item Name="Convert GroupOfDTCs.vi" Type="VI" URL="/&lt;vilib&gt;/Automotive Diagnostic Command Set/Diagnostic Protocols.llb/Convert GroupOfDTCs.vi"/>
 				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
@@ -764,6 +768,7 @@
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="UDS ClearDiagnosticInformation.vi" Type="VI" URL="/&lt;vilib&gt;/Automotive Diagnostic Command Set/Diagnostic Protocols.llb/UDS ClearDiagnosticInformation.vi"/>
 				<Item Name="UDS CommunicationControl.vi" Type="VI" URL="/&lt;vilib&gt;/Automotive Diagnostic Command Set/Diagnostic Protocols.llb/UDS CommunicationControl.vi"/>
+				<Item Name="UDS ControlDTCSetting.vi" Type="VI" URL="/&lt;vilib&gt;/Automotive Diagnostic Command Set/Diagnostic Protocols.llb/UDS ControlDTCSetting.vi"/>
 				<Item Name="UDS DiagnosticSessionControl.vi" Type="VI" URL="/&lt;vilib&gt;/Automotive Diagnostic Command Set/Diagnostic Protocols.llb/UDS DiagnosticSessionControl.vi"/>
 				<Item Name="UDS ECUReset.vi" Type="VI" URL="/&lt;vilib&gt;/Automotive Diagnostic Command Set/Diagnostic Protocols.llb/UDS ECUReset.vi"/>
 				<Item Name="UDS InputOutputControlByIdentifier.vi" Type="VI" URL="/&lt;vilib&gt;/Automotive Diagnostic Command Set/Diagnostic Protocols.llb/UDS InputOutputControlByIdentifier.vi"/>
@@ -1154,6 +1159,7 @@
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="ClearDiagnosticInformation.vi" Type="VI" URL="/&lt;vilib&gt;/Automotive Diagnostic Command Set/Diagnostic Protocols.llb/ClearDiagnosticInformation.vi"/>
+				<Item Name="ControlDTCSetting.vi" Type="VI" URL="/&lt;vilib&gt;/Automotive Diagnostic Command Set/Diagnostic Protocols.llb/ControlDTCSetting.vi"/>
 				<Item Name="Convert from Phys.vi" Type="VI" URL="/&lt;vilib&gt;/Automotive Diagnostic Command Set/Diagnostic Protocols.llb/Convert from Phys.vi"/>
 				<Item Name="Convert GroupOfDTCs.vi" Type="VI" URL="/&lt;vilib&gt;/Automotive Diagnostic Command Set/Diagnostic Protocols.llb/Convert GroupOfDTCs.vi"/>
 				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
@@ -1214,6 +1220,7 @@
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="UDS ClearDiagnosticInformation.vi" Type="VI" URL="/&lt;vilib&gt;/Automotive Diagnostic Command Set/Diagnostic Protocols.llb/UDS ClearDiagnosticInformation.vi"/>
 				<Item Name="UDS CommunicationControl.vi" Type="VI" URL="/&lt;vilib&gt;/Automotive Diagnostic Command Set/Diagnostic Protocols.llb/UDS CommunicationControl.vi"/>
+				<Item Name="UDS ControlDTCSetting.vi" Type="VI" URL="/&lt;vilib&gt;/Automotive Diagnostic Command Set/Diagnostic Protocols.llb/UDS ControlDTCSetting.vi"/>
 				<Item Name="UDS DiagnosticSessionControl.vi" Type="VI" URL="/&lt;vilib&gt;/Automotive Diagnostic Command Set/Diagnostic Protocols.llb/UDS DiagnosticSessionControl.vi"/>
 				<Item Name="UDS ECUReset.vi" Type="VI" URL="/&lt;vilib&gt;/Automotive Diagnostic Command Set/Diagnostic Protocols.llb/UDS ECUReset.vi"/>
 				<Item Name="UDS InputOutputControlByIdentifier.vi" Type="VI" URL="/&lt;vilib&gt;/Automotive Diagnostic Command Set/Diagnostic Protocols.llb/UDS InputOutputControlByIdentifier.vi"/>
@@ -1613,6 +1620,7 @@
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="ClearDiagnosticInformation.vi" Type="VI" URL="/&lt;vilib&gt;/Automotive Diagnostic Command Set/Diagnostic Protocols.llb/ClearDiagnosticInformation.vi"/>
+				<Item Name="ControlDTCSetting.vi" Type="VI" URL="/&lt;vilib&gt;/Automotive Diagnostic Command Set/Diagnostic Protocols.llb/ControlDTCSetting.vi"/>
 				<Item Name="Convert from Phys.vi" Type="VI" URL="/&lt;vilib&gt;/Automotive Diagnostic Command Set/Diagnostic Protocols.llb/Convert from Phys.vi"/>
 				<Item Name="Convert GroupOfDTCs.vi" Type="VI" URL="/&lt;vilib&gt;/Automotive Diagnostic Command Set/Diagnostic Protocols.llb/Convert GroupOfDTCs.vi"/>
 				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
@@ -1673,6 +1681,7 @@
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="UDS ClearDiagnosticInformation.vi" Type="VI" URL="/&lt;vilib&gt;/Automotive Diagnostic Command Set/Diagnostic Protocols.llb/UDS ClearDiagnosticInformation.vi"/>
 				<Item Name="UDS CommunicationControl.vi" Type="VI" URL="/&lt;vilib&gt;/Automotive Diagnostic Command Set/Diagnostic Protocols.llb/UDS CommunicationControl.vi"/>
+				<Item Name="UDS ControlDTCSetting.vi" Type="VI" URL="/&lt;vilib&gt;/Automotive Diagnostic Command Set/Diagnostic Protocols.llb/UDS ControlDTCSetting.vi"/>
 				<Item Name="UDS DiagnosticSessionControl.vi" Type="VI" URL="/&lt;vilib&gt;/Automotive Diagnostic Command Set/Diagnostic Protocols.llb/UDS DiagnosticSessionControl.vi"/>
 				<Item Name="UDS ECUReset.vi" Type="VI" URL="/&lt;vilib&gt;/Automotive Diagnostic Command Set/Diagnostic Protocols.llb/UDS ECUReset.vi"/>
 				<Item Name="UDS InputOutputControlByIdentifier.vi" Type="VI" URL="/&lt;vilib&gt;/Automotive Diagnostic Command Set/Diagnostic Protocols.llb/UDS InputOutputControlByIdentifier.vi"/>
