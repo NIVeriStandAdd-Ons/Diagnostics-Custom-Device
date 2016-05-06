@@ -1758,6 +1758,89 @@
         </Button>
       </ButtonList>
     </Page>
+      <Page>
+      <Name>
+        <eng>DTC Control</eng>
+        <loc>DTC Control</loc>
+      </Name>
+      <DisallowRenaming>true</DisallowRenaming>
+      <DeleteProtection>true</DeleteProtection>
+      <GUID>c7c1a7e9-77d4-474c-a0e9-38edab0be724</GUID>
+      <Glyph>
+        <Type>To Application Data Dir</Type>
+        <Path>System Explorer\Glyphs\alias.png</Path>
+      </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\Frame.vi</Path>
+      </Item2Launch>
+      <RunTimeMenu>
+        <MenuItem>
+          <GUID>3a23cb57-a9db-4a7a-a167-7b017d9eb483</GUID>
+          <Type>Action</Type>
+          <Name>
+            <eng>Edit Signals</eng>
+            <loc>Edit Signals</loc>
+          </Name>
+          <Item2Launch>
+            <Type>To Common Doc Dir</Type>
+            <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\Edit Frame.vi</Path>
+          </Item2Launch>
+        </MenuItem>
+        <MenuItem>
+          <GUID>7755077A-1485-13A6-5674A23FB86277FF</GUID>
+          <Type>Separator</Type>
+          <Name>
+            <eng>.</eng>
+            <loc>.</loc>
+          </Name>
+          <Item2Launch>
+            <Type>Absolute</Type>
+            <Path>.</Path>
+          </Item2Launch>
+        </MenuItem>
+        <MenuItem>
+          <GUID>03D3BE0A-1485-13A6-563AEB9BF271825A</GUID>
+          <Type>VI</Type>
+          <MinNrOfChilds>1</MinNrOfChilds>
+          <Name>
+            <eng>Delete Multiple Items</eng>
+            <loc>Delete Multiple Items</loc>
+          </Name>
+          <Item2Launch>
+            <Type>Absolute</Type>
+            <Path>Dialogs\Delete Multiple Items.vi</Path>
+          </Item2Launch>
+        </MenuItem>  
+      </RunTimeMenu>
+      <ButtonList>
+        <Button>
+          <ID>Edit Signals</ID>
+          <Glyph>
+            <Type>To Application Data Dir</Type>
+            <Path>System Explorer\Glyphs\editopen.png</Path>
+          </Glyph>
+          <Type>Action</Type>
+          <ReferencedGUID>3a23cb57-a9db-4a7a-a167-7b017d9eb483</ReferencedGUID>
+          <ButtonText>
+            <eng>Edit Signals</eng>
+            <loc>Edit Signals</loc>
+          </ButtonText>
+          <Caption>
+            <eng>Edit Signals</eng>
+            <loc>Edit Signals</loc>
+          </Caption>
+          <TipStrip>
+            <eng>Edit Signals</eng>
+            <loc>Edit Signals</loc>
+          </TipStrip>
+          <Documentation>
+            <eng></eng>
+            <loc></loc>
+          </Documentation>
+        </Button>
+      </ButtonList>
+    </Page>
   </Pages>
   <CustomXML>
     <Dummy></Dummy>

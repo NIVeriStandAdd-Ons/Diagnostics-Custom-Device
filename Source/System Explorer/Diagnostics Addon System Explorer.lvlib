@@ -110,6 +110,7 @@
 			<Item Name="Exported DPID Parameters.ctl" Type="VI" URL="../Types/Exported DPID Parameters.ctl"/>
 			<Item Name="Exported DPIDs Cluster.ctl" Type="VI" URL="../Types/Exported DPIDs Cluster.ctl"/>
 			<Item Name="Exported DTC Cluster.ctl" Type="VI" URL="../Types/Exported DTC Cluster.ctl"/>
+			<Item Name="Exported DTC Control Cluster.ctl" Type="VI" URL="../Types/Exported DTC Control Cluster.ctl"/>
 			<Item Name="Exported Frames Cluster.ctl" Type="VI" URL="../Types/Exported Frames Cluster.ctl"/>
 			<Item Name="Exported IO Control Cluster.ctl" Type="VI" URL="../Types/Exported IO Control Cluster.ctl"/>
 			<Item Name="Exported Routines Cluster.ctl" Type="VI" URL="../Types/Exported Routines Cluster.ctl"/>
