@@ -14,6 +14,8 @@
 				<Item Name="ActionVIOnCompile.vi" Type="VI" URL="../Actions/ActionVIOnCompile.vi"/>
 			</Item>
 			<Item Name="Extra Pages" Type="Folder">
+				<Item Name="Collection.vi" Type="VI" URL="../Pages/Collection.vi"/>
+				<Item Name="Collections.vi" Type="VI" URL="../Pages/Collections.vi"/>
 				<Item Name="Commands.vi" Type="VI" URL="../Pages/Commands.vi"/>
 				<Item Name="DPID.vi" Type="VI" URL="../Pages/DPID.vi"/>
 				<Item Name="DPIDs.vi" Type="VI" URL="../Pages/DPIDs.vi"/>
@@ -21,20 +23,15 @@
 				<Item Name="DTCs.vi" Type="VI" URL="../Pages/DTCs.vi"/>
 				<Item Name="Frame.vi" Type="VI" URL="../Pages/Frame.vi"/>
 				<Item Name="Frames.vi" Type="VI" URL="../Pages/Frames.vi"/>
-				<Item Name="IO Control.vi" Type="VI" URL="../Pages/IO Control.vi"/>
-				<Item Name="IO.vi" Type="VI" URL="../Pages/IO.vi"/>
 				<Item Name="Protected Section.vi" Type="VI" URL="../Pages/Protected Section.vi"/>
 				<Item Name="Protected Signal.vi" Type="VI" URL="../Pages/Protected Signal.vi"/>
-				<Item Name="Routine.vi" Type="VI" URL="../Pages/Routine.vi"/>
-				<Item Name="Routines.vi" Type="VI" URL="../Pages/Routines.vi"/>
 				<Item Name="Signal Page.vi" Type="VI" URL="../Pages/Signal Page.vi"/>
 				<Item Name="Status.vi" Type="VI" URL="../Pages/Status.vi"/>
 			</Item>
 			<Item Name="RTMs" Type="Folder">
+				<Item Name="Add Collection.vi" Type="VI" URL="../RTMs/Add Collection.vi"/>
 				<Item Name="Add DPID.vi" Type="VI" URL="../RTMs/Add DPID.vi"/>
 				<Item Name="Add Frame.vi" Type="VI" URL="../RTMs/Add Frame.vi"/>
-				<Item Name="Add IO Control.vi" Type="VI" URL="../RTMs/Add IO Control.vi"/>
-				<Item Name="Add Routine.vi" Type="VI" URL="../RTMs/Add Routine.vi"/>
 				<Item Name="Edit DPID.vi" Type="VI" URL="../RTMs/Edit DPID.vi"/>
 				<Item Name="Edit Frame.vi" Type="VI" URL="../RTMs/Edit Frame.vi"/>
 				<Item Name="ExportConfigurationToFile.vi" Type="VI" URL="../SubVIs/ExportConfigurationToFile.vi"/>
@@ -52,9 +49,8 @@
 			<Item Name="CheckDPIDConfigurationforErrors.vi" Type="VI" URL="../SubVIs/CheckDPIDConfigurationforErrors.vi"/>
 			<Item Name="Compile Incoming Frames.vi" Type="VI" URL="../SubVIs/Compile Incoming Frames.vi"/>
 			<Item Name="Compile Outgoing Frames.vi" Type="VI" URL="../SubVIs/Compile Outgoing Frames.vi"/>
+			<Item Name="Configure Collection.vi" Type="VI" URL="../SubVIs/Configure Collection.vi"/>
 			<Item Name="Configure DID &amp; PID Dialog.vi" Type="VI" URL="../SubVIs/Configure DID &amp; PID Dialog.vi"/>
-			<Item Name="Configure IO Control.vi" Type="VI" URL="../SubVIs/Configure IO Control.vi"/>
-			<Item Name="Configure Routine.vi" Type="VI" URL="../SubVIs/Configure Routine.vi"/>
 			<Item Name="Convert DPID Name String to DPID ID.vi" Type="VI" URL="../SubVIs/Convert DPID Name String to DPID ID.vi"/>
 			<Item Name="Convert Frame Parameters Array to String Array.vi" Type="VI" URL="../SubVIs/Convert Frame Parameters Array to String Array.vi"/>
 			<Item Name="Convert Signal Cluster to String Array.vi" Type="VI" URL="../SubVIs/Convert Signal Cluster to String Array.vi"/>
@@ -96,7 +92,6 @@
 			<Item Name="Initial Configuration Dialog.vi" Type="VI" URL="../SubVIs/Initial Configuration Dialog.vi"/>
 			<Item Name="Initialize Addon.vi" Type="VI" URL="../SubVIs/Initialize Addon.vi"/>
 			<Item Name="Initialize CAN Parameters.vi" Type="VI" URL="../SubVIs/Initialize CAN Parameters.vi"/>
-			<Item Name="Mode FG.vi" Type="VI" URL="../SubVIs/Mode FG.vi"/>
 			<Item Name="Remove Item from ListBox.vi" Type="VI" URL="../SubVIs/Remove Item from ListBox.vi"/>
 			<Item Name="Set Help Document Display.vi" Type="VI" URL="../SubVIs/Set Help Document Display.vi"/>
 			<Item Name="Signal Parameters FG.vi" Type="VI" URL="../SubVIs/Signal Parameters FG.vi"/>

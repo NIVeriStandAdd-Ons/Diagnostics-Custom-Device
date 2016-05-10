@@ -11,6 +11,7 @@
 		<Item Name="DisableNormalCommunication.vi" Type="VI" URL="../DisableNormalCommunication.vi"/>
 		<Item Name="Disconnect.vi" Type="VI" URL="../Disconnect.vi"/>
 		<Item Name="EnableDiagnosticSession.vi" Type="VI" URL="../EnableDiagnosticSession.vi"/>
+		<Item Name="PassThru.vi" Type="VI" URL="../PassThru.vi"/>
 		<Item Name="ReadActiveDTCs.vi" Type="VI" URL="../ReadActiveDTCs.vi"/>
 		<Item Name="ReadDataByIdentifiers.vi" Type="VI" URL="../ReadDataByIdentifiers.vi"/>
 		<Item Name="ReturnToNormalMode.vi" Type="VI" URL="../ReturnToNormalMode.vi"/>

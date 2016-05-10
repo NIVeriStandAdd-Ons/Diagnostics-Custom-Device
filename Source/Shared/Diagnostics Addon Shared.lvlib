@@ -44,6 +44,7 @@
 			<Item Name="CAN Configuration.ctl" Type="VI" URL="../Types/CAN Configuration.ctl"/>
 			<Item Name="CAN Frame.ctl" Type="VI" URL="../Types/CAN Frame.ctl"/>
 			<Item Name="CAN Interface.ctl" Type="VI" URL="../Types/CAN Interface.ctl"/>
+			<Item Name="Command Response Signals.ctl" Type="VI" URL="../Types/Command Response Signals.ctl"/>
 			<Item Name="Compiled.Refs.ctl" Type="VI" URL="../Types/Compiled.Refs.ctl"/>
 			<Item Name="Compiled.Settings.ctl" Type="VI" URL="../Types/Compiled.Settings.ctl"/>
 			<Item Name="Datatable Lookup Positions.ctl" Type="VI" URL="../Types/Datatable Lookup Positions.ctl"/>
@@ -56,7 +57,7 @@
 			<Item Name="DTC Descriptor.ctl" Type="VI" URL="/&lt;vilib&gt;/Automotive Diagnostic Command Set/Diagnostic Protocols.llb/DTC Descriptor.ctl"/>
 			<Item Name="FPGA Bitfile Settings.ctl" Type="VI" URL="../Types/FPGA Bitfile Settings.ctl"/>
 			<Item Name="Frame Parameters.ctl" Type="VI" URL="../Types/Frame Parameters.ctl"/>
-			<Item Name="Input and Output Signal Parameters.ctl" Type="VI" URL="../Types/Input and Output Signal Parameters.ctl"/>
+			<Item Name="Input Output Cmd Parameters.ctl" Type="VI" URL="../Types/Input Output Cmd Parameters.ctl"/>
 			<Item Name="IO Control Parameters.ctl" Type="VI" URL="../Types/IO Control Parameters.ctl"/>
 			<Item Name="ReadDTCbyDTCNumber Parameters.ctl" Type="VI" URL="../Types/ReadDTCbyDTCNumber Parameters.ctl"/>
 			<Item Name="RequestResponse Data Cluster.ctl" Type="VI" URL="../Types/RequestResponse Data Cluster.ctl"/>

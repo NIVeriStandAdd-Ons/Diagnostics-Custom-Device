@@ -1063,7 +1063,7 @@
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\IO Control.vi</Path>
+        <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\Collections.vi</Path>
       </Item2Launch>
       <RunTimeMenu>
         <MenuItem>
@@ -1075,7 +1075,7 @@
           </Name>
           <Item2Launch>
             <Type>To Common Doc Dir</Type>
-            <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\Add IO Control.vi</Path>
+            <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\Add Collection.vi</Path>
           </Item2Launch>
         </MenuItem>
         <MenuItem>
@@ -1145,7 +1145,7 @@
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\IO.vi</Path>
+        <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\Collection.vi</Path>
       </Item2Launch>
       <RunTimeMenu>
         <MenuItem>
@@ -1343,7 +1343,7 @@
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\Routines.vi</Path>
+        <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\Collections.vi</Path>
       </Item2Launch>
       <RunTimeMenu>
         <MenuItem>
@@ -1355,7 +1355,7 @@
           </Name>
           <Item2Launch>
             <Type>To Common Doc Dir</Type>
-            <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\Add Routine.vi</Path>
+            <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\Add Collection.vi</Path>
           </Item2Launch>
         </MenuItem>
         <MenuItem>
@@ -1426,7 +1426,7 @@
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\Routine.vi</Path>
+        <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\Collection.vi</Path>
       </Item2Launch>
       <RunTimeMenu>
         <MenuItem>
