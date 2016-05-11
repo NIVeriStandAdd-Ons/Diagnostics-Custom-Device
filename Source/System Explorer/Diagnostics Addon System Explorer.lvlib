@@ -72,10 +72,13 @@
 			<Item Name="DPID Dialog.vi" Type="VI" URL="../SubVIs/DPID Dialog.vi"/>
 			<Item Name="DPID Parameters FG.vi" Type="VI" URL="../SubVIs/DPID Parameters FG.vi"/>
 			<Item Name="DTC Descriptor FG.vi" Type="VI" URL="../SubVIs/DTC Descriptor FG.vi"/>
+			<Item Name="Export CmdResp Pair.vi" Type="VI" URL="../SubVIs/Export CmdResp Pair.vi"/>
 			<Item Name="Export Frames Properties.vi" Type="VI" URL="../SubVIs/Export Frames Properties.vi"/>
 			<Item Name="Export Frames.vi" Type="VI" URL="../SubVIs/Export Frames.vi"/>
+			<Item Name="Export IO.vi" Type="VI" URL="../SubVIs/Export IO.vi"/>
 			<Item Name="Get All CD Parameters.vi" Type="VI" URL="../SubVIs/Get All CD Parameters.vi"/>
 			<Item Name="Get and Initialize GMLAN PID Channel References.vi" Type="VI" URL="../SubVIs/Get and Initialize GMLAN PID Channel References.vi"/>
+			<Item Name="Get CmdResp Refs.vi" Type="VI" URL="../SubVIs/Get CmdResp Refs.vi"/>
 			<Item Name="Get Exported 986x Support.vi" Type="VI" URL="../SubVIs/Get Exported 986x Support.vi"/>
 			<Item Name="Get Exported DPIDs.vi" Type="VI" URL="../SubVIs/Get Exported DPIDs.vi"/>
 			<Item Name="Get Exported DTC.vi" Type="VI" URL="../SubVIs/Get Exported DTC.vi"/>
@@ -84,6 +87,7 @@
 			<Item Name="Get FPGA Settings.vi" Type="VI" URL="../SubVIs/Get FPGA Settings.vi"/>
 			<Item Name="Get Frame Name and ID from VS Name.vi" Type="VI" URL="../SubVIs/Get Frame Name and ID from VS Name.vi"/>
 			<Item Name="Get Frame.vi" Type="VI" URL="../SubVIs/Get Frame.vi"/>
+			<Item Name="Get IO.vi" Type="VI" URL="../SubVIs/Get IO.vi"/>
 			<Item Name="Get Listbox Row.vi" Type="VI" URL="../SubVIs/Get Listbox Row.vi"/>
 			<Item Name="Get Signals.vi" Type="VI" URL="../SubVIs/Get Signals.vi"/>
 			<Item Name="Get SysDef Configuration.vi" Type="VI" URL="../SubVIs/Get SysDef Configuration.vi"/>
@@ -99,6 +103,7 @@
 		</Item>
 		<Item Name="Types" Type="Folder">
 			<Item Name="Base Configuration.ctl" Type="VI" URL="../Types/Base Configuration.ctl"/>
+			<Item Name="CmdResp Refs.ctl" Type="VI" URL="../Types/CmdResp Refs.ctl"/>
 			<Item Name="Exported 986x Support.ctl" Type="VI" URL="../Types/Exported 986x Support.ctl"/>
 			<Item Name="Exported Command Cluster.ctl" Type="VI" URL="../Types/Exported Command Cluster.ctl"/>
 			<Item Name="Exported Configuration.ctl" Type="VI" URL="../Types/Exported Configuration.ctl"/>
@@ -113,6 +118,7 @@
 			<Item Name="FG Action.ctl" Type="VI" URL="../Types/FG Action.ctl"/>
 			<Item Name="Frame Signal VS References.ctl" Type="VI" URL="../Types/Frame Signal VS References.ctl"/>
 			<Item Name="Frame Type.ctl" Type="VI" URL="../Types/Frame Type.ctl"/>
+			<Item Name="IO VS References.ctl" Type="VI" URL="../Types/IO VS References.ctl"/>
 		</Item>
 	</Item>
 </Library>
