@@ -74,4 +74,5 @@
 			<Item Name="Transport Protocols.ctl" Type="VI" URL="../Types/Transport Protocols.ctl"/>
 		</Item>
 	</Item>
+	<Item Name="Common Frame Parameters.ctl" Type="VI" URL="../Types/Common Frame Parameters.ctl"/>
 </Library>
