@@ -69,10 +69,12 @@
 			<Item Name="Create Routine.vi" Type="VI" URL="../SubVIs/Create Routine.vi"/>
 			<Item Name="Create Sections and Channels from Database.vi" Type="VI" URL="../SubVIs/Create Sections and Channels from Database.vi"/>
 			<Item Name="Create Sections and Channels.vi" Type="VI" URL="../SubVIs/Create Sections and Channels.vi"/>
+			<Item Name="DebugCompile.vi" Type="VI" URL="../SubVIs/DebugCompile.vi"/>
 			<Item Name="DPID Dialog.vi" Type="VI" URL="../SubVIs/DPID Dialog.vi"/>
 			<Item Name="DPID Parameters FG.vi" Type="VI" URL="../SubVIs/DPID Parameters FG.vi"/>
 			<Item Name="DTC Descriptor FG.vi" Type="VI" URL="../SubVIs/DTC Descriptor FG.vi"/>
 			<Item Name="Export CmdResp Pair.vi" Type="VI" URL="../SubVIs/Export CmdResp Pair.vi"/>
+			<Item Name="Export DTC Control.vi" Type="VI" URL="../SubVIs/Export DTC Control.vi"/>
 			<Item Name="Export Frames Properties.vi" Type="VI" URL="../SubVIs/Export Frames Properties.vi"/>
 			<Item Name="Export Frames.vi" Type="VI" URL="../SubVIs/Export Frames.vi"/>
 			<Item Name="Export IO.vi" Type="VI" URL="../SubVIs/Export IO.vi"/>
