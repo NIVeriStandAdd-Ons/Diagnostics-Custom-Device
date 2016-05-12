@@ -139,4 +139,5 @@
 		<Item Name="Stop FG.lvlib" Type="Library" URL="../SubVIs/Stop FG/Stop FG.lvlib"/>
 	</Item>
 	<Item Name="RT Driver VI.vi" Type="VI" URL="../RT Driver VI.vi"/>
+	<Item Name="UpdateStatusChannels.vi" Type="VI" URL="../SubVIs/UpdateStatusChannels.vi"/>
 </Library>
