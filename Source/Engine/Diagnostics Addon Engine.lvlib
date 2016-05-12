@@ -91,7 +91,6 @@
 		<Item Name="Convert Boolean to DBL Array.vi" Type="VI" URL="../SubVIs/Convert Boolean to DBL Array.vi"/>
 		<Item Name="Convert ID to Raw Data.vi" Type="VI" URL="../SubVIs/Convert ID to Raw Data.vi"/>
 		<Item Name="Convert XNET to CAN Frame.vi" Type="VI" URL="../SubVIs/Convert XNET to CAN Frame.vi"/>
-		<Item Name="CPID Engine.vi" Type="VI" URL="../SubVIs/CPID Engine.vi"/>
 		<Item Name="Determine Active DTCs and Timestamps.vi" Type="VI" URL="../SubVIs/Determine Active DTCs and Timestamps.vi"/>
 		<Item Name="Diagnostic Engine.vi" Type="VI" URL="../SubVIs/Diagnostic Engine.vi"/>
 		<Item Name="DIDPID XNET Conversion Global Properties.vi" Type="VI" URL="../SubVIs/DIDPID XNET Conversion Global Properties.vi"/>
