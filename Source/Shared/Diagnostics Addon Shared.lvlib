@@ -44,7 +44,10 @@
 			<Item Name="CAN Configuration.ctl" Type="VI" URL="../Types/CAN Configuration.ctl"/>
 			<Item Name="CAN Frame.ctl" Type="VI" URL="../Types/CAN Frame.ctl"/>
 			<Item Name="CAN Interface.ctl" Type="VI" URL="../Types/CAN Interface.ctl"/>
+			<Item Name="CmdResp Refs.ctl" Type="VI" URL="../Types/CmdResp Refs.ctl"/>
 			<Item Name="Command Response Signals.ctl" Type="VI" URL="../Types/Command Response Signals.ctl"/>
+			<Item Name="Compiled Routine Lookups.ctl" Type="VI" URL="../Types/Compiled Routine Lookups.ctl"/>
+			<Item Name="Compiled Routine Refs.ctl" Type="VI" URL="../Types/Compiled Routine Refs.ctl"/>
 			<Item Name="Compiled.Refs.ctl" Type="VI" URL="../Types/Compiled.Refs.ctl"/>
 			<Item Name="Compiled.Settings.ctl" Type="VI" URL="../Types/Compiled.Settings.ctl"/>
 			<Item Name="Datatable Lookup Positions.ctl" Type="VI" URL="../Types/Datatable Lookup Positions.ctl"/>
@@ -55,6 +58,9 @@
 			<Item Name="DPID Periodic Rate.ctl" Type="VI" URL="../Types/DPID Periodic Rate.ctl"/>
 			<Item Name="DTC and Timestamp Cluster.ctl" Type="VI" URL="../Types/DTC and Timestamp Cluster.ctl"/>
 			<Item Name="DTC Descriptor.ctl" Type="VI" URL="/&lt;vilib&gt;/Automotive Diagnostic Command Set/Diagnostic Protocols.llb/DTC Descriptor.ctl"/>
+			<Item Name="Exported DTC Control Cluster.ctl" Type="VI" URL="../Types/Exported DTC Control Cluster.ctl"/>
+			<Item Name="Exported IO Control Cluster.ctl" Type="VI" URL="../Types/Exported IO Control Cluster.ctl"/>
+			<Item Name="Exported Routines Cluster.ctl" Type="VI" URL="../Types/Exported Routines Cluster.ctl"/>
 			<Item Name="FPGA Bitfile Settings.ctl" Type="VI" URL="../Types/FPGA Bitfile Settings.ctl"/>
 			<Item Name="Frame Parameters.ctl" Type="VI" URL="../Types/Frame Parameters.ctl"/>
 			<Item Name="Input Output Cmd Parameters.ctl" Type="VI" URL="../Types/Input Output Cmd Parameters.ctl"/>

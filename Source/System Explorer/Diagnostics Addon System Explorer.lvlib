@@ -48,7 +48,9 @@
 			<Item Name="CheckDIDPIDConfigurationforErrors.vi" Type="VI" URL="../SubVIs/CheckDIDPIDConfigurationforErrors.vi"/>
 			<Item Name="CheckDPIDConfigurationforErrors.vi" Type="VI" URL="../SubVIs/CheckDPIDConfigurationforErrors.vi"/>
 			<Item Name="Compile Incoming Frames.vi" Type="VI" URL="../SubVIs/Compile Incoming Frames.vi"/>
+			<Item Name="Compile IO.vi" Type="VI" URL="../SubVIs/Compile IO.vi"/>
 			<Item Name="Compile Outgoing Frames.vi" Type="VI" URL="../SubVIs/Compile Outgoing Frames.vi"/>
+			<Item Name="Compile Routines.vi" Type="VI" URL="../SubVIs/Compile Routines.vi"/>
 			<Item Name="Configure Collection.vi" Type="VI" URL="../SubVIs/Configure Collection.vi"/>
 			<Item Name="Configure DID &amp; PID Dialog.vi" Type="VI" URL="../SubVIs/Configure DID &amp; PID Dialog.vi"/>
 			<Item Name="Convert DPID Name String to DPID ID.vi" Type="VI" URL="../SubVIs/Convert DPID Name String to DPID ID.vi"/>
@@ -76,6 +78,7 @@
 			<Item Name="Export Frames Properties.vi" Type="VI" URL="../SubVIs/Export Frames Properties.vi"/>
 			<Item Name="Export Frames.vi" Type="VI" URL="../SubVIs/Export Frames.vi"/>
 			<Item Name="Export IO.vi" Type="VI" URL="../SubVIs/Export IO.vi"/>
+			<Item Name="Export Routines.vi" Type="VI" URL="../SubVIs/Export Routines.vi"/>
 			<Item Name="Get All CD Parameters.vi" Type="VI" URL="../SubVIs/Get All CD Parameters.vi"/>
 			<Item Name="Get and Initialize GMLAN PID Channel References.vi" Type="VI" URL="../SubVIs/Get and Initialize GMLAN PID Channel References.vi"/>
 			<Item Name="Get CmdResp Refs.vi" Type="VI" URL="../SubVIs/Get CmdResp Refs.vi"/>
@@ -89,6 +92,7 @@
 			<Item Name="Get Frame.vi" Type="VI" URL="../SubVIs/Get Frame.vi"/>
 			<Item Name="Get IO.vi" Type="VI" URL="../SubVIs/Get IO.vi"/>
 			<Item Name="Get Listbox Row.vi" Type="VI" URL="../SubVIs/Get Listbox Row.vi"/>
+			<Item Name="Get Routine.vi" Type="VI" URL="../SubVIs/Get Routine.vi"/>
 			<Item Name="Get Signals.vi" Type="VI" URL="../SubVIs/Get Signals.vi"/>
 			<Item Name="Get SysDef Configuration.vi" Type="VI" URL="../SubVIs/Get SysDef Configuration.vi"/>
 			<Item Name="Get Target IP and Name.vi" Type="VI" URL="../SubVIs/Get Target IP and Name.vi"/>
@@ -103,22 +107,19 @@
 		</Item>
 		<Item Name="Types" Type="Folder">
 			<Item Name="Base Configuration.ctl" Type="VI" URL="../Types/Base Configuration.ctl"/>
-			<Item Name="CmdResp Refs.ctl" Type="VI" URL="../Types/CmdResp Refs.ctl"/>
 			<Item Name="Exported 986x Support.ctl" Type="VI" URL="../Types/Exported 986x Support.ctl"/>
 			<Item Name="Exported Command Cluster.ctl" Type="VI" URL="../Types/Exported Command Cluster.ctl"/>
 			<Item Name="Exported Configuration.ctl" Type="VI" URL="../Types/Exported Configuration.ctl"/>
 			<Item Name="Exported DPID Parameters.ctl" Type="VI" URL="../Types/Exported DPID Parameters.ctl"/>
 			<Item Name="Exported DPIDs Cluster.ctl" Type="VI" URL="../Types/Exported DPIDs Cluster.ctl"/>
 			<Item Name="Exported DTC Cluster.ctl" Type="VI" URL="../Types/Exported DTC Cluster.ctl"/>
-			<Item Name="Exported DTC Control Cluster.ctl" Type="VI" URL="../Types/Exported DTC Control Cluster.ctl"/>
 			<Item Name="Exported Frames Cluster.ctl" Type="VI" URL="../Types/Exported Frames Cluster.ctl"/>
-			<Item Name="Exported IO Control Cluster.ctl" Type="VI" URL="../Types/Exported IO Control Cluster.ctl"/>
-			<Item Name="Exported Routines Cluster.ctl" Type="VI" URL="../Types/Exported Routines Cluster.ctl"/>
 			<Item Name="Exported Status Cluster.ctl" Type="VI" URL="../Types/Exported Status Cluster.ctl"/>
 			<Item Name="FG Action.ctl" Type="VI" URL="../Types/FG Action.ctl"/>
 			<Item Name="Frame Signal VS References.ctl" Type="VI" URL="../Types/Frame Signal VS References.ctl"/>
 			<Item Name="Frame Type.ctl" Type="VI" URL="../Types/Frame Type.ctl"/>
 			<Item Name="IO VS References.ctl" Type="VI" URL="../Types/IO VS References.ctl"/>
+			<Item Name="Routine VS References.ctl" Type="VI" URL="../Types/Routine VS References.ctl"/>
 		</Item>
 	</Item>
 </Library>
