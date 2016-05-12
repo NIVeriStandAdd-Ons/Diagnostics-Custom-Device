@@ -46,6 +46,7 @@
 			<Item Name="CAN Interface.ctl" Type="VI" URL="../Types/CAN Interface.ctl"/>
 			<Item Name="CmdResp Refs.ctl" Type="VI" URL="../Types/CmdResp Refs.ctl"/>
 			<Item Name="Command Response Signals.ctl" Type="VI" URL="../Types/Command Response Signals.ctl"/>
+			<Item Name="Common Frame Parameters.ctl" Type="VI" URL="../Types/Common Frame Parameters.ctl"/>
 			<Item Name="Compiled Routine Lookups.ctl" Type="VI" URL="../Types/Compiled Routine Lookups.ctl"/>
 			<Item Name="Compiled Routine Refs.ctl" Type="VI" URL="../Types/Compiled Routine Refs.ctl"/>
 			<Item Name="Compiled.Refs.ctl" Type="VI" URL="../Types/Compiled.Refs.ctl"/>
@@ -75,5 +76,4 @@
 			<Item Name="Transport Protocols.ctl" Type="VI" URL="../Types/Transport Protocols.ctl"/>
 		</Item>
 	</Item>
-	<Item Name="Common Frame Parameters.ctl" Type="VI" URL="../Types/Common Frame Parameters.ctl"/>
 </Library>

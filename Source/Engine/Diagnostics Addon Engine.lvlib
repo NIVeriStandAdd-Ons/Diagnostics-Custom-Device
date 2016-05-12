@@ -119,6 +119,7 @@
 		<Item Name="UDS Diagnostics Engine.vi" Type="VI" URL="../SubVIs/UDS Diagnostics Engine.vi"/>
 		<Item Name="Unload Bitfile.vi" Type="VI" URL="../SubVIs/Unload Bitfile.vi"/>
 		<Item Name="Unlock ECU Security.vi" Type="VI" URL="../SubVIs/Unlock ECU Security.vi"/>
+		<Item Name="UpdateStatusChannels.vi" Type="VI" URL="../SubVIs/UpdateStatusChannels.vi"/>
 	</Item>
 	<Item Name="Types" Type="Folder">
 		<Item Name="CAN Cluster.ctl" Type="VI" URL="../Types/CAN Cluster.ctl"/>
@@ -139,5 +140,4 @@
 		<Item Name="Stop FG.lvlib" Type="Library" URL="../SubVIs/Stop FG/Stop FG.lvlib"/>
 	</Item>
 	<Item Name="RT Driver VI.vi" Type="VI" URL="../RT Driver VI.vi"/>
-	<Item Name="UpdateStatusChannels.vi" Type="VI" URL="../SubVIs/UpdateStatusChannels.vi"/>
 </Library>

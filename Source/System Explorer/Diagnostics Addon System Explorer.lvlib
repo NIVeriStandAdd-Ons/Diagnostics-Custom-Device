@@ -108,6 +108,8 @@
 		</Item>
 		<Item Name="Types" Type="Folder">
 			<Item Name="Base Configuration.ctl" Type="VI" URL="../Types/Base Configuration.ctl"/>
+			<Item Name="Common IOs.ctl" Type="VI" URL="../Types/Common IOs.ctl"/>
+			<Item Name="Common Routines.ctl" Type="VI" URL="../Types/Common Routines.ctl"/>
 			<Item Name="Exported 986x Support.ctl" Type="VI" URL="../Types/Exported 986x Support.ctl"/>
 			<Item Name="Exported Command Cluster.ctl" Type="VI" URL="../Types/Exported Command Cluster.ctl"/>
 			<Item Name="Exported Configuration.ctl" Type="VI" URL="../Types/Exported Configuration.ctl"/>
