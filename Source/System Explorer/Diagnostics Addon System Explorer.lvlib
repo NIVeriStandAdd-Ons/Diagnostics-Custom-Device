@@ -103,6 +103,7 @@
 			<Item Name="Remove Item from ListBox.vi" Type="VI" URL="../SubVIs/Remove Item from ListBox.vi"/>
 			<Item Name="Set Help Document Display.vi" Type="VI" URL="../SubVIs/Set Help Document Display.vi"/>
 			<Item Name="Signal Parameters FG.vi" Type="VI" URL="../SubVIs/Signal Parameters FG.vi"/>
+			<Item Name="Type FG.vi" Type="VI" URL="../SubVIs/Type FG.vi"/>
 			<Item Name="Visible Control References.vi" Type="VI" URL="../SubVIs/Visible Control References.vi"/>
 		</Item>
 		<Item Name="Types" Type="Folder">
