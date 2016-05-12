@@ -338,7 +338,7 @@
 				<Property Name="Destination[2].path" Type="Path">../Built/custom devices/Diagnostics Addon/Diagnostics Addon Configuration.llb</Property>
 				<Property Name="Destination[2].type" Type="Str">LLB</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
-				<Property Name="Source[0].itemID" Type="Str">{5D2E552D-2AB3-4B29-B802-E0963721B756}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{D29A369D-91F5-4345-92ED-DFC85450D477}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Custom Device Diagnostics Addon.xml</Property>

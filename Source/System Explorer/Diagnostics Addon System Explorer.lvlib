@@ -48,9 +48,7 @@
 			<Item Name="CheckDIDPIDConfigurationforErrors.vi" Type="VI" URL="../SubVIs/CheckDIDPIDConfigurationforErrors.vi"/>
 			<Item Name="CheckDPIDConfigurationforErrors.vi" Type="VI" URL="../SubVIs/CheckDPIDConfigurationforErrors.vi"/>
 			<Item Name="Compile Incoming Frames.vi" Type="VI" URL="../SubVIs/Compile Incoming Frames.vi"/>
-			<Item Name="Compile IO.vi" Type="VI" URL="../SubVIs/Compile IO.vi"/>
 			<Item Name="Compile Outgoing Frames.vi" Type="VI" URL="../SubVIs/Compile Outgoing Frames.vi"/>
-			<Item Name="Compile Routines.vi" Type="VI" URL="../SubVIs/Compile Routines.vi"/>
 			<Item Name="Configure Collection.vi" Type="VI" URL="../SubVIs/Configure Collection.vi"/>
 			<Item Name="Configure DID &amp; PID Dialog.vi" Type="VI" URL="../SubVIs/Configure DID &amp; PID Dialog.vi"/>
 			<Item Name="Convert DPID Name String to DPID ID.vi" Type="VI" URL="../SubVIs/Convert DPID Name String to DPID ID.vi"/>
