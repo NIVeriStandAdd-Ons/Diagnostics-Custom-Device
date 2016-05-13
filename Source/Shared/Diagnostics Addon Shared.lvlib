@@ -47,6 +47,7 @@
 			<Item Name="CmdResp Refs.ctl" Type="VI" URL="../Types/CmdResp Refs.ctl"/>
 			<Item Name="Command Response Signals.ctl" Type="VI" URL="../Types/Command Response Signals.ctl"/>
 			<Item Name="Common Frame Parameters.ctl" Type="VI" URL="../Types/Common Frame Parameters.ctl"/>
+			<Item Name="Communication Parameters.ctl" Type="VI" URL="../Types/Communication Parameters.ctl"/>
 			<Item Name="Compiled Routine Lookups.ctl" Type="VI" URL="../Types/Compiled Routine Lookups.ctl"/>
 			<Item Name="Compiled Routine Refs.ctl" Type="VI" URL="../Types/Compiled Routine Refs.ctl"/>
 			<Item Name="Compiled.Refs.ctl" Type="VI" URL="../Types/Compiled.Refs.ctl"/>
@@ -58,7 +59,7 @@
 			<Item Name="DPID Parameters.ctl" Type="VI" URL="../Types/DPID Parameters.ctl"/>
 			<Item Name="DPID Periodic Rate.ctl" Type="VI" URL="../Types/DPID Periodic Rate.ctl"/>
 			<Item Name="DTC and Timestamp Cluster.ctl" Type="VI" URL="../Types/DTC and Timestamp Cluster.ctl"/>
-			<Item Name="DTC Descriptor.ctl" Type="VI" URL="/&lt;vilib&gt;/Automotive Diagnostic Command Set/Diagnostic Protocols.llb/DTC Descriptor.ctl"/>
+			<Item Name="DTC Descriptor Parameters.ctl" Type="VI" URL="../Types/DTC Descriptor Parameters.ctl"/>
 			<Item Name="Exported DTC Control Cluster.ctl" Type="VI" URL="../Types/Exported DTC Control Cluster.ctl"/>
 			<Item Name="Exported IO Control Cluster.ctl" Type="VI" URL="../Types/Exported IO Control Cluster.ctl"/>
 			<Item Name="Exported Routines Cluster.ctl" Type="VI" URL="../Types/Exported Routines Cluster.ctl"/>
