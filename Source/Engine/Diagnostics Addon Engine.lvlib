@@ -123,7 +123,6 @@
 	<Item Name="Types" Type="Folder">
 		<Item Name="CAN Cluster.ctl" Type="VI" URL="../Types/CAN Cluster.ctl"/>
 		<Item Name="Change DTC Count Cluster.ctl" Type="VI" URL="../Types/Change DTC Count Cluster.ctl"/>
-		<Item Name="Channel Commands Enum.ctl" Type="VI" URL="../Types/Channel Commands Enum.ctl"/>
 		<Item Name="CPID Conversion Cluster.ctl" Type="VI" URL="../Types/CPID Conversion Cluster.ctl"/>
 		<Item Name="Filtered DPID IDs.ctl" Type="VI" URL="../Types/Filtered DPID IDs.ctl"/>
 		<Item Name="Main Configuration.ctl" Type="VI" URL="../Types/Main Configuration.ctl"/>

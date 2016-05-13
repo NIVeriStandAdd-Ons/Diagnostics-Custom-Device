@@ -36,14 +36,28 @@
 	<Item Name="Shared" Type="Folder">
 		<Item Name="SubVIs" Type="Folder">
 			<Item Name="Calculate Frame Size.vi" Type="VI" URL="../SubVIs/Calculate Frame Size.vi"/>
+			<Item Name="Close Workspace Control Refs.vi" Type="VI" URL="../SubVIs/Close Workspace Control Refs.vi"/>
+			<Item Name="CreateChannelLists.vi" Type="VI" URL="../SubVIs/CreateChannelLists.vi"/>
+			<Item Name="Get Controller Variables Ranges.vi" Type="VI" URL="../SubVIs/Get Controller Variables Ranges.vi"/>
+			<Item Name="Get Controllers via Storage API.vi" Type="VI" URL="../SubVIs/Get Controllers via Storage API.vi"/>
 			<Item Name="GUID Lookup.vi" Type="VI" URL="../SubVIs/GUID Lookup.vi"/>
 			<Item Name="Initialize CAN Frame.vi" Type="VI" URL="../SubVIs/Initialize CAN Frame.vi"/>
 			<Item Name="Initialize Signal.vi" Type="VI" URL="../SubVIs/Initialize Signal.vi"/>
+			<Item Name="Initialize Workspace Control Refs.vi" Type="VI" URL="../SubVIs/Initialize Workspace Control Refs.vi"/>
+			<Item Name="Remove IP Address from CD Path.vi" Type="VI" URL="../SubVIs/Remove IP Address from CD Path.vi"/>
+			<Item Name="Search Sysdef for Custom Devices.vi" Type="VI" URL="../SubVIs/Search Sysdef for Custom Devices.vi"/>
+			<Item Name="Search Sysdef for Targets.vi" Type="VI" URL="../SubVIs/Search Sysdef for Targets.vi"/>
+			<Item Name="Select Controller.vi" Type="VI" URL="../SubVIs/Select Controller.vi"/>
+			<Item Name="Update UI Captions.vi" Type="VI" URL="../SubVIs/Update UI Captions.vi"/>
+			<Item Name="Workspace Pull UI Objects.vi" Type="VI" URL="../SubVIs/Workspace Pull UI Objects.vi"/>
+			<Item Name="Workspace Update UI Objects.vi" Type="VI" URL="../SubVIs/Workspace Update UI Objects.vi"/>
 		</Item>
 		<Item Name="Types" Type="Folder">
 			<Item Name="CAN Configuration.ctl" Type="VI" URL="../Types/CAN Configuration.ctl"/>
 			<Item Name="CAN Frame.ctl" Type="VI" URL="../Types/CAN Frame.ctl"/>
 			<Item Name="CAN Interface.ctl" Type="VI" URL="../Types/CAN Interface.ctl"/>
+			<Item Name="CD Saved State.ctl" Type="VI" URL="../Types/CD Saved State.ctl"/>
+			<Item Name="Channel Commands Enum.ctl" Type="VI" URL="../Types/Channel Commands Enum.ctl"/>
 			<Item Name="CmdResp Refs.ctl" Type="VI" URL="../Types/CmdResp Refs.ctl"/>
 			<Item Name="Command Response Signals.ctl" Type="VI" URL="../Types/Command Response Signals.ctl"/>
 			<Item Name="Common Frame Parameters.ctl" Type="VI" URL="../Types/Common Frame Parameters.ctl"/>
@@ -75,6 +89,8 @@
 			<Item Name="Security.ctl" Type="VI" URL="../Types/Security.ctl"/>
 			<Item Name="Signal Parameters.ctl" Type="VI" URL="../Types/Signal Parameters.ctl"/>
 			<Item Name="Transport Protocols.ctl" Type="VI" URL="../Types/Transport Protocols.ctl"/>
+			<Item Name="UI.Refs.ctl" Type="VI" URL="../Types/UI.Refs.ctl"/>
+			<Item Name="Workspace Object State Variables.ctl" Type="VI" URL="../Types/Workspace Object State Variables.ctl"/>
 		</Item>
 	</Item>
 </Library>
