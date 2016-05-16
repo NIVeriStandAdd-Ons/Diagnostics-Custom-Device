@@ -83,6 +83,7 @@
 			<Item Name="IO Control Parameters.ctl" Type="VI" URL="../Types/IO Control Parameters.ctl"/>
 			<Item Name="Memory Command Parameters.ctl" Type="VI" URL="../Types/Memory Command Parameters.ctl"/>
 			<Item Name="MessageType Selector.ctl" Type="VI" URL="../Types/MessageType Selector.ctl"/>
+			<Item Name="PassThru Channel Based Command Parameters.ctl" Type="VI" URL="../Types/PassThru Channel Based Command Parameters.ctl"/>
 			<Item Name="ReadDTCbyDTCNumber Parameters.ctl" Type="VI" URL="../Types/ReadDTCbyDTCNumber Parameters.ctl"/>
 			<Item Name="RequestResponse Data Cluster.ctl" Type="VI" URL="../Types/RequestResponse Data Cluster.ctl"/>
 			<Item Name="Routine Paramaters.ctl" Type="VI" URL="../Types/Routine Paramaters.ctl"/>
