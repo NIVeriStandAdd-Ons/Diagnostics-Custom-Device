@@ -108,6 +108,7 @@
 		<Item Name="Initialize DPIDs Cluster.vi" Type="VI" URL="../SubVIs/Initialize DPIDs Cluster.vi"/>
 		<Item Name="Initialize Raw XNET Frame.vi" Type="VI" URL="../SubVIs/Initialize Raw XNET Frame.vi"/>
 		<Item Name="Initialize TCP Refs.vi" Type="VI" URL="../SubVIs/Initialize TCP Refs.vi"/>
+		<Item Name="Lookup Message Size Bytes.vi" Type="VI" URL="../SubVIs/Lookup Message Size Bytes.vi"/>
 		<Item Name="Network Command Engine.vi" Type="VI" URL="../SubVIs/Network Command Engine.vi"/>
 		<Item Name="Read and Load Bitfile.vi" Type="VI" URL="../SubVIs/Read and Load Bitfile.vi"/>
 		<Item Name="Read GMLAN PIDs and DTCs.vi" Type="VI" URL="../SubVIs/Read GMLAN PIDs and DTCs.vi"/>

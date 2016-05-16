@@ -81,6 +81,7 @@
 			<Item Name="Frame Parameters.ctl" Type="VI" URL="../Types/Frame Parameters.ctl"/>
 			<Item Name="Input Output Cmd Parameters.ctl" Type="VI" URL="../Types/Input Output Cmd Parameters.ctl"/>
 			<Item Name="IO Control Parameters.ctl" Type="VI" URL="../Types/IO Control Parameters.ctl"/>
+			<Item Name="Memory Command Parameters.ctl" Type="VI" URL="../Types/Memory Command Parameters.ctl"/>
 			<Item Name="MessageType Selector.ctl" Type="VI" URL="../Types/MessageType Selector.ctl"/>
 			<Item Name="ReadDTCbyDTCNumber Parameters.ctl" Type="VI" URL="../Types/ReadDTCbyDTCNumber Parameters.ctl"/>
 			<Item Name="RequestResponse Data Cluster.ctl" Type="VI" URL="../Types/RequestResponse Data Cluster.ctl"/>
