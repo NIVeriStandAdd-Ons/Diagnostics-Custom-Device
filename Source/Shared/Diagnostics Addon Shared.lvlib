@@ -35,22 +35,22 @@
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
 	<Item Name="Shared" Type="Folder">
 		<Item Name="SubVIs" Type="Folder">
-			<Item Name="Calculate Frame Size.vi" Type="VI" URL="../SubVIs/Calculate Frame Size.vi"/>
-			<Item Name="Close Workspace Control Refs.vi" Type="VI" URL="../SubVIs/Close Workspace Control Refs.vi"/>
-			<Item Name="CreateChannelLists.vi" Type="VI" URL="../SubVIs/CreateChannelLists.vi"/>
-			<Item Name="Get Controller Variables Ranges.vi" Type="VI" URL="../SubVIs/Get Controller Variables Ranges.vi"/>
-			<Item Name="Get Controllers via Storage API.vi" Type="VI" URL="../SubVIs/Get Controllers via Storage API.vi"/>
-			<Item Name="GUID Lookup.vi" Type="VI" URL="../SubVIs/GUID Lookup.vi"/>
-			<Item Name="Initialize CAN Frame.vi" Type="VI" URL="../SubVIs/Initialize CAN Frame.vi"/>
-			<Item Name="Initialize Signal.vi" Type="VI" URL="../SubVIs/Initialize Signal.vi"/>
-			<Item Name="Initialize Workspace Control Refs.vi" Type="VI" URL="../SubVIs/Initialize Workspace Control Refs.vi"/>
-			<Item Name="Remove IP Address from CD Path.vi" Type="VI" URL="../SubVIs/Remove IP Address from CD Path.vi"/>
-			<Item Name="Search Sysdef for Custom Devices.vi" Type="VI" URL="../SubVIs/Search Sysdef for Custom Devices.vi"/>
-			<Item Name="Search Sysdef for Targets.vi" Type="VI" URL="../SubVIs/Search Sysdef for Targets.vi"/>
-			<Item Name="Select Controller.vi" Type="VI" URL="../SubVIs/Select Controller.vi"/>
-			<Item Name="Update UI Captions.vi" Type="VI" URL="../SubVIs/Update UI Captions.vi"/>
-			<Item Name="Workspace Pull UI Objects.vi" Type="VI" URL="../SubVIs/Workspace Pull UI Objects.vi"/>
-			<Item Name="Workspace Update UI Objects.vi" Type="VI" URL="../SubVIs/Workspace Update UI Objects.vi"/>
+			<Item Name="Constants.vi" Type="VI" URL="../SubVIs/Constants.vi"/>
+			<Item Name="Frame.Get.Size.vi" Type="VI" URL="../SubVIs/Frame.Get.Size.vi"/>
+			<Item Name="Workspace.CAN.Protocol.Get.vi" Type="VI" URL="../SubVIs/Workspace.CAN.Protocol.Get.vi"/>
+			<Item Name="Workspace.Channels.Create.vi" Type="VI" URL="../SubVIs/Workspace.Channels.Create.vi"/>
+			<Item Name="Workspace.Close.vi" Type="VI" URL="../SubVIs/Workspace.Close.vi"/>
+			<Item Name="Workspace.CustomDevices.Get.vi" Type="VI" URL="../SubVIs/Workspace.CustomDevices.Get.vi"/>
+			<Item Name="Workspace.Initialize.vi" Type="VI" URL="../SubVIs/Workspace.Initialize.vi"/>
+			<Item Name="Workspace.Path.RemoveIP.vi" Type="VI" URL="../SubVIs/Workspace.Path.RemoveIP.vi"/>
+			<Item Name="Workspace.Select.Dialog.vi" Type="VI" URL="../SubVIs/Workspace.Select.Dialog.vi"/>
+			<Item Name="Workspace.Select.Initialize.vi" Type="VI" URL="../SubVIs/Workspace.Select.Initialize.vi"/>
+			<Item Name="Workspace.Targets.Get.vi" Type="VI" URL="../SubVIs/Workspace.Targets.Get.vi"/>
+			<Item Name="Workspace.UI.Pull.vi" Type="VI" URL="../SubVIs/Workspace.UI.Pull.vi"/>
+			<Item Name="Workspace.UI.Update.Captions.vi" Type="VI" URL="../SubVIs/Workspace.UI.Update.Captions.vi"/>
+			<Item Name="Workspace.UI.Update.vi" Type="VI" URL="../SubVIs/Workspace.UI.Update.vi"/>
+			<Item Name="XNET.Create.Frame.vi" Type="VI" URL="../SubVIs/XNET.Create.Frame.vi"/>
+			<Item Name="XNET.Create.Signal.vi" Type="VI" URL="../SubVIs/XNET.Create.Signal.vi"/>
 		</Item>
 		<Item Name="Types" Type="Folder">
 			<Item Name="986x.ctl" Type="VI" URL="../Types/986x.ctl"/>
@@ -71,12 +71,12 @@
 			<Item Name="Frame.Compile.ctl" Type="VI" URL="../Types/Frame.Compile.ctl"/>
 			<Item Name="Frame.Lookup.Info.ctl" Type="VI" URL="../Types/Frame.Lookup.Info.ctl"/>
 			<Item Name="Protocol.ctl" Type="VI" URL="../Types/Protocol.ctl"/>
-			<Item Name="RequestResponse Data Cluster.ctl" Type="VI" URL="../Types/RequestResponse Data Cluster.ctl"/>
 			<Item Name="Security.ctl" Type="VI" URL="../Types/Security.ctl"/>
 			<Item Name="Signal.ctl" Type="VI" URL="../Types/Signal.ctl"/>
 			<Item Name="SysDef.Compile.ctl" Type="VI" URL="../Types/SysDef.Compile.ctl"/>
 			<Item Name="SysDef.Compile.Properties.ctl" Type="VI" URL="../Types/SysDef.Compile.Properties.ctl"/>
 			<Item Name="SysDef.Compile.Refs.ctl" Type="VI" URL="../Types/SysDef.Compile.Refs.ctl"/>
+			<Item Name="TCP.Response.ctl" Type="VI" URL="../Types/TCP.Response.ctl"/>
 			<Item Name="Transport.ctl" Type="VI" URL="../Types/Transport.ctl"/>
 			<Item Name="Type.ctl" Type="VI" URL="../Types/Type.ctl"/>
 			<Item Name="UI.Refs.ctl" Type="VI" URL="../Types/UI.Refs.ctl"/>

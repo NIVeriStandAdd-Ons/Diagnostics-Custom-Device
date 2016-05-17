@@ -34,8 +34,8 @@
 	<Property Name="Serialized ACL" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!A1%!!!@````]!!".V&lt;H.J:WZF:#"C?82F)'&amp;S=G&amp;Z!!%!!1!!!!A)!!!!#!!!!!!!!!!</Property>
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
 	<Item Name="Engines" Type="Folder">
-		<Item Name="Diagnostics Main.vi" Type="VI" URL="../Async VIs/Diagnostics/Diagnostics Main.vi"/>
-		<Item Name="Display and Log Errors.vi" Type="VI" URL="../Async VIs/Error Handler/Display and Log Errors.vi"/>
+		<Item Name="Diagnostics.vi" Type="VI" URL="../Async VIs/Diagnostics/Diagnostics.vi"/>
+		<Item Name="ErrorHandler.vi" Type="VI" URL="../Async VIs/Error Handler/ErrorHandler.vi"/>
 	</Item>
 	<Item Name="STM" Type="Folder">
 		<Item Name="_SubVIs" Type="Folder">
@@ -82,56 +82,50 @@
 		<Item Name="TCP Connection Manager.vi" Type="VI" URL="../STM/TCP Connection Manager.vi"/>
 	</Item>
 	<Item Name="SubVIs" Type="Folder">
-		<Item Name="Build ADCS NIXNET Port String.vi" Type="VI" URL="../SubVIs/Build ADCS NIXNET Port String.vi"/>
-		<Item Name="Build Continuous DTC List.vi" Type="VI" URL="../SubVIs/Build Continuous DTC List.vi"/>
-		<Item Name="Channel Command Engine.vi" Type="VI" URL="../SubVIs/Channel Command Engine.vi"/>
-		<Item Name="Cleanup Conversion Sessions.vi" Type="VI" URL="../SubVIs/Cleanup Conversion Sessions.vi"/>
-		<Item Name="Cleanup.vi" Type="VI" URL="../SubVIs/Cleanup.vi"/>
-		<Item Name="Connection Engine.vi" Type="VI" URL="../SubVIs/Connection Engine.vi"/>
-		<Item Name="Convert Boolean to DBL Array.vi" Type="VI" URL="../SubVIs/Convert Boolean to DBL Array.vi"/>
-		<Item Name="Convert ID to Raw Data.vi" Type="VI" URL="../SubVIs/Convert ID to Raw Data.vi"/>
-		<Item Name="Convert XNET to CAN Frame.vi" Type="VI" URL="../SubVIs/Convert XNET to CAN Frame.vi"/>
-		<Item Name="Determine Active DTCs and Timestamps.vi" Type="VI" URL="../SubVIs/Determine Active DTCs and Timestamps.vi"/>
-		<Item Name="Diagnostic Engine.vi" Type="VI" URL="../SubVIs/Diagnostic Engine.vi"/>
-		<Item Name="DIDPID XNET Conversion Global Properties.vi" Type="VI" URL="../SubVIs/DIDPID XNET Conversion Global Properties.vi"/>
-		<Item Name="Download Bitfile.vi" Type="VI" URL="../SubVIs/Download Bitfile.vi"/>
-		<Item Name="Execute Security DLL.vi" Type="VI" URL="../SubVIs/Execute Security DLL.vi"/>
-		<Item Name="Filter Changed DTCs.vi" Type="VI" URL="../SubVIs/Filter Changed DTCs.vi"/>
-		<Item Name="Get and Initialize Channel Refs.vi" Type="VI" URL="../SubVIs/Get and Initialize Channel Refs.vi"/>
-		<Item Name="Get Error Byte.vi" Type="VI" URL="../SubVIs/Get Error Byte.vi"/>
-		<Item Name="IndexAndScaleGeneratedData.vi" Type="VI" URL="../SubVIs/IndexAndScaleGeneratedData.vi"/>
-		<Item Name="Initialize CAN Cluster.vi" Type="VI" URL="../SubVIs/Initialize CAN Cluster.vi"/>
-		<Item Name="Initialize CAN.vi" Type="VI" URL="../SubVIs/Initialize CAN.vi"/>
-		<Item Name="Initialize Database.vi" Type="VI" URL="../SubVIs/Initialize Database.vi"/>
-		<Item Name="Initialize Diagnostics Main.vi" Type="VI" URL="../SubVIs/Initialize Diagnostics Main.vi"/>
-		<Item Name="Initialize DIDPID Cluster.vi" Type="VI" URL="../SubVIs/Initialize DIDPID Cluster.vi"/>
-		<Item Name="Initialize DPIDs Cluster.vi" Type="VI" URL="../SubVIs/Initialize DPIDs Cluster.vi"/>
-		<Item Name="Initialize Raw XNET Frame.vi" Type="VI" URL="../SubVIs/Initialize Raw XNET Frame.vi"/>
-		<Item Name="Initialize TCP Refs.vi" Type="VI" URL="../SubVIs/Initialize TCP Refs.vi"/>
-		<Item Name="Lookup Message Size Bytes.vi" Type="VI" URL="../SubVIs/Lookup Message Size Bytes.vi"/>
-		<Item Name="Network Command Engine.vi" Type="VI" URL="../SubVIs/Network Command Engine.vi"/>
-		<Item Name="Read and Load Bitfile.vi" Type="VI" URL="../SubVIs/Read and Load Bitfile.vi"/>
-		<Item Name="Read GMLAN PIDs and DTCs.vi" Type="VI" URL="../SubVIs/Read GMLAN PIDs and DTCs.vi"/>
-		<Item Name="Read PIDDIDs.vi" Type="VI" URL="../SubVIs/Read PIDDIDs.vi"/>
-		<Item Name="ScaleAndReplaceAcquiredData.vi" Type="VI" URL="../SubVIs/ScaleAndReplaceAcquiredData.vi"/>
-		<Item Name="Sort DPID IDs by Speed.vi" Type="VI" URL="../SubVIs/Sort DPID IDs by Speed.vi"/>
-		<Item Name="Tester Present.vi" Type="VI" URL="../SubVIs/Tester Present.vi"/>
-		<Item Name="UDS Diagnostics Engine.vi" Type="VI" URL="../SubVIs/UDS Diagnostics Engine.vi"/>
-		<Item Name="Unload Bitfile.vi" Type="VI" URL="../SubVIs/Unload Bitfile.vi"/>
-		<Item Name="Unlock ECU Security.vi" Type="VI" URL="../SubVIs/Unlock ECU Security.vi"/>
-		<Item Name="UpdateStatusChannels.vi" Type="VI" URL="../SubVIs/UpdateStatusChannels.vi"/>
+		<Item Name="ADCS.Get.ErrorByte.vi" Type="VI" URL="../SubVIs/ADCS.Get.ErrorByte.vi"/>
+		<Item Name="ADCS.Port.Create.vi" Type="VI" URL="../SubVIs/ADCS.Port.Create.vi"/>
+		<Item Name="ADCS.TesterPresent.vi" Type="VI" URL="../SubVIs/ADCS.TesterPresent.vi"/>
+		<Item Name="ADCS.UnlockECUSecurity.vi" Type="VI" URL="../SubVIs/ADCS.UnlockECUSecurity.vi"/>
+		<Item Name="Bitfile.Download.vi" Type="VI" URL="../SubVIs/Bitfile.Download.vi"/>
+		<Item Name="Bitfile.Initialize.vi" Type="VI" URL="../SubVIs/Bitfile.Initialize.vi"/>
+		<Item Name="Bitfile.Unload.vi" Type="VI" URL="../SubVIs/Bitfile.Unload.vi"/>
+		<Item Name="CAN.Initialize.vi" Type="VI" URL="../SubVIs/CAN.Initialize.vi"/>
+		<Item Name="Diagnostics.Channel.Engine.vi" Type="VI" URL="../SubVIs/Diagnostics.Channel.Engine.vi"/>
+		<Item Name="Diagnostics.Cleanup.vi" Type="VI" URL="../SubVIs/Diagnostics.Cleanup.vi"/>
+		<Item Name="Diagnostics.Main.CmdResp.Engine.vi" Type="VI" URL="../SubVIs/Diagnostics.Main.CmdResp.Engine.vi"/>
+		<Item Name="Diagnostics.Main.Initialize.vi" Type="VI" URL="../SubVIs/Diagnostics.Main.Initialize.vi"/>
+		<Item Name="Diagnostics.Main.UUDT.Engine.vi" Type="VI" URL="../SubVIs/Diagnostics.Main.UUDT.Engine.vi"/>
+		<Item Name="Diagnostics.Main.vi" Type="VI" URL="../SubVIs/Diagnostics.Main.vi"/>
+		<Item Name="Diagnostics.TCP.Command.Engine.vi" Type="VI" URL="../SubVIs/Diagnostics.TCP.Command.Engine.vi"/>
+		<Item Name="Diagnostics.TCP.Connect.Engine.vi" Type="VI" URL="../SubVIs/Diagnostics.TCP.Connect.Engine.vi"/>
+		<Item Name="DPIDs.IDs.Sort.vi" Type="VI" URL="../SubVIs/DPIDs.IDs.Sort.vi"/>
+		<Item Name="DPIDs.Initialize.vi" Type="VI" URL="../SubVIs/DPIDs.Initialize.vi"/>
+		<Item Name="DTCs.List.Update.vi" Type="VI" URL="../SubVIs/DTCs.List.Update.vi"/>
+		<Item Name="Frame.Build.Raw.vi" Type="VI" URL="../SubVIs/Frame.Build.Raw.vi"/>
+		<Item Name="Frames.Initialize.vi" Type="VI" URL="../SubVIs/Frames.Initialize.vi"/>
+		<Item Name="Frames.Lookup.Size.Get.vi" Type="VI" URL="../SubVIs/Frames.Lookup.Size.Get.vi"/>
+		<Item Name="Frames.Refs.Cleanup.vi" Type="VI" URL="../SubVIs/Frames.Refs.Cleanup.vi"/>
+		<Item Name="ID.Convert.Raw.vi" Type="VI" URL="../SubVIs/ID.Convert.Raw.vi"/>
+		<Item Name="RTMain.Refs.Initialize.vi" Type="VI" URL="../SubVIs/RTMain.Refs.Initialize.vi"/>
+		<Item Name="Security.DLL" Type="VI" URL="../SubVIs/Security.DLL"/>
+		<Item Name="Signals.Scale.EU.vi" Type="VI" URL="../SubVIs/Signals.Scale.EU.vi"/>
+		<Item Name="Signals.Scale.Raw.vi" Type="VI" URL="../SubVIs/Signals.Scale.Raw.vi"/>
+		<Item Name="Status.Set.vi" Type="VI" URL="../SubVIs/Status.Set.vi"/>
+		<Item Name="TCP.Initialize.Refs.vi" Type="VI" URL="../SubVIs/TCP.Initialize.Refs.vi"/>
+		<Item Name="Type.Convert.String.vi" Type="VI" URL="../SubVIs/Type.Convert.String.vi"/>
+		<Item Name="XNET.Cluster.Initialize.vi" Type="VI" URL="../SubVIs/XNET.Cluster.Initialize.vi"/>
+		<Item Name="XNET.DB.Initialize.vi" Type="VI" URL="../SubVIs/XNET.DB.Initialize.vi"/>
 	</Item>
 	<Item Name="Types" Type="Folder">
-		<Item Name="CAN Cluster.ctl" Type="VI" URL="../Types/CAN Cluster.ctl"/>
-		<Item Name="Change DTC Count Cluster.ctl" Type="VI" URL="../Types/Change DTC Count Cluster.ctl"/>
-		<Item Name="CPID Conversion Cluster.ctl" Type="VI" URL="../Types/CPID Conversion Cluster.ctl"/>
-		<Item Name="Filtered DPID IDs.ctl" Type="VI" URL="../Types/Filtered DPID IDs.ctl"/>
-		<Item Name="Main Configuration.ctl" Type="VI" URL="../Types/Main Configuration.ctl"/>
-		<Item Name="PID Data.ctl" Type="VI" URL="../Types/PID Data.ctl"/>
-		<Item Name="State Variables.ctl" Type="VI" URL="../Types/State Variables.ctl"/>
-		<Item Name="TCP Refs.ctl" Type="VI" URL="../Types/TCP Refs.ctl"/>
-		<Item Name="VS Data Channels.ctl" Type="VI" URL="../Types/VS Data Channels.ctl"/>
-		<Item Name="XNET References.ctl" Type="VI" URL="../Types/XNET References.ctl"/>
+		<Item Name="Diagnostics.State.ctl" Type="VI" URL="../Types/Diagnostics.State.ctl"/>
+		<Item Name="DPIDs.IDs.Sorted.ctl" Type="VI" URL="../Types/DPIDs.IDs.Sorted.ctl"/>
+		<Item Name="DTC.ChangeCount.Info.ctl" Type="VI" URL="../Types/DTC.ChangeCount.Info.ctl"/>
+		<Item Name="Engine.Refs.ctl" Type="VI" URL="../Types/Engine.Refs.ctl"/>
+		<Item Name="Engine.State.ctl" Type="VI" URL="../Types/Engine.State.ctl"/>
+		<Item Name="Frame.Data.ctl" Type="VI" URL="../Types/Frame.Data.ctl"/>
+		<Item Name="TCP.Refs.ctl" Type="VI" URL="../Types/TCP.Refs.ctl"/>
+		<Item Name="XNET.Cluster.ctl" Type="VI" URL="../Types/XNET.Cluster.ctl"/>
+		<Item Name="XNET.Refs.ctl" Type="VI" URL="../Types/XNET.Refs.ctl"/>
 	</Item>
 	<Item Name="Userlib" Type="Folder">
 		<Item Name="Error Handling API.lvlib" Type="Library" URL="../SubVIs/Error Handling API/Error Handling API.lvlib"/>
