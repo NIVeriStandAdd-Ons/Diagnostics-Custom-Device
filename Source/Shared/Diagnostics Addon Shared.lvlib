@@ -53,46 +53,36 @@
 			<Item Name="Workspace Update UI Objects.vi" Type="VI" URL="../SubVIs/Workspace Update UI Objects.vi"/>
 		</Item>
 		<Item Name="Types" Type="Folder">
-			<Item Name="CAN Configuration.ctl" Type="VI" URL="../Types/CAN Configuration.ctl"/>
-			<Item Name="CAN Frame.ctl" Type="VI" URL="../Types/CAN Frame.ctl"/>
-			<Item Name="CAN Interface.ctl" Type="VI" URL="../Types/CAN Interface.ctl"/>
-			<Item Name="CD Saved State.ctl" Type="VI" URL="../Types/CD Saved State.ctl"/>
-			<Item Name="Channel Commands Enum.ctl" Type="VI" URL="../Types/Channel Commands Enum.ctl"/>
-			<Item Name="CmdResp Refs.ctl" Type="VI" URL="../Types/CmdResp Refs.ctl"/>
-			<Item Name="Command Response Signals.ctl" Type="VI" URL="../Types/Command Response Signals.ctl"/>
-			<Item Name="Common Frame Parameters.ctl" Type="VI" URL="../Types/Common Frame Parameters.ctl"/>
-			<Item Name="Communication Parameters.ctl" Type="VI" URL="../Types/Communication Parameters.ctl"/>
-			<Item Name="Compiled Routine Lookups.ctl" Type="VI" URL="../Types/Compiled Routine Lookups.ctl"/>
-			<Item Name="Compiled Routine Refs.ctl" Type="VI" URL="../Types/Compiled Routine Refs.ctl"/>
-			<Item Name="Compiled.Refs.ctl" Type="VI" URL="../Types/Compiled.Refs.ctl"/>
-			<Item Name="Compiled.Settings.ctl" Type="VI" URL="../Types/Compiled.Settings.ctl"/>
-			<Item Name="Datatable Lookup Positions.ctl" Type="VI" URL="../Types/Datatable Lookup Positions.ctl"/>
-			<Item Name="Diagnostic Protocols.ctl" Type="VI" URL="../Types/Diagnostic Protocols.ctl"/>
-			<Item Name="DPID Lookup Cluster.ctl" Type="VI" URL="../Types/DPID Lookup Cluster.ctl"/>
-			<Item Name="DPID Lookup PID Information.ctl" Type="VI" URL="../Types/DPID Lookup PID Information.ctl"/>
-			<Item Name="DPID Parameters.ctl" Type="VI" URL="../Types/DPID Parameters.ctl"/>
-			<Item Name="DPID Periodic Rate.ctl" Type="VI" URL="../Types/DPID Periodic Rate.ctl"/>
-			<Item Name="DTC and Timestamp Cluster.ctl" Type="VI" URL="../Types/DTC and Timestamp Cluster.ctl"/>
-			<Item Name="DTC Descriptor Parameters.ctl" Type="VI" URL="../Types/DTC Descriptor Parameters.ctl"/>
-			<Item Name="Exported DTC Control Cluster.ctl" Type="VI" URL="../Types/Exported DTC Control Cluster.ctl"/>
-			<Item Name="Exported IO Control Cluster.ctl" Type="VI" URL="../Types/Exported IO Control Cluster.ctl"/>
-			<Item Name="Exported Routines Cluster.ctl" Type="VI" URL="../Types/Exported Routines Cluster.ctl"/>
-			<Item Name="FPGA Bitfile Settings.ctl" Type="VI" URL="../Types/FPGA Bitfile Settings.ctl"/>
-			<Item Name="Frame Parameters.ctl" Type="VI" URL="../Types/Frame Parameters.ctl"/>
-			<Item Name="Input Output Cmd Parameters.ctl" Type="VI" URL="../Types/Input Output Cmd Parameters.ctl"/>
-			<Item Name="IO Control Parameters.ctl" Type="VI" URL="../Types/IO Control Parameters.ctl"/>
-			<Item Name="Memory Command Parameters.ctl" Type="VI" URL="../Types/Memory Command Parameters.ctl"/>
-			<Item Name="MessageType Selector.ctl" Type="VI" URL="../Types/MessageType Selector.ctl"/>
-			<Item Name="PassThru Channel Based Command Parameters.ctl" Type="VI" URL="../Types/PassThru Channel Based Command Parameters.ctl"/>
-			<Item Name="ReadDTCbyDTCNumber Parameters.ctl" Type="VI" URL="../Types/ReadDTCbyDTCNumber Parameters.ctl"/>
+			<Item Name="986x.ctl" Type="VI" URL="../Types/986x.ctl"/>
+			<Item Name="CAN.ctl" Type="VI" URL="../Types/CAN.ctl"/>
+			<Item Name="CAN.Interface.ctl" Type="VI" URL="../Types/CAN.Interface.ctl"/>
+			<Item Name="Command.Communication.ctl" Type="VI" URL="../Types/Command.Communication.ctl"/>
+			<Item Name="Command.ctl" Type="VI" URL="../Types/Command.ctl"/>
+			<Item Name="Command.IO.ctl" Type="VI" URL="../Types/Command.IO.ctl"/>
+			<Item Name="Command.Memory.ctl" Type="VI" URL="../Types/Command.Memory.ctl"/>
+			<Item Name="Command.PassThru.Channel.ctl" Type="VI" URL="../Types/Command.PassThru.Channel.ctl"/>
+			<Item Name="Command.ReadDTCbyDTCNumber.ctl" Type="VI" URL="../Types/Command.ReadDTCbyDTCNumber.ctl"/>
+			<Item Name="DPID.ctl" Type="VI" URL="../Types/DPID.ctl"/>
+			<Item Name="DPID.Lookup.Info.ctl" Type="VI" URL="../Types/DPID.Lookup.Info.ctl"/>
+			<Item Name="DPID.Lookup.Info.PID.ctl" Type="VI" URL="../Types/DPID.Lookup.Info.PID.ctl"/>
+			<Item Name="DPID.Rate.ctl" Type="VI" URL="../Types/DPID.Rate.ctl"/>
+			<Item Name="DTC.Info.ctl" Type="VI" URL="../Types/DTC.Info.ctl"/>
+			<Item Name="DTCDescriptor.ctl" Type="VI" URL="../Types/DTCDescriptor.ctl"/>
+			<Item Name="Frame.Compile.ctl" Type="VI" URL="../Types/Frame.Compile.ctl"/>
+			<Item Name="Frame.Lookup.Info.ctl" Type="VI" URL="../Types/Frame.Lookup.Info.ctl"/>
+			<Item Name="Protocol.ctl" Type="VI" URL="../Types/Protocol.ctl"/>
 			<Item Name="RequestResponse Data Cluster.ctl" Type="VI" URL="../Types/RequestResponse Data Cluster.ctl"/>
-			<Item Name="Routine Paramaters.ctl" Type="VI" URL="../Types/Routine Paramaters.ctl"/>
-			<Item Name="Section Properties.ctl" Type="VI" URL="../Types/Section Properties.ctl"/>
 			<Item Name="Security.ctl" Type="VI" URL="../Types/Security.ctl"/>
-			<Item Name="Signal Parameters.ctl" Type="VI" URL="../Types/Signal Parameters.ctl"/>
-			<Item Name="Transport Protocols.ctl" Type="VI" URL="../Types/Transport Protocols.ctl"/>
+			<Item Name="Signal.ctl" Type="VI" URL="../Types/Signal.ctl"/>
+			<Item Name="SysDef.Compile.ctl" Type="VI" URL="../Types/SysDef.Compile.ctl"/>
+			<Item Name="SysDef.Compile.Properties.ctl" Type="VI" URL="../Types/SysDef.Compile.Properties.ctl"/>
+			<Item Name="SysDef.Compile.Refs.ctl" Type="VI" URL="../Types/SysDef.Compile.Refs.ctl"/>
+			<Item Name="Transport.ctl" Type="VI" URL="../Types/Transport.ctl"/>
+			<Item Name="Type.ctl" Type="VI" URL="../Types/Type.ctl"/>
 			<Item Name="UI.Refs.ctl" Type="VI" URL="../Types/UI.Refs.ctl"/>
-			<Item Name="Workspace Object State Variables.ctl" Type="VI" URL="../Types/Workspace Object State Variables.ctl"/>
+			<Item Name="Workspace.SavedState.ctl" Type="VI" URL="../Types/Workspace.SavedState.ctl"/>
+			<Item Name="Workspace.State.ctl" Type="VI" URL="../Types/Workspace.State.ctl"/>
+			<Item Name="XNET.Frame.ctl" Type="VI" URL="../Types/XNET.Frame.ctl"/>
 		</Item>
 	</Item>
 </Library>
