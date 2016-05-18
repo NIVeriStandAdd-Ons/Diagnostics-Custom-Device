@@ -159,4 +159,5 @@
 			<Item Name="SysDef.Export.ctl" Type="VI" URL="../Types/SysDef.Export.ctl"/>
 		</Item>
 	</Item>
+	<Item Name="Help.Page.Get.vi" Type="VI" URL="../SubVIs/Help.Page.Get.vi"/>
 </Library>

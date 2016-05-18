@@ -61,6 +61,7 @@
 			<Item Name="Command.IO.ctl" Type="VI" URL="../Types/Command.IO.ctl"/>
 			<Item Name="Command.Memory.ctl" Type="VI" URL="../Types/Command.Memory.ctl"/>
 			<Item Name="Command.PassThru.Channel.ctl" Type="VI" URL="../Types/Command.PassThru.Channel.ctl"/>
+			<Item Name="Command.ReadDTC.ctl" Type="VI" URL="../Types/Command.ReadDTC.ctl"/>
 			<Item Name="Command.ReadDTCbyDTCNumber.ctl" Type="VI" URL="../Types/Command.ReadDTCbyDTCNumber.ctl"/>
 			<Item Name="DPID.ctl" Type="VI" URL="../Types/DPID.ctl"/>
 			<Item Name="DPID.Lookup.Info.ctl" Type="VI" URL="../Types/DPID.Lookup.Info.ctl"/>

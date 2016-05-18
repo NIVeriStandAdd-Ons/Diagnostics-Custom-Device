@@ -12,8 +12,8 @@
 		<Item Name="Disconnect.vi" Type="VI" URL="../Disconnect.vi"/>
 		<Item Name="EnableDiagnosticSession.vi" Type="VI" URL="../EnableDiagnosticSession.vi"/>
 		<Item Name="PassThru.vi" Type="VI" URL="../PassThru.vi"/>
-		<Item Name="ReadActiveDTCs.vi" Type="VI" URL="../ReadActiveDTCs.vi"/>
-		<Item Name="ReadDataByIdentifiers.vi" Type="VI" URL="../ReadDataByIdentifiers.vi"/>
+		<Item Name="ReadDIDs.vi" Type="VI" URL="../ReadDIDs.vi"/>
+		<Item Name="ReadDTCs.vi" Type="VI" URL="../ReadDTCs.vi"/>
 		<Item Name="ReturnToNormalMode.vi" Type="VI" URL="../ReturnToNormalMode.vi"/>
 		<Item Name="UnlockECU.vi" Type="VI" URL="../UnlockECU.vi"/>
 	</Item>
@@ -21,7 +21,7 @@
 		<Item Name="ConfigurePIDs.vi" Type="VI" URL="../ConfigurePIDs.vi"/>
 		<Item Name="DisableChangeDTCsCount.vi" Type="VI" URL="../DisableChangeDTCsCount.vi"/>
 		<Item Name="EnableChangeDTCsCount.vi" Type="VI" URL="../EnableChangeDTCsCount.vi"/>
-		<Item Name="ReadDIDs.vi" Type="VI" URL="../ReadDIDs.vi"/>
+		<Item Name="ReadDataByIdentifiers.vi" Type="VI" URL="../ReadDataByIdentifiers.vi"/>
 		<Item Name="ReadDTCByDTCNumber.vi" Type="VI" URL="../ReadDTCByDTCNumber.vi"/>
 		<Item Name="StartDTCs.vi" Type="VI" URL="../StartDTCs.vi"/>
 		<Item Name="StartPIDs.vi" Type="VI" URL="../StartPIDs.vi"/>
