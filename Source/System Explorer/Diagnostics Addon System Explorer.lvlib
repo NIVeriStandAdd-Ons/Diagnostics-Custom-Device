@@ -103,6 +103,7 @@
 			<Item Name="Frames.Export.vi" Type="VI" URL="../SubVIs/Frames.Export.vi"/>
 			<Item Name="Get Listbox Row.vi" Type="VI" URL="../SubVIs/Get Listbox Row.vi"/>
 			<Item Name="Get Signals.vi" Type="VI" URL="../SubVIs/Get Signals.vi"/>
+			<Item Name="Help.Page.Get.vi" Type="VI" URL="../SubVIs/Help.Page.Get.vi"/>
 			<Item Name="Help.Set.vi" Type="VI" URL="../SubVIs/Help.Set.vi"/>
 			<Item Name="ID.FG.vi" Type="VI" URL="../SubVIs/ID.FG.vi"/>
 			<Item Name="IO.Create.vi" Type="VI" URL="../SubVIs/IO.Create.vi"/>
@@ -159,5 +160,4 @@
 			<Item Name="SysDef.Export.ctl" Type="VI" URL="../Types/SysDef.Export.ctl"/>
 		</Item>
 	</Item>
-	<Item Name="Help.Page.Get.vi" Type="VI" URL="../SubVIs/Help.Page.Get.vi"/>
 </Library>

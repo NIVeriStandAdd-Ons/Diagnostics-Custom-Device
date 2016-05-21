@@ -26,15 +26,17 @@ pdf.js
 DPID.html
 DPIDs.html
 DTCs.html
-Input PIDs.html
 MainPage_Diag.html
-PID.html
 PIDs.html
 Status.html
-DID.html
 DIDs.html
-Output PIDs.html
 Commands.html
+Frame.html
+Inputs.html
+Memory.html
+Outputs.html
+IO Controls.html
+Routines.html
 
 [INFOTYPES]
 

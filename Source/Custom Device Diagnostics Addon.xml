@@ -405,8 +405,8 @@
           <GUID>284ec0d1-0279-4002-be6b-dd29e84743be</GUID>
           <Type>Action</Type>
           <Name>
-            <eng>Edit PID</eng>
-            <loc>Edit PID</loc>
+            <eng>Edit</eng>
+            <loc>Edit</loc>
           </Name>
           <Item2Launch>
             <Type>To Common Doc Dir</Type>
@@ -453,7 +453,7 @@
       </RunTimeMenu>
       <ButtonList>
         <Button>
-          <ID>Edit PID</ID>
+          <ID>Edit Frame</ID>
           <Glyph>
             <Type>To Application Data Dir</Type>
             <Path>System Explorer\Glyphs\editopen.png</Path>
@@ -461,16 +461,16 @@
           <Type>Action</Type>
           <ReferencedGUID>284ec0d1-0279-4002-be6b-dd29e84743be</ReferencedGUID>
           <ButtonText>
-            <eng>Edit PID</eng>
-            <loc>Edit PID</loc>
+            <eng>Edit</eng>
+            <loc>Edit</loc>
           </ButtonText>
           <Caption>
-            <eng>Edit PID</eng>
-            <loc>Edit PID</loc>
+            <eng>Edit</eng>
+            <loc>Edit</loc>
           </Caption>
           <TipStrip>
-            <eng>Edit PID</eng>
-            <loc>Edit PID</loc>
+            <eng>Edit</eng>
+            <loc>Edit</loc>
           </TipStrip>
           <Documentation>
             <eng></eng>
@@ -499,8 +499,8 @@
           <GUID>8857c113-f58b-4d98-ac82-633826442a96</GUID>
           <Type>Action</Type>
           <Name>
-            <eng>Edit DID</eng>
-            <loc>Edit DID</loc>
+            <eng>Edit</eng>
+            <loc>Edit</loc>
           </Name>
           <Item2Launch>
             <Type>To Common Doc Dir</Type>
@@ -547,7 +547,7 @@
       </RunTimeMenu>
       <ButtonList>
         <Button>
-          <ID>Edit DID</ID>
+          <ID>Edit Frame</ID>
           <Glyph>
             <Type>To Application Data Dir</Type>
             <Path>System Explorer\Glyphs\editopen.png</Path>
@@ -555,16 +555,16 @@
           <Type>Action</Type>
           <ReferencedGUID>8857c113-f58b-4d98-ac82-633826442a96</ReferencedGUID>
           <ButtonText>
-            <eng>Edit DID</eng>
-            <loc>Edit DID</loc>
+            <eng>Edit</eng>
+            <loc>Edit</loc>
           </ButtonText>
           <Caption>
-            <eng>Edit DID</eng>
-            <loc>Edit DID</loc>
+            <eng>Edit</eng>
+            <loc>Edit</loc>
           </Caption>
           <TipStrip>
-            <eng>Edit DID</eng>
-            <loc>Edit DID</loc>
+            <eng>Edit</eng>
+            <loc>Edit</loc>
           </TipStrip>
           <Documentation>
             <eng></eng>
@@ -594,8 +594,8 @@
           <GUID>352be800-ba9e-42f5-9bda-213a165cafce</GUID>
           <Type>Action</Type>
           <Name>
-            <eng>Add PID</eng>
-            <loc>Add PID</loc>
+            <eng>Add</eng>
+            <loc>Add</loc>
           </Name>
           <Item2Launch>
             <Type>To Common Doc Dir</Type>
@@ -630,7 +630,7 @@
       </RunTimeMenu>
       <ButtonList>
         <Button>
-          <ID>Add PID</ID>
+          <ID>Add Frame</ID>
           <Glyph>
             <Type>To Application Data Dir</Type>
             <Path>System Explorer\Glyphs\Add Procedures.png</Path>
@@ -638,16 +638,16 @@
           <Type>Action</Type>
           <ReferencedGUID>352be800-ba9e-42f5-9bda-213a165cafce</ReferencedGUID>
           <ButtonText>
-            <eng>Add PID</eng>
-            <loc>Add PID</loc>
+            <eng>Add</eng>
+            <loc>Add</loc>
           </ButtonText>
           <Caption>
-            <eng>Add PID</eng>
-            <loc>Add PID</loc>
+            <eng>Add</eng>
+            <loc>Add</loc>
           </Caption>
           <TipStrip>
-            <eng>Add PID</eng>
-            <loc>Add PID</loc>
+            <eng>Add</eng>
+            <loc>Add</loc>
           </TipStrip>
           <Documentation>
             <eng></eng>
@@ -677,8 +677,8 @@
           <GUID>352be800-ba9e-42f5-9bda-213a165cafce</GUID>
           <Type>Action</Type>
           <Name>
-            <eng>Add PID</eng>
-            <loc>Add PID</loc>
+            <eng>Add</eng>
+            <loc>Add</loc>
           </Name>
           <Item2Launch>
             <Type>To Common Doc Dir</Type>
@@ -713,7 +713,7 @@
       </RunTimeMenu>
       <ButtonList>
         <Button>
-          <ID>Add PID</ID>
+          <ID>Add Frame</ID>
           <Glyph>
             <Type>To Application Data Dir</Type>
             <Path>System Explorer\Glyphs\Add Procedures.png</Path>
@@ -721,16 +721,16 @@
           <Type>Action</Type>
           <ReferencedGUID>352be800-ba9e-42f5-9bda-213a165cafce</ReferencedGUID>
           <ButtonText>
-            <eng>Add PID</eng>
-            <loc>Add PID</loc>
+            <eng>Add</eng>
+            <loc>Add</loc>
           </ButtonText>
           <Caption>
-            <eng>Add PID</eng>
-            <loc>Add PID</loc>
+            <eng>Add</eng>
+            <loc>Add</loc>
           </Caption>
           <TipStrip>
-            <eng>Add PID</eng>
-            <loc>Add PID</loc>
+            <eng>Add</eng>
+            <loc>Add</loc>
           </TipStrip>
           <Documentation>
             <eng></eng>
@@ -760,8 +760,8 @@
           <GUID>352be800-ba9e-42f5-9bda-213a165cafce</GUID>
           <Type>Action</Type>
           <Name>
-            <eng>Add DID</eng>
-            <loc>Add DID</loc>
+            <eng>Add</eng>
+            <loc>Add</loc>
           </Name>
           <Item2Launch>
             <Type>To Common Doc Dir</Type>
@@ -796,7 +796,7 @@
       </RunTimeMenu>
       <ButtonList>
         <Button>
-          <ID>Add DID</ID>
+          <ID>Add Frame</ID>
           <Glyph>
             <Type>To Application Data Dir</Type>
             <Path>System Explorer\Glyphs\Add Procedures.png</Path>
@@ -804,16 +804,16 @@
           <Type>Action</Type>
           <ReferencedGUID>352be800-ba9e-42f5-9bda-213a165cafce</ReferencedGUID>
           <ButtonText>
-            <eng>Add DID</eng>
-            <loc>Add DID</loc>
+            <eng>Add</eng>
+            <loc>Add</loc>
           </ButtonText>
           <Caption>
-            <eng>Add DID</eng>
-            <loc>Add DID</loc>
+            <eng>Add</eng>
+            <loc>Add</loc>
           </Caption>
           <TipStrip>
-            <eng>Add DID</eng>
-            <loc>Add DID</loc>
+            <eng>Add</eng>
+            <loc>Add</loc>
           </TipStrip>
           <Documentation>
             <eng></eng>
@@ -843,8 +843,8 @@
           <GUID>b48b72c5-2dad-4106-88ae-b9e4557d868b</GUID>
           <Type>Action</Type>
           <Name>
-            <eng>Add DID</eng>
-            <loc>Add DID</loc>
+            <eng>Add</eng>
+            <loc>Add</loc>
           </Name>
           <Item2Launch>
             <Type>To Common Doc Dir</Type>
@@ -879,7 +879,7 @@
       </RunTimeMenu>
       <ButtonList>
         <Button>
-          <ID>Add DID</ID>
+          <ID>Add Frame</ID>
           <Glyph>
             <Type>To Application Data Dir</Type>
             <Path>System Explorer\Glyphs\Add Procedures.png</Path>
@@ -887,16 +887,16 @@
           <Type>Action</Type>
           <ReferencedGUID>b48b72c5-2dad-4106-88ae-b9e4557d868b</ReferencedGUID>
           <ButtonText>
-            <eng>Add DID</eng>
-            <loc>Add DID</loc>
+            <eng>Add</eng>
+            <loc>Add</loc>
           </ButtonText>
           <Caption>
-            <eng>Add DID</eng>
-            <loc>Add DID</loc>
+            <eng>Add</eng>
+            <loc>Add</loc>
           </Caption>
           <TipStrip>
-            <eng>Add DID</eng>
-            <loc>Add DID</loc>
+            <eng>Add</eng>
+            <loc>Add</loc>
           </TipStrip>
           <Documentation>
             <eng></eng>
@@ -943,8 +943,8 @@
           <GUID>21b2910a-55ca-4795-a696-849d6748f9de</GUID>
           <Type>Action</Type>
           <Name>
-            <eng>Add DPID</eng>
-            <loc>Add DPID</loc>
+            <eng>Add</eng>
+            <loc>Add</loc>
           </Name>
           <Item2Launch>
             <Type>To Common Doc Dir</Type>
@@ -987,16 +987,16 @@
           <Type>Action</Type>
           <ReferencedGUID>21b2910a-55ca-4795-a696-849d6748f9de</ReferencedGUID>
           <ButtonText>
-            <eng>Add DPID</eng>
-            <loc>Add DPID</loc>
+            <eng>Add</eng>
+            <loc>Add</loc>
           </ButtonText>
           <Caption>
-            <eng>Add DPID</eng>
-            <loc>Add DPID</loc>
+            <eng>Add</eng>
+            <loc>Add</loc>
           </Caption>
           <TipStrip>
-            <eng>Add DPID</eng>
-            <loc>Add DPID</loc>
+            <eng>Add</eng>
+            <loc>Add</loc>
           </TipStrip>
           <Documentation>
             <eng></eng>
@@ -1024,8 +1024,8 @@
           <GUID>61a40440-050b-412c-9848-cf7e07fc3605</GUID>
           <Type>Action</Type>
           <Name>
-            <eng>Edit DPID</eng>
-            <loc>Edit DPID</loc>
+            <eng>Edit</eng>
+            <loc>Edit</loc>
           </Name>
           <Item2Launch>
             <Type>To Common Doc Dir</Type>
@@ -1067,16 +1067,16 @@
           <Type>Action</Type>
           <ReferencedGUID>61a40440-050b-412c-9848-cf7e07fc3605</ReferencedGUID>
           <ButtonText>
-            <eng>Edit DPID</eng>
-            <loc>Edit DPID</loc>
+            <eng>Edit</eng>
+            <loc>Edit</loc>
           </ButtonText>
           <Caption>
-            <eng>Edit DPID</eng>
-            <loc>Edit DPID</loc>
+            <eng>Edit</eng>
+            <loc>Edit</loc>
           </Caption>
           <TipStrip>
-            <eng>Edit DPID</eng>
-            <loc>Edit DPID</loc>
+            <eng>Edit</eng>
+            <loc>Edit</loc>
           </TipStrip>
           <Documentation>
             <eng></eng>
@@ -1134,8 +1134,8 @@
     </Page>
     <Page>
       <Name>
-        <eng>IO Control</eng>
-        <loc>IO Control</loc>
+        <eng>IO Controls</eng>
+        <loc>IO Controls</loc>
       </Name>
       <DisallowRenaming>true</DisallowRenaming>
       <DeleteProtection>true</DeleteProtection>
@@ -1153,8 +1153,8 @@
           <GUID>3b61a637-4f28-4d8a-bff1-50d8bdf81ce7</GUID>
           <Type>Action</Type>
           <Name>
-            <eng>Add IO</eng>
-            <loc>Add IO</loc>
+            <eng>Add</eng>
+            <loc>Add</loc>
           </Name>
           <Item2Launch>
             <Type>To Common Doc Dir</Type>
@@ -1189,7 +1189,7 @@
       </RunTimeMenu>
       <ButtonList>
         <Button>
-          <ID>Add IO</ID>
+          <ID>Add Collection</ID>
           <Glyph>
             <Type>To Application Data Dir</Type>
             <Path>System Explorer\Glyphs\Add Procedures.png</Path>
@@ -1197,16 +1197,16 @@
           <Type>Action</Type>
           <ReferencedGUID>3b61a637-4f28-4d8a-bff1-50d8bdf81ce7</ReferencedGUID>
           <ButtonText>
-            <eng>Add IO</eng>
-            <loc>Add IO</loc>
+            <eng>Add</eng>
+            <loc>Add</loc>
           </ButtonText>
           <Caption>
-            <eng>Add IO</eng>
-            <loc>Add IO</loc>
+            <eng>Add</eng>
+            <loc>Add</loc>
           </Caption>
           <TipStrip>
-            <eng>Add IO</eng>
-            <loc>Add IO</loc>
+            <eng>Add</eng>
+            <loc>Add</loc>
           </TipStrip>
           <Documentation>
             <eng></eng>
@@ -1267,8 +1267,8 @@
           <GUID>3a23cb57-a9db-4a7a-a167-7b017d9eb483</GUID>
           <Type>Action</Type>
           <Name>
-            <eng>Edit Signals</eng>
-            <loc>Edit Signals</loc>
+            <eng>Edit</eng>
+            <loc>Edit</loc>
           </Name>
           <Item2Launch>
             <Type>To Common Doc Dir</Type>
@@ -1303,7 +1303,7 @@
       </RunTimeMenu>
       <ButtonList>
         <Button>
-          <ID>Edit Signals</ID>
+          <ID>Edit Frame</ID>
           <Glyph>
             <Type>To Application Data Dir</Type>
             <Path>System Explorer\Glyphs\editopen.png</Path>
@@ -1311,16 +1311,16 @@
           <Type>Action</Type>
           <ReferencedGUID>3a23cb57-a9db-4a7a-a167-7b017d9eb483</ReferencedGUID>
           <ButtonText>
-            <eng>Edit Signals</eng>
-            <loc>Edit Signals</loc>
+            <eng>Edit</eng>
+            <loc>Edit</loc>
           </ButtonText>
           <Caption>
-            <eng>Edit Signals</eng>
-            <loc>Edit Signals</loc>
+            <eng>Edit</eng>
+            <loc>Edit</loc>
           </Caption>
           <TipStrip>
-            <eng>Edit Signals</eng>
-            <loc>Edit Signals</loc>
+            <eng>Edit</eng>
+            <loc>Edit</loc>
           </TipStrip>
           <Documentation>
             <eng></eng>
@@ -1350,8 +1350,8 @@
           <GUID>3a23cb57-a9db-4a7a-a167-7b017d9eb483</GUID>
           <Type>Action</Type>
           <Name>
-            <eng>Edit Signals</eng>
-            <loc>Edit Signals</loc>
+            <eng>Edit</eng>
+            <loc>Edit</loc>
           </Name>
           <Item2Launch>
             <Type>To Common Doc Dir</Type>
@@ -1386,7 +1386,7 @@
       </RunTimeMenu>
       <ButtonList>
         <Button>
-          <ID>Edit Signals</ID>
+          <ID>Edit Frame</ID>
           <Glyph>
             <Type>To Application Data Dir</Type>
             <Path>System Explorer\Glyphs\editopen.png</Path>
@@ -1394,16 +1394,16 @@
           <Type>Action</Type>
           <ReferencedGUID>3a23cb57-a9db-4a7a-a167-7b017d9eb483</ReferencedGUID>
           <ButtonText>
-            <eng>Edit Signals</eng>
-            <loc>Edit Signals</loc>
+            <eng>Edit</eng>
+            <loc>Edit</loc>
           </ButtonText>
           <Caption>
-            <eng>Edit Signals</eng>
-            <loc>Edit Signals</loc>
+            <eng>Edit</eng>
+            <loc>Edit</loc>
           </Caption>
           <TipStrip>
-            <eng>Edit Signals</eng>
-            <loc>Edit Signals</loc>
+            <eng>Edit</eng>
+            <loc>Edit</loc>
           </TipStrip>
           <Documentation>
             <eng></eng>
@@ -1433,8 +1433,8 @@
           <GUID>8a44810d-2208-4aba-8f07-0112d2f4e7b6</GUID>
           <Type>Action</Type>
           <Name>
-            <eng>Add Routine</eng>
-            <loc>Add Routine</loc>
+            <eng>Add</eng>
+            <loc>Add</loc>
           </Name>
           <Item2Launch>
             <Type>To Common Doc Dir</Type>
@@ -1469,7 +1469,7 @@
       </RunTimeMenu>
       <ButtonList>
         <Button>
-          <ID>Add Routine</ID>
+          <ID>Add Collection</ID>
           <Glyph>
             <Type>To Application Data Dir</Type>
             <Path>System Explorer\Glyphs\Add Procedures.png</Path>
@@ -1477,16 +1477,16 @@
           <Type>Action</Type>
           <ReferencedGUID>8a44810d-2208-4aba-8f07-0112d2f4e7b6</ReferencedGUID>
           <ButtonText>
-            <eng>Add Routine</eng>
-            <loc>Add Routine</loc>
+            <eng>Add</eng>
+            <loc>Add</loc>
           </ButtonText>
           <Caption>
-            <eng>Add Routine</eng>
-            <loc>Add Routine</loc>
+            <eng>Add</eng>
+            <loc>Add</loc>
           </Caption>
           <TipStrip>
-            <eng>Add Routine</eng>
-            <loc>Add Routine</loc>
+            <eng>Add</eng>
+            <loc>Add</loc>
           </TipStrip>
           <Documentation>
             <eng></eng>
@@ -1602,8 +1602,8 @@
           <GUID>352be800-ba9e-42f5-9bda-213a165cafce</GUID>
           <Type>Action</Type>
           <Name>
-            <eng>Add Memory</eng>
-            <loc>Add Memory</loc>
+            <eng>Add</eng>
+            <loc>Add</loc>
           </Name>
           <Item2Launch>
             <Type>To Common Doc Dir</Type>
@@ -1638,7 +1638,7 @@
       </RunTimeMenu>
       <ButtonList>
         <Button>
-          <ID>Add Memory</ID>
+          <ID>Add Frame</ID>
           <Glyph>
             <Type>To Application Data Dir</Type>
             <Path>System Explorer\Glyphs\Add Procedures.png</Path>
@@ -1646,16 +1646,16 @@
           <Type>Action</Type>
           <ReferencedGUID>352be800-ba9e-42f5-9bda-213a165cafce</ReferencedGUID>
           <ButtonText>
-            <eng>Add Memory</eng>
-            <loc>Add Memory</loc>
+            <eng>Add</eng>
+            <loc>Add</loc>
           </ButtonText>
           <Caption>
-            <eng>Add Memory</eng>
-            <loc>Add Memory</loc>
+            <eng>Add</eng>
+            <loc>Add</loc>
           </Caption>
           <TipStrip>
-            <eng>Add Memory</eng>
-            <loc>Add Memory</loc>
+            <eng>Add</eng>
+            <loc>Add</loc>
           </TipStrip>
           <Documentation>
             <eng></eng>
@@ -1685,8 +1685,8 @@
           <GUID>352be800-ba9e-42f5-9bda-213a165cafce</GUID>
           <Type>Action</Type>
           <Name>
-            <eng>Add Memory</eng>
-            <loc>Add Memory</loc>
+            <eng>Add</eng>
+            <loc>Add</loc>
           </Name>
           <Item2Launch>
             <Type>To Common Doc Dir</Type>
@@ -1721,7 +1721,7 @@
       </RunTimeMenu>
       <ButtonList>
         <Button>
-          <ID>Add Memory</ID>
+          <ID>Add Frame</ID>
           <Glyph>
             <Type>To Application Data Dir</Type>
             <Path>System Explorer\Glyphs\Add Procedures.png</Path>
@@ -1729,16 +1729,16 @@
           <Type>Action</Type>
           <ReferencedGUID>352be800-ba9e-42f5-9bda-213a165cafce</ReferencedGUID>
           <ButtonText>
-            <eng>Add Memory</eng>
-            <loc>Add Memory</loc>
+            <eng>Add</eng>
+            <loc>Add</loc>
           </ButtonText>
           <Caption>
-            <eng>Add Memory</eng>
-            <loc>Add Memory</loc>
+            <eng>Add</eng>
+            <loc>Add</loc>
           </Caption>
           <TipStrip>
-            <eng>Add Memory</eng>
-            <loc>Add Memory</loc>
+            <eng>Add</eng>
+            <loc>Add</loc>
           </TipStrip>
           <Documentation>
             <eng></eng>
@@ -1767,8 +1767,8 @@
           <GUID>284ec0d1-0279-4002-be6b-dd29e84743be</GUID>
           <Type>Action</Type>
           <Name>
-            <eng>Edit Memory</eng>
-            <loc>Edit Memory</loc>
+            <eng>Edit</eng>
+            <loc>Edit</loc>
           </Name>
           <Item2Launch>
             <Type>To Common Doc Dir</Type>
@@ -1815,7 +1815,7 @@
       </RunTimeMenu>
       <ButtonList>
         <Button>
-          <ID>Edit Memory</ID>
+          <ID>Edit Frame</ID>
           <Glyph>
             <Type>To Application Data Dir</Type>
             <Path>System Explorer\Glyphs\editopen.png</Path>
@@ -1823,16 +1823,16 @@
           <Type>Action</Type>
           <ReferencedGUID>284ec0d1-0279-4002-be6b-dd29e84743be</ReferencedGUID>
           <ButtonText>
-            <eng>Edit Memory</eng>
-            <loc>Edit Memory</loc>
+            <eng>Edit</eng>
+            <loc>Edit</loc>
           </ButtonText>
           <Caption>
-            <eng>Edit Memory</eng>
-            <loc>Edit Memory</loc>
+            <eng>Edit</eng>
+            <loc>Edit</loc>
           </Caption>
           <TipStrip>
-            <eng>Edit Memory</eng>
-            <loc>Edit Memory</loc>
+            <eng>Edit</eng>
+            <loc>Edit</loc>
           </TipStrip>
           <Documentation>
             <eng></eng>
@@ -1862,8 +1862,8 @@
           <GUID>3a23cb57-a9db-4a7a-a167-7b017d9eb483</GUID>
           <Type>Action</Type>
           <Name>
-            <eng>Edit Signals</eng>
-            <loc>Edit Signals</loc>
+            <eng>Edit</eng>
+            <loc>Edit</loc>
           </Name>
           <Item2Launch>
             <Type>To Common Doc Dir</Type>
@@ -1898,7 +1898,7 @@
       </RunTimeMenu>
       <ButtonList>
         <Button>
-          <ID>Edit Signals</ID>
+          <ID>Edit Frame</ID>
           <Glyph>
             <Type>To Application Data Dir</Type>
             <Path>System Explorer\Glyphs\editopen.png</Path>
@@ -1906,16 +1906,16 @@
           <Type>Action</Type>
           <ReferencedGUID>3a23cb57-a9db-4a7a-a167-7b017d9eb483</ReferencedGUID>
           <ButtonText>
-            <eng>Edit Signals</eng>
-            <loc>Edit Signals</loc>
+            <eng>Edit</eng>
+            <loc>Edit</loc>
           </ButtonText>
           <Caption>
-            <eng>Edit Signals</eng>
-            <loc>Edit Signals</loc>
+            <eng>Edit</eng>
+            <loc>Edit</loc>
           </Caption>
           <TipStrip>
-            <eng>Edit Signals</eng>
-            <loc>Edit Signals</loc>
+            <eng>Edit</eng>
+            <loc>Edit</loc>
           </TipStrip>
           <Documentation>
             <eng></eng>
