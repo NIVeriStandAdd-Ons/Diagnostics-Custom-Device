@@ -45,8 +45,6 @@
 		<Item Name="Connection Manager" Type="Folder">
 			<Item Name="DIAG_TCP Check Connection.vi" Type="VI" URL="../STM/Connection Manager/DIAG_TCP Check Connection.vi"/>
 			<Item Name="DIAG_TCP Connection Manager.vi" Type="VI" URL="../STM/Connection Manager/DIAG_TCP Connection Manager.vi"/>
-			<Item Name="DIAG_TCP Read from Connection.vi" Type="VI" URL="../STM/Connection Manager/DIAG_TCP Read from Connection.vi"/>
-			<Item Name="DIAG_TCP Write to Connection.vi" Type="VI" URL="../STM/Connection Manager/DIAG_TCP Write to Connection.vi"/>
 			<Item Name="stm_TCPConnectionMethod.ctl" Type="VI" URL="../STM/Connection Manager/stm_TCPConnectionMethod.ctl"/>
 			<Item Name="stm_TCPConnectionProperties.ctl" Type="VI" URL="../STM/Connection Manager/stm_TCPConnectionProperties.ctl"/>
 		</Item>
@@ -107,7 +105,7 @@
 		<Item Name="Frames.Refs.Cleanup.vi" Type="VI" URL="../SubVIs/Frames.Refs.Cleanup.vi"/>
 		<Item Name="ID.Convert.Raw.vi" Type="VI" URL="../SubVIs/ID.Convert.Raw.vi"/>
 		<Item Name="RTMain.Refs.Initialize.vi" Type="VI" URL="../SubVIs/RTMain.Refs.Initialize.vi"/>
-		<Item Name="Security.DLL" Type="VI" URL="../SubVIs/Security.DLL"/>
+		<Item Name="Security.DLL.vi" Type="VI" URL="../SubVIs/Security.DLL.vi"/>
 		<Item Name="Signals.Scale.EU.vi" Type="VI" URL="../SubVIs/Signals.Scale.EU.vi"/>
 		<Item Name="Signals.Scale.Raw.vi" Type="VI" URL="../SubVIs/Signals.Scale.Raw.vi"/>
 		<Item Name="Status.Set.vi" Type="VI" URL="../SubVIs/Status.Set.vi"/>

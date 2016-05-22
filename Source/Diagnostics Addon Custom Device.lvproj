@@ -332,7 +332,6 @@
 				<Item Name="XNET String To IO Name (Signal).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET String To IO Name (Signal).vi"/>
 				<Item Name="XNET String To IO Name (Subframe).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET String To IO Name (Subframe).vi"/>
 			</Item>
-			<Item Name="Create Sections and Channels from Database.vi" Type="VI" URL="../System Explorer/SubVIs/Create Sections and Channels from Database.vi"/>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -673,7 +672,7 @@
 				<Property Name="DestinationCount" Type="Int">3</Property>
 				<Property Name="Source[0].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{5D2E552D-2AB3-4B29-B802-E0963721B756}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{35B7B368-04D1-4944-BCC4-2B590E5B00D4}</Property>
 				<Property Name="Source[0].properties[0].type" Type="Str">Allow debugging</Property>
 				<Property Name="Source[0].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[0].properties[1].type" Type="Str">Auto error handling</Property>
@@ -1134,7 +1133,7 @@
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{FFDCA642-638A-4664-9D94-164F9021CA4C}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/Pharlap/Diagnostics Addon Engine Pharlap.llb</Property>
-				<Property Name="Bld_version.build" Type="Int">16</Property>
+				<Property Name="Bld_version.build" Type="Int">17</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">/Pharlap/Diagnostics Addon Engine Pharlap.llb</Property>
@@ -1626,7 +1625,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{3939FB3D-726E-4D10-82BD-7FE8FBCCD360}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/Linux_32_ARM/Diagnostics Addon Engine LinuxARM.llb</Property>
-				<Property Name="Bld_version.build" Type="Int">4</Property>
+				<Property Name="Bld_version.build" Type="Int">5</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">/Linux_32_ARM/Diagnostics Addon Engine LinuxARM.llb</Property>
@@ -2126,7 +2125,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D2B3104C-D323-41E8-B4BA-9185D7889B63}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/Linux_x64/Diagnostics Addon Engine Linux64.llb</Property>
-				<Property Name="Bld_version.build" Type="Int">3</Property>
+				<Property Name="Bld_version.build" Type="Int">4</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">/Linux_x64/Diagnostics Addon Engine Linux64.llb</Property>
