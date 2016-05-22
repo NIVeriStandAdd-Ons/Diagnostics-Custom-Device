@@ -30,7 +30,6 @@ MainPage_Diag.html
 PIDs.html
 Status.html
 DIDs.html
-Commands.html
 Frame.html
 Inputs.html
 Memory.html
@@ -39,6 +38,9 @@ IO Controls.html
 Routines.html
 IO.html
 Routine.html
+Commands_GMLAN.html
+Commands_KWP.html
+Commands_UDS.html
 
 [INFOTYPES]
 
