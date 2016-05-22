@@ -42,6 +42,7 @@
 				<Item Name="ActionVIOnSave.vi" Type="VI" URL="../Actions/ActionVIOnSave.vi"/>
 				<Item Name="EnableDisable Main Page.vi" Type="VI" URL="../Actions/EnableDisable Main Page.vi"/>
 				<Item Name="ActionVIOnCompile.vi" Type="VI" URL="../Actions/ActionVIOnCompile.vi"/>
+				<Item Name="ActionVIOnPaste.vi" Type="VI" URL="../Actions/ActionVIOnPaste.vi"/>
 			</Item>
 			<Item Name="Extra Pages" Type="Folder">
 				<Item Name="Collection.vi" Type="VI" URL="../Pages/Collection.vi"/>
@@ -80,6 +81,7 @@
 			<Item Name="CmdResp.Export.vi" Type="VI" URL="../SubVIs/CmdResp.Export.vi"/>
 			<Item Name="Collection.Dialog.vi" Type="VI" URL="../SubVIs/Collection.Dialog.vi"/>
 			<Item Name="Controls.Set.Visible.vi" Type="VI" URL="../SubVIs/Controls.Set.Visible.vi"/>
+			<Item Name="Dialog.Name.CheckErrors.vi" Type="VI" URL="../SubVIs/Dialog.Name.CheckErrors.vi"/>
 			<Item Name="DPID.CheckErrors.vi" Type="VI" URL="../SubVIs/DPID.CheckErrors.vi"/>
 			<Item Name="DPID.Convert.Name.vi" Type="VI" URL="../SubVIs/DPID.Convert.Name.vi"/>
 			<Item Name="DPID.Create.vi" Type="VI" URL="../SubVIs/DPID.Create.vi"/>
@@ -130,6 +132,7 @@
 			<Item Name="SysDef.Create.vi" Type="VI" URL="../SubVIs/SysDef.Create.vi"/>
 			<Item Name="SysDef.Export.vi" Type="VI" URL="../SubVIs/SysDef.Export.vi"/>
 			<Item Name="Target.Get.Name.vi" Type="VI" URL="../SubVIs/Target.Get.Name.vi"/>
+			<Item Name="Type.Determine.vi" Type="VI" URL="../SubVIs/Type.Determine.vi"/>
 			<Item Name="Type.FG.vi" Type="VI" URL="../SubVIs/Type.FG.vi"/>
 			<Item Name="WriteSignal.Create.vi" Type="VI" URL="../SubVIs/WriteSignal.Create.vi"/>
 			<Item Name="WriteSignals.Compile.vi" Type="VI" URL="../SubVIs/WriteSignals.Compile.vi"/>

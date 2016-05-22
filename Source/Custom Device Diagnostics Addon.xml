@@ -484,6 +484,10 @@
           </Documentation>
         </Button>
       </ButtonList>
+      <ActionVIOnPaste>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\ActionVIOnPaste.vi</Path>
+      </ActionVIOnPaste>
     </Page>
     <Page>
       <Name>
@@ -584,6 +588,10 @@
           </Documentation>
         </Button>
       </ButtonList>
+      <ActionVIOnPaste>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\ActionVIOnPaste.vi</Path>
+      </ActionVIOnPaste>
     </Page>
     <Page>
       <Name>
@@ -1101,6 +1109,10 @@
           </Documentation>
         </Button>
       </ButtonList>
+      <ActionVIOnPaste>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\ActionVIOnPaste.vi</Path>
+      </ActionVIOnPaste>
     </Page>
     <Page>
       <Name>
@@ -1279,6 +1291,10 @@
           </Item2Launch>
         </MenuItem>
       </RunTimeMenu>
+      <ActionVIOnPaste>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\ActionVIOnPaste.vi</Path>
+      </ActionVIOnPaste>
     </Page>
     <Page>
       <Name>
@@ -1576,6 +1592,10 @@
           </Item2Launch>
         </MenuItem>
       </RunTimeMenu>
+      <ActionVIOnPaste>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\ActionVIOnPaste.vi</Path>
+      </ActionVIOnPaste>
     </Page>
     <Page>
       <Name>
@@ -1896,6 +1916,10 @@
           </Documentation>
         </Button>
       </ButtonList>
+      <ActionVIOnPaste>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\ActionVIOnPaste.vi</Path>
+      </ActionVIOnPaste>
     </Page>
     <Page>
       <Name>
