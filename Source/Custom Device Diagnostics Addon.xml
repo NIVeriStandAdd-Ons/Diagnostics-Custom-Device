@@ -360,7 +360,7 @@
       <DeleteProtection>true</DeleteProtection>
       <GUID>f7446a49-c995-4f37-8203-8e2b918d40c6</GUID>
       <Glyph>
-        <Type>To Application Data Dir</Type>
+        <Type>To Application Data Dir</Type>PID<
         <Path>System Explorer\Glyphs\NI-XNET Error.png</Path>
       </Glyph>
       <Item2Launch>
@@ -391,12 +391,16 @@
         <loc>PID</loc>
       </Name>
       <ExcludeFromAlphabeticalOrder>true</ExcludeFromAlphabeticalOrder>
+      <!--
       <Copy>Copy</Copy>
       <Paste>Create</Paste>
       <ParentGUIDs>
         <ParentGUID>3a9eaf02-736d-4e36-bf88-b98c7e9eb737</ParentGUID>
         <ParentGUID>edf3a6ba-361e-4d29-8f85-616268b5a338</ParentGUID>
+        <ParentGUID>a1b4f299-b02f-4aee-83c4-b2663edfc3d0</ParentGUID>
+        <ParentGUID>7aa10d41-82af-42f0-a422-22627e0c3946</ParentGUID>
       </ParentGUIDs>
+      -->
       <GUID>6b934904-49a9-4798-a421-a2da3be45ca1</GUID>
       <Glyph>
         <Type>To Application Data Dir</Type>
@@ -484,10 +488,12 @@
           </Documentation>
         </Button>
       </ButtonList>
+      <!--
       <ActionVIOnPaste>
         <Type>To Common Doc Dir</Type>
         <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\ActionVIOnPaste.vi</Path>
       </ActionVIOnPaste>
+      -->
     </Page>
     <Page>
       <Name>
@@ -495,12 +501,16 @@
         <loc>DID</loc>
       </Name>
       <ExcludeFromAlphabeticalOrder>true</ExcludeFromAlphabeticalOrder>
+      <!--
       <Copy>Copy</Copy>
       <Paste>Create</Paste>
       <ParentGUIDs>
+        <ParentGUID>3a9eaf02-736d-4e36-bf88-b98c7e9eb737</ParentGUID>
+        <ParentGUID>edf3a6ba-361e-4d29-8f85-616268b5a338</ParentGUID>
         <ParentGUID>a1b4f299-b02f-4aee-83c4-b2663edfc3d0</ParentGUID>
         <ParentGUID>7aa10d41-82af-42f0-a422-22627e0c3946</ParentGUID>
       </ParentGUIDs>
+      -->
       <GUID>465d9377-cb59-4ae9-97ed-bc842761823f</GUID>
       <Glyph>
         <Type>To Application Data Dir</Type>
@@ -588,10 +598,12 @@
           </Documentation>
         </Button>
       </ButtonList>
+      <!--
       <ActionVIOnPaste>
         <Type>To Common Doc Dir</Type>
         <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\ActionVIOnPaste.vi</Path>
       </ActionVIOnPaste>
+      -->
     </Page>
     <Page>
       <Name>
@@ -1030,11 +1042,13 @@
         <eng>DPID</eng>
         <loc>DPID</loc>
       </Name>
+      <!--
       <Copy>Copy</Copy>
       <Paste>Create</Paste>
       <ParentGUIDs>
         <ParentGUID>186cc3e9-a602-40ff-b933-3b68f6fbfaf8</ParentGUID>
       </ParentGUIDs>
+      -->
       <GUID>be84dd52-6fa5-4162-93da-bfddf126599b</GUID>
       <Glyph>
         <Type>To Application Data Dir</Type>
@@ -1109,10 +1123,12 @@
           </Documentation>
         </Button>
       </ButtonList>
+      <!--
       <ActionVIOnPaste>
         <Type>To Common Doc Dir</Type>
         <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\ActionVIOnPaste.vi</Path>
       </ActionVIOnPaste>
+      -->
     </Page>
     <Page>
       <Name>
@@ -1250,11 +1266,13 @@
         <loc>IO</loc>
       </Name>
       <ExcludeFromAlphabeticalOrder>true</ExcludeFromAlphabeticalOrder>
+      <!--
       <Copy>Copy</Copy>
       <Paste>Create</Paste>
       <ParentGUIDs>
         <ParentGUID>0ac6196a-385b-4d7f-b227-6021e7d2e1e7</ParentGUID>
       </ParentGUIDs>
+      -->
       <GUID>340d50a8-4c77-4b9c-9e2b-69668480a08c</GUID>
       <Glyph>
         <Type>To Application Data Dir</Type>
@@ -1291,10 +1309,12 @@
           </Item2Launch>
         </MenuItem>
       </RunTimeMenu>
+      <!--
       <ActionVIOnPaste>
         <Type>To Common Doc Dir</Type>
         <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\ActionVIOnPaste.vi</Path>
       </ActionVIOnPaste>
+      -->
     </Page>
     <Page>
       <Name>
@@ -1551,11 +1571,13 @@
         <loc>Routine</loc>
       </Name>
       <ExcludeFromAlphabeticalOrder>true</ExcludeFromAlphabeticalOrder>
+      <!--
       <Copy>Copy</Copy>
       <Paste>Create</Paste>
       <ParentGUIDs>
         <ParentGUID>0ff37a6c-fd65-46dd-8b75-df84d7ab3dd8</ParentGUID>
       </ParentGUIDs>
+      -->
       <GUID>6fce7018-00fd-4fe4-bfd5-c0801fde7f06</GUID>
       <Glyph>
         <Type>To Application Data Dir</Type>
@@ -1592,10 +1614,12 @@
           </Item2Launch>
         </MenuItem>
       </RunTimeMenu>
+      <!--
       <ActionVIOnPaste>
         <Type>To Common Doc Dir</Type>
         <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\ActionVIOnPaste.vi</Path>
       </ActionVIOnPaste>
+      -->
     </Page>
     <Page>
       <Name>
@@ -1823,12 +1847,14 @@
         <loc>Memory Location</loc>
       </Name>
       <ExcludeFromAlphabeticalOrder>true</ExcludeFromAlphabeticalOrder>
+      <!--
       <Copy>Copy</Copy>
       <Paste>Create</Paste>
       <ParentGUIDs>
         <ParentGUID>09bcd3f1-7ebd-43d6-9f90-c7b275b290a5</ParentGUID>
         <ParentGUID>8568ba9d-faad-4aba-a1fa-a7191ea76f8f</ParentGUID>
       </ParentGUIDs>
+      -->
       <GUID>bcff0b3d-7243-4886-a340-96f6fb52a52d</GUID>
       <Glyph>
         <Type>To Application Data Dir</Type>
@@ -1916,10 +1942,12 @@
           </Documentation>
         </Button>
       </ButtonList>
+      <!--
       <ActionVIOnPaste>
         <Type>To Common Doc Dir</Type>
         <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\ActionVIOnPaste.vi</Path>
       </ActionVIOnPaste>
+      -->
     </Page>
     <Page>
       <Name>
