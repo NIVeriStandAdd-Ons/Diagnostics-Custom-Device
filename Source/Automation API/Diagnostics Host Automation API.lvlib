@@ -6,12 +6,15 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Item Name="All" Type="Folder">
 		<Item Name="ClearDTCs.vi" Type="VI" URL="../ClearDTCs.vi"/>
+		<Item Name="ClearStatusInformation.vi" Type="VI" URL="../ClearStatusInformation.vi"/>
 		<Item Name="Connect.vi" Type="VI" URL="../Connect.vi"/>
 		<Item Name="DisableDiagnosticSession.vi" Type="VI" URL="../DisableDiagnosticSession.vi"/>
 		<Item Name="DisableNormalCommunication.vi" Type="VI" URL="../DisableNormalCommunication.vi"/>
 		<Item Name="Disconnect.vi" Type="VI" URL="../Disconnect.vi"/>
 		<Item Name="EnableDiagnosticSession.vi" Type="VI" URL="../EnableDiagnosticSession.vi"/>
+		<Item Name="ForceTesterPresent.vi" Type="VI" URL="../ForceTesterPresent.vi"/>
 		<Item Name="PassThru.vi" Type="VI" URL="../PassThru.vi"/>
+		<Item Name="ReadDID.vi" Type="VI" URL="../ReadDID.vi"/>
 		<Item Name="ReadDIDs.vi" Type="VI" URL="../ReadDIDs.vi"/>
 		<Item Name="ReadDTCs.vi" Type="VI" URL="../ReadDTCs.vi"/>
 		<Item Name="ReturnToNormalMode.vi" Type="VI" URL="../ReturnToNormalMode.vi"/>
@@ -21,10 +24,23 @@
 		<Item Name="ConfigurePIDs.vi" Type="VI" URL="../ConfigurePIDs.vi"/>
 		<Item Name="DisableChangeDTCsCount.vi" Type="VI" URL="../DisableChangeDTCsCount.vi"/>
 		<Item Name="EnableChangeDTCsCount.vi" Type="VI" URL="../EnableChangeDTCsCount.vi"/>
-		<Item Name="ReadDataByIdentifiers.vi" Type="VI" URL="../ReadDataByIdentifiers.vi"/>
 		<Item Name="ReadDTCByDTCNumber.vi" Type="VI" URL="../ReadDTCByDTCNumber.vi"/>
+		<Item Name="ReadPID.vi" Type="VI" URL="../ReadPID.vi"/>
+		<Item Name="ReadPIDs.vi" Type="VI" URL="../ReadPIDs.vi"/>
 		<Item Name="StartDTCs.vi" Type="VI" URL="../StartDTCs.vi"/>
 		<Item Name="StartPIDs.vi" Type="VI" URL="../StartPIDs.vi"/>
 		<Item Name="StopPIDs.vi" Type="VI" URL="../StopPIDs.vi"/>
+		<Item Name="WritePID.vi" Type="VI" URL="../WritePID.vi"/>
+	</Item>
+	<Item Name="UDS KWP" Type="Folder">
+		<Item Name="ControlDTC.vi" Type="VI" URL="../ControlDTC.vi"/>
+		<Item Name="ECUReset.vi" Type="VI" URL="../ECUReset.vi"/>
+		<Item Name="InputOutputControl.vi" Type="VI" URL="../InputOutputControl.vi"/>
+		<Item Name="ReadMemory.vi" Type="VI" URL="../ReadMemory.vi"/>
+		<Item Name="RequestRoutineStatus.vi" Type="VI" URL="../RequestRoutineStatus.vi"/>
+		<Item Name="StartRoutine.vi" Type="VI" URL="../StartRoutine.vi"/>
+		<Item Name="StopRoutine.vi" Type="VI" URL="../StopRoutine.vi"/>
+		<Item Name="WriteDID.vi" Type="VI" URL="../WriteDID.vi"/>
+		<Item Name="WriteMemory.vi" Type="VI" URL="../WriteMemory.vi"/>
 	</Item>
 </Library>

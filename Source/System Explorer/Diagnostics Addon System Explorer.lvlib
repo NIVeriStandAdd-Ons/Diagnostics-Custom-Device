@@ -103,8 +103,6 @@
 			<Item Name="Frame.Export.vi" Type="VI" URL="../SubVIs/Frame.Export.vi"/>
 			<Item Name="Frames.Compile.vi" Type="VI" URL="../SubVIs/Frames.Compile.vi"/>
 			<Item Name="Frames.Export.vi" Type="VI" URL="../SubVIs/Frames.Export.vi"/>
-			<Item Name="Get Listbox Row.vi" Type="VI" URL="../SubVIs/Get Listbox Row.vi"/>
-			<Item Name="Get Signals.vi" Type="VI" URL="../SubVIs/Get Signals.vi"/>
 			<Item Name="Help.Page.Get.vi" Type="VI" URL="../SubVIs/Help.Page.Get.vi"/>
 			<Item Name="Help.Set.vi" Type="VI" URL="../SubVIs/Help.Set.vi"/>
 			<Item Name="ID.FG.vi" Type="VI" URL="../SubVIs/ID.FG.vi"/>
@@ -127,6 +125,7 @@
 			<Item Name="Signal.Convert.StringArray.vi" Type="VI" URL="../SubVIs/Signal.Convert.StringArray.vi"/>
 			<Item Name="Signal.Export.StringArray.vi" Type="VI" URL="../SubVIs/Signal.Export.StringArray.vi"/>
 			<Item Name="Signal.FG.vi" Type="VI" URL="../SubVIs/Signal.FG.vi"/>
+			<Item Name="Signals.Get.vi" Type="VI" URL="../SubVIs/Signals.Get.vi"/>
 			<Item Name="SysDef.Compile.vi" Type="VI" URL="../SubVIs/SysDef.Compile.vi"/>
 			<Item Name="SysDef.Create.FromPrevious.vi" Type="VI" URL="../SubVIs/SysDef.Create.FromPrevious.vi"/>
 			<Item Name="SysDef.Create.vi" Type="VI" URL="../SubVIs/SysDef.Create.vi"/>

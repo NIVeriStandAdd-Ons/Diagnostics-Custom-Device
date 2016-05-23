@@ -2,8 +2,8 @@
 <CustomDevice xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Custom Device.xsd">
 <XSDVersion Major="2010" Minor="0" Fix="0" Build="0" />
   <AddMenu>
-    <eng>Diagnostics Addon</eng>
-    <loc>Diagnostics Addon</loc>
+    <eng>National Instruments::Diagnostics Addon</eng>
+    <loc>National Instruments::Diagnostics Addon</loc>
   </AddMenu>
   <Version>5.0.0</Version>
   <Type>Inline HW Interface</Type>
@@ -360,7 +360,7 @@
       <DeleteProtection>true</DeleteProtection>
       <GUID>f7446a49-c995-4f37-8203-8e2b918d40c6</GUID>
       <Glyph>
-        <Type>To Application Data Dir</Type>PID<
+        <Type>To Application Data Dir</Type>
         <Path>System Explorer\Glyphs\NI-XNET Error.png</Path>
       </Glyph>
       <Item2Launch>
