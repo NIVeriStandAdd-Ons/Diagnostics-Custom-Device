@@ -74,6 +74,7 @@
 			<Item Name="986x.Compile.vi" Type="VI" URL="../SubVIs/986x.Compile.vi"/>
 			<Item Name="986x.Create.vi" Type="VI" URL="../SubVIs/986x.Create.vi"/>
 			<Item Name="986x.Export.vi" Type="VI" URL="../SubVIs/986x.Export.vi"/>
+			<Item Name="ActionVIOnLoad.Section.Move.vi" Type="VI" URL="../SubVIs/ActionVIOnLoad.Section.Move.vi"/>
 			<Item Name="Addon.Dialog.vi" Type="VI" URL="../SubVIs/Addon.Dialog.vi"/>
 			<Item Name="Addon.Initialize.vi" Type="VI" URL="../SubVIs/Addon.Initialize.vi"/>
 			<Item Name="CAN.FG.vi" Type="VI" URL="../SubVIs/CAN.FG.vi"/>
