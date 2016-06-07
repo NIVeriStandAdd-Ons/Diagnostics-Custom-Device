@@ -164,10 +164,6 @@
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="StartDiagnosticSession.vi" Type="VI" URL="/&lt;vilib&gt;/Automotive Diagnostic Command Set/Diagnostic Protocols.llb/StartDiagnosticSession.vi"/>
 				<Item Name="StartRoutineByLocalIdentifier.vi" Type="VI" URL="/&lt;vilib&gt;/Automotive Diagnostic Command Set/Diagnostic Protocols.llb/StartRoutineByLocalIdentifier.vi"/>
-				<Item Name="STM Write Message (TCP).vi" Type="VI" URL="/&lt;vilib&gt;/NI/STM/compatibility/STM Write Message (TCP).vi"/>
-				<Item Name="STM Write Message.vi" Type="VI" URL="/&lt;vilib&gt;/NI/STM/compatibility/STM Write Message.vi"/>
-				<Item Name="stm_MetaDataElement.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/STM/compatibility/stm_MetaDataElement.ctl"/>
-				<Item Name="stm_TCP Connection Info.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/STM/compatibility/stm_TCP Connection Info.ctl"/>
 				<Item Name="StopDiagnosticSession.vi" Type="VI" URL="/&lt;vilib&gt;/Automotive Diagnostic Command Set/Diagnostic Protocols.llb/StopDiagnosticSession.vi"/>
 				<Item Name="StopRoutineByLocalIdentifier.vi" Type="VI" URL="/&lt;vilib&gt;/Automotive Diagnostic Command Set/Diagnostic Protocols.llb/StopRoutineByLocalIdentifier.vi"/>
 				<Item Name="sub_Display Template - Polymorphic.vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/Display Template Support/Display Template Support.llb/sub_Display Template - Polymorphic.vi"/>
@@ -363,6 +359,7 @@
 			<Item Name="niyanci.dll" Type="Document" URL="niyanci.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="UserDefined.Group.Export.vi" Type="VI" URL="../System Explorer/SubVIs/UserDefined.Group.Export.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Configuration Release" Type="Source Distribution">
@@ -457,7 +454,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{57A573C2-138C-4771-89D5-13C99724ACD8}</Property>
-				<Property Name="Bld_version.build" Type="Int">5</Property>
+				<Property Name="Bld_version.build" Type="Int">6</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Diagnostics SysDef API.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">../Built/Custom Devices/Diagnostics Addon/Diagnostics SysDef API/Diagnostics SysDef API.lvlibp</Property>
@@ -1137,7 +1134,7 @@
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{FFDCA642-638A-4664-9D94-164F9021CA4C}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/Pharlap/Diagnostics Addon Engine Pharlap.llb</Property>
-				<Property Name="Bld_version.build" Type="Int">21</Property>
+				<Property Name="Bld_version.build" Type="Int">27</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">/Pharlap/Diagnostics Addon Engine Pharlap.llb</Property>

@@ -58,11 +58,15 @@
 				<Item Name="Protected Signal.vi" Type="VI" URL="../Pages/Protected Signal.vi"/>
 				<Item Name="Signal Page.vi" Type="VI" URL="../Pages/Signal Page.vi"/>
 				<Item Name="Status.vi" Type="VI" URL="../Pages/Status.vi"/>
+				<Item Name="User Defined Collections.vi" Type="VI" URL="../Pages/User Defined Collections.vi"/>
+				<Item Name="User Defined Message.vi" Type="VI" URL="../Pages/User Defined Message.vi"/>
 			</Item>
 			<Item Name="RTMs" Type="Folder">
 				<Item Name="Add Collection.vi" Type="VI" URL="../RTMs/Add Collection.vi"/>
 				<Item Name="Add DPID.vi" Type="VI" URL="../RTMs/Add DPID.vi"/>
 				<Item Name="Add Frame.vi" Type="VI" URL="../RTMs/Add Frame.vi"/>
+				<Item Name="Add User Defined Group.vi" Type="VI" URL="../RTMs/Add User Defined Group.vi"/>
+				<Item Name="Add User Defined Message.vi" Type="VI" URL="../RTMs/Add User Defined Message.vi"/>
 				<Item Name="Edit DPID.vi" Type="VI" URL="../RTMs/Edit DPID.vi"/>
 				<Item Name="Edit Frame.vi" Type="VI" URL="../RTMs/Edit Frame.vi"/>
 				<Item Name="ExportConfigurationToFile.vi" Type="VI" URL="../SubVIs/ExportConfigurationToFile.vi"/>
@@ -134,6 +138,9 @@
 			<Item Name="Target.Get.Name.vi" Type="VI" URL="../SubVIs/Target.Get.Name.vi"/>
 			<Item Name="Type.Determine.vi" Type="VI" URL="../SubVIs/Type.Determine.vi"/>
 			<Item Name="Type.FG.vi" Type="VI" URL="../SubVIs/Type.FG.vi"/>
+			<Item Name="UserDefined.Compile.vi" Type="VI" URL="../SubVIs/UserDefined.Compile.vi"/>
+			<Item Name="UserDefined.Export.vi" Type="VI" URL="../SubVIs/UserDefined.Export.vi"/>
+			<Item Name="UserDefined.Group.Message.Create.vi" Type="VI" URL="../SubVIs/UserDefined.Group.Message.Create.vi"/>
 			<Item Name="WriteSignal.Create.vi" Type="VI" URL="../SubVIs/WriteSignal.Create.vi"/>
 			<Item Name="WriteSignals.Compile.vi" Type="VI" URL="../SubVIs/WriteSignals.Compile.vi"/>
 			<Item Name="XNETDB.Add.vi" Type="VI" URL="../SubVIs/XNETDB.Add.vi"/>
@@ -161,6 +168,11 @@
 			<Item Name="Routines.Refs.ctl" Type="VI" URL="../Types/Routines.Refs.ctl"/>
 			<Item Name="Status.Export.ctl" Type="VI" URL="../Types/Status.Export.ctl"/>
 			<Item Name="SysDef.Export.ctl" Type="VI" URL="../Types/SysDef.Export.ctl"/>
+			<Item Name="UserDefined.Export.ctl" Type="VI" URL="../Types/UserDefined.Export.ctl"/>
+			<Item Name="UserDefined.Group.Export.ctl" Type="VI" URL="../Types/UserDefined.Group.Export.ctl"/>
+			<Item Name="UserDefined.Group.Message.Compile.ctl" Type="VI" URL="../Types/UserDefined.Group.Message.Compile.ctl"/>
+			<Item Name="UserDefined.Group.Message.Export.ctl" Type="VI" URL="../Types/UserDefined.Group.Message.Export.ctl"/>
+			<Item Name="UserDefined.Group.Message.Refs.ctl" Type="VI" URL="../Types/UserDefined.Group.Message.Refs.ctl"/>
 		</Item>
 	</Item>
 </Library>

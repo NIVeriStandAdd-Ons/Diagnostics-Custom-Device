@@ -5,7 +5,7 @@
     <eng>National Instruments::Diagnostics Addon</eng>
     <loc>National Instruments::Diagnostics Addon</loc>
   </AddMenu>
-  <Version>4.0.0</Version>
+  <Version>5.0.0</Version>
   <Type>Inline HW Interface</Type>
   <MaxOccurrence>-1</MaxOccurrence>
   <MainPageGUID>4e42e445-e1c9-40fb-b144-894b15ca645a</MainPageGUID>
@@ -2031,6 +2031,224 @@
           </Documentation>
         </Button>
       </ButtonList>
+    </Page>
+      <Page>
+      <Name>
+        <eng>User Defined</eng>
+        <loc>User Defined</loc>
+      </Name>
+      <DisallowRenaming>true</DisallowRenaming>
+      <DeleteProtection>true</DeleteProtection>
+      <GUID>CFA7BF4B-764C-45FB-BBED-38F184212CC0</GUID>
+      <Glyph>
+        <Type>To Application Data Dir</Type>
+        <Path>System Explorer\Glyphs\custom device.png</Path>
+      </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\User Defined Collections.vi</Path>
+      </Item2Launch>
+      <RunTimeMenu>
+        <MenuItem>
+          <GUID>F4E0AD6F-2783-4E1F-BB9E-665AD749B39A</GUID>
+          <Type>Action</Type>
+          <Name>
+            <eng>Add Group</eng>
+            <loc>Add Group</loc>
+          </Name>
+          <Item2Launch>
+            <Type>To Common Doc Dir</Type>
+            <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\Add User Defined Group.vi</Path>
+          </Item2Launch>
+        </MenuItem>
+        <MenuItem>
+          <GUID>7755077A-1485-13A6-5674A23FB86277FF</GUID>
+          <Type>Separator</Type>
+          <Name>
+            <eng>.</eng>
+            <loc>.</loc>
+          </Name>
+          <Item2Launch>
+            <Type>Absolute</Type>
+            <Path>.</Path>
+          </Item2Launch>
+        </MenuItem>
+        <MenuItem>
+          <GUID>03D3BE0A-1485-13A6-563AEB9BF271825A</GUID>
+          <Type>VI</Type>
+          <MinNrOfChilds>1</MinNrOfChilds>
+          <Name>
+            <eng>Delete Multiple Items</eng>
+            <loc>Delete Multiple Items</loc>
+          </Name>
+          <Item2Launch>
+            <Type>Absolute</Type>
+            <Path>Dialogs\Delete Multiple Items.vi</Path>
+          </Item2Launch>
+        </MenuItem>
+      </RunTimeMenu>
+      <ButtonList>
+        <Button>
+          <ID>Add Group</ID>
+          <Glyph>
+            <Type>To Application Data Dir</Type>
+            <Path>System Explorer\Glyphs\Add Procedures.png</Path>
+          </Glyph>
+          <Type>Action</Type>
+          <ReferencedGUID>F4E0AD6F-2783-4E1F-BB9E-665AD749B39A</ReferencedGUID>
+          <ButtonText>
+            <eng>Add</eng>
+            <loc>Add</loc>
+          </ButtonText>
+          <Caption>
+            <eng>Add</eng>
+            <loc>Add</loc>
+          </Caption>
+          <TipStrip>
+            <eng>Add</eng>
+            <loc>Add</loc>
+          </TipStrip>
+          <Documentation>
+            <eng></eng>
+            <loc></loc>
+          </Documentation>
+        </Button>
+      </ButtonList>
+    </Page>
+    <Page>
+      <Name>
+        <eng>User Defined Group</eng>
+        <loc>User Defined Group</loc>
+      </Name>
+      <GUID>00F9F4F4-030C-44AD-8756-214B06E3F58A</GUID>
+      <Glyph>
+        <Type>To Application Data Dir</Type>
+        <Path>System Explorer\Glyphs\userfolder.png</Path>
+      </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\User Defined Collections.vi</Path>
+      </Item2Launch>
+      <RunTimeMenu>
+        <MenuItem>
+          <GUID>94E0798C-B207-41A4-B3D9-5B8AFA531B60</GUID>
+          <Type>Action</Type>
+          <Name>
+            <eng>Add Message</eng>
+            <loc>Add Message</loc>
+          </Name>
+          <Item2Launch>
+            <Type>To Common Doc Dir</Type>
+            <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\Add User Defined Message.vi</Path>
+          </Item2Launch>
+        </MenuItem>
+        <MenuItem>
+          <GUID>7755077A-1485-13A6-5674A23FB86277FF</GUID>
+          <Type>Separator</Type>
+          <Name>
+            <eng>.</eng>
+            <loc>.</loc>
+          </Name>
+          <Item2Launch>
+            <Type>Absolute</Type>
+            <Path>.</Path>
+          </Item2Launch>
+        </MenuItem>
+        <MenuItem>
+          <GUID>77550670-1485-13A6-568B9AB41979630D</GUID>
+          <Type>Action</Type>
+          <Name>
+            <eng>Delete</eng>
+            <loc>Delete</loc>
+          </Name>
+          <Item2Launch>
+            <Type>Absolute</Type>
+            <Path>Actions\Delete.vi</Path>
+          </Item2Launch>
+        </MenuItem>
+        <MenuItem>
+          <GUID>03D3BE0A-1485-13A6-563AEB9BF271825A</GUID>
+          <Type>VI</Type>
+          <MinNrOfChilds>1</MinNrOfChilds>
+          <Name>
+            <eng>Delete Multiple Items</eng>
+            <loc>Delete Multiple Items</loc>
+          </Name>
+          <Item2Launch>
+            <Type>Absolute</Type>
+            <Path>Dialogs\Delete Multiple Items.vi</Path>
+          </Item2Launch>
+        </MenuItem>
+      </RunTimeMenu>
+      <ButtonList>
+        <Button>
+          <ID>Add Message</ID>
+          <Glyph>
+            <Type>To Application Data Dir</Type>
+            <Path>System Explorer\Glyphs\Add Procedures.png</Path>
+          </Glyph>
+          <Type>Action</Type>
+          <ReferencedGUID>94E0798C-B207-41A4-B3D9-5B8AFA531B60</ReferencedGUID>
+          <ButtonText>
+            <eng>Add</eng>
+            <loc>Add</loc>
+          </ButtonText>
+          <Caption>
+            <eng>Add</eng>
+            <loc>Add</loc>
+          </Caption>
+          <TipStrip>
+            <eng>Add</eng>
+            <loc>Add</loc>
+          </TipStrip>
+          <Documentation>
+            <eng></eng>
+            <loc></loc>
+          </Documentation>
+        </Button>
+      </ButtonList>
+    </Page>
+      <Page>
+      <Name>
+        <eng>User Defined Message</eng>
+        <loc>User Defined Message</loc>
+      </Name>
+      <GUID>C252BD32-0316-4CF0-8E56-317862ECDC4C</GUID>
+      <Glyph>
+        <Type>To Application Data Dir</Type>
+        <Path>System Explorer\Glyphs\NI-XNET RawDataChannel.png</Path>
+      </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\User Defined Message.vi</Path>
+      </Item2Launch>
+      <RunTimeMenu>
+        <MenuItem>
+          <GUID>77550670-1485-13A6-568B9AB41979630D</GUID>
+          <Type>Action</Type>
+          <Name>
+            <eng>Delete</eng>
+            <loc>Delete</loc>
+          </Name>
+          <Item2Launch>
+            <Type>Absolute</Type>
+            <Path>Actions\Delete.vi</Path>
+          </Item2Launch>
+        </MenuItem>
+        <MenuItem>
+          <GUID>03D3BE0A-1485-13A6-563AEB9BF271825A</GUID>
+          <Type>VI</Type>
+          <MinNrOfChilds>1</MinNrOfChilds>
+          <Name>
+            <eng>Delete Multiple Items</eng>
+            <loc>Delete Multiple Items</loc>
+          </Name>
+          <Item2Launch>
+            <Type>Absolute</Type>
+            <Path>Dialogs\Delete Multiple Items.vi</Path>
+          </Item2Launch>
+        </MenuItem>
+      </RunTimeMenu>
     </Page>
   </Pages>
   <CustomXML>
