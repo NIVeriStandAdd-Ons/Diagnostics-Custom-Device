@@ -1323,6 +1323,7 @@
       </Name>
       <DisallowRenaming>true</DisallowRenaming>
       <DeleteProtection>true</DeleteProtection>
+      <ExcludeFromAlphabeticalOrder>true</ExcludeFromAlphabeticalOrder>
       <GUID>37a28eab-899c-4060-83a1-bccb94c61935</GUID>
       <Glyph>
         <Type>To Application Data Dir</Type>
@@ -1406,6 +1407,7 @@
       </Name>
       <DisallowRenaming>true</DisallowRenaming>
       <DeleteProtection>true</DeleteProtection>
+      <ExcludeFromAlphabeticalOrder>true</ExcludeFromAlphabeticalOrder>
       <GUID>bc55b15e-e331-4782-b5d4-23fb44f573db</GUID>
         <Glyph>
         <Type>To Application Data Dir</Type>

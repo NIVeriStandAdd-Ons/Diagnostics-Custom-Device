@@ -130,6 +130,7 @@
 			<Item Name="Signal.Convert.StringArray.vi" Type="VI" URL="../SubVIs/Signal.Convert.StringArray.vi"/>
 			<Item Name="Signal.Export.StringArray.vi" Type="VI" URL="../SubVIs/Signal.Export.StringArray.vi"/>
 			<Item Name="Signal.FG.vi" Type="VI" URL="../SubVIs/Signal.FG.vi"/>
+			<Item Name="Signal.StartBit.Calculate.vi" Type="VI" URL="../SubVIs/Signal.StartBit.Calculate.vi"/>
 			<Item Name="Signals.Get.vi" Type="VI" URL="../SubVIs/Signals.Get.vi"/>
 			<Item Name="SysDef.Compile.vi" Type="VI" URL="../SubVIs/SysDef.Compile.vi"/>
 			<Item Name="SysDef.Create.FromPrevious.vi" Type="VI" URL="../SubVIs/SysDef.Create.FromPrevious.vi"/>
