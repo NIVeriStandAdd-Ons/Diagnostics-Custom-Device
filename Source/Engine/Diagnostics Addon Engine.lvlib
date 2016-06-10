@@ -80,9 +80,6 @@
 		<Item Name="TCP Connection Manager.vi" Type="VI" URL="../STM/TCP Connection Manager.vi"/>
 	</Item>
 	<Item Name="SubVIs" Type="Folder">
-		<Item Name="Delete" Type="Folder">
-			<Item Name="Conti_SendReceive.vi" Type="VI" URL="../SubVIs/Delete/Conti_SendReceive.vi"/>
-		</Item>
 		<Item Name="ADCS.Get.ErrorByte.vi" Type="VI" URL="../SubVIs/ADCS.Get.ErrorByte.vi"/>
 		<Item Name="ADCS.Port.Create.vi" Type="VI" URL="../SubVIs/ADCS.Port.Create.vi"/>
 		<Item Name="ADCS.TesterPresent.vi" Type="VI" URL="../SubVIs/ADCS.TesterPresent.vi"/>
