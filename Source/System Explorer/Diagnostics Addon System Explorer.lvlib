@@ -50,12 +50,10 @@
 				<Item Name="Commands.vi" Type="VI" URL="../Pages/Commands.vi"/>
 				<Item Name="DPID.vi" Type="VI" URL="../Pages/DPID.vi"/>
 				<Item Name="DPIDs.vi" Type="VI" URL="../Pages/DPIDs.vi"/>
-				<Item Name="DTC.vi" Type="VI" URL="../Pages/DTC.vi"/>
 				<Item Name="DTCs.vi" Type="VI" URL="../Pages/DTCs.vi"/>
 				<Item Name="Frame.vi" Type="VI" URL="../Pages/Frame.vi"/>
 				<Item Name="Frames.vi" Type="VI" URL="../Pages/Frames.vi"/>
-				<Item Name="Protected Section.vi" Type="VI" URL="../Pages/Protected Section.vi"/>
-				<Item Name="Protected Signal.vi" Type="VI" URL="../Pages/Protected Signal.vi"/>
+				<Item Name="Protected.vi" Type="VI" URL="../Pages/Protected.vi"/>
 				<Item Name="Signal Page.vi" Type="VI" URL="../Pages/Signal Page.vi"/>
 				<Item Name="Status.vi" Type="VI" URL="../Pages/Status.vi"/>
 				<Item Name="User Defined Collections.vi" Type="VI" URL="../Pages/User Defined Collections.vi"/>

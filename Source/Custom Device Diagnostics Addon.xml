@@ -951,7 +951,7 @@
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\DTC.vi</Path>
+        <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\Protected.vi</Path>
       </Item2Launch>
     </Page>
     <Page>
@@ -1174,7 +1174,7 @@
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\Protected Signal.vi</Path>
+        <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\Protected.vi</Path>
       </Item2Launch>
     </Page>
     <Page>
@@ -1638,7 +1638,7 @@
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\Protected Section.vi</Path>
+        <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\Protected.vi</Path>
       </Item2Launch>
     </Page>
     <Page>
@@ -1656,7 +1656,7 @@
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\Protected Section.vi</Path>
+        <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\Protected.vi</Path>
       </Item2Launch>
     </Page>
     <Page>
@@ -1674,7 +1674,7 @@
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\Protected Section.vi</Path>
+        <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\Protected.vi</Path>
       </Item2Launch>
     </Page>
     <Page>
