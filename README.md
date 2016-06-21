@@ -5,7 +5,7 @@ Diagnostics-Custom-Device
 
 THIS VERSION HAS MAJOR CHANGES.  THESE CHANGES WILL BREAK ANY RT SEQUENCES OR TESTSTAND SEQUENCES USED TO AUTOMATE THIS ADDON.  THE COMMAND & METADATA CHANNEL VALUES HAVE CHANGED.  PLEASE REVIEW THE IN PAGE HELP AND UPDATE YOUR SEQUENCES ACCORDINGLY.  ALL OTHER ITEMS SHOULD UPDATE WITHOUT ISSUE.
 
-This addon reads DIDs, PIDs, and DTCs.  It writes CPIDs and clears DTCs.  It does this over various protocols with varying levels of support.  GMLAN and KWP are supported. UDS is not fully implemented.
+This addon reads DIDs, PIDs, and DTCs.  It writes CPIDs and clears DTCs.  It can also control IO and start/stop/read routines.  It does this over various protocols with varying levels of support.  GMLAN, KWP, and UDS are supported.  Please review the in addon help for a full list of available commands.
 
 ### LabVIEW Version ###
 
