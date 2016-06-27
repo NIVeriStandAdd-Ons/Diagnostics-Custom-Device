@@ -17,7 +17,7 @@ Users are allowed to build anything under Build Specifications in the source's L
 
 ### Quality, Limitations ###
 
-IP has been tested by developer. It meets VeriStand addon coding best practices. It is not currently widely used, though some customers are using the GMLAN portion.
+IP has been tested by developer. It meets VeriStand addon coding best practices.
 
 No database support for diagnostic messages (ODX or AUTOSARs).
 
