@@ -139,6 +139,7 @@
 			<Item Name="Type.FG.vi" Type="VI" URL="../SubVIs/Type.FG.vi"/>
 			<Item Name="UserDefined.Compile.vi" Type="VI" URL="../SubVIs/UserDefined.Compile.vi"/>
 			<Item Name="UserDefined.Export.vi" Type="VI" URL="../SubVIs/UserDefined.Export.vi"/>
+			<Item Name="UserDefined.Group.Export.vi" Type="VI" URL="../SubVIs/UserDefined.Group.Export.vi"/>
 			<Item Name="UserDefined.Group.Message.Create.vi" Type="VI" URL="../SubVIs/UserDefined.Group.Message.Create.vi"/>
 			<Item Name="WriteSignal.Create.vi" Type="VI" URL="../SubVIs/WriteSignal.Create.vi"/>
 			<Item Name="WriteSignals.Compile.vi" Type="VI" URL="../SubVIs/WriteSignals.Compile.vi"/>
