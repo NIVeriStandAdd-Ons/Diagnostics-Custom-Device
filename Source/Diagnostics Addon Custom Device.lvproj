@@ -42,41 +42,6 @@
 		<Item Name="Diagnostics Tool.lvlib" Type="Library" URL="../Workspace Tool/Diagnostics Tool.lvlib"/>
 		<Item Name="Diagnostics Workspace Object.lvlib" Type="Library" URL="../Workspace Objects/Diagnostics Workspace Object.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
-			<Item Name="user.lib" Type="Folder">
-				<Item Name="STM Get Connection Reference (Serial).vi" Type="VI" URL="/&lt;userlib&gt;/STM/Serial/STM Get Connection Reference (Serial).vi"/>
-				<Item Name="STM Get Connection Reference (TCP).vi" Type="VI" URL="/&lt;userlib&gt;/STM/TCP/STM Get Connection Reference (TCP).vi"/>
-				<Item Name="STM Get Connection Reference (UDP).vi" Type="VI" URL="/&lt;userlib&gt;/STM/UDP/STM Get Connection Reference (UDP).vi"/>
-				<Item Name="STM Get Connection Reference.vi" Type="VI" URL="/&lt;userlib&gt;/STM/STM Get Connection Reference.vi"/>
-				<Item Name="STM Read Message (Serial).vi" Type="VI" URL="/&lt;userlib&gt;/STM/Serial/STM Read Message (Serial).vi"/>
-				<Item Name="STM Read Message (TCP).vi" Type="VI" URL="/&lt;userlib&gt;/STM/TCP/STM Read Message (TCP).vi"/>
-				<Item Name="STM Read Message (UDP).vi" Type="VI" URL="/&lt;userlib&gt;/STM/UDP/STM Read Message (UDP).vi"/>
-				<Item Name="STM Read Message.vi" Type="VI" URL="/&lt;userlib&gt;/STM/STM Read Message.vi"/>
-				<Item Name="STM Write Message (Serial).vi" Type="VI" URL="/&lt;userlib&gt;/STM/Serial/STM Write Message (Serial).vi"/>
-				<Item Name="STM Write Message (TCP).vi" Type="VI" URL="/&lt;userlib&gt;/STM/TCP/STM Write Message (TCP).vi"/>
-				<Item Name="STM Write Message (UDP).vi" Type="VI" URL="/&lt;userlib&gt;/STM/UDP/STM Write Message (UDP).vi"/>
-				<Item Name="STM Write Message.vi" Type="VI" URL="/&lt;userlib&gt;/STM/STM Write Message.vi"/>
-				<Item Name="STM Write Meta Data (Serial Clst).vi" Type="VI" URL="/&lt;userlib&gt;/STM/Serial/STM Write Meta Data (Serial Clst).vi"/>
-				<Item Name="STM Write Meta Data (Serial Ref).vi" Type="VI" URL="/&lt;userlib&gt;/STM/Serial/STM Write Meta Data (Serial Ref).vi"/>
-				<Item Name="STM Write Meta Data (TCP Clst).vi" Type="VI" URL="/&lt;userlib&gt;/STM/TCP/STM Write Meta Data (TCP Clst).vi"/>
-				<Item Name="STM Write Meta Data (TCP Ref).vi" Type="VI" URL="/&lt;userlib&gt;/STM/TCP/STM Write Meta Data (TCP Ref).vi"/>
-				<Item Name="STM Write Meta Data (UDP Clst).vi" Type="VI" URL="/&lt;userlib&gt;/STM/UDP/STM Write Meta Data (UDP Clst).vi"/>
-				<Item Name="STM Write Meta Data (UDP Ref).vi" Type="VI" URL="/&lt;userlib&gt;/STM/UDP/STM Write Meta Data (UDP Ref).vi"/>
-				<Item Name="STM Write Meta Data.vi" Type="VI" URL="/&lt;userlib&gt;/STM/STM Write Meta Data.vi"/>
-				<Item Name="stm_GetIDfromName_.vi" Type="VI" URL="/&lt;userlib&gt;/STM/_SubVIs/stm_GetIDfromName_.vi"/>
-				<Item Name="stm_MetaDataElement.ctl" Type="VI" URL="/&lt;userlib&gt;/STM/_SubVIs/stm_MetaDataElement.ctl"/>
-				<Item Name="stm_Serial Connection Info.ctl" Type="VI" URL="/&lt;userlib&gt;/STM/Serial/stm_Serial Connection Info.ctl"/>
-				<Item Name="stm_Serial Data Info.ctl" Type="VI" URL="/&lt;userlib&gt;/STM/Serial/stm_Serial Data Info.ctl"/>
-				<Item Name="stm_Serial Read Options.ctl" Type="VI" URL="/&lt;userlib&gt;/STM/Serial/stm_Serial Read Options.ctl"/>
-				<Item Name="stm_Serial Write Options.ctl" Type="VI" URL="/&lt;userlib&gt;/STM/Serial/stm_Serial Write Options.ctl"/>
-				<Item Name="stm_TCP Connection Info.ctl" Type="VI" URL="/&lt;userlib&gt;/STM/TCP/stm_TCP Connection Info.ctl"/>
-				<Item Name="stm_TCP Data Info.ctl" Type="VI" URL="/&lt;userlib&gt;/STM/TCP/stm_TCP Data Info.ctl"/>
-				<Item Name="stm_TCP Read Options.ctl" Type="VI" URL="/&lt;userlib&gt;/STM/TCP/stm_TCP Read Options.ctl"/>
-				<Item Name="stm_TCP Write Options.ctl" Type="VI" URL="/&lt;userlib&gt;/STM/TCP/stm_TCP Write Options.ctl"/>
-				<Item Name="stm_UDP Connection Info.ctl" Type="VI" URL="/&lt;userlib&gt;/STM/UDP/stm_UDP Connection Info.ctl"/>
-				<Item Name="stm_UDP Data Info.ctl" Type="VI" URL="/&lt;userlib&gt;/STM/UDP/stm_UDP Data Info.ctl"/>
-				<Item Name="stm_UDP Read Options.ctl" Type="VI" URL="/&lt;userlib&gt;/STM/UDP/stm_UDP Read Options.ctl"/>
-				<Item Name="stm_UDP Write Options.ctl" Type="VI" URL="/&lt;userlib&gt;/STM/UDP/stm_UDP Write Options.ctl"/>
-			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="_XNET Close All.vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/_XNET Close All.vi"/>
 				<Item Name="_XNET Convert List From Array To Comma.vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/_XNET Convert List From Array To Comma.vi"/>
@@ -164,6 +129,39 @@
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="StartDiagnosticSession.vi" Type="VI" URL="/&lt;vilib&gt;/Automotive Diagnostic Command Set/Diagnostic Protocols.llb/StartDiagnosticSession.vi"/>
 				<Item Name="StartRoutineByLocalIdentifier.vi" Type="VI" URL="/&lt;vilib&gt;/Automotive Diagnostic Command Set/Diagnostic Protocols.llb/StartRoutineByLocalIdentifier.vi"/>
+				<Item Name="STM Get Connection Reference (Serial).vi" Type="VI" URL="/&lt;vilib&gt;/NI/STM/compatibility/STM Get Connection Reference (Serial).vi"/>
+				<Item Name="STM Get Connection Reference (TCP).vi" Type="VI" URL="/&lt;vilib&gt;/NI/STM/compatibility/STM Get Connection Reference (TCP).vi"/>
+				<Item Name="STM Get Connection Reference (UDP).vi" Type="VI" URL="/&lt;vilib&gt;/NI/STM/compatibility/STM Get Connection Reference (UDP).vi"/>
+				<Item Name="STM Get Connection Reference.vi" Type="VI" URL="/&lt;vilib&gt;/NI/STM/compatibility/STM Get Connection Reference.vi"/>
+				<Item Name="STM Read Message (Serial).vi" Type="VI" URL="/&lt;vilib&gt;/NI/STM/compatibility/STM Read Message (Serial).vi"/>
+				<Item Name="STM Read Message (TCP).vi" Type="VI" URL="/&lt;vilib&gt;/NI/STM/compatibility/STM Read Message (TCP).vi"/>
+				<Item Name="STM Read Message (UDP).vi" Type="VI" URL="/&lt;vilib&gt;/NI/STM/compatibility/STM Read Message (UDP).vi"/>
+				<Item Name="STM Read Message.vi" Type="VI" URL="/&lt;vilib&gt;/NI/STM/compatibility/STM Read Message.vi"/>
+				<Item Name="STM Write Message (Serial).vi" Type="VI" URL="/&lt;vilib&gt;/NI/STM/compatibility/STM Write Message (Serial).vi"/>
+				<Item Name="STM Write Message (TCP).vi" Type="VI" URL="/&lt;vilib&gt;/NI/STM/compatibility/STM Write Message (TCP).vi"/>
+				<Item Name="STM Write Message (UDP).vi" Type="VI" URL="/&lt;vilib&gt;/NI/STM/compatibility/STM Write Message (UDP).vi"/>
+				<Item Name="STM Write Message.vi" Type="VI" URL="/&lt;vilib&gt;/NI/STM/compatibility/STM Write Message.vi"/>
+				<Item Name="STM Write Meta Data (Serial Clst).vi" Type="VI" URL="/&lt;vilib&gt;/NI/STM/compatibility/STM Write Meta Data (Serial Clst).vi"/>
+				<Item Name="STM Write Meta Data (Serial Ref).vi" Type="VI" URL="/&lt;vilib&gt;/NI/STM/compatibility/STM Write Meta Data (Serial Ref).vi"/>
+				<Item Name="STM Write Meta Data (TCP Clst).vi" Type="VI" URL="/&lt;vilib&gt;/NI/STM/compatibility/STM Write Meta Data (TCP Clst).vi"/>
+				<Item Name="STM Write Meta Data (TCP Ref).vi" Type="VI" URL="/&lt;vilib&gt;/NI/STM/compatibility/STM Write Meta Data (TCP Ref).vi"/>
+				<Item Name="STM Write Meta Data (UDP Clst).vi" Type="VI" URL="/&lt;vilib&gt;/NI/STM/compatibility/STM Write Meta Data (UDP Clst).vi"/>
+				<Item Name="STM Write Meta Data (UDP Ref).vi" Type="VI" URL="/&lt;vilib&gt;/NI/STM/compatibility/STM Write Meta Data (UDP Ref).vi"/>
+				<Item Name="STM Write Meta Data.vi" Type="VI" URL="/&lt;vilib&gt;/NI/STM/compatibility/STM Write Meta Data.vi"/>
+				<Item Name="stm_GetIDfromName_.vi" Type="VI" URL="/&lt;vilib&gt;/NI/STM/compatibility/stm_GetIDfromName_.vi"/>
+				<Item Name="stm_MetaDataElement.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/STM/compatibility/stm_MetaDataElement.ctl"/>
+				<Item Name="stm_Serial Connection Info.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/STM/compatibility/stm_Serial Connection Info.ctl"/>
+				<Item Name="stm_Serial Data Info.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/STM/compatibility/stm_Serial Data Info.ctl"/>
+				<Item Name="stm_Serial Read Options.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/STM/compatibility/stm_Serial Read Options.ctl"/>
+				<Item Name="stm_Serial Write Options.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/STM/compatibility/stm_Serial Write Options.ctl"/>
+				<Item Name="stm_TCP Connection Info.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/STM/compatibility/stm_TCP Connection Info.ctl"/>
+				<Item Name="stm_TCP Data Info.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/STM/compatibility/stm_TCP Data Info.ctl"/>
+				<Item Name="stm_TCP Read Options.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/STM/compatibility/stm_TCP Read Options.ctl"/>
+				<Item Name="stm_TCP Write Options.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/STM/compatibility/stm_TCP Write Options.ctl"/>
+				<Item Name="stm_UDP Connection Info.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/STM/compatibility/stm_UDP Connection Info.ctl"/>
+				<Item Name="stm_UDP Data Info.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/STM/compatibility/stm_UDP Data Info.ctl"/>
+				<Item Name="stm_UDP Read Options.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/STM/compatibility/stm_UDP Read Options.ctl"/>
+				<Item Name="stm_UDP Write Options.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/STM/compatibility/stm_UDP Write Options.ctl"/>
 				<Item Name="StopDiagnosticSession.vi" Type="VI" URL="/&lt;vilib&gt;/Automotive Diagnostic Command Set/Diagnostic Protocols.llb/StopDiagnosticSession.vi"/>
 				<Item Name="StopRoutineByLocalIdentifier.vi" Type="VI" URL="/&lt;vilib&gt;/Automotive Diagnostic Command Set/Diagnostic Protocols.llb/StopRoutineByLocalIdentifier.vi"/>
 				<Item Name="sub_Display Template - Polymorphic.vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/Display Template Support/Display Template Support.llb/sub_Display Template - Polymorphic.vi"/>
