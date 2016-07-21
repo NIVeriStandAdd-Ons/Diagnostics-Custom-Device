@@ -13,7 +13,7 @@
     <Type>Action</Type>
     <Item2Launch>
       <Type>To Common Doc Dir</Type>
-		<Path>Custom Devices\Diagnostics Addon\Diagnostics Addon Configuration.llb\Initialization VI.vi</Path>
+		<Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics Addon Configuration.llb\Initialization VI.vi</Path>
     </Item2Launch>
   </InitializationVI>
   <CustomDeviceVI>
@@ -66,7 +66,7 @@
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\Main Page.vi</Path>
+        <Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\Main Page.vi</Path>
       </Item2Launch>
       <RunTimeMenu>
         <MenuItem>
@@ -78,7 +78,7 @@
           </Name>
           <Item2Launch>
             <Type>To Common Doc Dir</Type>
-            <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\EnableDisable Main Page.vi</Path>
+            <Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\EnableDisable Main Page.vi</Path>
           </Item2Launch>
         </MenuItem>
         <MenuItem>
@@ -90,7 +90,7 @@
           </Name>
           <Item2Launch>
             <Type>To Common Doc Dir</Type>
-            <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\ExportConfigurationToFile.vi</Path>
+            <Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\ExportConfigurationToFile.vi</Path>
           </Item2Launch>
         </MenuItem>
         <MenuItem>
@@ -133,19 +133,19 @@
       </RunTimeMenu>
       <ActionVIOnDelete>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\ActionVIOnDelete.vi</Path>
+        <Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\ActionVIOnDelete.vi</Path>
       </ActionVIOnDelete>
       <ActionVIOnLoad>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\ActionVIOnLoad.vi</Path>
+        <Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\ActionVIOnLoad.vi</Path>
       </ActionVIOnLoad>
       <ActionVIOnSave>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\ActionVIOnSave.vi</Path>
+        <Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\ActionVIOnSave.vi</Path>
       </ActionVIOnSave>
       <ActionVIOnCompile>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\ActionVIOnCompile.vi</Path>
+        <Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\ActionVIOnCompile.vi</Path>
       </ActionVIOnCompile>
     </Page>
     <Page>
@@ -160,7 +160,7 @@
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\Main Page.vi</Path>
+        <Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\Main Page.vi</Path>
       </Item2Launch>
       <RunTimeMenu>
         <MenuItem>
@@ -172,7 +172,7 @@
           </Name>
           <Item2Launch>
             <Type>To Common Doc Dir</Type>
-            <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\EnableDisable Main Page.vi</Path>
+            <Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\EnableDisable Main Page.vi</Path>
           </Item2Launch>
         </MenuItem>
         <MenuItem>
@@ -184,7 +184,7 @@
           </Name>
           <Item2Launch>
             <Type>To Common Doc Dir</Type>
-            <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\ExportConfigurationToFile.vi</Path>
+            <Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\ExportConfigurationToFile.vi</Path>
           </Item2Launch>
         </MenuItem>
         <MenuItem>
@@ -227,15 +227,15 @@
       </RunTimeMenu>
       <ActionVIOnDelete>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\ActionVIOnDelete.vi</Path>
+        <Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\ActionVIOnDelete.vi</Path>
       </ActionVIOnDelete>
       <ActionVIOnLoad>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\ActionVIOnLoad.vi</Path>
+        <Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\ActionVIOnLoad.vi</Path>
       </ActionVIOnLoad>
       <ActionVIOnSave>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\ActionVIOnSave.vi</Path>
+        <Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\ActionVIOnSave.vi</Path>
       </ActionVIOnSave>
     </Page>
     <Page>
@@ -252,7 +252,7 @@
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\DTCs.vi</Path>
+        <Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\DTCs.vi</Path>
       </Item2Launch>
     </Page>
     <Page>
@@ -269,7 +269,7 @@
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\Frames.vi</Path>
+        <Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\Frames.vi</Path>
       </Item2Launch>
       <RunTimeMenu>
         <MenuItem>
@@ -301,7 +301,7 @@
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\Frames.vi</Path>
+        <Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\Frames.vi</Path>
       </Item2Launch>
       <RunTimeMenu>
         <MenuItem>
@@ -333,7 +333,7 @@
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\Frames.vi</Path>
+        <Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\Frames.vi</Path>
       </Item2Launch>
       <RunTimeMenu>
         <MenuItem>
@@ -365,7 +365,7 @@
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\Status.vi</Path>
+        <Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\Status.vi</Path>
       </Item2Launch>
     </Page>
     <Page>
@@ -382,7 +382,7 @@
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\Commands.vi</Path>
+        <Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\Commands.vi</Path>
       </Item2Launch>
     </Page>
     <Page>
@@ -408,7 +408,7 @@
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\Frame.vi</Path>
+        <Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\Frame.vi</Path>
       </Item2Launch>
       <RunTimeMenu>
         <MenuItem>
@@ -420,7 +420,7 @@
           </Name>
           <Item2Launch>
             <Type>To Common Doc Dir</Type>
-            <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\Edit Frame.vi</Path>
+            <Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\Edit Frame.vi</Path>
           </Item2Launch>
         </MenuItem>
         <MenuItem>
@@ -491,7 +491,7 @@
       <!--
       <ActionVIOnPaste>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\ActionVIOnPaste.vi</Path>
+        <Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\ActionVIOnPaste.vi</Path>
       </ActionVIOnPaste>
       -->
     </Page>
@@ -518,7 +518,7 @@
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\Frame.vi</Path>
+        <Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\Frame.vi</Path>
       </Item2Launch>
       <RunTimeMenu>
         <MenuItem>
@@ -530,7 +530,7 @@
           </Name>
           <Item2Launch>
             <Type>To Common Doc Dir</Type>
-            <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\Edit Frame.vi</Path>
+            <Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\Edit Frame.vi</Path>
           </Item2Launch>
         </MenuItem>
         <MenuItem>
@@ -601,7 +601,7 @@
       <!--
       <ActionVIOnPaste>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\ActionVIOnPaste.vi</Path>
+        <Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\ActionVIOnPaste.vi</Path>
       </ActionVIOnPaste>
       -->
     </Page>
@@ -619,7 +619,7 @@
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\Frames.vi</Path>
+        <Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\Frames.vi</Path>
       </Item2Launch>
       <RunTimeMenu>
         <MenuItem>
@@ -631,7 +631,7 @@
           </Name>
           <Item2Launch>
             <Type>To Common Doc Dir</Type>
-            <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\Add Frame.vi</Path>
+            <Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\Add Frame.vi</Path>
           </Item2Launch>
         </MenuItem>
         <MenuItem>
@@ -702,7 +702,7 @@
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\Frames.vi</Path>
+        <Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\Frames.vi</Path>
       </Item2Launch>
       <RunTimeMenu>
         <MenuItem>
@@ -714,7 +714,7 @@
           </Name>
           <Item2Launch>
             <Type>To Common Doc Dir</Type>
-            <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\Add Frame.vi</Path>
+            <Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\Add Frame.vi</Path>
           </Item2Launch>
         </MenuItem>
         <MenuItem>
@@ -785,7 +785,7 @@
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\Frames.vi</Path>
+        <Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\Frames.vi</Path>
       </Item2Launch>
       <RunTimeMenu>
         <MenuItem>
@@ -797,7 +797,7 @@
           </Name>
           <Item2Launch>
             <Type>To Common Doc Dir</Type>
-            <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\Add Frame.vi</Path>
+            <Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\Add Frame.vi</Path>
           </Item2Launch>
         </MenuItem>
         <MenuItem>
@@ -868,7 +868,7 @@
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\Frames.vi</Path>
+        <Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\Frames.vi</Path>
       </Item2Launch>
       <RunTimeMenu>
         <MenuItem>
@@ -880,7 +880,7 @@
           </Name>
           <Item2Launch>
             <Type>To Common Doc Dir</Type>
-            <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\Add Frame.vi</Path>
+            <Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\Add Frame.vi</Path>
           </Item2Launch>
         </MenuItem>
         <MenuItem>
@@ -951,7 +951,7 @@
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\Protected.vi</Path>
+        <Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\Protected.vi</Path>
       </Item2Launch>
     </Page>
     <Page>
@@ -968,7 +968,7 @@
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\DPIDs.vi</Path>
+        <Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\DPIDs.vi</Path>
       </Item2Launch>
       <RunTimeMenu>
         <MenuItem>
@@ -980,7 +980,7 @@
           </Name>
           <Item2Launch>
             <Type>To Common Doc Dir</Type>
-            <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\Add DPID.vi</Path>
+            <Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\Add DPID.vi</Path>
           </Item2Launch>
         </MenuItem>
         <MenuItem>
@@ -1056,7 +1056,7 @@
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\DPID.vi</Path>
+        <Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\DPID.vi</Path>
       </Item2Launch>
       <RunTimeMenu>
         <MenuItem>
@@ -1068,7 +1068,7 @@
           </Name>
           <Item2Launch>
             <Type>To Common Doc Dir</Type>
-            <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\Edit DPID.vi</Path>
+            <Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\Edit DPID.vi</Path>
           </Item2Launch>
         </MenuItem>
         <MenuItem>
@@ -1126,7 +1126,7 @@
       <!--
       <ActionVIOnPaste>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\ActionVIOnPaste.vi</Path>
+        <Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\ActionVIOnPaste.vi</Path>
       </ActionVIOnPaste>
       -->
     </Page>
@@ -1143,7 +1143,7 @@
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\Signal Page.vi</Path>
+        <Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\Signal Page.vi</Path>
       </Item2Launch>
       <RunTimeMenu>
         <MenuItem>
@@ -1174,7 +1174,7 @@
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\Protected.vi</Path>
+        <Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\Protected.vi</Path>
       </Item2Launch>
     </Page>
     <Page>
@@ -1191,7 +1191,7 @@
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\Collections.vi</Path>
+        <Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\Collections.vi</Path>
       </Item2Launch>
       <RunTimeMenu>
         <MenuItem>
@@ -1203,7 +1203,7 @@
           </Name>
           <Item2Launch>
             <Type>To Common Doc Dir</Type>
-            <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\Add Collection.vi</Path>
+            <Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\Add Collection.vi</Path>
           </Item2Launch>
         </MenuItem>
         <MenuItem>
@@ -1280,7 +1280,7 @@
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\Collection.vi</Path>
+        <Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\Collection.vi</Path>
       </Item2Launch>
       <RunTimeMenu>
         <MenuItem>
@@ -1312,7 +1312,7 @@
       <!--
       <ActionVIOnPaste>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\ActionVIOnPaste.vi</Path>
+        <Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\ActionVIOnPaste.vi</Path>
       </ActionVIOnPaste>
       -->
     </Page>
@@ -1331,7 +1331,7 @@
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\Frame.vi</Path>
+        <Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\Frame.vi</Path>
       </Item2Launch>
       <RunTimeMenu>
         <MenuItem>
@@ -1343,7 +1343,7 @@
           </Name>
           <Item2Launch>
             <Type>To Common Doc Dir</Type>
-            <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\Edit Frame.vi</Path>
+            <Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\Edit Frame.vi</Path>
           </Item2Launch>
         </MenuItem>
         <MenuItem>
@@ -1415,7 +1415,7 @@
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\Frame.vi</Path>
+        <Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\Frame.vi</Path>
       </Item2Launch>
       <RunTimeMenu>
         <MenuItem>
@@ -1427,7 +1427,7 @@
           </Name>
           <Item2Launch>
             <Type>To Common Doc Dir</Type>
-            <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\Edit Frame.vi</Path>
+            <Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\Edit Frame.vi</Path>
           </Item2Launch>
         </MenuItem>
         <MenuItem>
@@ -1498,7 +1498,7 @@
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\Collections.vi</Path>
+        <Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\Collections.vi</Path>
       </Item2Launch>
       <RunTimeMenu>
         <MenuItem>
@@ -1510,7 +1510,7 @@
           </Name>
           <Item2Launch>
             <Type>To Common Doc Dir</Type>
-            <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\Add Collection.vi</Path>
+            <Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\Add Collection.vi</Path>
           </Item2Launch>
         </MenuItem>
         <MenuItem>
@@ -1587,7 +1587,7 @@
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\Collection.vi</Path>
+        <Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\Collection.vi</Path>
       </Item2Launch>
       <RunTimeMenu>
         <MenuItem>
@@ -1619,7 +1619,7 @@
       <!--
       <ActionVIOnPaste>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\ActionVIOnPaste.vi</Path>
+        <Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\ActionVIOnPaste.vi</Path>
       </ActionVIOnPaste>
       -->
     </Page>
@@ -1638,7 +1638,7 @@
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\Protected.vi</Path>
+        <Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\Protected.vi</Path>
       </Item2Launch>
     </Page>
     <Page>
@@ -1656,7 +1656,7 @@
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\Protected.vi</Path>
+        <Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\Protected.vi</Path>
       </Item2Launch>
     </Page>
     <Page>
@@ -1674,7 +1674,7 @@
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\Protected.vi</Path>
+        <Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\Protected.vi</Path>
       </Item2Launch>
     </Page>
     <Page>
@@ -1691,7 +1691,7 @@
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\Frames.vi</Path>
+        <Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\Frames.vi</Path>
       </Item2Launch>
       <RunTimeMenu>
         <MenuItem>
@@ -1703,7 +1703,7 @@
           </Name>
           <Item2Launch>
             <Type>To Common Doc Dir</Type>
-            <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\Add Frame.vi</Path>
+            <Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\Add Frame.vi</Path>
           </Item2Launch>
         </MenuItem>
         <MenuItem>
@@ -1774,7 +1774,7 @@
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\Frames.vi</Path>
+        <Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\Frames.vi</Path>
       </Item2Launch>
       <RunTimeMenu>
         <MenuItem>
@@ -1786,7 +1786,7 @@
           </Name>
           <Item2Launch>
             <Type>To Common Doc Dir</Type>
-            <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\Add Frame.vi</Path>
+            <Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\Add Frame.vi</Path>
           </Item2Launch>
         </MenuItem>
         <MenuItem>
@@ -1864,7 +1864,7 @@
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\Frame.vi</Path>
+        <Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\Frame.vi</Path>
       </Item2Launch>
       <RunTimeMenu>
         <MenuItem>
@@ -1876,7 +1876,7 @@
           </Name>
           <Item2Launch>
             <Type>To Common Doc Dir</Type>
-            <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\Edit Frame.vi</Path>
+            <Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\Edit Frame.vi</Path>
           </Item2Launch>
         </MenuItem>
         <MenuItem>
@@ -1947,7 +1947,7 @@
       <!--
       <ActionVIOnPaste>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\ActionVIOnPaste.vi</Path>
+        <Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\ActionVIOnPaste.vi</Path>
       </ActionVIOnPaste>
       -->
     </Page>
@@ -1965,7 +1965,7 @@
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\Frame.vi</Path>
+        <Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\Frame.vi</Path>
       </Item2Launch>
       <RunTimeMenu>
         <MenuItem>
@@ -1977,7 +1977,7 @@
           </Name>
           <Item2Launch>
             <Type>To Common Doc Dir</Type>
-            <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\Edit Frame.vi</Path>
+            <Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\Edit Frame.vi</Path>
           </Item2Launch>
         </MenuItem>
         <MenuItem>
@@ -2048,7 +2048,7 @@
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\User Defined Collections.vi</Path>
+        <Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\User Defined Collections.vi</Path>
       </Item2Launch>
       <RunTimeMenu>
         <MenuItem>
@@ -2060,7 +2060,7 @@
           </Name>
           <Item2Launch>
             <Type>To Common Doc Dir</Type>
-            <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\Add User Defined Group.vi</Path>
+            <Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\Add User Defined Group.vi</Path>
           </Item2Launch>
         </MenuItem>
         <MenuItem>
@@ -2129,7 +2129,7 @@
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\User Defined Collections.vi</Path>
+        <Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\User Defined Collections.vi</Path>
       </Item2Launch>
       <RunTimeMenu>
         <MenuItem>
@@ -2141,7 +2141,7 @@
           </Name>
           <Item2Launch>
             <Type>To Common Doc Dir</Type>
-            <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\Add User Defined Message.vi</Path>
+            <Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\Add User Defined Message.vi</Path>
           </Item2Launch>
         </MenuItem>
         <MenuItem>
@@ -2222,7 +2222,7 @@
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Diagnostics addon\Diagnostics addon Configuration.llb\User Defined Message.vi</Path>
+        <Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\User Defined Message.vi</Path>
       </Item2Launch>
       <RunTimeMenu>
         <MenuItem>
