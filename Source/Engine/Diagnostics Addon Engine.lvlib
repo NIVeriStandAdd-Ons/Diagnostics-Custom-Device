@@ -35,7 +35,6 @@
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
 	<Item Name="Engines" Type="Folder">
 		<Item Name="Diagnostics.vi" Type="VI" URL="../Async VIs/Diagnostics/Diagnostics.vi"/>
-		<Item Name="ErrorHandler.vi" Type="VI" URL="../Async VIs/Error Handler/ErrorHandler.vi"/>
 	</Item>
 	<Item Name="STM" Type="Folder">
 		<Item Name="_SubVIs" Type="Folder">
@@ -127,9 +126,7 @@
 		<Item Name="XNET.Refs.ctl" Type="VI" URL="../Types/XNET.Refs.ctl"/>
 	</Item>
 	<Item Name="Userlib" Type="Folder">
-		<Item Name="Error Handling API.lvlib" Type="Library" URL="../SubVIs/Error Handling API/Error Handling API.lvlib"/>
 		<Item Name="Inline Async API.lvlib" Type="Library" URL="../SubVIs/Inline Async API/Inline Async API.lvlib"/>
-		<Item Name="Stop FG.lvlib" Type="Library" URL="../SubVIs/Stop FG/Stop FG.lvlib"/>
 	</Item>
 	<Item Name="RT Driver VI.vi" Type="VI" URL="../RT Driver VI.vi"/>
 </Library>
