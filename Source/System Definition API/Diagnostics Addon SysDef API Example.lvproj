@@ -20,7 +20,7 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Diagnostics SysDef API.lvlibp" Type="LVLibp" URL="../Diagnostics SysDef API.lvlibp">
 			<Item Name="Create Diagnostics Addon.vi" Type="VI" URL="../Diagnostics SysDef API.lvlibp/System Definition API/Create Diagnostics Addon.vi"/>
-			<Item Name="Custom Device API.lvlib" Type="Library" URL="../Diagnostics SysDef API.lvlibp/1abvi3w/vi.lib/NI Veristand/Custom Device API/Custom Device API.lvlib"/>
+			<Item Name="Custom Device API.lvlib" Type="Library" URL="../Diagnostics SysDef API.lvlibp/1abvi3w/vi.lib/NI VeriStand/Custom Device API/Custom Device API.lvlib"/>
 			<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="../Diagnostics SysDef API.lvlibp/1abvi3w/vi.lib/NI Veristand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
 			<Item Name="Diagnostics Addon Shared.lvlib" Type="Library" URL="../Diagnostics SysDef API.lvlibp/Shared/Diagnostics Addon Shared.lvlib"/>
 			<Item Name="Diagnostics Addon System Explorer.lvlib" Type="Library" URL="../Diagnostics SysDef API.lvlibp/System Explorer/Diagnostics Addon System Explorer.lvlib"/>
@@ -28,6 +28,9 @@
 			<Item Name="MD5Checksum File.vi" Type="VI" URL="../Diagnostics SysDef API.lvlibp/1abvi3w/vi.lib/Utility/MD5Checksum.llb/MD5Checksum File.vi"/>
 			<Item Name="MD5Checksum format message-digest.vi" Type="VI" URL="../Diagnostics SysDef API.lvlibp/1abvi3w/vi.lib/Utility/MD5Checksum.llb/MD5Checksum format message-digest.vi"/>
 			<Item Name="MD5Checksum pad.vi" Type="VI" URL="../Diagnostics SysDef API.lvlibp/1abvi3w/vi.lib/Utility/MD5Checksum.llb/MD5Checksum pad.vi"/>
+			<Item Name="XNET Database Add Alias.vi" Type="VI" URL="../Diagnostics SysDef API.lvlibp/1abvi3w/vi.lib/xnet/xnet.llb/XNET Database Add Alias.vi"/>
+			<Item Name="XNET Database Remove Alias.vi" Type="VI" URL="../Diagnostics SysDef API.lvlibp/1abvi3w/vi.lib/xnet/xnet.llb/XNET Database Remove Alias.vi"/>
+			<Item Name="XNET Fill In Error Info.vi" Type="VI" URL="../Diagnostics SysDef API.lvlibp/1abvi3w/vi.lib/xnet/xnet.llb/XNET Fill In Error Info.vi"/>
 		</Item>
 		<Item Name="Diagnostics SysDef Example.vi" Type="VI" URL="../Diagnostics SysDef Example.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -35,6 +38,9 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="NationalInstruments.VeriStand.SystemDefinitionAPI" Type="Document" URL="NationalInstruments.VeriStand.SystemDefinitionAPI">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="nixlvapi.dll" Type="Document" URL="nixlvapi.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 		</Item>
