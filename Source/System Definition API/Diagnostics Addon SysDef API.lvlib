@@ -5,4 +5,5 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Item Name="Create Diagnostics Addon.vi" Type="VI" URL="../Create Diagnostics Addon.vi"/>
+	<Item Name="Read Diagnostic Configuration.vi" Type="VI" URL="../Read Diagnostic Configuration.vi"/>
 </Library>

@@ -134,6 +134,7 @@
 			<Item Name="SysDef.Create.FromPrevious.vi" Type="VI" URL="../SubVIs/SysDef.Create.FromPrevious.vi"/>
 			<Item Name="SysDef.Create.vi" Type="VI" URL="../SubVIs/SysDef.Create.vi"/>
 			<Item Name="SysDef.Export.vi" Type="VI" URL="../SubVIs/SysDef.Export.vi"/>
+			<Item Name="SysDef.Import.vi" Type="VI" URL="../SubVIs/SysDef.Import.vi"/>
 			<Item Name="Target.Get.Name.vi" Type="VI" URL="../SubVIs/Target.Get.Name.vi"/>
 			<Item Name="Type.Determine.vi" Type="VI" URL="../SubVIs/Type.Determine.vi"/>
 			<Item Name="Type.FG.vi" Type="VI" URL="../SubVIs/Type.FG.vi"/>
