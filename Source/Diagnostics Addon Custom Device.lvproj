@@ -27,6 +27,7 @@
 			<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
 		</Item>
 		<Item Name="Support Files" Type="Folder">
+			<Item Name="Custom Device Diagnostics Addon.xml" Type="Document" URL="../Custom Device Diagnostics Addon.xml"/>
 			<Item Name="Diagnostics.chm" Type="Document" URL="../Help/Diagnostics.chm"/>
 			<Item Name="Diagnostics_Addon_Temp_DB.xml" Type="Document" URL="../Diagnostics_Addon_Temp_DB.xml"/>
 			<Item Name="GMLAN.lvlib" Type="Library" URL="../Engine/SubVIs/GMLAN/GMLAN.lvlib"/>
@@ -384,7 +385,7 @@
 				<Property Name="Destination[3].destName" Type="Str">XML Folder</Property>
 				<Property Name="Destination[3].path" Type="Path">../Built/custom devices/Diagnostics Addon</Property>
 				<Property Name="DestinationCount" Type="Int">4</Property>
-				<Property Name="Source[0].itemID" Type="Str">{71AA621D-EBC4-498B-AE06-6B15B4DE1FB5}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{D9184B1A-63FF-4BF2-B6CA-7D8A5DFD2D29}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[1].Container.applyInclusion" Type="Bool">true</Property>
@@ -435,13 +436,16 @@
 				<Property Name="Source[3].properties[4].value" Type="Bool">false</Property>
 				<Property Name="Source[3].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[3].type" Type="Str">Container</Property>
-				<Property Name="Source[4].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Support Files/Diagnostics_Addon_Temp_DB.xml</Property>
 				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Support Files/Diagnostics.chm</Property>
 				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="SourceCount" Type="Int">6</Property>
+				<Property Name="Source[6].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Support Files/Custom Device Diagnostics Addon.xml</Property>
+				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="SourceCount" Type="Int">7</Property>
 			</Item>
 			<Item Name="Diagnostics Addon System Definition API" Type="Packed Library">
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
@@ -455,7 +459,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{57A573C2-138C-4771-89D5-13C99724ACD8}</Property>
-				<Property Name="Bld_version.build" Type="Int">20</Property>
+				<Property Name="Bld_version.build" Type="Int">23</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Diagnostics SysDef API.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">../Built/Custom Devices/Diagnostics Addon/Windows/Diagnostics SysDef API/Diagnostics SysDef API.lvlibp</Property>
@@ -1134,178 +1138,6 @@
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="Copy of Engine Release" Type="Source Distribution">
-				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{1A30B10B-A32F-41C6-AF62-5415B95A3868}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">Copy of Engine Release</Property>
-				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
-				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../Built/Custom Devices/Diagnostics Addon</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
-				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{6BF7F70A-EC3C-42BB-8760-A380C6B8F0CE}</Property>
-				<Property Name="Bld_targetDestDir" Type="Path">/Pharlap/Diagnostics Addon Engine Pharlap.llb</Property>
-				<Property Name="Bld_version.build" Type="Int">39</Property>
-				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
-				<Property Name="Destination[0].path" Type="Path">/Pharlap/Diagnostics Addon Engine Pharlap.llb</Property>
-				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
-				<Property Name="Destination[0].type" Type="Str">LLB</Property>
-				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/Pharlap/data</Property>
-				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
-				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].Container.applyProperties" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{067AAD3F-487F-44FF-AE51-C2C359B99C2A}</Property>
-				<Property Name="Source[0].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[0].properties[0].value" Type="Bool">false</Property>
-				<Property Name="Source[0].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[0].properties[1].value" Type="Bool">false</Property>
-				<Property Name="Source[0].properties[2].type" Type="Str">Allow debugging</Property>
-				<Property Name="Source[0].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[0].properties[3].type" Type="Str">Run when opened</Property>
-				<Property Name="Source[0].properties[3].value" Type="Bool">false</Property>
-				<Property Name="Source[0].properties[4].type" Type="Str">Auto error handling</Property>
-				<Property Name="Source[0].properties[4].value" Type="Bool">false</Property>
-				<Property Name="Source[0].propertiesCount" Type="Int">5</Property>
-				<Property Name="Source[0].type" Type="Str">Container</Property>
-				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/RT PXI Target - Pharlap/Diagnostics Addon Engine.lvlib/RT Driver VI.vi</Property>
-				<Property Name="Source[1].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[1].properties[0].value" Type="Bool">false</Property>
-				<Property Name="Source[1].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[1].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[1].properties[2].type" Type="Str">Auto error handling</Property>
-				<Property Name="Source[1].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[1].properties[3].type" Type="Str">Allow debugging</Property>
-				<Property Name="Source[1].properties[3].value" Type="Bool">false</Property>
-				<Property Name="Source[1].properties[4].type" Type="Str">Run when opened</Property>
-				<Property Name="Source[1].properties[4].value" Type="Bool">false</Property>
-				<Property Name="Source[1].propertiesCount" Type="Int">5</Property>
-				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="Source[2].Container.applyProperties" Type="Bool">true</Property>
-				<Property Name="Source[2].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/RT PXI Target - Pharlap/Diagnostics Addon Engine.lvlib/Engines</Property>
-				<Property Name="Source[2].properties[0].type" Type="Str">Auto error handling</Property>
-				<Property Name="Source[2].properties[0].value" Type="Bool">false</Property>
-				<Property Name="Source[2].properties[1].type" Type="Str">Allow debugging</Property>
-				<Property Name="Source[2].properties[1].value" Type="Bool">false</Property>
-				<Property Name="Source[2].properties[2].type" Type="Str">Run when opened</Property>
-				<Property Name="Source[2].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[2].properties[3].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[2].properties[3].value" Type="Bool">false</Property>
-				<Property Name="Source[2].properties[4].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[2].properties[4].value" Type="Bool">true</Property>
-				<Property Name="Source[2].propertiesCount" Type="Int">5</Property>
-				<Property Name="Source[2].type" Type="Str">Container</Property>
-				<Property Name="Source[3].Container.applyProperties" Type="Bool">true</Property>
-				<Property Name="Source[3].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/RT PXI Target - Pharlap/Diagnostics Addon Engine.lvlib/STM</Property>
-				<Property Name="Source[3].properties[0].type" Type="Str">Auto error handling</Property>
-				<Property Name="Source[3].properties[0].value" Type="Bool">false</Property>
-				<Property Name="Source[3].properties[1].type" Type="Str">Allow debugging</Property>
-				<Property Name="Source[3].properties[1].value" Type="Bool">false</Property>
-				<Property Name="Source[3].properties[2].type" Type="Str">Run when opened</Property>
-				<Property Name="Source[3].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[3].properties[3].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[3].properties[3].value" Type="Bool">true</Property>
-				<Property Name="Source[3].properties[4].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[3].properties[4].value" Type="Bool">true</Property>
-				<Property Name="Source[3].propertiesCount" Type="Int">5</Property>
-				<Property Name="Source[3].type" Type="Str">Container</Property>
-				<Property Name="Source[4].Container.applyProperties" Type="Bool">true</Property>
-				<Property Name="Source[4].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/RT PXI Target - Pharlap/Diagnostics Addon Engine.lvlib/SubVIs</Property>
-				<Property Name="Source[4].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[4].properties[0].value" Type="Bool">true</Property>
-				<Property Name="Source[4].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[4].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[4].properties[2].type" Type="Str">Run when opened</Property>
-				<Property Name="Source[4].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[4].properties[3].type" Type="Str">Allow debugging</Property>
-				<Property Name="Source[4].properties[3].value" Type="Bool">false</Property>
-				<Property Name="Source[4].properties[4].type" Type="Str">Auto error handling</Property>
-				<Property Name="Source[4].properties[4].value" Type="Bool">false</Property>
-				<Property Name="Source[4].propertiesCount" Type="Int">5</Property>
-				<Property Name="Source[4].type" Type="Str">Container</Property>
-				<Property Name="Source[5].Container.applyProperties" Type="Bool">true</Property>
-				<Property Name="Source[5].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/RT PXI Target - Pharlap/Diagnostics Addon Engine.lvlib/Types</Property>
-				<Property Name="Source[5].properties[0].type" Type="Str">Auto error handling</Property>
-				<Property Name="Source[5].properties[0].value" Type="Bool">false</Property>
-				<Property Name="Source[5].properties[1].type" Type="Str">Allow debugging</Property>
-				<Property Name="Source[5].properties[1].value" Type="Bool">false</Property>
-				<Property Name="Source[5].properties[2].type" Type="Str">Run when opened</Property>
-				<Property Name="Source[5].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[5].properties[3].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[5].properties[3].value" Type="Bool">true</Property>
-				<Property Name="Source[5].properties[4].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[5].properties[4].value" Type="Bool">true</Property>
-				<Property Name="Source[5].propertiesCount" Type="Int">5</Property>
-				<Property Name="Source[5].type" Type="Str">Container</Property>
-				<Property Name="Source[6].Container.applyProperties" Type="Bool">true</Property>
-				<Property Name="Source[6].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[6].itemID" Type="Ref">/RT PXI Target - Pharlap/NI VeriStand APIs</Property>
-				<Property Name="Source[6].properties[0].type" Type="Str">Run when opened</Property>
-				<Property Name="Source[6].properties[0].value" Type="Bool">false</Property>
-				<Property Name="Source[6].properties[1].type" Type="Str">Allow debugging</Property>
-				<Property Name="Source[6].properties[1].value" Type="Bool">false</Property>
-				<Property Name="Source[6].properties[2].type" Type="Str">Auto error handling</Property>
-				<Property Name="Source[6].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[6].properties[3].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[6].properties[3].value" Type="Bool">true</Property>
-				<Property Name="Source[6].properties[4].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[6].properties[4].value" Type="Bool">true</Property>
-				<Property Name="Source[6].propertiesCount" Type="Int">5</Property>
-				<Property Name="Source[6].type" Type="Str">Container</Property>
-				<Property Name="Source[7].Container.applyProperties" Type="Bool">true</Property>
-				<Property Name="Source[7].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[7].itemID" Type="Ref">/RT PXI Target - Pharlap/Diagnostics Addon Engine.lvlib/Userlib</Property>
-				<Property Name="Source[7].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[7].properties[0].value" Type="Bool">false</Property>
-				<Property Name="Source[7].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[7].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[7].properties[2].type" Type="Str">Auto error handling</Property>
-				<Property Name="Source[7].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[7].properties[3].type" Type="Str">Allow debugging</Property>
-				<Property Name="Source[7].properties[3].value" Type="Bool">false</Property>
-				<Property Name="Source[7].properties[4].type" Type="Str">Run when opened</Property>
-				<Property Name="Source[7].properties[4].value" Type="Bool">false</Property>
-				<Property Name="Source[7].propertiesCount" Type="Int">5</Property>
-				<Property Name="Source[7].type" Type="Str">Container</Property>
-				<Property Name="Source[8].Container.applyProperties" Type="Bool">true</Property>
-				<Property Name="Source[8].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[8].itemID" Type="Ref">/RT PXI Target - Pharlap/Diagnostics Addon Shared.lvlib/Shared</Property>
-				<Property Name="Source[8].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[8].properties[0].value" Type="Bool">true</Property>
-				<Property Name="Source[8].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[8].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[8].properties[2].type" Type="Str">Run when opened</Property>
-				<Property Name="Source[8].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[8].properties[3].type" Type="Str">Allow debugging</Property>
-				<Property Name="Source[8].properties[3].value" Type="Bool">false</Property>
-				<Property Name="Source[8].properties[4].type" Type="Str">Auto error handling</Property>
-				<Property Name="Source[8].properties[4].value" Type="Bool">false</Property>
-				<Property Name="Source[8].propertiesCount" Type="Int">5</Property>
-				<Property Name="Source[8].type" Type="Str">Container</Property>
-				<Property Name="Source[9].Container.applyProperties" Type="Bool">true</Property>
-				<Property Name="Source[9].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[9].itemID" Type="Ref">/RT PXI Target - Pharlap/GMLAN.lvlib/GMLAN</Property>
-				<Property Name="Source[9].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[9].properties[0].value" Type="Bool">true</Property>
-				<Property Name="Source[9].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[9].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[9].properties[2].type" Type="Str">Auto error handling</Property>
-				<Property Name="Source[9].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[9].properties[3].type" Type="Str">Allow debugging</Property>
-				<Property Name="Source[9].properties[3].value" Type="Bool">false</Property>
-				<Property Name="Source[9].properties[4].type" Type="Str">Run when opened</Property>
-				<Property Name="Source[9].properties[4].value" Type="Bool">false</Property>
-				<Property Name="Source[9].propertiesCount" Type="Int">5</Property>
-				<Property Name="Source[9].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">10</Property>
-			</Item>
 			<Item Name="Engine Release" Type="Source Distribution">
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{6BDBFE1D-3F11-4542-90DF-DA3901F3EE6B}</Property>
@@ -1317,7 +1149,7 @@
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{FFDCA642-638A-4664-9D94-164F9021CA4C}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/Pharlap/Diagnostics Addon Engine Pharlap.llb</Property>
-				<Property Name="Bld_version.build" Type="Int">40</Property>
+				<Property Name="Bld_version.build" Type="Int">41</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">/Pharlap/Diagnostics Addon Engine Pharlap.llb</Property>
