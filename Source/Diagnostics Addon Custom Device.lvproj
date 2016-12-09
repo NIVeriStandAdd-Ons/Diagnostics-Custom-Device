@@ -365,35 +365,6 @@
 			<Item Name="niyanci.dll" Type="Document" URL="niyanci.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="SysDef.Property.Get.Boolean.vi" Type="VI" URL="../../../../Users/deaton/Desktop/System Definition Utilities/_SubVIs/SysDef.Property.Get.Boolean.vi"/>
-			<Item Name="SysDef.Property.Get.DBL.Array.vi" Type="VI" URL="../../../../Users/deaton/Desktop/System Definition Utilities/_SubVIs/SysDef.Property.Get.DBL.Array.vi"/>
-			<Item Name="SysDef.Property.Get.DBL.vi" Type="VI" URL="../../../../Users/deaton/Desktop/System Definition Utilities/_SubVIs/SysDef.Property.Get.DBL.vi"/>
-			<Item Name="SysDef.Property.Get.DependentFile.vi" Type="VI" URL="../../../../Users/deaton/Desktop/System Definition Utilities/_SubVIs/SysDef.Property.Get.DependentFile.vi"/>
-			<Item Name="SysDef.Property.Get.I32.Array.vi" Type="VI" URL="../../../../Users/deaton/Desktop/System Definition Utilities/_SubVIs/SysDef.Property.Get.I32.Array.vi"/>
-			<Item Name="SysDef.Property.Get.I32.vi" Type="VI" URL="../../../../Users/deaton/Desktop/System Definition Utilities/_SubVIs/SysDef.Property.Get.I32.vi"/>
-			<Item Name="SysDef.Property.Get.Node.vi" Type="VI" URL="../../../../Users/deaton/Desktop/System Definition Utilities/_SubVIs/SysDef.Property.Get.Node.vi"/>
-			<Item Name="SysDef.Property.Get.Path.vi" Type="VI" URL="../../../../Users/deaton/Desktop/System Definition Utilities/_SubVIs/SysDef.Property.Get.Path.vi"/>
-			<Item Name="SysDef.Property.Get.String.Array.vi" Type="VI" URL="../../../../Users/deaton/Desktop/System Definition Utilities/_SubVIs/SysDef.Property.Get.String.Array.vi"/>
-			<Item Name="SysDef.Property.Get.String.vi" Type="VI" URL="../../../../Users/deaton/Desktop/System Definition Utilities/_SubVIs/SysDef.Property.Get.String.vi"/>
-			<Item Name="SysDef.Property.Get.U16.vi" Type="VI" URL="../../../../Users/deaton/Desktop/System Definition Utilities/_SubVIs/SysDef.Property.Get.U16.vi"/>
-			<Item Name="SysDef.Property.Get.U32.Array.vi" Type="VI" URL="../../../../Users/deaton/Desktop/System Definition Utilities/_SubVIs/SysDef.Property.Get.U32.Array.vi"/>
-			<Item Name="SysDef.Property.Get.U32.vi" Type="VI" URL="../../../../Users/deaton/Desktop/System Definition Utilities/_SubVIs/SysDef.Property.Get.U32.vi"/>
-			<Item Name="SysDef.Property.Get.Variant.vi" Type="VI" URL="../../../../Users/deaton/Desktop/System Definition Utilities/_SubVIs/SysDef.Property.Get.Variant.vi"/>
-			<Item Name="SysDef.Property.Remove.vi" Type="VI" URL="../../../../Users/deaton/Desktop/System Definition Utilities/SysDef.Property.Remove.vi"/>
-			<Item Name="SysDef.Property.Set.Boolean.vi" Type="VI" URL="../../../../Users/deaton/Desktop/System Definition Utilities/_SubVIs/SysDef.Property.Set.Boolean.vi"/>
-			<Item Name="SysDef.Property.Set.DBL.Array.vi" Type="VI" URL="../../../../Users/deaton/Desktop/System Definition Utilities/_SubVIs/SysDef.Property.Set.DBL.Array.vi"/>
-			<Item Name="SysDef.Property.Set.DBL.vi" Type="VI" URL="../../../../Users/deaton/Desktop/System Definition Utilities/_SubVIs/SysDef.Property.Set.DBL.vi"/>
-			<Item Name="SysDef.Property.Set.DependentFile.vi" Type="VI" URL="../../../../Users/deaton/Desktop/System Definition Utilities/_SubVIs/SysDef.Property.Set.DependentFile.vi"/>
-			<Item Name="SysDef.Property.Set.I32.Array.vi" Type="VI" URL="../../../../Users/deaton/Desktop/System Definition Utilities/_SubVIs/SysDef.Property.Set.I32.Array.vi"/>
-			<Item Name="SysDef.Property.Set.I32.vi" Type="VI" URL="../../../../Users/deaton/Desktop/System Definition Utilities/_SubVIs/SysDef.Property.Set.I32.vi"/>
-			<Item Name="SysDef.Property.Set.Node.vi" Type="VI" URL="../../../../Users/deaton/Desktop/System Definition Utilities/_SubVIs/SysDef.Property.Set.Node.vi"/>
-			<Item Name="SysDef.Property.Set.Path.vi" Type="VI" URL="../../../../Users/deaton/Desktop/System Definition Utilities/_SubVIs/SysDef.Property.Set.Path.vi"/>
-			<Item Name="SysDef.Property.Set.String.Array.vi" Type="VI" URL="../../../../Users/deaton/Desktop/System Definition Utilities/_SubVIs/SysDef.Property.Set.String.Array.vi"/>
-			<Item Name="SysDef.Property.Set.String.vi" Type="VI" URL="../../../../Users/deaton/Desktop/System Definition Utilities/_SubVIs/SysDef.Property.Set.String.vi"/>
-			<Item Name="SysDef.Property.Set.U16.vi" Type="VI" URL="../../../../Users/deaton/Desktop/System Definition Utilities/_SubVIs/SysDef.Property.Set.U16.vi"/>
-			<Item Name="SysDef.Property.Set.U32.Array.vi" Type="VI" URL="../../../../Users/deaton/Desktop/System Definition Utilities/_SubVIs/SysDef.Property.Set.U32.Array.vi"/>
-			<Item Name="SysDef.Property.Set.U32.vi" Type="VI" URL="../../../../Users/deaton/Desktop/System Definition Utilities/_SubVIs/SysDef.Property.Set.U32.vi"/>
-			<Item Name="SysDef.Property.Set.Variant.vi" Type="VI" URL="../../../../Users/deaton/Desktop/System Definition Utilities/_SubVIs/SysDef.Property.Set.Variant.vi"/>
 			<Item Name="System Definition Utilities.lvlib" Type="Library" URL="../../../../Users/deaton/Desktop/System Definition Utilities/System Definition Utilities.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
@@ -1127,7 +1098,7 @@
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{FFDCA642-638A-4664-9D94-164F9021CA4C}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/Pharlap/Diagnostics Addon Engine Pharlap.llb</Property>
-				<Property Name="Bld_version.build" Type="Int">44</Property>
+				<Property Name="Bld_version.build" Type="Int">45</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">/Pharlap/Diagnostics Addon Engine Pharlap.llb</Property>
