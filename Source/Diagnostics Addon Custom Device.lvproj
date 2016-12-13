@@ -22,7 +22,7 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="NI VeriStand APIs" Type="Folder">
-			<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/Custom Device API.lvlib"/>
+			<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device API/Custom Device API.lvlib"/>
 			<Item Name="Custom Device Offline API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device Offline API/Custom Device Offline API.lvlib"/>
 			<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
 		</Item>
@@ -815,7 +815,7 @@
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Item Name="NI VeriStand APIs" Type="Folder">
-			<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/Custom Device API.lvlib"/>
+			<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device API/Custom Device API.lvlib"/>
 			<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
 		</Item>
 		<Item Name="Diagnostics Addon Engine.lvlib" Type="Library" URL="../Engine/Diagnostics Addon Engine.lvlib"/>
@@ -883,7 +883,6 @@
 				<Item Name="NI_WebDAV.lvlib" Type="Library" URL="/&lt;vilib&gt;/WebDAVClient/NI_WebDAV.lvlib"/>
 				<Item Name="NIVeriStand_DataServices.dll" Type="Document" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/Data/NIVeriStand_DataServices.dll"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
-				<Item Name="Process.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/addons/Inline Async API/_VS Inline Async API/Process/Process.lvclass"/>
 				<Item Name="ReadDataByLocalIdentifier.vi" Type="VI" URL="/&lt;vilib&gt;/Automotive Diagnostic Command Set/Diagnostic Protocols.llb/ReadDataByLocalIdentifier.vi"/>
 				<Item Name="ReadDTCByStatus.vi" Type="VI" URL="/&lt;vilib&gt;/Automotive Diagnostic Command Set/Diagnostic Protocols.llb/ReadDTCByStatus.vi"/>
 				<Item Name="ReadMemoryByAddress.vi" Type="VI" URL="/&lt;vilib&gt;/Automotive Diagnostic Command Set/Diagnostic Protocols.llb/ReadMemoryByAddress.vi"/>
@@ -1313,7 +1312,7 @@
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Item Name="NI VeriStand APIs" Type="Folder">
-			<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/Custom Device API.lvlib"/>
+			<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device API/Custom Device API.lvlib"/>
 		</Item>
 		<Item Name="Diagnostics Addon Engine.lvlib" Type="Library" URL="../Engine/Diagnostics Addon Engine.lvlib"/>
 		<Item Name="Diagnostics Addon Shared.lvlib" Type="Library" URL="../Shared/Diagnostics Addon Shared.lvlib"/>
@@ -1381,7 +1380,6 @@
 				<Item Name="NI_WebDAV.lvlib" Type="Library" URL="/&lt;vilib&gt;/WebDAVClient/NI_WebDAV.lvlib"/>
 				<Item Name="NIVeriStand_DataServices.dll" Type="Document" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/Data/NIVeriStand_DataServices.dll"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
-				<Item Name="Process.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/addons/Inline Async API/_VS Inline Async API/Process/Process.lvclass"/>
 				<Item Name="ReadDataByLocalIdentifier.vi" Type="VI" URL="/&lt;vilib&gt;/Automotive Diagnostic Command Set/Diagnostic Protocols.llb/ReadDataByLocalIdentifier.vi"/>
 				<Item Name="ReadDTCByStatus.vi" Type="VI" URL="/&lt;vilib&gt;/Automotive Diagnostic Command Set/Diagnostic Protocols.llb/ReadDTCByStatus.vi"/>
 				<Item Name="ReadMemoryByAddress.vi" Type="VI" URL="/&lt;vilib&gt;/Automotive Diagnostic Command Set/Diagnostic Protocols.llb/ReadMemoryByAddress.vi"/>
@@ -1821,7 +1819,7 @@
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Item Name="NI VeriStand APIs" Type="Folder">
-			<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/Custom Device API.lvlib"/>
+			<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device API/Custom Device API.lvlib"/>
 		</Item>
 		<Item Name="Diagnostics Addon Engine.lvlib" Type="Library" URL="../Engine/Diagnostics Addon Engine.lvlib"/>
 		<Item Name="Diagnostics Addon Shared.lvlib" Type="Library" URL="../Shared/Diagnostics Addon Shared.lvlib"/>
@@ -1889,7 +1887,6 @@
 				<Item Name="NI_WebDAV.lvlib" Type="Library" URL="/&lt;vilib&gt;/WebDAVClient/NI_WebDAV.lvlib"/>
 				<Item Name="NIVeriStand_DataServices.dll" Type="Document" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/Data/NIVeriStand_DataServices.dll"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
-				<Item Name="Process.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/addons/Inline Async API/_VS Inline Async API/Process/Process.lvclass"/>
 				<Item Name="ReadDataByLocalIdentifier.vi" Type="VI" URL="/&lt;vilib&gt;/Automotive Diagnostic Command Set/Diagnostic Protocols.llb/ReadDataByLocalIdentifier.vi"/>
 				<Item Name="ReadDTCByStatus.vi" Type="VI" URL="/&lt;vilib&gt;/Automotive Diagnostic Command Set/Diagnostic Protocols.llb/ReadDTCByStatus.vi"/>
 				<Item Name="ReadMemoryByAddress.vi" Type="VI" URL="/&lt;vilib&gt;/Automotive Diagnostic Command Set/Diagnostic Protocols.llb/ReadMemoryByAddress.vi"/>
