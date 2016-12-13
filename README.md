@@ -35,7 +35,9 @@ NI GXML 1.4.2.8
 
 NI AMC 3.3.1.22
 
-Inline Async API 1.0.0.14 (https://github.com/NIVeriStandAdd-Ons/Inline-Async-API)
+Inline Async API (https://github.com/NIVeriStandAdd-Ons/Inline-Async-API)
+
+System Definition Utilities (https://github.com/NIVeriStandAdd-Ons/System-Definition-Utilities)
 
 ### License ###
 
