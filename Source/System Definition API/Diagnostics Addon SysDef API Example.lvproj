@@ -35,17 +35,8 @@
 			<Item Name="MD5Checksum pad.vi" Type="VI" URL="../Diagnostics SysDef API.lvlibp/1abvi3w/vi.lib/Utility/MD5Checksum.llb/MD5Checksum pad.vi"/>
 			<Item Name="NI_FileType.lvlib" Type="Library" URL="../Diagnostics SysDef API.lvlibp/1abvi3w/vi.lib/Utility/lvfile.llb/NI_FileType.lvlib"/>
 			<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="../Diagnostics SysDef API.lvlibp/1abvi3w/vi.lib/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
-			<Item Name="Read Diagnostic Configuration.vi" Type="VI" URL="../Diagnostics SysDef API.lvlibp/addons/Diagnostics/Source/System Definition API/Read Diagnostic Configuration.vi"/>
+			<Item Name="Read Diagnostic Configuration (XML).vi" Type="VI" URL="../Diagnostics SysDef API.lvlibp/addons/Diagnostics/Source/System Definition API/Read Diagnostic Configuration (XML).vi"/>
 			<Item Name="subFile Dialog.vi" Type="VI" URL="../Diagnostics SysDef API.lvlibp/1abvi3w/vi.lib/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
-			<Item Name="SysDef.Property.Remove.vi" Type="VI" URL="../Diagnostics SysDef API.lvlibp/Users/deaton/Desktop/System Definition Utilities/SysDef.Property.Remove.vi"/>
-			<Item Name="SysDef.Property.Set.Boolean.vi" Type="VI" URL="../Diagnostics SysDef API.lvlibp/Users/deaton/Desktop/System Definition Utilities/_SubVIs/SysDef.Property.Set.Boolean.vi"/>
-			<Item Name="SysDef.Property.Set.DBL.vi" Type="VI" URL="../Diagnostics SysDef API.lvlibp/Users/deaton/Desktop/System Definition Utilities/_SubVIs/SysDef.Property.Set.DBL.vi"/>
-			<Item Name="SysDef.Property.Set.DependentFile.vi" Type="VI" URL="../Diagnostics SysDef API.lvlibp/Users/deaton/Desktop/System Definition Utilities/_SubVIs/SysDef.Property.Set.DependentFile.vi"/>
-			<Item Name="SysDef.Property.Set.I32.vi" Type="VI" URL="../Diagnostics SysDef API.lvlibp/Users/deaton/Desktop/System Definition Utilities/_SubVIs/SysDef.Property.Set.I32.vi"/>
-			<Item Name="SysDef.Property.Set.String.vi" Type="VI" URL="../Diagnostics SysDef API.lvlibp/Users/deaton/Desktop/System Definition Utilities/_SubVIs/SysDef.Property.Set.String.vi"/>
-			<Item Name="SysDef.Property.Set.U16.vi" Type="VI" URL="../Diagnostics SysDef API.lvlibp/Users/deaton/Desktop/System Definition Utilities/_SubVIs/SysDef.Property.Set.U16.vi"/>
-			<Item Name="SysDef.Property.Set.U32.Array.vi" Type="VI" URL="../Diagnostics SysDef API.lvlibp/Users/deaton/Desktop/System Definition Utilities/_SubVIs/SysDef.Property.Set.U32.Array.vi"/>
-			<Item Name="SysDef.Property.Set.U32.vi" Type="VI" URL="../Diagnostics SysDef API.lvlibp/Users/deaton/Desktop/System Definition Utilities/_SubVIs/SysDef.Property.Set.U32.vi"/>
 			<Item Name="System Definition Utilities.lvlib" Type="Library" URL="../Diagnostics SysDef API.lvlibp/Users/deaton/Desktop/System Definition Utilities/System Definition Utilities.lvlib"/>
 			<Item Name="VariantType.lvlib" Type="Library" URL="../Diagnostics SysDef API.lvlibp/1abvi3w/vi.lib/Utility/VariantDataType/VariantType.lvlib"/>
 			<Item Name="XNET Database Add Alias.vi" Type="VI" URL="../Diagnostics SysDef API.lvlibp/1abvi3w/vi.lib/xnet/xnet.llb/XNET Database Add Alias.vi"/>
