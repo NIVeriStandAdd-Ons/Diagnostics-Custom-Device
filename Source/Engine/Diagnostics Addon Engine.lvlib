@@ -36,48 +36,6 @@
 	<Item Name="Engines" Type="Folder">
 		<Item Name="Diagnostics.vi" Type="VI" URL="../Async VIs/Diagnostics/Diagnostics.vi"/>
 	</Item>
-	<Item Name="STM" Type="Folder">
-		<Item Name="_SubVIs" Type="Folder">
-			<Item Name="stm_GetIDfromName_.vi" Type="VI" URL="../STM/_SubVIs/stm_GetIDfromName_.vi"/>
-			<Item Name="stm_MetaDataElement.ctl" Type="VI" URL="../STM/_SubVIs/stm_MetaDataElement.ctl"/>
-		</Item>
-		<Item Name="Connection Manager" Type="Folder">
-			<Item Name="DIAG_TCP Check Connection.vi" Type="VI" URL="../STM/Connection Manager/DIAG_TCP Check Connection.vi"/>
-			<Item Name="DIAG_TCP Connection Manager.vi" Type="VI" URL="../STM/Connection Manager/DIAG_TCP Connection Manager.vi"/>
-			<Item Name="stm_TCPConnectionMethod.ctl" Type="VI" URL="../STM/Connection Manager/stm_TCPConnectionMethod.ctl"/>
-			<Item Name="stm_TCPConnectionProperties.ctl" Type="VI" URL="../STM/Connection Manager/stm_TCPConnectionProperties.ctl"/>
-		</Item>
-		<Item Name="TCP" Type="Folder">
-			<Item Name="DIAG_STM Get Meta Data (TCP).vi" Type="VI" URL="../STM/TCP/DIAG_STM Get Meta Data (TCP).vi"/>
-			<Item Name="DIAG_STM Set Meta Data (TCP Clst).vi" Type="VI" URL="../STM/TCP/DIAG_STM Set Meta Data (TCP Clst).vi"/>
-			<Item Name="DIAG_STM Set Meta Data (TCP Ref).vi" Type="VI" URL="../STM/TCP/DIAG_STM Set Meta Data (TCP Ref).vi"/>
-			<Item Name="DIAG_STM Write Meta Data (TCP Clst).vi" Type="VI" URL="../STM/TCP/DIAG_STM Write Meta Data (TCP Clst).vi"/>
-			<Item Name="DIAG_STM Write Meta Data (TCP Ref).vi" Type="VI" URL="../STM/TCP/DIAG_STM Write Meta Data (TCP Ref).vi"/>
-			<Item Name="STM Get Connection Reference (TCP).vi" Type="VI" URL="../STM/TCP/STM Get Connection Reference (TCP).vi"/>
-			<Item Name="STM Read Message (TCP).vi" Type="VI" URL="../STM/TCP/STM Read Message (TCP).vi"/>
-			<Item Name="STM Read Meta Data (TCP Clst).vi" Type="VI" URL="../STM/TCP/STM Read Meta Data (TCP Clst).vi"/>
-			<Item Name="STM Read Meta Data (TCP Ref).vi" Type="VI" URL="../STM/TCP/STM Read Meta Data (TCP Ref).vi"/>
-			<Item Name="STM Write Message (TCP).vi" Type="VI" URL="../STM/TCP/STM Write Message (TCP).vi"/>
-			<Item Name="stm_TCP Connection Info.ctl" Type="VI" URL="../STM/TCP/stm_TCP Connection Info.ctl"/>
-			<Item Name="stm_TCP Data Info.ctl" Type="VI" URL="../STM/TCP/stm_TCP Data Info.ctl"/>
-			<Item Name="stm_TCP Read Options.ctl" Type="VI" URL="../STM/TCP/stm_TCP Read Options.ctl"/>
-			<Item Name="stm_TCP Write Options.ctl" Type="VI" URL="../STM/TCP/stm_TCP Write Options.ctl"/>
-		</Item>
-		<Item Name="Clear Specific Error.vi" Type="VI" URL="../STM/Clear Specific Error.vi"/>
-		<Item Name="DIAG_STM Get Connection Reference.vi" Type="VI" URL="../STM/DIAG_STM Get Connection Reference.vi"/>
-		<Item Name="DIAG_STM Get Meta Data.vi" Type="VI" URL="../STM/DIAG_STM Get Meta Data.vi"/>
-		<Item Name="DIAG_STM Read Message.vi" Type="VI" URL="../STM/DIAG_STM Read Message.vi"/>
-		<Item Name="DIAG_STM Set Meta Data.vi" Type="VI" URL="../STM/DIAG_STM Set Meta Data.vi"/>
-		<Item Name="DIAG_STM Write Message.vi" Type="VI" URL="../STM/DIAG_STM Write Message.vi"/>
-		<Item Name="DIAG_STM Write Meta Data.vi" Type="VI" URL="../STM/DIAG_STM Write Meta Data.vi"/>
-		<Item Name="RQST Comm Lookup Table_Actions.vi" Type="VI" URL="../STM/RQST Comm Lookup Table_Actions.vi"/>
-		<Item Name="RQST Comm Lookup Table_Initialize.vi" Type="VI" URL="../STM/RQST Comm Lookup Table_Initialize.vi"/>
-		<Item Name="RQST Comm_Close All Connections.vi" Type="VI" URL="../STM/RQST Comm_Close All Connections.vi"/>
-		<Item Name="STM Lookup Table Ref.ctl" Type="VI" URL="../STM/STM Lookup Table Ref.ctl"/>
-		<Item Name="STM Read Meta Data.vi" Type="VI" URL="../STM/STM Read Meta Data.vi"/>
-		<Item Name="TCP Check Connection.vi" Type="VI" URL="../STM/TCP Check Connection.vi"/>
-		<Item Name="TCP Connection Manager.vi" Type="VI" URL="../STM/TCP Connection Manager.vi"/>
-	</Item>
 	<Item Name="SubVIs" Type="Folder">
 		<Item Name="ADCS.Get.ErrorByte.vi" Type="VI" URL="../SubVIs/ADCS.Get.ErrorByte.vi"/>
 		<Item Name="ADCS.Port.Create.vi" Type="VI" URL="../SubVIs/ADCS.Port.Create.vi"/>
@@ -87,6 +45,7 @@
 		<Item Name="Bitfile.Initialize.vi" Type="VI" URL="../SubVIs/Bitfile.Initialize.vi"/>
 		<Item Name="Bitfile.Unload.vi" Type="VI" URL="../SubVIs/Bitfile.Unload.vi"/>
 		<Item Name="CAN.Initialize.vi" Type="VI" URL="../SubVIs/CAN.Initialize.vi"/>
+		<Item Name="Close All Comm Connections.vi" Type="VI" URL="../SubVIs/Close All Comm Connections.vi"/>
 		<Item Name="CustomerSpecific_SendReceive.vi" Type="VI" URL="../SubVIs/CustomerSpecific_SendReceive.vi"/>
 		<Item Name="Diagnostics.Channel.Engine.vi" Type="VI" URL="../SubVIs/Diagnostics.Channel.Engine.vi"/>
 		<Item Name="Diagnostics.Cleanup.vi" Type="VI" URL="../SubVIs/Diagnostics.Cleanup.vi"/>

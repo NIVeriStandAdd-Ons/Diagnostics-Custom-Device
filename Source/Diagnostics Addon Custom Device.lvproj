@@ -105,6 +105,7 @@
 				<Item Name="MD5Checksum format message-digest.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/MD5Checksum.llb/MD5Checksum format message-digest.vi"/>
 				<Item Name="MD5Checksum pad.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/MD5Checksum.llb/MD5Checksum pad.vi"/>
 				<Item Name="MergeError.vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/Execution/Shared/MergeError.vi"/>
+				<Item Name="NI STM.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/STM/NI STM.lvlib"/>
 				<Item Name="NI_Automotive Diagnostic Command Set.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/Automotive Diagnostic Command Set/NI_Automotive Diagnostic Command Set.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_FTP.lvlib" Type="Library" URL="/&lt;vilib&gt;/FTP/NI_FTP.lvlib"/>
@@ -130,42 +131,10 @@
 				<Item Name="Set Cursor.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor.vi"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
+				<Item Name="Simple Generate Error.vi" Type="VI" URL="/&lt;vilib&gt;/NI/STM/Connection Manager/TCP/Advanced/Simple Generate Error.vi"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="StartDiagnosticSession.vi" Type="VI" URL="/&lt;vilib&gt;/Automotive Diagnostic Command Set/Diagnostic Protocols.llb/StartDiagnosticSession.vi"/>
 				<Item Name="StartRoutineByLocalIdentifier.vi" Type="VI" URL="/&lt;vilib&gt;/Automotive Diagnostic Command Set/Diagnostic Protocols.llb/StartRoutineByLocalIdentifier.vi"/>
-				<Item Name="STM Get Connection Reference (Serial).vi" Type="VI" URL="/&lt;vilib&gt;/NI/STM/compatibility/STM Get Connection Reference (Serial).vi"/>
-				<Item Name="STM Get Connection Reference (TCP).vi" Type="VI" URL="/&lt;vilib&gt;/NI/STM/compatibility/STM Get Connection Reference (TCP).vi"/>
-				<Item Name="STM Get Connection Reference (UDP).vi" Type="VI" URL="/&lt;vilib&gt;/NI/STM/compatibility/STM Get Connection Reference (UDP).vi"/>
-				<Item Name="STM Get Connection Reference.vi" Type="VI" URL="/&lt;vilib&gt;/NI/STM/compatibility/STM Get Connection Reference.vi"/>
-				<Item Name="STM Read Message (Serial).vi" Type="VI" URL="/&lt;vilib&gt;/NI/STM/compatibility/STM Read Message (Serial).vi"/>
-				<Item Name="STM Read Message (TCP).vi" Type="VI" URL="/&lt;vilib&gt;/NI/STM/compatibility/STM Read Message (TCP).vi"/>
-				<Item Name="STM Read Message (UDP).vi" Type="VI" URL="/&lt;vilib&gt;/NI/STM/compatibility/STM Read Message (UDP).vi"/>
-				<Item Name="STM Read Message.vi" Type="VI" URL="/&lt;vilib&gt;/NI/STM/compatibility/STM Read Message.vi"/>
-				<Item Name="STM Write Message (Serial).vi" Type="VI" URL="/&lt;vilib&gt;/NI/STM/compatibility/STM Write Message (Serial).vi"/>
-				<Item Name="STM Write Message (TCP).vi" Type="VI" URL="/&lt;vilib&gt;/NI/STM/compatibility/STM Write Message (TCP).vi"/>
-				<Item Name="STM Write Message (UDP).vi" Type="VI" URL="/&lt;vilib&gt;/NI/STM/compatibility/STM Write Message (UDP).vi"/>
-				<Item Name="STM Write Message.vi" Type="VI" URL="/&lt;vilib&gt;/NI/STM/compatibility/STM Write Message.vi"/>
-				<Item Name="STM Write Meta Data (Serial Clst).vi" Type="VI" URL="/&lt;vilib&gt;/NI/STM/compatibility/STM Write Meta Data (Serial Clst).vi"/>
-				<Item Name="STM Write Meta Data (Serial Ref).vi" Type="VI" URL="/&lt;vilib&gt;/NI/STM/compatibility/STM Write Meta Data (Serial Ref).vi"/>
-				<Item Name="STM Write Meta Data (TCP Clst).vi" Type="VI" URL="/&lt;vilib&gt;/NI/STM/compatibility/STM Write Meta Data (TCP Clst).vi"/>
-				<Item Name="STM Write Meta Data (TCP Ref).vi" Type="VI" URL="/&lt;vilib&gt;/NI/STM/compatibility/STM Write Meta Data (TCP Ref).vi"/>
-				<Item Name="STM Write Meta Data (UDP Clst).vi" Type="VI" URL="/&lt;vilib&gt;/NI/STM/compatibility/STM Write Meta Data (UDP Clst).vi"/>
-				<Item Name="STM Write Meta Data (UDP Ref).vi" Type="VI" URL="/&lt;vilib&gt;/NI/STM/compatibility/STM Write Meta Data (UDP Ref).vi"/>
-				<Item Name="STM Write Meta Data.vi" Type="VI" URL="/&lt;vilib&gt;/NI/STM/compatibility/STM Write Meta Data.vi"/>
-				<Item Name="stm_GetIDfromName_.vi" Type="VI" URL="/&lt;vilib&gt;/NI/STM/compatibility/stm_GetIDfromName_.vi"/>
-				<Item Name="stm_MetaDataElement.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/STM/compatibility/stm_MetaDataElement.ctl"/>
-				<Item Name="stm_Serial Connection Info.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/STM/compatibility/stm_Serial Connection Info.ctl"/>
-				<Item Name="stm_Serial Data Info.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/STM/compatibility/stm_Serial Data Info.ctl"/>
-				<Item Name="stm_Serial Read Options.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/STM/compatibility/stm_Serial Read Options.ctl"/>
-				<Item Name="stm_Serial Write Options.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/STM/compatibility/stm_Serial Write Options.ctl"/>
-				<Item Name="stm_TCP Connection Info.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/STM/compatibility/stm_TCP Connection Info.ctl"/>
-				<Item Name="stm_TCP Data Info.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/STM/compatibility/stm_TCP Data Info.ctl"/>
-				<Item Name="stm_TCP Read Options.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/STM/compatibility/stm_TCP Read Options.ctl"/>
-				<Item Name="stm_TCP Write Options.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/STM/compatibility/stm_TCP Write Options.ctl"/>
-				<Item Name="stm_UDP Connection Info.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/STM/compatibility/stm_UDP Connection Info.ctl"/>
-				<Item Name="stm_UDP Data Info.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/STM/compatibility/stm_UDP Data Info.ctl"/>
-				<Item Name="stm_UDP Read Options.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/STM/compatibility/stm_UDP Read Options.ctl"/>
-				<Item Name="stm_UDP Write Options.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/STM/compatibility/stm_UDP Write Options.ctl"/>
 				<Item Name="StopDiagnosticSession.vi" Type="VI" URL="/&lt;vilib&gt;/Automotive Diagnostic Command Set/Diagnostic Protocols.llb/StopDiagnosticSession.vi"/>
 				<Item Name="StopRoutineByLocalIdentifier.vi" Type="VI" URL="/&lt;vilib&gt;/Automotive Diagnostic Command Set/Diagnostic Protocols.llb/StopRoutineByLocalIdentifier.vi"/>
 				<Item Name="sub_Display Template - Polymorphic.vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/Display Template Support/Display Template Support.llb/sub_Display Template - Polymorphic.vi"/>
@@ -181,7 +150,12 @@
 				<Item Name="System Definition Utilities.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NI VeriStand SysDef Utilities/System Definition Utilities.lvlib"/>
 				<Item Name="System Directory Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/System Directory Type.ctl"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
+				<Item Name="TCP Check Connection (By Reference).vi" Type="VI" URL="/&lt;vilib&gt;/NI/STM/Connection Manager/TCP/Advanced/TCP Check Connection (By Reference).vi"/>
+				<Item Name="TCP Connection Manager (By Reference).vi" Type="VI" URL="/&lt;vilib&gt;/NI/STM/Connection Manager/TCP/Advanced/TCP Connection Manager (By Reference).vi"/>
+				<Item Name="TCP Connection Manager Reference.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/STM/Connection Manager/TCP/Advanced/TCP Connection Manager Reference.ctl"/>
+				<Item Name="TCP Connection Manager State Variables.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/STM/Connection Manager/TCP/Advanced/TCP Connection Manager State Variables.ctl"/>
 				<Item Name="TCP Get Raw Net Object.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/TCP Get Raw Net Object.vi"/>
+				<Item Name="TCP Initialize Connection Manager (By Reference).vi" Type="VI" URL="/&lt;vilib&gt;/NI/STM/Connection Manager/TCP/Advanced/TCP Initialize Connection Manager (By Reference).vi"/>
 				<Item Name="TesterPresent.vi" Type="VI" URL="/&lt;vilib&gt;/Automotive Diagnostic Command Set/Diagnostic Protocols.llb/TesterPresent.vi"/>
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
@@ -703,7 +677,7 @@
 				<Property Name="Source[4].type" Type="Str">Container</Property>
 				<Property Name="Source[5].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[5].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Diagnostics Addon Engine.lvlib/STM</Property>
+				<Property Name="Source[5].itemID" Type="Ref"></Property>
 				<Property Name="Source[5].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[5].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[5].properties[1].type" Type="Str">Remove block diagram</Property>
@@ -875,6 +849,7 @@
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVNumericRepresentation.ctl" Type="VI" URL="/&lt;vilib&gt;/numeric/LVNumericRepresentation.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
+				<Item Name="NI STM.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/STM/NI STM.lvlib"/>
 				<Item Name="NI_Automotive Diagnostic Command Set.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/Automotive Diagnostic Command Set/NI_Automotive Diagnostic Command Set.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_FTP.lvlib" Type="Library" URL="/&lt;vilib&gt;/FTP/NI_FTP.lvlib"/>
@@ -898,6 +873,7 @@
 				<Item Name="Set Cursor.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor.vi"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
+				<Item Name="Simple Generate Error.vi" Type="VI" URL="/&lt;vilib&gt;/NI/STM/Connection Manager/TCP/Advanced/Simple Generate Error.vi"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="StartDiagnosticSession.vi" Type="VI" URL="/&lt;vilib&gt;/Automotive Diagnostic Command Set/Diagnostic Protocols.llb/StartDiagnosticSession.vi"/>
 				<Item Name="StartRoutineByLocalIdentifier.vi" Type="VI" URL="/&lt;vilib&gt;/Automotive Diagnostic Command Set/Diagnostic Protocols.llb/StartRoutineByLocalIdentifier.vi"/>
@@ -906,7 +882,12 @@
 				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
 				<Item Name="subTimeDelay.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/TimeDelayBlock.llb/subTimeDelay.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
+				<Item Name="TCP Check Connection (By Reference).vi" Type="VI" URL="/&lt;vilib&gt;/NI/STM/Connection Manager/TCP/Advanced/TCP Check Connection (By Reference).vi"/>
+				<Item Name="TCP Connection Manager (By Reference).vi" Type="VI" URL="/&lt;vilib&gt;/NI/STM/Connection Manager/TCP/Advanced/TCP Connection Manager (By Reference).vi"/>
+				<Item Name="TCP Connection Manager Reference.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/STM/Connection Manager/TCP/Advanced/TCP Connection Manager Reference.ctl"/>
+				<Item Name="TCP Connection Manager State Variables.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/STM/Connection Manager/TCP/Advanced/TCP Connection Manager State Variables.ctl"/>
 				<Item Name="TCP Get Raw Net Object.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/TCP Get Raw Net Object.vi"/>
+				<Item Name="TCP Initialize Connection Manager (By Reference).vi" Type="VI" URL="/&lt;vilib&gt;/NI/STM/Connection Manager/TCP/Advanced/TCP Initialize Connection Manager (By Reference).vi"/>
 				<Item Name="TesterPresent.vi" Type="VI" URL="/&lt;vilib&gt;/Automotive Diagnostic Command Set/Diagnostic Protocols.llb/TesterPresent.vi"/>
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
@@ -1154,7 +1135,7 @@
 				<Property Name="Source[2].type" Type="Str">Container</Property>
 				<Property Name="Source[3].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[3].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/RT PXI Target - Pharlap/Diagnostics Addon Engine.lvlib/STM</Property>
+				<Property Name="Source[3].itemID" Type="Ref"></Property>
 				<Property Name="Source[3].properties[0].type" Type="Str">Auto error handling</Property>
 				<Property Name="Source[3].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[3].properties[1].type" Type="Str">Allow debugging</Property>
@@ -1372,6 +1353,7 @@
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVNumericRepresentation.ctl" Type="VI" URL="/&lt;vilib&gt;/numeric/LVNumericRepresentation.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
+				<Item Name="NI STM.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/STM/NI STM.lvlib"/>
 				<Item Name="NI_Automotive Diagnostic Command Set.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/Automotive Diagnostic Command Set/NI_Automotive Diagnostic Command Set.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_FTP.lvlib" Type="Library" URL="/&lt;vilib&gt;/FTP/NI_FTP.lvlib"/>
@@ -1395,6 +1377,7 @@
 				<Item Name="Set Cursor.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor.vi"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
+				<Item Name="Simple Generate Error.vi" Type="VI" URL="/&lt;vilib&gt;/NI/STM/Connection Manager/TCP/Advanced/Simple Generate Error.vi"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="StartDiagnosticSession.vi" Type="VI" URL="/&lt;vilib&gt;/Automotive Diagnostic Command Set/Diagnostic Protocols.llb/StartDiagnosticSession.vi"/>
 				<Item Name="StartRoutineByLocalIdentifier.vi" Type="VI" URL="/&lt;vilib&gt;/Automotive Diagnostic Command Set/Diagnostic Protocols.llb/StartRoutineByLocalIdentifier.vi"/>
@@ -1403,7 +1386,12 @@
 				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
 				<Item Name="subTimeDelay.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/TimeDelayBlock.llb/subTimeDelay.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
+				<Item Name="TCP Check Connection (By Reference).vi" Type="VI" URL="/&lt;vilib&gt;/NI/STM/Connection Manager/TCP/Advanced/TCP Check Connection (By Reference).vi"/>
+				<Item Name="TCP Connection Manager (By Reference).vi" Type="VI" URL="/&lt;vilib&gt;/NI/STM/Connection Manager/TCP/Advanced/TCP Connection Manager (By Reference).vi"/>
+				<Item Name="TCP Connection Manager Reference.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/STM/Connection Manager/TCP/Advanced/TCP Connection Manager Reference.ctl"/>
+				<Item Name="TCP Connection Manager State Variables.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/STM/Connection Manager/TCP/Advanced/TCP Connection Manager State Variables.ctl"/>
 				<Item Name="TCP Get Raw Net Object.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/TCP Get Raw Net Object.vi"/>
+				<Item Name="TCP Initialize Connection Manager (By Reference).vi" Type="VI" URL="/&lt;vilib&gt;/NI/STM/Connection Manager/TCP/Advanced/TCP Initialize Connection Manager (By Reference).vi"/>
 				<Item Name="TesterPresent.vi" Type="VI" URL="/&lt;vilib&gt;/Automotive Diagnostic Command Set/Diagnostic Protocols.llb/TesterPresent.vi"/>
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
@@ -1670,7 +1658,7 @@
 				<Property Name="Source[4].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[4].Container.applySaveSettings" Type="Bool">true</Property>
 				<Property Name="Source[4].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/RT CompactRIO Target - Linux ARM/Diagnostics Addon Engine.lvlib/STM</Property>
+				<Property Name="Source[4].itemID" Type="Ref"></Property>
 				<Property Name="Source[4].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[4].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[4].properties[1].type" Type="Str">Remove block diagram</Property>
@@ -1879,6 +1867,7 @@
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVNumericRepresentation.ctl" Type="VI" URL="/&lt;vilib&gt;/numeric/LVNumericRepresentation.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
+				<Item Name="NI STM.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/STM/NI STM.lvlib"/>
 				<Item Name="NI_Automotive Diagnostic Command Set.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/Automotive Diagnostic Command Set/NI_Automotive Diagnostic Command Set.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_FTP.lvlib" Type="Library" URL="/&lt;vilib&gt;/FTP/NI_FTP.lvlib"/>
@@ -1902,6 +1891,7 @@
 				<Item Name="Set Cursor.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor.vi"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
+				<Item Name="Simple Generate Error.vi" Type="VI" URL="/&lt;vilib&gt;/NI/STM/Connection Manager/TCP/Advanced/Simple Generate Error.vi"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="StartDiagnosticSession.vi" Type="VI" URL="/&lt;vilib&gt;/Automotive Diagnostic Command Set/Diagnostic Protocols.llb/StartDiagnosticSession.vi"/>
 				<Item Name="StartRoutineByLocalIdentifier.vi" Type="VI" URL="/&lt;vilib&gt;/Automotive Diagnostic Command Set/Diagnostic Protocols.llb/StartRoutineByLocalIdentifier.vi"/>
@@ -1910,7 +1900,12 @@
 				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
 				<Item Name="subTimeDelay.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/TimeDelayBlock.llb/subTimeDelay.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
+				<Item Name="TCP Check Connection (By Reference).vi" Type="VI" URL="/&lt;vilib&gt;/NI/STM/Connection Manager/TCP/Advanced/TCP Check Connection (By Reference).vi"/>
+				<Item Name="TCP Connection Manager (By Reference).vi" Type="VI" URL="/&lt;vilib&gt;/NI/STM/Connection Manager/TCP/Advanced/TCP Connection Manager (By Reference).vi"/>
+				<Item Name="TCP Connection Manager Reference.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/STM/Connection Manager/TCP/Advanced/TCP Connection Manager Reference.ctl"/>
+				<Item Name="TCP Connection Manager State Variables.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/STM/Connection Manager/TCP/Advanced/TCP Connection Manager State Variables.ctl"/>
 				<Item Name="TCP Get Raw Net Object.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/TCP Get Raw Net Object.vi"/>
+				<Item Name="TCP Initialize Connection Manager (By Reference).vi" Type="VI" URL="/&lt;vilib&gt;/NI/STM/Connection Manager/TCP/Advanced/TCP Initialize Connection Manager (By Reference).vi"/>
 				<Item Name="TesterPresent.vi" Type="VI" URL="/&lt;vilib&gt;/Automotive Diagnostic Command Set/Diagnostic Protocols.llb/TesterPresent.vi"/>
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
@@ -2224,7 +2219,7 @@
 				<Property Name="Source[7].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[7].Container.applySaveSettings" Type="Bool">true</Property>
 				<Property Name="Source[7].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[7].itemID" Type="Ref">/RT CompactRIO Target - Linux x64/Diagnostics Addon Engine.lvlib/STM</Property>
+				<Property Name="Source[7].itemID" Type="Ref"></Property>
 				<Property Name="Source[7].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[7].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[7].properties[1].type" Type="Str">Remove block diagram</Property>
