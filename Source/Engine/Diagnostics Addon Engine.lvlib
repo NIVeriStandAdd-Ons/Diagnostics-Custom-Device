@@ -77,15 +77,10 @@
 		<Item Name="Diagnostics.State.ctl" Type="VI" URL="../Types/Diagnostics.State.ctl"/>
 		<Item Name="DPIDs.IDs.Sorted.ctl" Type="VI" URL="../Types/DPIDs.IDs.Sorted.ctl"/>
 		<Item Name="DTC.ChangeCount.Info.ctl" Type="VI" URL="../Types/DTC.ChangeCount.Info.ctl"/>
-		<Item Name="Engine.Refs.ctl" Type="VI" URL="../Types/Engine.Refs.ctl"/>
-		<Item Name="Engine.State.ctl" Type="VI" URL="../Types/Engine.State.ctl"/>
 		<Item Name="Frame.Data.ctl" Type="VI" URL="../Types/Frame.Data.ctl"/>
 		<Item Name="TCP.Refs.ctl" Type="VI" URL="../Types/TCP.Refs.ctl"/>
 		<Item Name="XNET.Cluster.ctl" Type="VI" URL="../Types/XNET.Cluster.ctl"/>
 		<Item Name="XNET.Refs.ctl" Type="VI" URL="../Types/XNET.Refs.ctl"/>
-	</Item>
-	<Item Name="Userlib" Type="Folder">
-		<Item Name="Inline Async API.lvlib" Type="Library" URL="../SubVIs/Inline Async API/Inline Async API.lvlib"/>
 	</Item>
 	<Item Name="RT Driver VI.vi" Type="VI" URL="../RT Driver VI.vi"/>
 </Library>
