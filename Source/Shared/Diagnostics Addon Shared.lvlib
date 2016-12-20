@@ -77,7 +77,6 @@
 			<Item Name="SysDef.Compile.ctl" Type="VI" URL="../Types/SysDef.Compile.ctl"/>
 			<Item Name="SysDef.Compile.Properties.ctl" Type="VI" URL="../Types/SysDef.Compile.Properties.ctl"/>
 			<Item Name="SysDef.Compile.Refs.ctl" Type="VI" URL="../Types/SysDef.Compile.Refs.ctl"/>
-			<Item Name="TCP.Response.ctl" Type="VI" URL="../Types/TCP.Response.ctl"/>
 			<Item Name="Transport.ctl" Type="VI" URL="../Types/Transport.ctl"/>
 			<Item Name="Type.ctl" Type="VI" URL="../Types/Type.ctl"/>
 			<Item Name="UI.Refs.ctl" Type="VI" URL="../Types/UI.Refs.ctl"/>
