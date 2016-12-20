@@ -45,7 +45,6 @@
 		<Item Name="Bitfile.Initialize.vi" Type="VI" URL="../SubVIs/Bitfile.Initialize.vi"/>
 		<Item Name="Bitfile.Unload.vi" Type="VI" URL="../SubVIs/Bitfile.Unload.vi"/>
 		<Item Name="CAN.Initialize.vi" Type="VI" URL="../SubVIs/CAN.Initialize.vi"/>
-		<Item Name="Close All Comm Connections.vi" Type="VI" URL="../SubVIs/Close All Comm Connections.vi"/>
 		<Item Name="CustomerSpecific_SendReceive.vi" Type="VI" URL="../SubVIs/CustomerSpecific_SendReceive.vi"/>
 		<Item Name="Diagnostics.Channel.Engine.vi" Type="VI" URL="../SubVIs/Diagnostics.Channel.Engine.vi"/>
 		<Item Name="Diagnostics.Cleanup.vi" Type="VI" URL="../SubVIs/Diagnostics.Cleanup.vi"/>
@@ -53,8 +52,6 @@
 		<Item Name="Diagnostics.Main.Initialize.vi" Type="VI" URL="../SubVIs/Diagnostics.Main.Initialize.vi"/>
 		<Item Name="Diagnostics.Main.UUDT.Engine.vi" Type="VI" URL="../SubVIs/Diagnostics.Main.UUDT.Engine.vi"/>
 		<Item Name="Diagnostics.Main.vi" Type="VI" URL="../SubVIs/Diagnostics.Main.vi"/>
-		<Item Name="Diagnostics.TCP.Command.Engine.vi" Type="VI" URL="../SubVIs/Diagnostics.TCP.Command.Engine.vi"/>
-		<Item Name="Diagnostics.TCP.Connect.Engine.vi" Type="VI" URL="../SubVIs/Diagnostics.TCP.Connect.Engine.vi"/>
 		<Item Name="DPIDs.IDs.Sort.vi" Type="VI" URL="../SubVIs/DPIDs.IDs.Sort.vi"/>
 		<Item Name="DPIDs.Initialize.vi" Type="VI" URL="../SubVIs/DPIDs.Initialize.vi"/>
 		<Item Name="DTCs.List.Update.vi" Type="VI" URL="../SubVIs/DTCs.List.Update.vi"/>
@@ -68,7 +65,6 @@
 		<Item Name="Signals.Scale.EU.vi" Type="VI" URL="../SubVIs/Signals.Scale.EU.vi"/>
 		<Item Name="Signals.Scale.Raw.vi" Type="VI" URL="../SubVIs/Signals.Scale.Raw.vi"/>
 		<Item Name="Status.Set.vi" Type="VI" URL="../SubVIs/Status.Set.vi"/>
-		<Item Name="TCP.Initialize.Refs.vi" Type="VI" URL="../SubVIs/TCP.Initialize.Refs.vi"/>
 		<Item Name="Type.Convert.String.vi" Type="VI" URL="../SubVIs/Type.Convert.String.vi"/>
 		<Item Name="XNET.Cluster.Initialize.vi" Type="VI" URL="../SubVIs/XNET.Cluster.Initialize.vi"/>
 		<Item Name="XNET.DB.Initialize.vi" Type="VI" URL="../SubVIs/XNET.DB.Initialize.vi"/>
@@ -78,7 +74,6 @@
 		<Item Name="DPIDs.IDs.Sorted.ctl" Type="VI" URL="../Types/DPIDs.IDs.Sorted.ctl"/>
 		<Item Name="DTC.ChangeCount.Info.ctl" Type="VI" URL="../Types/DTC.ChangeCount.Info.ctl"/>
 		<Item Name="Frame.Data.ctl" Type="VI" URL="../Types/Frame.Data.ctl"/>
-		<Item Name="TCP.Refs.ctl" Type="VI" URL="../Types/TCP.Refs.ctl"/>
 		<Item Name="XNET.Cluster.ctl" Type="VI" URL="../Types/XNET.Cluster.ctl"/>
 		<Item Name="XNET.Refs.ctl" Type="VI" URL="../Types/XNET.Refs.ctl"/>
 	</Item>
