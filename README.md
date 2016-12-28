@@ -29,17 +29,17 @@ NI Automotive Diagnostic Command Set 14.0 or later
 
 NI XNET 14.0 or later
 
-NI STM 2.1.0.2 (ONLY)
-
 NI GXML 1.4.2.8
 
-NI AMC 3.3.1.22
+NI Simple Messaging Library 3.0.0.7 or later
 
-Inline Async API (https://github.com/NIVeriStandAdd-Ons/Inline-Async-API)
+NI Asynchronous Messaging Communication Library 3.3.1.22 or later
 
-System Definition Utilities (https://github.com/NIVeriStandAdd-Ons/System-Definition-Utilities)
+VeriStand Addon Inline Async API (https://github.com/NIVeriStandAdd-Ons/VeriStand-Addon-Inline-Async-API)
 
 VeriStand Addon Network Comm (https://github.com/NIVeriStandAdd-Ons/VeriStand-Addon-Network-Comm)
+
+VeriStand Addon System Definition Utilities (https://github.com/NIVeriStandAdd-Ons/VeriStand-Addon-System-Definition-Utilities)
 
 ### License ###
 
