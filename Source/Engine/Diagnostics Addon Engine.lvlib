@@ -52,6 +52,8 @@
 		<Item Name="Diagnostics.Main.Initialize.vi" Type="VI" URL="../SubVIs/Diagnostics.Main.Initialize.vi"/>
 		<Item Name="Diagnostics.Main.UUDT.Engine.vi" Type="VI" URL="../SubVIs/Diagnostics.Main.UUDT.Engine.vi"/>
 		<Item Name="Diagnostics.Main.vi" Type="VI" URL="../SubVIs/Diagnostics.Main.vi"/>
+		<Item Name="Diagnostics.Protocol.Initialize.vi" Type="VI" URL="../SubVIs/Diagnostics.Protocol.Initialize.vi"/>
+		<Item Name="Diagnostics.Restart.Loop.vi" Type="VI" URL="../SubVIs/Diagnostics.Restart.Loop.vi"/>
 		<Item Name="DPIDs.IDs.Sort.vi" Type="VI" URL="../SubVIs/DPIDs.IDs.Sort.vi"/>
 		<Item Name="DPIDs.Initialize.vi" Type="VI" URL="../SubVIs/DPIDs.Initialize.vi"/>
 		<Item Name="DTCs.List.Update.vi" Type="VI" URL="../SubVIs/DTCs.List.Update.vi"/>
@@ -60,6 +62,7 @@
 		<Item Name="Frames.Lookup.Size.Get.vi" Type="VI" URL="../SubVIs/Frames.Lookup.Size.Get.vi"/>
 		<Item Name="Frames.Refs.Cleanup.vi" Type="VI" URL="../SubVIs/Frames.Refs.Cleanup.vi"/>
 		<Item Name="ID.Convert.Raw.vi" Type="VI" URL="../SubVIs/ID.Convert.Raw.vi"/>
+		<Item Name="Restart.LocalStop.Read.vi" Type="VI" URL="../SubVIs/Restart.LocalStop.Read.vi"/>
 		<Item Name="RTMain.Refs.Initialize.vi" Type="VI" URL="../SubVIs/RTMain.Refs.Initialize.vi"/>
 		<Item Name="Security.DLL.vi" Type="VI" URL="../SubVIs/Security.DLL.vi"/>
 		<Item Name="Signals.Scale.EU.vi" Type="VI" URL="../SubVIs/Signals.Scale.EU.vi"/>
