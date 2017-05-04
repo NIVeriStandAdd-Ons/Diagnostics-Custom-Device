@@ -140,7 +140,7 @@ MetaData3 = DataLength
 MetaData4 = Response Required?
 <ul>
 <li>0 = No</li>
-<li>1 = Yes</li></p>
+<li>1 = Yes</li></ul></p>
 <p><strong>Enable Tester Present</strong><br>
 Starts the periodic generation of the tester present message @ 1 Hz.<br>
 Command = 31<br>
@@ -148,6 +148,14 @@ No MetaData</p>
 <p><strong>Disable Tester Present</strong><br>
 Stops the periodic generation of the tester present message.<br>
 Command = 32<br>
+No MetaData</p>
+<p><strong>Disconnect CAN Communication</strong><br>
+Stops all CAN communication with the ECU and closes all references to CAN and diagnostics. This would allow a third party diagnostics tool to connect to the ECU.<br>
+Command = 33<br>
+No MetaData</p>
+<p><strong>Connect CAN Communication</strong><br>
+Re-opens all references to CAN and diagnostics and starts CAN communication with the ECU.<br>
+Command = 34<br>
 No MetaData</p>
 </body>
 </html> 
