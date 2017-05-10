@@ -8,10 +8,12 @@
 		<Item Name="ClearDTCs.vi" Type="VI" URL="../ClearDTCs.vi"/>
 		<Item Name="ClearStatusInformation.vi" Type="VI" URL="../ClearStatusInformation.vi"/>
 		<Item Name="Connect.vi" Type="VI" URL="../Connect.vi"/>
+		<Item Name="ConnectCANCommunication.vi" Type="VI" URL="../ConnectCANCommunication.vi"/>
 		<Item Name="DisableDiagnosticSession.vi" Type="VI" URL="../DisableDiagnosticSession.vi"/>
 		<Item Name="DisableNormalCommunication.vi" Type="VI" URL="../DisableNormalCommunication.vi"/>
 		<Item Name="DisableTesterPresent.vi" Type="VI" URL="../DisableTesterPresent.vi"/>
 		<Item Name="Disconnect.vi" Type="VI" URL="../Disconnect.vi"/>
+		<Item Name="DisconnectCANCommunication.vi" Type="VI" URL="../DisconnectCANCommunication.vi"/>
 		<Item Name="EnableDiagnosticSession.vi" Type="VI" URL="../EnableDiagnosticSession.vi"/>
 		<Item Name="EnableTesterPresent.vi" Type="VI" URL="../EnableTesterPresent.vi"/>
 		<Item Name="ForceTesterPresent.vi" Type="VI" URL="../ForceTesterPresent.vi"/>
