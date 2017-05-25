@@ -103,7 +103,7 @@ function BuildFeedbackURL() {
    var VersionDNA=vsversion;
    
 //   var link_string = handlerURL + "&" + ProductDNA + "&" + "version="+URLencode(VersionDNA) + "&" + "file="+URLencode(FileName);
-   var link_string = "http://decibel.ni.com/content/message/26016#26016";
+   var link_string = "https://decibel.ni.com/content/groups/ni-veristand-add-ons?view=discussions";
    return link_string;
 }
 
