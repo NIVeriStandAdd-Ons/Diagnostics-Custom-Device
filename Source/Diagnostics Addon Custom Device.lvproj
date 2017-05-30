@@ -25,7 +25,7 @@
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="NI VeriStand APIs" Type="Folder">
-			<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/Custom Device API.lvlib"/>
+			<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device API/Custom Device API.lvlib"/>
 			<Item Name="Custom Device Offline API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device Offline API/Custom Device Offline API.lvlib"/>
 			<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
 		</Item>
@@ -439,22 +439,22 @@
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../Built/Custom Devices/Diagnostics Addon/Windows/Diagnostics Host API</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Built/Custom Devices/Diagnostics Addon/Windows/Host Automation API</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{706BCA4B-DC79-44C7-B9C3-465B8696B650}</Property>
-				<Property Name="Bld_version.build" Type="Int">16</Property>
+				<Property Name="Bld_version.build" Type="Int">17</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">Diagnostics Host API.lvlibp</Property>
-				<Property Name="Destination[0].path" Type="Path">../Built/Custom Devices/Diagnostics Addon/Windows/Diagnostics Host API/Diagnostics Host API.lvlibp</Property>
+				<Property Name="Destination[0].destName" Type="Str">Diagnostics Host Automation API.lvlibp</Property>
+				<Property Name="Destination[0].path" Type="Path">../Built/Custom Devices/Diagnostics Addon/Windows/Host Automation API/Diagnostics Host Automation API.lvlibp</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../Built/Custom Devices/Diagnostics Addon/Windows/Diagnostics Host API</Property>
+				<Property Name="Destination[1].path" Type="Path">../Built/Custom Devices/Diagnostics Addon/Windows/Host Automation API</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{DDDD350B-8D0C-4293-8DAF-BE98B0AC5B0B}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{4C4B43BB-C289-4027-957D-DD9AC763D54D}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Diagnostics Host Automation API.lvlib</Property>
@@ -471,7 +471,7 @@
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2014 NI</Property>
 				<Property Name="TgtF_productName" Type="Str">Diagnostics Host API</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{5A0CA2A0-2802-4D0C-A15F-6BCEE23572D0}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">Diagnostics Host API.lvlibp</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Diagnostics Host Automation API.lvlibp</Property>
 			</Item>
 			<Item Name="Diagnostics Workspace Object" Type="Source Distribution">
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
@@ -796,7 +796,7 @@
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Item Name="NI VeriStand APIs" Type="Folder">
-			<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/Custom Device API.lvlib"/>
+			<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device API/Custom Device API.lvlib"/>
 			<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
 		</Item>
 		<Item Name="Diagnostics Addon Engine.lvlib" Type="Library" URL="../Engine/Diagnostics Addon Engine.lvlib"/>
@@ -1293,7 +1293,7 @@
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Item Name="NI VeriStand APIs" Type="Folder">
-			<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/Custom Device API.lvlib"/>
+			<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device API/Custom Device API.lvlib"/>
 		</Item>
 		<Item Name="Diagnostics Addon Engine.lvlib" Type="Library" URL="../Engine/Diagnostics Addon Engine.lvlib"/>
 		<Item Name="Diagnostics Addon Shared.lvlib" Type="Library" URL="../Shared/Diagnostics Addon Shared.lvlib"/>
@@ -1800,7 +1800,7 @@
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Item Name="NI VeriStand APIs" Type="Folder">
-			<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/Custom Device API.lvlib"/>
+			<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device API/Custom Device API.lvlib"/>
 		</Item>
 		<Item Name="Diagnostics Addon Engine.lvlib" Type="Library" URL="../Engine/Diagnostics Addon Engine.lvlib"/>
 		<Item Name="Diagnostics Addon Shared.lvlib" Type="Library" URL="../Shared/Diagnostics Addon Shared.lvlib"/>

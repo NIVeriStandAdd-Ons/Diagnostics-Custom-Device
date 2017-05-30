@@ -30,7 +30,7 @@
 				<Item Name="cluster_Graph Scale Settings.ctl" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/Display Template Support/Display Template Support.llb/cluster_Graph Scale Settings.ctl"/>
 				<Item Name="cluster_Screen Item Settings.ctl" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/Display Template Support/Display Template Support.llb/cluster_Screen Item Settings.ctl"/>
 				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
-				<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/Custom Device API.lvlib"/>
+				<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device API/Custom Device API.lvlib"/>
 				<Item Name="Custom Device Offline API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device Offline API/Custom Device Offline API.lvlib"/>
 				<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
 				<Item Name="Data Access System Explorer.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_Data Access System Explorer/Data Access System Explorer.lvlib"/>
@@ -167,22 +167,22 @@
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../Built/custom devices/Diagnostics Addon/Windows/Diagnostics SysDef API</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Built/custom devices/Diagnostics Addon/Windows/System Definition API</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utilities/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{1D4A5F48-8CAB-4E0A-88B5-1E80E621E437}</Property>
-				<Property Name="Bld_version.build" Type="Int">7</Property>
+				<Property Name="Bld_version.build" Type="Int">8</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">Diagnostics SysDef API.lvlibp</Property>
-				<Property Name="Destination[0].path" Type="Path">../Built/custom devices/Diagnostics Addon/Windows/Diagnostics SysDef API/Diagnostics SysDef API.lvlibp</Property>
+				<Property Name="Destination[0].destName" Type="Str">Diagnostics System Definition API.lvlibp</Property>
+				<Property Name="Destination[0].path" Type="Path">../Built/custom devices/Diagnostics Addon/Windows/System Definition API/Diagnostics System Definition API.lvlibp</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../Built/custom devices/Diagnostics Addon/Windows/Diagnostics SysDef API</Property>
+				<Property Name="Destination[1].path" Type="Path">../Built/custom devices/Diagnostics Addon/Windows/System Definition API</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{C5102AFB-380D-4873-A982-CA443C4118CC}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{87189E59-015B-436A-93C7-50D13D30989F}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Diagnostics Addon SysDef API.lvlib</Property>
@@ -198,7 +198,7 @@
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2016 </Property>
 				<Property Name="TgtF_productName" Type="Str">Diagnostics Addon System Definition API</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{C17EA107-CDFA-4CB8-A3FC-17195700CA95}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">Diagnostics SysDef API.lvlibp</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Diagnostics System Definition API.lvlibp</Property>
 			</Item>
 		</Item>
 	</Item>
