@@ -1,7 +1,7 @@
 [OPTIONS]
 Compatibility=1.1 or later
 Compiled File=Diagnostics.chm
-Default Topic=HTML Help Source\MainPage_Diag.html
+Default Topic=HTML Help Source\Main.html
 Display compile progress=No
 Language=0x409 English (United States)
 Title=Diagnostics
@@ -42,7 +42,7 @@ HTML Help Source\Frame.html
 HTML Help Source\Inputs.html
 HTML Help Source\IO Controls.html
 HTML Help Source\IO.html
-HTML Help Source\MainPage_Diag.html
+HTML Help Source\Main.html
 HTML Help Source\Memory.html
 HTML Help Source\Outputs.html
 HTML Help Source\PIDs.html
