@@ -3,7 +3,7 @@ Version: {nipkg_version}
 Architecture: windows_x64
 Maintainer: National Instruments <support@ni.com>
 XB-Plugin: file
-Description:  The diagnostics add-on reads DIDs, PIDs, and DTCs.  It writes CPIDs and clears DTCs.
+Description:  This addon reads DIDs, PIDs, and DTCs.  It writes CPIDs and clears DTCs.  It can also control IO and start/stop/read routines.  It does this over various protocols with varying levels of support.  GMLAN, KWP, and UDS are supported.  Please review the in addon help for a full list of available commands.
 XB-Eula:  
 Priority: standard
 Homepage: http://www.ni.com
