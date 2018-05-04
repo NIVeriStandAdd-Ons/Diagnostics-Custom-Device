@@ -3,7 +3,7 @@ Version: {nipkg_version}
 Architecture: windows_x64
 Maintainer: National Instruments <support@ni.com>
 XB-Plugin: file
-Description:  This add-on allows a user to pull an existing FPGA bitfile into NI VeriStand with little or no modification.
+Description:  The diagnostics add-on reads DIDs, PIDs, and DTCs.  It writes CPIDs and clears DTCs.
 XB-Eula:  
 Priority: standard
 Homepage: http://www.ni.com
