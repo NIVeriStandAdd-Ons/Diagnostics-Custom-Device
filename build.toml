@@ -47,7 +47,7 @@ name = 'SysDef API'
 type = 'lvBuildSpec'
 project = '{api}'
 target = 'My Computer'
-build_spec = 'Diagnostics Addon System Definition API'
+build_spec = 'System Definition API'
 
 [package]
 type = 'nipkg'
