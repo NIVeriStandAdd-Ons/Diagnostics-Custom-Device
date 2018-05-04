@@ -1,9 +1,0 @@
-Source\Diagnostics Addon SysDef API.lvproj	My Computer	Diagnostics Addon System Definition API
-Source\Diagnostics Addon Custom Device.lvproj	My Computer	Configuration Release
-Source\Diagnostics Addon Custom Device.lvproj	My Computer	Engine Release
-Source\Diagnostics Addon Custom Device.lvproj	My Computer	Diagnostics Host API
-Source\Diagnostics Addon Custom Device.lvproj	My Computer	Diagnostics Workspace Object
-Source\Diagnostics Addon Custom Device.lvproj	My Computer	Diagnostics Workspace Tool
-Source\Diagnostics Addon Custom Device.lvproj	RT PXI Target - Pharlap	Engine Release
-Source\Diagnostics Addon Custom Device.lvproj	RT CompactRIO Target - Linux ARM	Engine Release
-Source\Diagnostics Addon Custom Device.lvproj	RT CompactRIO Target - Linux x64	Engine Release
