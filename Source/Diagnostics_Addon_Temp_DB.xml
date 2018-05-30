@@ -4,6 +4,25 @@
     <ho:SHORT-NAME>XNET1</ho:SHORT-NAME>
   </fx:PROJECT>
   <fx:ELEMENTS>
+    <fx:CLUSTERS>
+      <fx:CLUSTER ID="cluster1">
+        <ho:SHORT-NAME>DoNotUseIgnore</ho:SHORT-NAME>
+        <ho:DESC></ho:DESC>
+        <fx:SPEED>125000</fx:SPEED>
+        <fx:IS-HIGH-LOW-BIT-ORDER>true</fx:IS-HIGH-LOW-BIT-ORDER>
+        <fx:BIT-COUNTING-POLICY>SAWTOOTH</fx:BIT-COUNTING-POLICY>
+        <fx:PROTOCOL xsi:type="can:PROTOCOL-TYPE">CAN</fx:PROTOCOL>
+        <fx:CHANNEL-REFS>
+          <fx:CHANNEL-REF ID-REF="channel1"/>
+        </fx:CHANNEL-REFS>
+        <fx:MEDIUM>ELECTRICAL</fx:MEDIUM>
+      </fx:CLUSTER>
+    </fx:CLUSTERS>
+    <fx:CHANNELS>
+      <fx:CHANNEL ID="channel1">
+        <ho:SHORT-NAME>Channel1</ho:SHORT-NAME>
+      </fx:CHANNEL>
+    </fx:CHANNELS>
   </fx:ELEMENTS>
   <fx:PROCESSING-INFORMATION xmlns="http://www.asam.net/xml">
   </fx:PROCESSING-INFORMATION>
