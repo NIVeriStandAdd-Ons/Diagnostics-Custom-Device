@@ -25,9 +25,9 @@ Protocol support outside of GMLAN is partially implemented.
 
 ### Dependencies ###
 
-NI Automotive Diagnostic Command Set 14.0 or later
+NI Automotive Diagnostic Command Set 18.0 or later
 
-NI XNET 14.0 or later
+NI XNET 18.0 or later
 
 NI GXML 1.4.2.8
 
