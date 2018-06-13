@@ -44,6 +44,7 @@
 		<Item Name="Bitfile.Download.vi" Type="VI" URL="../SubVIs/Bitfile.Download.vi"/>
 		<Item Name="Bitfile.Initialize.vi" Type="VI" URL="../SubVIs/Bitfile.Initialize.vi"/>
 		<Item Name="Bitfile.Unload.vi" Type="VI" URL="../SubVIs/Bitfile.Unload.vi"/>
+		<Item Name="CAN.Cleanup.vi" Type="VI" URL="../SubVIs/CAN.Cleanup.vi"/>
 		<Item Name="CAN.Initialize.vi" Type="VI" URL="../SubVIs/CAN.Initialize.vi"/>
 		<Item Name="CustomerSpecific_SendReceive.vi" Type="VI" URL="../SubVIs/CustomerSpecific_SendReceive.vi"/>
 		<Item Name="Diagnostics.Channel.Engine.vi" Type="VI" URL="../SubVIs/Diagnostics.Channel.Engine.vi"/>
