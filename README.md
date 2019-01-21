@@ -13,7 +13,13 @@ LabVIEW 2015.
 
 ### Built Availability ###
 
-Users are allowed to build anything under Build Specifications in the source's LabVIEW project(s).  Pre-built versions are available upon request through NI Field Sales. 
+https://github.com/NIVeriStandAdd-Ons/Diagnostics-Custom-Device/releases
+
+### Built Dependencies ###
+
+NI Automotive Diagnostic Command Set 18.0 or later
+
+NI XNET 18.0 or later
 
 ### Quality, Limitations ###
 
@@ -23,7 +29,7 @@ No database support for diagnostic messages (ODX or AUTOSARs).
 
 Protocol support outside of GMLAN is partially implemented.
 
-### Dependencies ###
+### Source Dependencies ###
 
 NI Automotive Diagnostic Command Set 18.0 or later
 
