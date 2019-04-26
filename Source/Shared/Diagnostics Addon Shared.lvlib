@@ -67,8 +67,9 @@
 			<Item Name="DPID.Lookup.Info.ctl" Type="VI" URL="../Types/DPID.Lookup.Info.ctl"/>
 			<Item Name="DPID.Lookup.Info.PID.ctl" Type="VI" URL="../Types/DPID.Lookup.Info.PID.ctl"/>
 			<Item Name="DPID.Rate.ctl" Type="VI" URL="../Types/DPID.Rate.ctl"/>
+			<Item Name="DTC.Descriptor.ctl" Type="VI" URL="../Types/DTC.Descriptor.ctl"/>
 			<Item Name="DTC.Info.ctl" Type="VI" URL="../Types/DTC.Info.ctl"/>
-			<Item Name="DTCDescriptor.ctl" Type="VI" URL="../Types/DTCDescriptor.ctl"/>
+			<Item Name="DTC.Settings.ctl" Type="VI" URL="../Types/DTC.Settings.ctl"/>
 			<Item Name="Frame.Compile.ctl" Type="VI" URL="../Types/Frame.Compile.ctl"/>
 			<Item Name="Frame.Lookup.Info.ctl" Type="VI" URL="../Types/Frame.Lookup.Info.ctl"/>
 			<Item Name="Protocol.ctl" Type="VI" URL="../Types/Protocol.ctl"/>
