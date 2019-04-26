@@ -93,6 +93,10 @@
 			<Item Name="DPIDs.Compile.vi" Type="VI" URL="../SubVIs/DPIDs.Compile.vi"/>
 			<Item Name="DPIDs.Export.vi" Type="VI" URL="../SubVIs/DPIDs.Export.vi"/>
 			<Item Name="DTC.Export.vi" Type="VI" URL="../SubVIs/DTC.Export.vi"/>
+			<Item Name="DTC.StatusCode.Set.vi" Type="VI" URL="../SubVIs/DTC.StatusCode.Set.vi"/>
+			<Item Name="DTC.StatusCode.UpdateTable.vi" Type="VI" URL="../SubVIs/DTC.StatusCode.UpdateTable.vi"/>
+			<Item Name="DTC.ValueCode.Set.vi" Type="VI" URL="../SubVIs/DTC.ValueCode.Set.vi"/>
+			<Item Name="DTC.ValueCode.UpdateTable.vi" Type="VI" URL="../SubVIs/DTC.ValueCode.UpdateTable.vi"/>
 			<Item Name="DTCControl.Compile.vi" Type="VI" URL="../SubVIs/DTCControl.Compile.vi"/>
 			<Item Name="DTCControl.Export.vi" Type="VI" URL="../SubVIs/DTCControl.Export.vi"/>
 			<Item Name="DTCDescriptor.FG.vi" Type="VI" URL="../SubVIs/DTCDescriptor.FG.vi"/>
