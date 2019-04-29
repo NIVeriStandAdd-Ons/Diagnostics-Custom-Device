@@ -57,6 +57,7 @@
 		<Item Name="Diagnostics.Restart.Loop.vi" Type="VI" URL="../SubVIs/Diagnostics.Restart.Loop.vi"/>
 		<Item Name="DPIDs.IDs.Sort.vi" Type="VI" URL="../SubVIs/DPIDs.IDs.Sort.vi"/>
 		<Item Name="DPIDs.Initialize.vi" Type="VI" URL="../SubVIs/DPIDs.Initialize.vi"/>
+		<Item Name="DTC.Descriptor.Override.vi" Type="VI" URL="../SubVIs/DTC.Descriptor.Override.vi"/>
 		<Item Name="DTCs.List.Update.vi" Type="VI" URL="../SubVIs/DTCs.List.Update.vi"/>
 		<Item Name="Frame.Build.Raw.vi" Type="VI" URL="../SubVIs/Frame.Build.Raw.vi"/>
 		<Item Name="Frames.Initialize.vi" Type="VI" URL="../SubVIs/Frames.Initialize.vi"/>

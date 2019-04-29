@@ -56,7 +56,9 @@
 			<Item Name="986x.ctl" Type="VI" URL="../Types/986x.ctl"/>
 			<Item Name="CAN.ctl" Type="VI" URL="../Types/CAN.ctl"/>
 			<Item Name="CAN.Interface.ctl" Type="VI" URL="../Types/CAN.Interface.ctl"/>
+			<Item Name="Command.ClearDTC.ctl" Type="VI" URL="../Types/Command.ClearDTC.ctl"/>
 			<Item Name="Command.Communication.ctl" Type="VI" URL="../Types/Command.Communication.ctl"/>
+			<Item Name="Command.ControlDTC.ctl" Type="VI" URL="../Types/Command.ControlDTC.ctl"/>
 			<Item Name="Command.ctl" Type="VI" URL="../Types/Command.ctl"/>
 			<Item Name="Command.IO.ctl" Type="VI" URL="../Types/Command.IO.ctl"/>
 			<Item Name="Command.Memory.ctl" Type="VI" URL="../Types/Command.Memory.ctl"/>
@@ -68,6 +70,7 @@
 			<Item Name="DPID.Lookup.Info.PID.ctl" Type="VI" URL="../Types/DPID.Lookup.Info.PID.ctl"/>
 			<Item Name="DPID.Rate.ctl" Type="VI" URL="../Types/DPID.Rate.ctl"/>
 			<Item Name="DTC.Descriptor.ctl" Type="VI" URL="../Types/DTC.Descriptor.ctl"/>
+			<Item Name="DTC.Descriptor.Override.ctl" Type="VI" URL="../Types/DTC.Descriptor.Override.ctl"/>
 			<Item Name="DTC.Info.ctl" Type="VI" URL="../Types/DTC.Info.ctl"/>
 			<Item Name="DTC.Settings.ctl" Type="VI" URL="../Types/DTC.Settings.ctl"/>
 			<Item Name="Frame.Compile.ctl" Type="VI" URL="../Types/Frame.Compile.ctl"/>
