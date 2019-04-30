@@ -36,11 +36,13 @@
 	<Item Name="Shared" Type="Folder">
 		<Item Name="SubVIs" Type="Folder">
 			<Item Name="Constants.vi" Type="VI" URL="../SubVIs/Constants.vi"/>
+			<Item Name="DTCs.Codes.Get.vi" Type="VI" URL="../SubVIs/DTCs.Codes.Get.vi"/>
 			<Item Name="Frame.Get.Size.vi" Type="VI" URL="../SubVIs/Frame.Get.Size.vi"/>
 			<Item Name="Workspace.CAN.Protocol.Get.vi" Type="VI" URL="../SubVIs/Workspace.CAN.Protocol.Get.vi"/>
 			<Item Name="Workspace.Channels.Create.vi" Type="VI" URL="../SubVIs/Workspace.Channels.Create.vi"/>
 			<Item Name="Workspace.Close.vi" Type="VI" URL="../SubVIs/Workspace.Close.vi"/>
 			<Item Name="Workspace.CustomDevices.Get.vi" Type="VI" URL="../SubVIs/Workspace.CustomDevices.Get.vi"/>
+			<Item Name="Workspace.DTC.Update.vi" Type="VI" URL="../SubVIs/Workspace.DTC.Update.vi"/>
 			<Item Name="Workspace.Initialize.vi" Type="VI" URL="../SubVIs/Workspace.Initialize.vi"/>
 			<Item Name="Workspace.Path.RemoveIP.vi" Type="VI" URL="../SubVIs/Workspace.Path.RemoveIP.vi"/>
 			<Item Name="Workspace.Select.Dialog.vi" Type="VI" URL="../SubVIs/Workspace.Select.Dialog.vi"/>
@@ -64,17 +66,20 @@
 			<Item Name="Command.Memory.ctl" Type="VI" URL="../Types/Command.Memory.ctl"/>
 			<Item Name="Command.PassThru.Channel.ctl" Type="VI" URL="../Types/Command.PassThru.Channel.ctl"/>
 			<Item Name="Command.ReadDTC.ctl" Type="VI" URL="../Types/Command.ReadDTC.ctl"/>
+			<Item Name="Command.ReadDTC.DTCs.ctl" Type="VI" URL="../Types/Command.ReadDTC.DTCs.ctl"/>
 			<Item Name="Command.ReadDTCbyDTCNumber.ctl" Type="VI" URL="../Types/Command.ReadDTCbyDTCNumber.ctl"/>
 			<Item Name="DPID.ctl" Type="VI" URL="../Types/DPID.ctl"/>
 			<Item Name="DPID.Lookup.Info.ctl" Type="VI" URL="../Types/DPID.Lookup.Info.ctl"/>
 			<Item Name="DPID.Lookup.Info.PID.ctl" Type="VI" URL="../Types/DPID.Lookup.Info.PID.ctl"/>
 			<Item Name="DPID.Rate.ctl" Type="VI" URL="../Types/DPID.Rate.ctl"/>
+			<Item Name="DTC.Codes.ctl" Type="VI" URL="../Types/DTC.Codes.ctl"/>
 			<Item Name="DTC.Descriptor.ctl" Type="VI" URL="../Types/DTC.Descriptor.ctl"/>
 			<Item Name="DTC.Descriptor.Override.ctl" Type="VI" URL="../Types/DTC.Descriptor.Override.ctl"/>
 			<Item Name="DTC.Info.ctl" Type="VI" URL="../Types/DTC.Info.ctl"/>
 			<Item Name="DTC.Settings.ctl" Type="VI" URL="../Types/DTC.Settings.ctl"/>
 			<Item Name="Frame.Compile.ctl" Type="VI" URL="../Types/Frame.Compile.ctl"/>
 			<Item Name="Frame.Lookup.Info.ctl" Type="VI" URL="../Types/Frame.Lookup.Info.ctl"/>
+			<Item Name="HostAutomation.Ref.ctl" Type="VI" URL="../Types/HostAutomation.Ref.ctl"/>
 			<Item Name="Protocol.ctl" Type="VI" URL="../Types/Protocol.ctl"/>
 			<Item Name="Security.ctl" Type="VI" URL="../Types/Security.ctl"/>
 			<Item Name="Signal.ctl" Type="VI" URL="../Types/Signal.ctl"/>
