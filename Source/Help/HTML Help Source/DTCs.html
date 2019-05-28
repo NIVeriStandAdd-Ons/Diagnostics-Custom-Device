@@ -36,7 +36,7 @@ KWP2000 & GMLAN Defaults
 </p>
 </ul>
 <h3>Set the DTC Codes and Status Codes</h3>
-<p>The user can import or clear the DTC codes and status codes. The user does this by putting the numeric code (first column) and related string (second column) in a CSV file. Each row the CSV file is a code/string pairing. The user then selects the <strong>DTC Codes</strong> tab and hits <strong>Import</strong>. Select the CSV file and the table will update. The same applies for the <strong>Status Codes</strong> tab.</p>
+<p>The user can import the DTC codes and status codes. This is done through a comma seperated value (CSV) file. For DTC codes, the format is numeric code (first column), J2012 code (second column) and description string (third column) in a CSV file. The numeric code can be a number or a hex value. Use a "x" to designate hex. E.g xABCD. If you use a number, it will be converted to hex on import. Each row the CSV file is a code/J2012 code/string pairing. The user selects the <strong>DTC Codes</strong> tab and hits <strong>Import</strong>. Select the CSV file and the table will update. The same approach applies for the <strong>Status Codes</strong> tab. The CSV format is slightly different. It is numeric code (first column) and description string (second column)</p>
 <h3>Set the number of recent DTCs</h3>
 <p>By default, the user can see the most recent 10 DTCs received. If the user wants a different buffer length, they can set <strong>Number of DTCs</strong> to the desired value and hit <strong>Apply</strong>.</p>
 <h3>Monitor the total number of DTCs on an ECU</h3>
