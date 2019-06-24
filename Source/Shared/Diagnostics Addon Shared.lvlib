@@ -48,6 +48,7 @@
 			<Item Name="Workspace.Select.Dialog.vi" Type="VI" URL="../SubVIs/Workspace.Select.Dialog.vi"/>
 			<Item Name="Workspace.Select.Initialize.vi" Type="VI" URL="../SubVIs/Workspace.Select.Initialize.vi"/>
 			<Item Name="Workspace.Targets.Get.vi" Type="VI" URL="../SubVIs/Workspace.Targets.Get.vi"/>
+			<Item Name="Workspace.UI.DisableState.Set.vi" Type="VI" URL="../SubVIs/Workspace.UI.DisableState.Set.vi"/>
 			<Item Name="Workspace.UI.Pull.vi" Type="VI" URL="../SubVIs/Workspace.UI.Pull.vi"/>
 			<Item Name="Workspace.UI.Update.Captions.vi" Type="VI" URL="../SubVIs/Workspace.UI.Update.Captions.vi"/>
 			<Item Name="Workspace.UI.Update.vi" Type="VI" URL="../SubVIs/Workspace.UI.Update.vi"/>
