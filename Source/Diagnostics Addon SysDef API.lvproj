@@ -179,7 +179,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utilities/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{1D4A5F48-8CAB-4E0A-88B5-1E80E621E437}</Property>
-				<Property Name="Bld_version.build" Type="Int">10</Property>
+				<Property Name="Bld_version.build" Type="Int">11</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Diagnostics System Definition API.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">../Built/custom devices/Diagnostics Addon/Windows/System Definition API/Diagnostics System Definition API.lvlibp</Property>
