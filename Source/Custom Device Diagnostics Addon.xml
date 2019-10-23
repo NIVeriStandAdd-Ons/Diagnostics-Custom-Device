@@ -5,7 +5,7 @@
 		<eng>National Instruments::Diagnostics Addon</eng>
 		<loc>National Instruments::Diagnostics Addon</loc>
 	</AddMenu>
-	<Version>7.0.1</Version>
+	<Version>8.0.0</Version>
 	<Type>Inline HW Interface</Type>
 	<MaxOccurrence>-1</MaxOccurrence>
 	<MainPageGUID>4e42e445-e1c9-40fb-b144-894b15ca645a</MainPageGUID>

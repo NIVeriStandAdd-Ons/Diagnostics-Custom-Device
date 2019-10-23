@@ -9,7 +9,7 @@ This addon reads DIDs, PIDs, and DTCs.  It writes CPIDs and clears DTCs.  It can
 
 ### LabVIEW Version ###
 
-LabVIEW 2015.
+LabVIEW 2019.
 
 ### Built Availability ###
 
@@ -17,9 +17,9 @@ https://github.com/NIVeriStandAdd-Ons/Diagnostics-Custom-Device/releases
 
 ### Built Dependencies ###
 
-NI Automotive Diagnostic Command Set 18.0 or later
+NI Automotive Diagnostic Command Set 19.0 or later
 
-NI XNET 18.0 or later
+NI XNET 19.0 or later
 
 ### Quality, Limitations ###
 
@@ -31,9 +31,9 @@ Protocol support outside of GMLAN is partially implemented.
 
 ### Source Dependencies ###
 
-NI Automotive Diagnostic Command Set 18.0 or later
+NI Automotive Diagnostic Command Set 19.0 or later
 
-NI XNET 18.0 or later
+NI XNET 19.0 or later
 
 NI GXML 1.4.2.8
 
