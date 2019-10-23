@@ -396,7 +396,7 @@
 				<Property Name="Destination[3].destName" Type="Str">XML Folder</Property>
 				<Property Name="Destination[3].path" Type="Path">../Built/custom devices/Diagnostics Addon</Property>
 				<Property Name="DestinationCount" Type="Int">4</Property>
-				<Property Name="Source[0].itemID" Type="Str">{D8AC6CB3-BE7D-4FE2-9BA2-DED572C70D04}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{DEF93B8C-D50C-46AD-96C9-751A5CD6F608}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[1].Container.applyInclusion" Type="Bool">true</Property>
@@ -454,7 +454,7 @@
 				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Support Files/Custom Device Diagnostics Addon.xml</Property>
 				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[6].itemID" Type="Ref"></Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Help/Diagnostics.chm</Property>
 				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="SourceCount" Type="Int">7</Property>
 			</Item>
@@ -1644,7 +1644,7 @@
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{3939FB3D-726E-4D10-82BD-7FE8FBCCD360}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/Linux_32_ARM/Diagnostics Addon Engine LinuxARM.llb</Property>
-				<Property Name="Bld_version.build" Type="Int">23</Property>
+				<Property Name="Bld_version.build" Type="Int">24</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">/Linux_32_ARM/Diagnostics Addon Engine LinuxARM.llb</Property>
@@ -2171,7 +2171,7 @@
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D2B3104C-D323-41E8-B4BA-9185D7889B63}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/Linux_x64/Diagnostics Addon Engine Linux64.llb</Property>
-				<Property Name="Bld_version.build" Type="Int">23</Property>
+				<Property Name="Bld_version.build" Type="Int">24</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">/Linux_x64/Diagnostics Addon Engine Linux64.llb</Property>

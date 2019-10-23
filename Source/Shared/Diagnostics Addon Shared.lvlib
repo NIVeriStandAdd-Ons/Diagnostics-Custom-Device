@@ -83,6 +83,7 @@
 			<Item Name="HostAutomation.Ref.ctl" Type="VI" URL="../Types/HostAutomation.Ref.ctl"/>
 			<Item Name="Protocol.ctl" Type="VI" URL="../Types/Protocol.ctl"/>
 			<Item Name="Security.ctl" Type="VI" URL="../Types/Security.ctl"/>
+			<Item Name="Security.Type.ctl" Type="VI" URL="../Types/Security.Type.ctl"/>
 			<Item Name="Signal.ctl" Type="VI" URL="../Types/Signal.ctl"/>
 			<Item Name="SysDef.Compile.ctl" Type="VI" URL="../Types/SysDef.Compile.ctl"/>
 			<Item Name="SysDef.Compile.Properties.ctl" Type="VI" URL="../Types/SysDef.Compile.Properties.ctl"/>
