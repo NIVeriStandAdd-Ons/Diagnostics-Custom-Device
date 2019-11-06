@@ -5,7 +5,7 @@
 		<eng>National Instruments::Diagnostics Addon</eng>
 		<loc>National Instruments::Diagnostics Addon</loc>
 	</AddMenu>
-	<Version>8.0.0</Version>
+	<Version>8.0.1</Version>
 	<Type>Inline HW Interface</Type>
 	<MaxOccurrence>-1</MaxOccurrence>
 	<MainPageGUID>4e42e445-e1c9-40fb-b144-894b15ca645a</MainPageGUID>
@@ -604,6 +604,18 @@
 					</Item2Launch>
 				</MenuItem>
 				<MenuItem>
+					<GUID>A45B4246-1409-4C7E-BBEB-2BCF142936C4</GUID>
+					<Type>Action</Type>
+					<Name>
+						<eng>Import</eng>
+						<loc>Import</loc>
+					</Name>
+					<Item2Launch>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\Import Frames.vi</Path>
+					</Item2Launch>
+				</MenuItem>
+				<MenuItem>
 					<GUID>7755077A-1485-13A6-5674A23FB86277FF</GUID>
 					<Type>Separator</Type>
 					<Name>
@@ -649,6 +661,31 @@
 					<TipStrip>
 						<eng>Add</eng>
 						<loc>Add</loc>
+					</TipStrip>
+					<Documentation>
+						<eng />
+						<loc />
+					</Documentation>
+				</Button>
+				<Button>
+					<ID>Import Frames</ID>
+					<Glyph>
+						<Type>To Application Data Dir</Type>
+						<Path>System Explorer\Glyphs\NI-XNET ImportXNETFrames.png</Path>
+					</Glyph>
+					<Type>Action</Type>
+					<ReferencedGUID>A45B4246-1409-4C7E-BBEB-2BCF142936C4</ReferencedGUID>
+					<ButtonText>
+						<eng>Import</eng>
+						<loc>Import</loc>
+					</ButtonText>
+					<Caption>
+						<eng>Import</eng>
+						<loc>Import</loc>
+					</Caption>
+					<TipStrip>
+						<eng>Import</eng>
+						<loc>Import</loc>
 					</TipStrip>
 					<Documentation>
 						<eng />
@@ -687,6 +724,18 @@
 					</Item2Launch>
 				</MenuItem>
 				<MenuItem>
+					<GUID>A45B4246-1409-4C7E-BBEB-2BCF142936C4</GUID>
+					<Type>Action</Type>
+					<Name>
+						<eng>Import</eng>
+						<loc>Import</loc>
+					</Name>
+					<Item2Launch>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\Import Frames.vi</Path>
+					</Item2Launch>
+				</MenuItem>
+				<MenuItem>
 					<GUID>7755077A-1485-13A6-5674A23FB86277FF</GUID>
 					<Type>Separator</Type>
 					<Name>
@@ -732,6 +781,31 @@
 					<TipStrip>
 						<eng>Add</eng>
 						<loc>Add</loc>
+					</TipStrip>
+					<Documentation>
+						<eng />
+						<loc />
+					</Documentation>
+				</Button>
+				<Button>
+					<ID>Import Frames</ID>
+					<Glyph>
+						<Type>To Application Data Dir</Type>
+						<Path>System Explorer\Glyphs\NI-XNET ImportXNETFrames.png</Path>
+					</Glyph>
+					<Type>Action</Type>
+					<ReferencedGUID>A45B4246-1409-4C7E-BBEB-2BCF142936C4</ReferencedGUID>
+					<ButtonText>
+						<eng>Import</eng>
+						<loc>Import</loc>
+					</ButtonText>
+					<Caption>
+						<eng>Import</eng>
+						<loc>Import</loc>
+					</Caption>
+					<TipStrip>
+						<eng>Import</eng>
+						<loc>Import</loc>
 					</TipStrip>
 					<Documentation>
 						<eng />
@@ -770,6 +844,18 @@
 					</Item2Launch>
 				</MenuItem>
 				<MenuItem>
+					<GUID>A45B4246-1409-4C7E-BBEB-2BCF142936C4</GUID>
+					<Type>Action</Type>
+					<Name>
+						<eng>Import</eng>
+						<loc>Import</loc>
+					</Name>
+					<Item2Launch>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\Import Frames.vi</Path>
+					</Item2Launch>
+				</MenuItem>
+				<MenuItem>
 					<GUID>7755077A-1485-13A6-5674A23FB86277FF</GUID>
 					<Type>Separator</Type>
 					<Name>
@@ -821,6 +907,31 @@
 						<loc />
 					</Documentation>
 				</Button>
+				<Button>
+					<ID>Import Frames</ID>
+					<Glyph>
+						<Type>To Application Data Dir</Type>
+						<Path>System Explorer\Glyphs\NI-XNET ImportXNETFrames.png</Path>
+					</Glyph>
+					<Type>Action</Type>
+					<ReferencedGUID>A45B4246-1409-4C7E-BBEB-2BCF142936C4</ReferencedGUID>
+					<ButtonText>
+						<eng>Import</eng>
+						<loc>Import</loc>
+					</ButtonText>
+					<Caption>
+						<eng>Import</eng>
+						<loc>Import</loc>
+					</Caption>
+					<TipStrip>
+						<eng>Import</eng>
+						<loc>Import</loc>
+					</TipStrip>
+					<Documentation>
+						<eng />
+						<loc />
+					</Documentation>
+				</Button>
 			</ButtonList>
 		</Page>
 		<Page>
@@ -850,6 +961,18 @@
 					<Item2Launch>
 						<Type>To Common Doc Dir</Type>
 						<Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\Add Frame.vi</Path>
+					</Item2Launch>
+				</MenuItem>
+				<MenuItem>
+					<GUID>A45B4246-1409-4C7E-BBEB-2BCF142936C4</GUID>
+					<Type>Action</Type>
+					<Name>
+						<eng>Import</eng>
+						<loc>Import</loc>
+					</Name>
+					<Item2Launch>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\Import Frames.vi</Path>
 					</Item2Launch>
 				</MenuItem>
 				<MenuItem>
@@ -898,6 +1021,31 @@
 					<TipStrip>
 						<eng>Add</eng>
 						<loc>Add</loc>
+					</TipStrip>
+					<Documentation>
+						<eng />
+						<loc />
+					</Documentation>
+				</Button>
+				<Button>
+					<ID>Import Frames</ID>
+					<Glyph>
+						<Type>To Application Data Dir</Type>
+						<Path>System Explorer\Glyphs\NI-XNET ImportXNETFrames.png</Path>
+					</Glyph>
+					<Type>Action</Type>
+					<ReferencedGUID>A45B4246-1409-4C7E-BBEB-2BCF142936C4</ReferencedGUID>
+					<ButtonText>
+						<eng>Import</eng>
+						<loc>Import</loc>
+					</ButtonText>
+					<Caption>
+						<eng>Import</eng>
+						<loc>Import</loc>
+					</Caption>
+					<TipStrip>
+						<eng>Import</eng>
+						<loc>Import</loc>
 					</TipStrip>
 					<Documentation>
 						<eng />
@@ -953,6 +1101,18 @@
 					</Item2Launch>
 				</MenuItem>
 				<MenuItem>
+					<GUID>4AD4E45D-8DC4-4A64-9618-036F6FF8C3B3</GUID>
+					<Type>Action</Type>
+					<Name>
+						<eng>Import</eng>
+						<loc>Import</loc>
+					</Name>
+					<Item2Launch>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\Import DPIDs.vi</Path>
+					</Item2Launch>
+				</MenuItem>
+				<MenuItem>
 					<GUID>7755077A-1485-13A6-5674A23FB86277FF</GUID>
 					<Type>Separator</Type>
 					<Name>
@@ -998,6 +1158,31 @@
 					<TipStrip>
 						<eng>Add</eng>
 						<loc>Add</loc>
+					</TipStrip>
+					<Documentation>
+						<eng />
+						<loc />
+					</Documentation>
+				</Button>
+				<Button>
+					<ID>Import DPIDs</ID>
+					<Glyph>
+						<Type>To Application Data Dir</Type>
+						<Path>System Explorer\Glyphs\NI-XNET ImportXNETFrames.png</Path>
+					</Glyph>
+					<Type>Action</Type>
+					<ReferencedGUID>4AD4E45D-8DC4-4A64-9618-036F6FF8C3B3</ReferencedGUID>
+					<ButtonText>
+						<eng>Import</eng>
+						<loc>Import</loc>
+					</ButtonText>
+					<Caption>
+						<eng>Import</eng>
+						<loc>Import</loc>
+					</Caption>
+					<TipStrip>
+						<eng>Import</eng>
+						<loc>Import</loc>
 					</TipStrip>
 					<Documentation>
 						<eng />
@@ -1637,6 +1822,18 @@
 					</Item2Launch>
 				</MenuItem>
 				<MenuItem>
+					<GUID>A45B4246-1409-4C7E-BBEB-2BCF142936C4</GUID>
+					<Type>Action</Type>
+					<Name>
+						<eng>Import</eng>
+						<loc>Import</loc>
+					</Name>
+					<Item2Launch>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\Import Frames.vi</Path>
+					</Item2Launch>
+				</MenuItem>
+				<MenuItem>
 					<GUID>7755077A-1485-13A6-5674A23FB86277FF</GUID>
 					<Type>Separator</Type>
 					<Name>
@@ -1688,6 +1885,31 @@
 						<loc />
 					</Documentation>
 				</Button>
+				<Button>
+					<ID>Import Frames</ID>
+					<Glyph>
+						<Type>To Application Data Dir</Type>
+						<Path>System Explorer\Glyphs\NI-XNET ImportXNETFrames.png</Path>
+					</Glyph>
+					<Type>Action</Type>
+					<ReferencedGUID>A45B4246-1409-4C7E-BBEB-2BCF142936C4</ReferencedGUID>
+					<ButtonText>
+						<eng>Import</eng>
+						<loc>Import</loc>
+					</ButtonText>
+					<Caption>
+						<eng>Import</eng>
+						<loc>Import</loc>
+					</Caption>
+					<TipStrip>
+						<eng>Import</eng>
+						<loc>Import</loc>
+					</TipStrip>
+					<Documentation>
+						<eng />
+						<loc />
+					</Documentation>
+				</Button>
 			</ButtonList>
 		</Page>
 		<Page>
@@ -1717,6 +1939,18 @@
 					<Item2Launch>
 						<Type>To Common Doc Dir</Type>
 						<Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\Add Frame.vi</Path>
+					</Item2Launch>
+				</MenuItem>
+				<MenuItem>
+					<GUID>A45B4246-1409-4C7E-BBEB-2BCF142936C4</GUID>
+					<Type>Action</Type>
+					<Name>
+						<eng>Import</eng>
+						<loc>Import</loc>
+					</Name>
+					<Item2Launch>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\Import Frames.vi</Path>
 					</Item2Launch>
 				</MenuItem>
 				<MenuItem>
@@ -1765,6 +1999,31 @@
 					<TipStrip>
 						<eng>Add</eng>
 						<loc>Add</loc>
+					</TipStrip>
+					<Documentation>
+						<eng />
+						<loc />
+					</Documentation>
+				</Button>
+				<Button>
+					<ID>Import Frames</ID>
+					<Glyph>
+						<Type>To Application Data Dir</Type>
+						<Path>System Explorer\Glyphs\NI-XNET ImportXNETFrames.png</Path>
+					</Glyph>
+					<Type>Action</Type>
+					<ReferencedGUID>A45B4246-1409-4C7E-BBEB-2BCF142936C4</ReferencedGUID>
+					<ButtonText>
+						<eng>Import</eng>
+						<loc>Import</loc>
+					</ButtonText>
+					<Caption>
+						<eng>Import</eng>
+						<loc>Import</loc>
+					</Caption>
+					<TipStrip>
+						<eng>Import</eng>
+						<loc>Import</loc>
 					</TipStrip>
 					<Documentation>
 						<eng />

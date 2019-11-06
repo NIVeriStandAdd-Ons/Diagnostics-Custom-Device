@@ -68,11 +68,14 @@
 				<Item Name="Edit DPID.vi" Type="VI" URL="../RTMs/Edit DPID.vi"/>
 				<Item Name="Edit Frame.vi" Type="VI" URL="../RTMs/Edit Frame.vi"/>
 				<Item Name="ExportConfigurationToFile.vi" Type="VI" URL="../SubVIs/ExportConfigurationToFile.vi"/>
+				<Item Name="Import DPIDs.vi" Type="VI" URL="../RTMs/Import DPIDs.vi"/>
+				<Item Name="Import Frames.vi" Type="VI" URL="../RTMs/Import Frames.vi"/>
 			</Item>
 			<Item Name="Initialization VI.vi" Type="VI" URL="../Initialization VI.vi"/>
 			<Item Name="Main Page.vi" Type="VI" URL="../Main Page.vi"/>
 		</Item>
 		<Item Name="SubVIs" Type="Folder">
+			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="986x.Compile.vi" Type="VI" URL="../SubVIs/986x.Compile.vi"/>
 			<Item Name="986x.Create.vi" Type="VI" URL="../SubVIs/986x.Create.vi"/>
 			<Item Name="986x.Export.vi" Type="VI" URL="../SubVIs/986x.Export.vi"/>
@@ -180,4 +183,5 @@
 			<Item Name="UserDefined.Group.Message.Refs.ctl" Type="VI" URL="../Types/UserDefined.Group.Message.Refs.ctl"/>
 		</Item>
 	</Item>
+	<Item Name="DPIDs.GetPIDs.vi" Type="VI" URL="../SubVIs/DPIDs.GetPIDs.vi"/>
 </Library>
