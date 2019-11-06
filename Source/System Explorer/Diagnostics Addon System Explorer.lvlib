@@ -149,6 +149,7 @@
 			<Item Name="UserDefined.Export.vi" Type="VI" URL="../SubVIs/UserDefined.Export.vi"/>
 			<Item Name="UserDefined.Group.Export.vi" Type="VI" URL="../SubVIs/UserDefined.Group.Export.vi"/>
 			<Item Name="UserDefined.Group.Message.Create.vi" Type="VI" URL="../SubVIs/UserDefined.Group.Message.Create.vi"/>
+			<Item Name="DPIDs.GetPIDs.vi" Type="VI" URL="../SubVIs/DPIDs.GetPIDs.vi"/>
 			<Item Name="WriteSignal.Create.vi" Type="VI" URL="../SubVIs/WriteSignal.Create.vi"/>
 			<Item Name="WriteSignals.Compile.vi" Type="VI" URL="../SubVIs/WriteSignals.Compile.vi"/>
 			<Item Name="XNETDB.Add.vi" Type="VI" URL="../SubVIs/XNETDB.Add.vi"/>
@@ -183,5 +184,4 @@
 			<Item Name="UserDefined.Group.Message.Refs.ctl" Type="VI" URL="../Types/UserDefined.Group.Message.Refs.ctl"/>
 		</Item>
 	</Item>
-	<Item Name="DPIDs.GetPIDs.vi" Type="VI" URL="../SubVIs/DPIDs.GetPIDs.vi"/>
 </Library>
