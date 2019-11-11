@@ -137,6 +137,7 @@
 			<Item Name="Signal.FG.vi" Type="VI" URL="../SubVIs/Signal.FG.vi"/>
 			<Item Name="Signal.StartBit.Calculate.vi" Type="VI" URL="../SubVIs/Signal.StartBit.Calculate.vi"/>
 			<Item Name="Signals.Get.vi" Type="VI" URL="../SubVIs/Signals.Get.vi"/>
+			<Item Name="Signals.SortByFrameLocation.vi" Type="VI" URL="../SubVIs/Signals.SortByFrameLocation.vi"/>
 			<Item Name="SysDef.Compile.vi" Type="VI" URL="../SubVIs/SysDef.Compile.vi"/>
 			<Item Name="SysDef.Create.FromPrevious.vi" Type="VI" URL="../SubVIs/SysDef.Create.FromPrevious.vi"/>
 			<Item Name="SysDef.Create.vi" Type="VI" URL="../SubVIs/SysDef.Create.vi"/>
