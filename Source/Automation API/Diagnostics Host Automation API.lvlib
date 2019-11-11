@@ -19,6 +19,7 @@
 		<Item Name="ForceTesterPresent.vi" Type="VI" URL="../ForceTesterPresent.vi"/>
 		<Item Name="PassThru.vi" Type="VI" URL="../PassThru.vi"/>
 		<Item Name="ReadDID.vi" Type="VI" URL="../ReadDID.vi"/>
+		<Item Name="ReadDID_ReturnASCII.vi" Type="VI" URL="../ReadDID_ReturnASCII.vi"/>
 		<Item Name="ReadDIDs.vi" Type="VI" URL="../ReadDIDs.vi"/>
 		<Item Name="ReadDTCs.vi" Type="VI" URL="../ReadDTCs.vi"/>
 		<Item Name="ReturnToNormalMode.vi" Type="VI" URL="../ReturnToNormalMode.vi"/>
