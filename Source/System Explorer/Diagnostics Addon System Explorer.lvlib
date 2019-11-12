@@ -53,6 +53,8 @@
 				<Item Name="DTCs.vi" Type="VI" URL="../Pages/DTCs.vi"/>
 				<Item Name="Frame.vi" Type="VI" URL="../Pages/Frame.vi"/>
 				<Item Name="Frames.vi" Type="VI" URL="../Pages/Frames.vi"/>
+				<Item Name="Poll.vi" Type="VI" URL="../Pages/Poll.vi"/>
+				<Item Name="Polling.vi" Type="VI" URL="../Pages/Polling.vi"/>
 				<Item Name="Protected.vi" Type="VI" URL="../Pages/Protected.vi"/>
 				<Item Name="Signal Page.vi" Type="VI" URL="../Pages/Signal Page.vi"/>
 				<Item Name="Status.vi" Type="VI" URL="../Pages/Status.vi"/>
@@ -67,6 +69,7 @@
 				<Item Name="Add User Defined Message.vi" Type="VI" URL="../RTMs/Add User Defined Message.vi"/>
 				<Item Name="Edit DPID.vi" Type="VI" URL="../RTMs/Edit DPID.vi"/>
 				<Item Name="Edit Frame.vi" Type="VI" URL="../RTMs/Edit Frame.vi"/>
+				<Item Name="Edit Poll.vi" Type="VI" URL="../RTMs/Edit Poll.vi"/>
 				<Item Name="ExportConfigurationToFile.vi" Type="VI" URL="../SubVIs/ExportConfigurationToFile.vi"/>
 				<Item Name="Import DPIDs.vi" Type="VI" URL="../RTMs/Import DPIDs.vi"/>
 				<Item Name="Import Frames.vi" Type="VI" URL="../RTMs/Import Frames.vi"/>
@@ -154,6 +157,9 @@
 			<Item Name="WriteSignal.Create.vi" Type="VI" URL="../SubVIs/WriteSignal.Create.vi"/>
 			<Item Name="WriteSignals.Compile.vi" Type="VI" URL="../SubVIs/WriteSignals.Compile.vi"/>
 			<Item Name="XNETDB.Add.vi" Type="VI" URL="../SubVIs/XNETDB.Add.vi"/>
+			<Item Name="Poll.Selection.vi" Type="VI" URL="../SubVIs/Poll.Selection.vi"/>
+			<Item Name="Poll.FG.vi" Type="VI" URL="../SubVIs/Poll.FG.vi"/>
+			<Item Name="Poll.ConvertChannelsToString.vi" Type="VI" URL="../SubVIs/Poll.ConvertChannelsToString.vi"/>
 		</Item>
 		<Item Name="Types" Type="Folder">
 			<Item Name="Addon.Initialize.ctl" Type="VI" URL="../Types/Addon.Initialize.ctl"/>
@@ -172,6 +178,7 @@
 			<Item Name="IOControls.Compile.ctl" Type="VI" URL="../Types/IOControls.Compile.ctl"/>
 			<Item Name="IOControls.Export.ctl" Type="VI" URL="../Types/IOControls.Export.ctl"/>
 			<Item Name="IOControls.Refs.ctl" Type="VI" URL="../Types/IOControls.Refs.ctl"/>
+			<Item Name="Poll.LinkedNode.ctl" Type="VI" URL="../Types/Poll.LinkedNode.ctl"/>
 			<Item Name="Routine.Export.ctl" Type="VI" URL="../Types/Routine.Export.ctl"/>
 			<Item Name="Routines.Compile.ctl" Type="VI" URL="../Types/Routines.Compile.ctl"/>
 			<Item Name="Routines.Export.ctl" Type="VI" URL="../Types/Routines.Export.ctl"/>

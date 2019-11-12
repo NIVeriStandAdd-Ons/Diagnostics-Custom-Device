@@ -5,7 +5,7 @@
 		<eng>National Instruments::Diagnostics Addon</eng>
 		<loc>National Instruments::Diagnostics Addon</loc>
 	</AddMenu>
-	<Version>8.0.1</Version>
+	<Version>8.0.2</Version>
 	<Type>Inline HW Interface</Type>
 	<MaxOccurrence>-1</MaxOccurrence>
 	<MainPageGUID>4e42e445-e1c9-40fb-b144-894b15ca645a</MainPageGUID>
@@ -375,7 +375,7 @@
 			</Name>
 			<DisallowRenaming>true</DisallowRenaming>
 			<DeleteProtection>true</DeleteProtection>
-      <ExcludeFromAlphabeticalOrder>true</ExcludeFromAlphabeticalOrder>
+			<ExcludeFromAlphabeticalOrder>true</ExcludeFromAlphabeticalOrder>
 			<GUID>14802196-9eef-416a-8ce6-e6467da1d504</GUID>
 			<Glyph>
 				<Type>To Application Data Dir</Type>
@@ -482,11 +482,199 @@
 		</Page>
 		<Page>
 			<Name>
-				<eng>DID</eng>
-				<loc>DID</loc>
+				<eng>cPID</eng>
+				<loc>cPID</loc>
+			</Name>
+			<ExcludeFromAlphabeticalOrder>true</ExcludeFromAlphabeticalOrder>
+			<GUID>414A03E8-4A35-4FB1-B7BA-356F958C107C</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\NI-XNET SignalFrame.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\Frame.vi</Path>
+			</Item2Launch>
+			<RunTimeMenu>
+				<MenuItem>
+					<GUID>284ec0d1-0279-4002-be6b-dd29e84743be</GUID>
+					<Type>Action</Type>
+					<Name>
+						<eng>Edit</eng>
+						<loc>Edit</loc>
+					</Name>
+					<Item2Launch>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\Edit Frame.vi</Path>
+					</Item2Launch>
+				</MenuItem>
+				<MenuItem>
+					<GUID>7755077A-1485-13A6-5674A23FB86277FF</GUID>
+					<Type>Separator</Type>
+					<Name>
+						<eng>.</eng>
+						<loc>.</loc>
+					</Name>
+					<Item2Launch>
+						<Type>Absolute</Type>
+						<Path>.</Path>
+					</Item2Launch>
+				</MenuItem>
+				<MenuItem>
+					<GUID>77550670-1485-13A6-568B9AB41979630D</GUID>
+					<Type>Action</Type>
+					<Name>
+						<eng>Delete</eng>
+						<loc>Delete</loc>
+					</Name>
+					<Item2Launch>
+						<Type>Absolute</Type>
+						<Path>Actions\Delete.vi</Path>
+					</Item2Launch>
+				</MenuItem>
+				<MenuItem>
+					<GUID>03D3BE0A-1485-13A6-563AEB9BF271825A</GUID>
+					<Type>VI</Type>
+					<MinNrOfChilds>1</MinNrOfChilds>
+					<Name>
+						<eng>Delete Multiple Items</eng>
+						<loc>Delete Multiple Items</loc>
+					</Name>
+					<Item2Launch>
+						<Type>Absolute</Type>
+						<Path>Dialogs\Delete Multiple Items.vi</Path>
+					</Item2Launch>
+				</MenuItem>
+			</RunTimeMenu>
+			<ButtonList>
+				<Button>
+					<ID>Edit Frame</ID>
+					<Glyph>
+						<Type>To Application Data Dir</Type>
+						<Path>System Explorer\Glyphs\editopen.png</Path>
+					</Glyph>
+					<Type>Action</Type>
+					<ReferencedGUID>284ec0d1-0279-4002-be6b-dd29e84743be</ReferencedGUID>
+					<ButtonText>
+						<eng>Edit</eng>
+						<loc>Edit</loc>
+					</ButtonText>
+					<Caption>
+						<eng>Edit</eng>
+						<loc>Edit</loc>
+					</Caption>
+					<TipStrip>
+						<eng>Edit</eng>
+						<loc>Edit</loc>
+					</TipStrip>
+					<Documentation>
+						<eng />
+						<loc />
+					</Documentation>
+				</Button>
+			</ButtonList>
+		</Page>
+		<Page>
+			<Name>
+				<eng>DID Input</eng>
+				<loc>DID Input</loc>
 			</Name>
 			<ExcludeFromAlphabeticalOrder>true</ExcludeFromAlphabeticalOrder>
 			<GUID>465d9377-cb59-4ae9-97ed-bc842761823f</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\NI-XNET SignalFrame.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\Frame.vi</Path>
+			</Item2Launch>
+			<RunTimeMenu>
+				<MenuItem>
+					<GUID>8857c113-f58b-4d98-ac82-633826442a96</GUID>
+					<Type>Action</Type>
+					<Name>
+						<eng>Edit</eng>
+						<loc>Edit</loc>
+					</Name>
+					<Item2Launch>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\Edit Frame.vi</Path>
+					</Item2Launch>
+				</MenuItem>
+				<MenuItem>
+					<GUID>7755077A-1485-13A6-5674A23FB86277FF</GUID>
+					<Type>Separator</Type>
+					<Name>
+						<eng>.</eng>
+						<loc>.</loc>
+					</Name>
+					<Item2Launch>
+						<Type>Absolute</Type>
+						<Path>.</Path>
+					</Item2Launch>
+				</MenuItem>
+				<MenuItem>
+					<GUID>77550670-1485-13A6-568B9AB41979630D</GUID>
+					<Type>Action</Type>
+					<Name>
+						<eng>Delete</eng>
+						<loc>Delete</loc>
+					</Name>
+					<Item2Launch>
+						<Type>Absolute</Type>
+						<Path>Actions\Delete.vi</Path>
+					</Item2Launch>
+				</MenuItem>
+				<MenuItem>
+					<GUID>03D3BE0A-1485-13A6-563AEB9BF271825A</GUID>
+					<Type>VI</Type>
+					<MinNrOfChilds>1</MinNrOfChilds>
+					<Name>
+						<eng>Delete Multiple Items</eng>
+						<loc>Delete Multiple Items</loc>
+					</Name>
+					<Item2Launch>
+						<Type>Absolute</Type>
+						<Path>Dialogs\Delete Multiple Items.vi</Path>
+					</Item2Launch>
+				</MenuItem>
+			</RunTimeMenu>
+			<ButtonList>
+				<Button>
+					<ID>Edit Frame</ID>
+					<Glyph>
+						<Type>To Application Data Dir</Type>
+						<Path>System Explorer\Glyphs\editopen.png</Path>
+					</Glyph>
+					<Type>Action</Type>
+					<ReferencedGUID>8857c113-f58b-4d98-ac82-633826442a96</ReferencedGUID>
+					<ButtonText>
+						<eng>Edit</eng>
+						<loc>Edit</loc>
+					</ButtonText>
+					<Caption>
+						<eng>Edit</eng>
+						<loc>Edit</loc>
+					</Caption>
+					<TipStrip>
+						<eng>Edit</eng>
+						<loc>Edit</loc>
+					</TipStrip>
+					<Documentation>
+						<eng />
+						<loc />
+					</Documentation>
+				</Button>
+			</ButtonList>
+		</Page>
+		<Page>
+			<Name>
+				<eng>DID Output</eng>
+				<loc>DID Output</loc>
+			</Name>
+			<ExcludeFromAlphabeticalOrder>true</ExcludeFromAlphabeticalOrder>
+			<GUID>1DA85E41-B8B2-4229-BAF4-C924308D18D5</GUID>
 			<Glyph>
 				<Type>To Application Data Dir</Type>
 				<Path>System Explorer\Glyphs\NI-XNET SignalFrame.png</Path>
@@ -2034,11 +2222,105 @@
 		</Page>
 		<Page>
 			<Name>
-				<eng>Memory Location</eng>
-				<loc>Memory Location</loc>
+				<eng>Memory Input</eng>
+				<loc>Memory Input</loc>
 			</Name>
 			<ExcludeFromAlphabeticalOrder>true</ExcludeFromAlphabeticalOrder>
 			<GUID>bcff0b3d-7243-4886-a340-96f6fb52a52d</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\Reflective Memory.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\Frame.vi</Path>
+			</Item2Launch>
+			<RunTimeMenu>
+				<MenuItem>
+					<GUID>284ec0d1-0279-4002-be6b-dd29e84743be</GUID>
+					<Type>Action</Type>
+					<Name>
+						<eng>Edit</eng>
+						<loc>Edit</loc>
+					</Name>
+					<Item2Launch>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\Edit Frame.vi</Path>
+					</Item2Launch>
+				</MenuItem>
+				<MenuItem>
+					<GUID>7755077A-1485-13A6-5674A23FB86277FF</GUID>
+					<Type>Separator</Type>
+					<Name>
+						<eng>.</eng>
+						<loc>.</loc>
+					</Name>
+					<Item2Launch>
+						<Type>Absolute</Type>
+						<Path>.</Path>
+					</Item2Launch>
+				</MenuItem>
+				<MenuItem>
+					<GUID>77550670-1485-13A6-568B9AB41979630D</GUID>
+					<Type>Action</Type>
+					<Name>
+						<eng>Delete</eng>
+						<loc>Delete</loc>
+					</Name>
+					<Item2Launch>
+						<Type>Absolute</Type>
+						<Path>Actions\Delete.vi</Path>
+					</Item2Launch>
+				</MenuItem>
+				<MenuItem>
+					<GUID>03D3BE0A-1485-13A6-563AEB9BF271825A</GUID>
+					<Type>VI</Type>
+					<MinNrOfChilds>1</MinNrOfChilds>
+					<Name>
+						<eng>Delete Multiple Items</eng>
+						<loc>Delete Multiple Items</loc>
+					</Name>
+					<Item2Launch>
+						<Type>Absolute</Type>
+						<Path>Dialogs\Delete Multiple Items.vi</Path>
+					</Item2Launch>
+				</MenuItem>
+			</RunTimeMenu>
+			<ButtonList>
+				<Button>
+					<ID>Edit Frame</ID>
+					<Glyph>
+						<Type>To Application Data Dir</Type>
+						<Path>System Explorer\Glyphs\editopen.png</Path>
+					</Glyph>
+					<Type>Action</Type>
+					<ReferencedGUID>284ec0d1-0279-4002-be6b-dd29e84743be</ReferencedGUID>
+					<ButtonText>
+						<eng>Edit</eng>
+						<loc>Edit</loc>
+					</ButtonText>
+					<Caption>
+						<eng>Edit</eng>
+						<loc>Edit</loc>
+					</Caption>
+					<TipStrip>
+						<eng>Edit</eng>
+						<loc>Edit</loc>
+					</TipStrip>
+					<Documentation>
+						<eng />
+						<loc />
+					</Documentation>
+				</Button>
+			</ButtonList>
+		</Page>
+		<Page>
+			<Name>
+				<eng>Memory Output</eng>
+				<loc>Memory Output</loc>
+			</Name>
+			<ExcludeFromAlphabeticalOrder>true</ExcludeFromAlphabeticalOrder>
+			<GUID>201256EA-AB1F-4DBE-873B-1A9BA778017B</GUID>
 			<Glyph>
 				<Type>To Application Data Dir</Type>
 				<Path>System Explorer\Glyphs\Reflective Memory.png</Path>
@@ -2426,6 +2708,81 @@
 					</Item2Launch>
 				</MenuItem>
 			</RunTimeMenu>
+		</Page>
+		<Page>
+			<Name>
+				<eng>Poll</eng>
+				<loc>Poll</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
+			<GUID>097733FF-7DEA-4C1E-9892-797683DC1715</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\periodic.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\Poll.vi</Path>
+			</Item2Launch>
+			<RunTimeMenu>
+				<MenuItem>
+					<GUID>93FA85E3-CBBE-4890-AC16-53F6C9129829</GUID>
+					<Type>Action</Type>
+					<Name>
+						<eng>Edit</eng>
+						<loc>Edit</loc>
+					</Name>
+					<Item2Launch>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\Edit Poll.vi</Path>
+					</Item2Launch>
+				</MenuItem>
+			</RunTimeMenu>
+			<ButtonList>
+				<Button>
+					<ID>Edit Poll</ID>
+					<Glyph>
+						<Type>To Application Data Dir</Type>
+						<Path>System Explorer\Glyphs\editopen.png</Path>
+					</Glyph>
+					<Type>Action</Type>
+					<ReferencedGUID>93FA85E3-CBBE-4890-AC16-53F6C9129829</ReferencedGUID>
+					<ButtonText>
+						<eng>Edit</eng>
+						<loc>Edit</loc>
+					</ButtonText>
+					<Caption>
+						<eng>Edit</eng>
+						<loc>Edit</loc>
+					</Caption>
+					<TipStrip>
+						<eng>Edit</eng>
+						<loc>Edit</loc>
+					</TipStrip>
+					<Documentation>
+						<eng />
+						<loc />
+					</Documentation>
+				</Button>
+			</ButtonList>
+		</Page>
+		<Page>
+			<Name>
+				<eng>Polling</eng>
+				<loc>Polling</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
+			<GUID>4C6F8359-E716-4E90-A19A-6DD83BA7AB18</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\loop.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\Polling.vi</Path>
+			</Item2Launch>
 		</Page>
 	</Pages>
 	<CustomXML>

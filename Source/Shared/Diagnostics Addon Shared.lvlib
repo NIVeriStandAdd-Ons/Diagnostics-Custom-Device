@@ -81,6 +81,7 @@
 			<Item Name="Frame.Compile.ctl" Type="VI" URL="../Types/Frame.Compile.ctl"/>
 			<Item Name="Frame.Lookup.Info.ctl" Type="VI" URL="../Types/Frame.Lookup.Info.ctl"/>
 			<Item Name="HostAutomation.Ref.ctl" Type="VI" URL="../Types/HostAutomation.Ref.ctl"/>
+			<Item Name="Poll.Compiled.ctl" Type="VI" URL="../Types/Poll.Compiled.ctl"/>
 			<Item Name="Protocol.ctl" Type="VI" URL="../Types/Protocol.ctl"/>
 			<Item Name="Security.ctl" Type="VI" URL="../Types/Security.ctl"/>
 			<Item Name="Security.Type.ctl" Type="VI" URL="../Types/Security.Type.ctl"/>
