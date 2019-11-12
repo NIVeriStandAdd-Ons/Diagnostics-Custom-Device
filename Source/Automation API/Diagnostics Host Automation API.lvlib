@@ -23,6 +23,8 @@
 		<Item Name="ReadDIDs.vi" Type="VI" URL="../ReadDIDs.vi"/>
 		<Item Name="ReadDTCs.vi" Type="VI" URL="../ReadDTCs.vi"/>
 		<Item Name="ReturnToNormalMode.vi" Type="VI" URL="../ReturnToNormalMode.vi"/>
+		<Item Name="StartPoll.vi" Type="VI" URL="../StartPoll.vi"/>
+		<Item Name="StopPoll.vi" Type="VI" URL="../StopPoll.vi"/>
 		<Item Name="UnlockECU.vi" Type="VI" URL="../UnlockECU.vi"/>
 	</Item>
 	<Item Name="GMLAN Only" Type="Folder">

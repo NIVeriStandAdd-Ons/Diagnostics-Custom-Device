@@ -4,6 +4,9 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">419463168</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
+	<Item Name="Legacy" Type="Folder">
+		<Item Name="Create Diagnostics Addon From Configuration.vi" Type="VI" URL="../Create Diagnostics Addon From Configuration.vi"/>
+		<Item Name="Read Diagnostic Configuration (XML).vi" Type="VI" URL="../Read Diagnostic Configuration (XML).vi"/>
+	</Item>
 	<Item Name="Create Diagnostics Addon.vi" Type="VI" URL="../Create Diagnostics Addon.vi"/>
-	<Item Name="Read Diagnostic Configuration (XML).vi" Type="VI" URL="../Read Diagnostic Configuration (XML).vi"/>
 </Library>
