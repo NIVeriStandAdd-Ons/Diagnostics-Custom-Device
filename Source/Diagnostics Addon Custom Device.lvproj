@@ -24,6 +24,12 @@
 		<Item Name="Help" Type="Folder" URL="../Help">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="Import File Formats" Type="Folder">
+			<Item Name="DPIDs.csv" Type="Document" URL="../Import File Formats/DPIDs.csv"/>
+			<Item Name="DTCs.csv" Type="Document" URL="../Import File Formats/DTCs.csv"/>
+			<Item Name="PIDs DIDs Memory.csv" Type="Document" URL="../Import File Formats/PIDs DIDs Memory.csv"/>
+			<Item Name="Status Codes.csv" Type="Document" URL="../Import File Formats/Status Codes.csv"/>
+		</Item>
 		<Item Name="NI VeriStand APIs" Type="Folder">
 			<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device API/Custom Device API.lvlib"/>
 			<Item Name="Custom Device Offline API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device Offline API/Custom Device Offline API.lvlib"/>
@@ -398,8 +404,10 @@
 				<Property Name="Destination[2].type" Type="Str">LLB</Property>
 				<Property Name="Destination[3].destName" Type="Str">XML Folder</Property>
 				<Property Name="Destination[3].path" Type="Path">../Built/custom devices/Diagnostics Addon</Property>
-				<Property Name="DestinationCount" Type="Int">4</Property>
-				<Property Name="Source[0].itemID" Type="Str">{DEF93B8C-D50C-46AD-96C9-751A5CD6F608}</Property>
+				<Property Name="Destination[4].destName" Type="Str">Import File Formats</Property>
+				<Property Name="Destination[4].path" Type="Path">../Built/custom devices/Diagnostics Addon/Windows/Import File Formats</Property>
+				<Property Name="DestinationCount" Type="Int">5</Property>
+				<Property Name="Source[0].itemID" Type="Str">{AC6B9CD7-C12A-4EC5-BF63-C346FDD4DE08}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[1].Container.applyInclusion" Type="Bool">true</Property>
@@ -459,7 +467,14 @@
 				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Help/Diagnostics.chm</Property>
 				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="SourceCount" Type="Int">7</Property>
+				<Property Name="Source[7].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[7].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[7].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[7].destinationIndex" Type="Int">4</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/My Computer/Import File Formats</Property>
+				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[7].type" Type="Str">Container</Property>
+				<Property Name="SourceCount" Type="Int">8</Property>
 			</Item>
 			<Item Name="Engine Release" Type="Source Distribution">
 				<Property Name="Bld_buildCacheID" Type="Str">{BDB37E78-1B48-4DD8-B51B-9DFE56743A02}</Property>
