@@ -114,7 +114,7 @@
 			<Item Name="Frame.Dialog.vi" Type="VI" URL="../SubVIs/Frame.Dialog.vi"/>
 			<Item Name="Frame.Export.StringArray.vi" Type="VI" URL="../SubVIs/Frame.Export.StringArray.vi"/>
 			<Item Name="Frame.Export.vi" Type="VI" URL="../SubVIs/Frame.Export.vi"/>
-			<Item Name="Frames.Compile.vi" Type="VI" URL="../SubVIs/Frames.Compile.vi"/>
+			<Item Name="Frames.Compile.Resp.vi" Type="VI" URL="../SubVIs/Frames.Compile.Resp.vi"/>
 			<Item Name="Frames.Export.vi" Type="VI" URL="../SubVIs/Frames.Export.vi"/>
 			<Item Name="Help.Page.Get.vi" Type="VI" URL="../SubVIs/Help.Page.Get.vi"/>
 			<Item Name="Help.Set.vi" Type="VI" URL="../SubVIs/Help.Set.vi"/>
@@ -162,6 +162,9 @@
 			<Item Name="Poll.ConvertChannelsToString.vi" Type="VI" URL="../SubVIs/Poll.ConvertChannelsToString.vi"/>
 			<Item Name="ServiceChannels.Create.vi" Type="VI" URL="../SubVIs/ServiceChannels.Create.vi"/>
 			<Item Name="Frame.GetSignalRefs.vi" Type="VI" URL="../SubVIs/Frame.GetSignalRefs.vi"/>
+			<Item Name="Frames.Compile.Cmd.vi" Type="VI" URL="../SubVIs/Frames.Compile.Cmd.vi"/>
+			<Item Name="ServiceChannels.GetRefs.vi" Type="VI" URL="../SubVIs/ServiceChannels.GetRefs.vi"/>
+			<Item Name="ServiceStatusSignals.Compile.vi" Type="VI" URL="../SubVIs/ServiceStatusSignals.Compile.vi"/>
 		</Item>
 		<Item Name="Types" Type="Folder">
 			<Item Name="Addon.Initialize.ctl" Type="VI" URL="../Types/Addon.Initialize.ctl"/>
@@ -185,6 +188,7 @@
 			<Item Name="Routines.Compile.ctl" Type="VI" URL="../Types/Routines.Compile.ctl"/>
 			<Item Name="Routines.Export.ctl" Type="VI" URL="../Types/Routines.Export.ctl"/>
 			<Item Name="Routines.Refs.ctl" Type="VI" URL="../Types/Routines.Refs.ctl"/>
+			<Item Name="Service.Export.ctl" Type="VI" URL="../Types/Service.Export.ctl"/>
 			<Item Name="Status.Export.ctl" Type="VI" URL="../Types/Status.Export.ctl"/>
 			<Item Name="SysDef.Export.ctl" Type="VI" URL="../Types/SysDef.Export.ctl"/>
 			<Item Name="UserDefined.Export.ctl" Type="VI" URL="../Types/UserDefined.Export.ctl"/>
@@ -194,4 +198,5 @@
 			<Item Name="UserDefined.Group.Message.Refs.ctl" Type="VI" URL="../Types/UserDefined.Group.Message.Refs.ctl"/>
 		</Item>
 	</Item>
+	<Item Name="ServiceTrigger.Compile.vi" Type="VI" URL="../SubVIs/ServiceTrigger.Compile.vi"/>
 </Library>

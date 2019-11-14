@@ -67,6 +67,7 @@
 		<Item Name="Restart.LocalStop.Read.vi" Type="VI" URL="../SubVIs/Restart.LocalStop.Read.vi"/>
 		<Item Name="RTMain.Refs.Initialize.vi" Type="VI" URL="../SubVIs/RTMain.Refs.Initialize.vi"/>
 		<Item Name="Security.DLL.vi" Type="VI" URL="../SubVIs/Security.DLL.vi"/>
+		<Item Name="ServiceChannels.Status.Set.vi" Type="VI" URL="../SubVIs/ServiceChannels.Status.Set.vi"/>
 		<Item Name="Signals.Scale.EU.vi" Type="VI" URL="../SubVIs/Signals.Scale.EU.vi"/>
 		<Item Name="Signals.Scale.Raw.vi" Type="VI" URL="../SubVIs/Signals.Scale.Raw.vi"/>
 		<Item Name="Status.Set.vi" Type="VI" URL="../SubVIs/Status.Set.vi"/>
@@ -83,5 +84,6 @@
 		<Item Name="XNET.Cluster.ctl" Type="VI" URL="../Types/XNET.Cluster.ctl"/>
 		<Item Name="XNET.Refs.ctl" Type="VI" URL="../Types/XNET.Refs.ctl"/>
 	</Item>
+	<Item Name="Commands.vi" Type="VI" URL="../SubVIs/Commands.vi"/>
 	<Item Name="RT Driver VI.vi" Type="VI" URL="../RT Driver VI.vi"/>
 </Library>
