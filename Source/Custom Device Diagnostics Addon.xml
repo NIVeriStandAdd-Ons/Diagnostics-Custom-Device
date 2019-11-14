@@ -365,7 +365,7 @@
 			</Glyph>
 			<Item2Launch>
 				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\Status.vi</Path>
+				<Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\Default Section.vi</Path>
 			</Item2Launch>
 		</Page>
 		<Page>
@@ -2782,6 +2782,23 @@
 			<Item2Launch>
 				<Type>To Common Doc Dir</Type>
 				<Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\Polling.vi</Path>
+			</Item2Launch>
+		</Page>
+		<Page>
+			<Name>
+				<eng>Service Channels</eng>
+				<loc>Service Channels</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
+			<GUID>7A409464-F136-4C61-8408-2BA591C10830</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\event-based.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\Default Section.vi</Path>
 			</Item2Launch>
 		</Page>
 	</Pages>

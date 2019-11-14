@@ -48,6 +48,7 @@
 				<Item Name="Collection.vi" Type="VI" URL="../Pages/Collection.vi"/>
 				<Item Name="Collections.vi" Type="VI" URL="../Pages/Collections.vi"/>
 				<Item Name="Commands.vi" Type="VI" URL="../Pages/Commands.vi"/>
+				<Item Name="Default Section.vi" Type="VI" URL="../Pages/Default Section.vi"/>
 				<Item Name="DPID.vi" Type="VI" URL="../Pages/DPID.vi"/>
 				<Item Name="DPIDs.vi" Type="VI" URL="../Pages/DPIDs.vi"/>
 				<Item Name="DTCs.vi" Type="VI" URL="../Pages/DTCs.vi"/>
@@ -57,7 +58,6 @@
 				<Item Name="Polling.vi" Type="VI" URL="../Pages/Polling.vi"/>
 				<Item Name="Protected.vi" Type="VI" URL="../Pages/Protected.vi"/>
 				<Item Name="Signal Page.vi" Type="VI" URL="../Pages/Signal Page.vi"/>
-				<Item Name="Status.vi" Type="VI" URL="../Pages/Status.vi"/>
 				<Item Name="User Defined Collections.vi" Type="VI" URL="../Pages/User Defined Collections.vi"/>
 				<Item Name="User Defined Message.vi" Type="VI" URL="../Pages/User Defined Message.vi"/>
 			</Item>
@@ -160,6 +160,8 @@
 			<Item Name="Poll.Selection.vi" Type="VI" URL="../SubVIs/Poll.Selection.vi"/>
 			<Item Name="Poll.FG.vi" Type="VI" URL="../SubVIs/Poll.FG.vi"/>
 			<Item Name="Poll.ConvertChannelsToString.vi" Type="VI" URL="../SubVIs/Poll.ConvertChannelsToString.vi"/>
+			<Item Name="ServiceChannels.Create.vi" Type="VI" URL="../SubVIs/ServiceChannels.Create.vi"/>
+			<Item Name="Frame.GetSignalRefs.vi" Type="VI" URL="../SubVIs/Frame.GetSignalRefs.vi"/>
 		</Item>
 		<Item Name="Types" Type="Folder">
 			<Item Name="Addon.Initialize.ctl" Type="VI" URL="../Types/Addon.Initialize.ctl"/>
