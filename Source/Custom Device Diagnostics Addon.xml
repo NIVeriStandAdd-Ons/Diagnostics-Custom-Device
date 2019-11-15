@@ -1461,8 +1461,8 @@
 		</Page>
 		<Page>
 			<Name>
-				<eng>Signal</eng>
-				<loc>Signal</loc>
+				<eng>EU Signal</eng>
+				<loc>EU Signal</loc>
 			</Name>
 			<DisallowRenaming>true</DisallowRenaming>
 			<GUID>813ed40a-6aa8-4ff9-92f7-887fb6dec76c</GUID>
@@ -1472,7 +1472,7 @@
 			</Glyph>
 			<Item2Launch>
 				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\Signal Page.vi</Path>
+				<Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\EU Signal Page.vi</Path>
 			</Item2Launch>
 			<RunTimeMenu>
 				<MenuItem>
@@ -1491,8 +1491,8 @@
 		</Page>
 		<Page>
 			<Name>
-				<eng>Signal</eng>
-				<loc>Signal</loc>
+				<eng>Protected Signal</eng>
+				<loc>Protected Signal</loc>
 			</Name>
 			<DisallowRenaming>true</DisallowRenaming>
 			<DeleteProtection>true</DeleteProtection>
@@ -1504,6 +1504,23 @@
 			<Item2Launch>
 				<Type>To Common Doc Dir</Type>
 				<Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\Protected.vi</Path>
+			</Item2Launch>
+		</Page>
+		<Page>
+			<Name>
+				<eng>Raw Signal</eng>
+				<loc>Raw Signal</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
+			<GUID>14F7FD44-C9B7-4E77-B7DD-C791D8E28C31</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\NI-XNET Signal.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\Raw Signal Page.vi</Path>
 			</Item2Launch>
 		</Page>
 		<Page>
@@ -2795,6 +2812,23 @@
 			<Glyph>
 				<Type>To Application Data Dir</Type>
 				<Path>System Explorer\Glyphs\event-based.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\Default Section.vi</Path>
+			</Item2Launch>
+		</Page>
+		<Page>
+			<Name>
+				<eng>Setting Channels</eng>
+				<loc>Setting Channels</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
+			<GUID>776B8ED8-B501-4E9A-BC63-BC5D124AAE72</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\sim parameters.png</Path>
 			</Glyph>
 			<Item2Launch>
 				<Type>To Common Doc Dir</Type>

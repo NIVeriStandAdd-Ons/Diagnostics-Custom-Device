@@ -52,12 +52,13 @@
 				<Item Name="DPID.vi" Type="VI" URL="../Pages/DPID.vi"/>
 				<Item Name="DPIDs.vi" Type="VI" URL="../Pages/DPIDs.vi"/>
 				<Item Name="DTCs.vi" Type="VI" URL="../Pages/DTCs.vi"/>
+				<Item Name="EU Signal Page.vi" Type="VI" URL="../Pages/EU Signal Page.vi"/>
 				<Item Name="Frame.vi" Type="VI" URL="../Pages/Frame.vi"/>
 				<Item Name="Frames.vi" Type="VI" URL="../Pages/Frames.vi"/>
 				<Item Name="Poll.vi" Type="VI" URL="../Pages/Poll.vi"/>
 				<Item Name="Polling.vi" Type="VI" URL="../Pages/Polling.vi"/>
 				<Item Name="Protected.vi" Type="VI" URL="../Pages/Protected.vi"/>
-				<Item Name="Signal Page.vi" Type="VI" URL="../Pages/Signal Page.vi"/>
+				<Item Name="Raw Signal Page.vi" Type="VI" URL="../Pages/Raw Signal Page.vi"/>
 				<Item Name="User Defined Collections.vi" Type="VI" URL="../Pages/User Defined Collections.vi"/>
 				<Item Name="User Defined Message.vi" Type="VI" URL="../Pages/User Defined Message.vi"/>
 			</Item>
@@ -166,8 +167,12 @@
 			<Item Name="ServiceChannels.GetRefs.vi" Type="VI" URL="../SubVIs/ServiceChannels.GetRefs.vi"/>
 			<Item Name="ServiceStatusSignals.Compile.vi" Type="VI" URL="../SubVIs/ServiceStatusSignals.Compile.vi"/>
 			<Item Name="ServiceTrigger.Compile.vi" Type="VI" URL="../SubVIs/ServiceTrigger.Compile.vi"/>
+			<Item Name="Settings.Create.vi" Type="VI" URL="../SubVIs/Settings.Create.vi"/>
+			<Item Name="Services.Settings.CreateChannelNames.vi" Type="VI" URL="../SubVIs/Services.Settings.CreateChannelNames.vi"/>
+			<Item Name="CAN.Protocol.Find.vi" Type="VI" URL="../SubVIs/CAN.Protocol.Find.vi"/>
 		</Item>
 		<Item Name="Types" Type="Folder">
+			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="Addon.Initialize.ctl" Type="VI" URL="../Types/Addon.Initialize.ctl"/>
 			<Item Name="CmdResp.Export.ctl" Type="VI" URL="../Types/CmdResp.Export.ctl"/>
 			<Item Name="Command.Export.ctl" Type="VI" URL="../Types/Command.Export.ctl"/>
@@ -190,6 +195,7 @@
 			<Item Name="Routines.Export.ctl" Type="VI" URL="../Types/Routines.Export.ctl"/>
 			<Item Name="Routines.Refs.ctl" Type="VI" URL="../Types/Routines.Refs.ctl"/>
 			<Item Name="Service.Export.ctl" Type="VI" URL="../Types/Service.Export.ctl"/>
+			<Item Name="Settings.Channel.ctl" Type="VI" URL="../Types/Settings.Channel.ctl"/>
 			<Item Name="Status.Export.ctl" Type="VI" URL="../Types/Status.Export.ctl"/>
 			<Item Name="SysDef.Export.ctl" Type="VI" URL="../Types/SysDef.Export.ctl"/>
 			<Item Name="UserDefined.Export.ctl" Type="VI" URL="../Types/UserDefined.Export.ctl"/>
@@ -199,4 +205,5 @@
 			<Item Name="UserDefined.Group.Message.Refs.ctl" Type="VI" URL="../Types/UserDefined.Group.Message.Refs.ctl"/>
 		</Item>
 	</Item>
+	<Item Name="SettingChannels.GetRefs.vi" Type="VI" URL="../SubVIs/SettingChannels.GetRefs.vi"/>
 </Library>
