@@ -91,6 +91,7 @@
 			<Item Name="SysDef.Compile.Properties.ctl" Type="VI" URL="../Types/SysDef.Compile.Properties.ctl"/>
 			<Item Name="SysDef.Compile.Refs.ctl" Type="VI" URL="../Types/SysDef.Compile.Refs.ctl"/>
 			<Item Name="Transport.ctl" Type="VI" URL="../Types/Transport.ctl"/>
+			<Item Name="Trigger.Settings.ctl" Type="VI" URL="../Types/Trigger.Settings.ctl"/>
 			<Item Name="Type.ctl" Type="VI" URL="../Types/Type.ctl"/>
 			<Item Name="UI.Refs.ctl" Type="VI" URL="../Types/UI.Refs.ctl"/>
 			<Item Name="Workspace.SavedState.ctl" Type="VI" URL="../Types/Workspace.SavedState.ctl"/>

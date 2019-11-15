@@ -165,6 +165,7 @@
 			<Item Name="Frames.Compile.Cmd.vi" Type="VI" URL="../SubVIs/Frames.Compile.Cmd.vi"/>
 			<Item Name="ServiceChannels.GetRefs.vi" Type="VI" URL="../SubVIs/ServiceChannels.GetRefs.vi"/>
 			<Item Name="ServiceStatusSignals.Compile.vi" Type="VI" URL="../SubVIs/ServiceStatusSignals.Compile.vi"/>
+			<Item Name="ServiceTrigger.Compile.vi" Type="VI" URL="../SubVIs/ServiceTrigger.Compile.vi"/>
 		</Item>
 		<Item Name="Types" Type="Folder">
 			<Item Name="Addon.Initialize.ctl" Type="VI" URL="../Types/Addon.Initialize.ctl"/>
@@ -198,5 +199,4 @@
 			<Item Name="UserDefined.Group.Message.Refs.ctl" Type="VI" URL="../Types/UserDefined.Group.Message.Refs.ctl"/>
 		</Item>
 	</Item>
-	<Item Name="ServiceTrigger.Compile.vi" Type="VI" URL="../SubVIs/ServiceTrigger.Compile.vi"/>
 </Library>
