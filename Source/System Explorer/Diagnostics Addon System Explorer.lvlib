@@ -143,7 +143,6 @@
 			<Item Name="Signals.Get.vi" Type="VI" URL="../SubVIs/Signals.Get.vi"/>
 			<Item Name="Signals.SortByFrameLocation.vi" Type="VI" URL="../SubVIs/Signals.SortByFrameLocation.vi"/>
 			<Item Name="SysDef.Compile.vi" Type="VI" URL="../SubVIs/SysDef.Compile.vi"/>
-			<Item Name="SysDef.Create.FromPrevious.vi" Type="VI" URL="../SubVIs/SysDef.Create.FromPrevious.vi"/>
 			<Item Name="SysDef.Create.vi" Type="VI" URL="../SubVIs/SysDef.Create.vi"/>
 			<Item Name="SysDef.Export.vi" Type="VI" URL="../SubVIs/SysDef.Export.vi"/>
 			<Item Name="SysDef.Import.vi" Type="VI" URL="../SubVIs/SysDef.Import.vi"/>
@@ -170,6 +169,8 @@
 			<Item Name="Settings.Create.vi" Type="VI" URL="../SubVIs/Settings.Create.vi"/>
 			<Item Name="Services.Settings.CreateChannelNames.vi" Type="VI" URL="../SubVIs/Services.Settings.CreateChannelNames.vi"/>
 			<Item Name="CAN.Protocol.Find.vi" Type="VI" URL="../SubVIs/CAN.Protocol.Find.vi"/>
+			<Item Name="SettingChannels.GetRefs.vi" Type="VI" URL="../SubVIs/SettingChannels.GetRefs.vi"/>
+			<Item Name="Service.Create.vi" Type="VI" URL="../SubVIs/Service.Create.vi"/>
 		</Item>
 		<Item Name="Types" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
@@ -203,7 +204,7 @@
 			<Item Name="UserDefined.Group.Message.Compile.ctl" Type="VI" URL="../Types/UserDefined.Group.Message.Compile.ctl"/>
 			<Item Name="UserDefined.Group.Message.Export.ctl" Type="VI" URL="../Types/UserDefined.Group.Message.Export.ctl"/>
 			<Item Name="UserDefined.Group.Message.Refs.ctl" Type="VI" URL="../Types/UserDefined.Group.Message.Refs.ctl"/>
+			<Item Name="Service.Settings.ctl" Type="VI" URL="../Types/Service.Settings.ctl"/>
 		</Item>
 	</Item>
-	<Item Name="SettingChannels.GetRefs.vi" Type="VI" URL="../SubVIs/SettingChannels.GetRefs.vi"/>
 </Library>

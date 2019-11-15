@@ -5,10 +5,10 @@
 		<eng>National Instruments::Diagnostics Addon</eng>
 		<loc>National Instruments::Diagnostics Addon</loc>
 	</AddMenu>
-	<Version>8.1.0</Version>
+	<Version>1.0.0</Version>
 	<Type>Inline HW Interface</Type>
 	<MaxOccurrence>-1</MaxOccurrence>
-	<MainPageGUID>4e42e445-e1c9-40fb-b144-894b15ca645a</MainPageGUID>
+	<MainPageGUID>0B9E0FC8-0CF3-4008-BFB5-1E927C310F03</MainPageGUID>
 	<InitializationVI>
 		<Type>Action</Type>
 		<Item2Launch>
@@ -59,7 +59,7 @@
 				<eng>Diagnostics Addon</eng>
 				<loc>Diagnostics Addon</loc>
 			</Name>
-			<GUID>4e42e445-e1c9-40fb-b144-894b15ca645a</GUID>
+			<GUID>0B9E0FC8-0CF3-4008-BFB5-1E927C310F03</GUID>
 			<Glyph>
 				<Type>To Application Data Dir</Type>
 				<Path>System Explorer\Glyphs\NI-XNET Port.png</Path>
@@ -153,7 +153,7 @@
 				<eng>Diagnostics Addon</eng>
 				<loc>Diagnostics Addon</loc>
 			</Name>
-			<GUID>1dbbfb91-19dd-4678-8b23-0ef3a754a66d</GUID>
+			<GUID>F25C602E-152F-45E8-8766-09738EB15F4F</GUID>
 			<Glyph>
 				<Type>To Application Data Dir</Type>
 				<Path>System Explorer\Glyphs\NI-XNET Port Disabled.png</Path>
@@ -240,8 +240,8 @@
 		</Page>
 		<Page>
 			<Name>
-				<eng>DTCs</eng>
-				<loc>DTCs</loc>
+				<eng>Read DTCs</eng>
+				<loc>Read DTCs</loc>
 			</Name>
 			<DisallowRenaming>true</DisallowRenaming>
 			<DeleteProtection>true</DeleteProtection>
@@ -1261,8 +1261,8 @@
 		</Page>
 		<Page>
 			<Name>
-				<eng>DPIDs</eng>
-				<loc>DPIDs</loc>
+				<eng>DPID Definitions</eng>
+				<loc>DPID Definitions</loc>
 			</Name>
 			<DisallowRenaming>true</DisallowRenaming>
 			<DeleteProtection>true</DeleteProtection>
@@ -2808,6 +2808,7 @@
 			</Name>
 			<DisallowRenaming>true</DisallowRenaming>
 			<DeleteProtection>true</DeleteProtection>
+			<ExcludeFromAlphabeticalOrder>true</ExcludeFromAlphabeticalOrder>
 			<GUID>7A409464-F136-4C61-8408-2BA591C10830</GUID>
 			<Glyph>
 				<Type>To Application Data Dir</Type>
@@ -2825,10 +2826,83 @@
 			</Name>
 			<DisallowRenaming>true</DisallowRenaming>
 			<DeleteProtection>true</DeleteProtection>
+			<ExcludeFromAlphabeticalOrder>true</ExcludeFromAlphabeticalOrder>
 			<GUID>776B8ED8-B501-4E9A-BC63-BC5D124AAE72</GUID>
 			<Glyph>
 				<Type>To Application Data Dir</Type>
 				<Path>System Explorer\Glyphs\sim parameters.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\Default Section.vi</Path>
+			</Item2Launch>
+		</Page>
+		<Page>
+			<Name>
+				<eng>Service</eng>
+				<loc>Service</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
+			<ExcludeFromAlphabeticalOrder>true</ExcludeFromAlphabeticalOrder>
+			<GUID>85037C0D-82E8-46D0-A60B-DDEABCA35CC5</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\ni-can frames.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\Default Section.vi</Path>
+			</Item2Launch>
+		</Page>
+		<Page>
+			<Name>
+				<eng>DPIDs</eng>
+				<loc>DPIDs</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
+			<ExcludeFromAlphabeticalOrder>true</ExcludeFromAlphabeticalOrder>
+			<GUID>D25154B4-FEA9-42AF-8ECB-5796C8AD0272</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\NI-XNET Periodic.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\Default Section.vi</Path>
+			</Item2Launch>
+		</Page>
+		<Page>
+			<Name>
+				<eng>ECU Control</eng>
+				<loc>ECU Control</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
+			<ExcludeFromAlphabeticalOrder>true</ExcludeFromAlphabeticalOrder>
+			<GUID>815D9C25-31D7-4FB4-8370-E700F2F3EFDC</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\network.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\Default Section.vi</Path>
+			</Item2Launch>
+		</Page>
+		<Page>
+			<Name>
+				<eng>DTCs</eng>
+				<loc>DTCs</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
+			<ExcludeFromAlphabeticalOrder>true</ExcludeFromAlphabeticalOrder>
+			<GUID>A2A849E8-7BE4-4A2F-A1FF-31B2D896165C</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\Warning.png</Path>
 			</Glyph>
 			<Item2Launch>
 				<Type>To Common Doc Dir</Type>
