@@ -38,6 +38,7 @@
 			<Item Name="Constants.vi" Type="VI" URL="../SubVIs/Constants.vi"/>
 			<Item Name="DTCs.Codes.Get.vi" Type="VI" URL="../SubVIs/DTCs.Codes.Get.vi"/>
 			<Item Name="Frame.Get.Size.vi" Type="VI" URL="../SubVIs/Frame.Get.Size.vi"/>
+			<Item Name="LookupID.Create.vi" Type="VI" URL="../SubVIs/LookupID.Create.vi"/>
 			<Item Name="Workspace.CAN.Protocol.Get.vi" Type="VI" URL="../SubVIs/Workspace.CAN.Protocol.Get.vi"/>
 			<Item Name="Workspace.Channels.Create.vi" Type="VI" URL="../SubVIs/Workspace.Channels.Create.vi"/>
 			<Item Name="Workspace.Close.vi" Type="VI" URL="../SubVIs/Workspace.Close.vi"/>

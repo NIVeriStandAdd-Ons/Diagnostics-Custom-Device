@@ -207,4 +207,5 @@
 			<Item Name="Service.Settings.ctl" Type="VI" URL="../Types/Service.Settings.ctl"/>
 		</Item>
 	</Item>
+	<Item Name="CommandResponse.Create.vi" Type="VI" URL="../SubVIs/CommandResponse.Create.vi"/>
 </Library>
