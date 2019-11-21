@@ -3020,8 +3020,8 @@
 		</Page>
 		<Page>
 			<Name>
-				<eng>Configure and Start DPIDs</eng>
-				<loc>Configure and Start DPIDs</loc>
+				<eng>Start DPIDs</eng>
+				<loc>Start DPIDs</loc>
 			</Name>
 			<DisallowRenaming>true</DisallowRenaming>
 			<DeleteProtection>true</DeleteProtection>

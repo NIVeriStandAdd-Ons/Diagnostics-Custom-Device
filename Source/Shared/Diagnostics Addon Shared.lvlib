@@ -89,8 +89,6 @@
 			<Item Name="ServiceChannels.LookupType.ctl" Type="VI" URL="../Types/ServiceChannels.LookupType.ctl"/>
 			<Item Name="Signal.ctl" Type="VI" URL="../Types/Signal.ctl"/>
 			<Item Name="SysDef.Compile.ctl" Type="VI" URL="../Types/SysDef.Compile.ctl"/>
-			<Item Name="SysDef.Compile.Properties.ctl" Type="VI" URL="../Types/SysDef.Compile.Properties.ctl"/>
-			<Item Name="SysDef.Compile.Refs.ctl" Type="VI" URL="../Types/SysDef.Compile.Refs.ctl"/>
 			<Item Name="Transport.ctl" Type="VI" URL="../Types/Transport.ctl"/>
 			<Item Name="Trigger.Settings.ctl" Type="VI" URL="../Types/Trigger.Settings.ctl"/>
 			<Item Name="Type.ctl" Type="VI" URL="../Types/Type.ctl"/>
