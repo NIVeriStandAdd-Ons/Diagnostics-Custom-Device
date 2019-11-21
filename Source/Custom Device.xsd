@@ -4,7 +4,7 @@
   <xs:element name="CustomDevice">
     <xs:complexType>
       <xs:sequence>
-		<xs:element name="XSDVersion" minOccurs="0" type="VersionType"/>
+        <xs:element minOccurs="0" name="XSDVersion" type="VersionType" />
         <xs:element name="AddMenu" type="LocString" />
         <xs:element minOccurs="0" name="Dependency" type="Dependency" />
         <xs:element name="Version" type="xs:string" />
@@ -37,7 +37,7 @@
           <xs:complexType>
             <xs:all>
               <xs:element name="HasTimingSourceCapability" type="xs:boolean" />
-              <xs:element name="Paths">
+              <xs:element minOccurs="0" name="Paths">
                 <xs:complexType>
                   <xs:sequence>
                     <xs:element name="Source" type="Path" />
@@ -160,7 +160,7 @@
               <xs:element maxOccurs="unbounded" name="Page">
                 <xs:complexType>
                   <xs:sequence>
-                    <xs:element name="Name" type="LocString" />
+                    <xs:element minOccurs="0" name="Name" type="LocString" />
                     <xs:element minOccurs="0" default="false" name="DisallowRenaming" type="xs:boolean" />
                     <xs:element minOccurs="0" default="false" name="DeleteProtection" type="xs:boolean" />
                     <xs:element minOccurs="0" default="false" name="AllowMultiSelection" type="xs:boolean" />
@@ -198,10 +198,10 @@
                         </xs:restriction>
                       </xs:simpleType>
                     </xs:element>
-                    <xs:element name="Glyph" type="Path" />
+                    <xs:element minOccurs="0" name="Glyph" type="Path" />
                     <xs:element minOccurs="0" name="InactiveGlyph" type="Path" />
                     <xs:element minOccurs="0" name="BrokenGlyph" type="Path" />
-                    <xs:element name="Item2Launch" type="Path" />
+                    <xs:element minOccurs="0" name="Item2Launch" type="Path" />
                     <xs:element minOccurs="0" name="RunTimeMenu">
                       <xs:complexType>
                         <xs:sequence minOccurs="0">
@@ -256,6 +256,7 @@
                                 <xs:element name="Item2Launch" type="Path" />
                                 <xs:element minOccurs="0" name="Dependency" type="Dependency" />
                                 <xs:element minOccurs="0" name="CustomPopulation" type="Path" />
+                                <xs:element minOccurs="0" default="10000" name="Order" type="xs:int" />
                               </xs:sequence>
                             </xs:complexType>
                           </xs:element>
@@ -287,6 +288,7 @@
                                 <xs:element name="TipStrip" type="LocString" />
                                 <xs:element name="Documentation" type="LocString" />
                                 <xs:element minOccurs="0" name="Dependency" type="Dependency" />
+                                <xs:element minOccurs="0" default="10000" name="Order" type="xs:int" />
                               </xs:sequence>
                             </xs:complexType>
                           </xs:element>
@@ -342,7 +344,7 @@
           <xs:restriction base="xs:string">
             <xs:enumeration value="Absolute" />
             <xs:enumeration value="To Base" />
-			<xs:enumeration value="To Common Doc Dir" />
+            <xs:enumeration value="To Common Doc Dir" />
             <xs:enumeration value="To Application Data Dir" />
           </xs:restriction>
         </xs:simpleType>
@@ -379,8 +381,8 @@
           <xs:restriction base="xs:string">
             <xs:enumeration value="Absolute" />
             <xs:enumeration value="To Base" />
-			<xs:enumeration value="To Common Doc Dir" />
-            <xs:enumeration value="To Application Data Dir" />			
+            <xs:enumeration value="To Common Doc Dir" />
+            <xs:enumeration value="To Application Data Dir" />
           </xs:restriction>
         </xs:simpleType>
       </xs:element>
@@ -405,6 +407,8 @@
       <xs:enumeration value="Pharlap" />
       <xs:enumeration value="VxWorks" />
       <xs:enumeration value="Windows" />
+      <xs:enumeration value="Linux_32_ARM" />
+      <xs:enumeration value="Linux_x64" />
       <xs:enumeration value="PharlapWindows" />
       <xs:enumeration value="PharlapVxWorks" />
       <xs:enumeration value="VxWorksWindows" />
