@@ -245,6 +245,7 @@
 			</Name>
 			<DisallowRenaming>true</DisallowRenaming>
 			<DeleteProtection>true</DeleteProtection>
+			<ExcludeFromAlphabeticalOrder>true</ExcludeFromAlphabeticalOrder>
 			<GUID>631db7b8-0b52-4af9-934d-144228c2dbd8</GUID>
 			<Glyph>
 				<Type>To Common Doc Dir</Type>
@@ -252,7 +253,7 @@
 			</Glyph>
 			<Item2Launch>
 				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\DTCs.vi</Path>
+				<Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\Read DTCs.vi</Path>
 			</Item2Launch>
 		</Page>
 		<Page>
@@ -1261,11 +1262,12 @@
 		</Page>
 		<Page>
 			<Name>
-				<eng>Defined DPID </eng>
-				<loc>Defined DPID</loc>
+				<eng>Configure DPID </eng>
+				<loc>Configure DPID</loc>
 			</Name>
 			<DisallowRenaming>true</DisallowRenaming>
 			<DeleteProtection>true</DeleteProtection>
+			<ExcludeFromAlphabeticalOrder>true</ExcludeFromAlphabeticalOrder>
 			<GUID>186cc3e9-a602-40ff-b933-3b68f6fbfaf8</GUID>
 			<Glyph>
 				<Type>To Common Doc Dir</Type>
@@ -2732,8 +2734,6 @@
 				<eng>Poll</eng>
 				<loc>Poll</loc>
 			</Name>
-			<DisallowRenaming>true</DisallowRenaming>
-			<DeleteProtection>true</DeleteProtection>
 			<GUID>097733FF-7DEA-4C1E-9892-797683DC1715</GUID>
 			<Glyph>
 				<Type>To Application Data Dir</Type>
@@ -2754,6 +2754,30 @@
 					<Item2Launch>
 						<Type>To Common Doc Dir</Type>
 						<Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\Edit Poll.vi</Path>
+					</Item2Launch>
+				</MenuItem>
+				<MenuItem>
+					<GUID>7755077A-1485-13A6-5674A23FB86277FF</GUID>
+					<Type>Separator</Type>
+					<Name>
+						<eng>.</eng>
+						<loc>.</loc>
+					</Name>
+					<Item2Launch>
+						<Type>Absolute</Type>
+						<Path>.</Path>
+					</Item2Launch>
+				</MenuItem>
+				<MenuItem>
+					<GUID>77550670-1485-13A6-568B9AB41979630D</GUID>
+					<Type>Action</Type>
+					<Name>
+						<eng>Delete</eng>
+						<loc>Delete</loc>
+					</Name>
+					<Item2Launch>
+						<Type>Absolute</Type>
+						<Path>Actions\Delete.vi</Path>
 					</Item2Launch>
 				</MenuItem>
 			</RunTimeMenu>
@@ -2801,6 +2825,72 @@
 				<Type>To Common Doc Dir</Type>
 				<Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\Polling.vi</Path>
 			</Item2Launch>
+			<RunTimeMenu>
+				<MenuItem>
+					<GUID>49D1EBFE-CE3B-4459-A280-2BCBA9B2EC8B</GUID>
+					<Type>Action</Type>
+					<Name>
+						<eng>Add Poll</eng>
+						<loc>Add Poll</loc>
+					</Name>
+					<Item2Launch>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\Add Poll.vi</Path>
+					</Item2Launch>
+				</MenuItem>
+				<MenuItem>
+					<GUID>7755077A-1485-13A6-5674A23FB86277FF</GUID>
+					<Type>Separator</Type>
+					<Name>
+						<eng>.</eng>
+						<loc>.</loc>
+					</Name>
+					<Item2Launch>
+						<Type>Absolute</Type>
+						<Path>.</Path>
+					</Item2Launch>
+				</MenuItem>
+				<MenuItem>
+					<GUID>03D3BE0A-1485-13A6-563AEB9BF271825A</GUID>
+					<Type>VI</Type>
+					<MinNrOfChilds>1</MinNrOfChilds>
+					<Name>
+						<eng>Delete Multiple Items</eng>
+						<loc>Delete Multiple Items</loc>
+					</Name>
+					<Item2Launch>
+						<Type>Absolute</Type>
+						<Path>Dialogs\Delete Multiple Items.vi</Path>
+					</Item2Launch>
+				</MenuItem>
+			</RunTimeMenu>
+			<ButtonList>
+				<Button>
+					<ID>Add Poll</ID>
+					<Glyph>
+						<Type>To Application Data Dir</Type>
+						<Path>System Explorer\Glyphs\Add Procedures.png</Path>
+					</Glyph>
+					<Type>Action</Type>
+					<ReferencedGUID>49D1EBFE-CE3B-4459-A280-2BCBA9B2EC8B</ReferencedGUID>
+					<ButtonText>
+						<eng>Add Poll</eng>
+						<loc>Add Poll</loc>
+					</ButtonText>
+					<Caption>
+						<eng>Add Poll</eng>
+						<loc>Add Poll</loc>
+					</Caption>
+					<TipStrip>
+						<eng>Add Poll</eng>
+						<loc>Add Poll</loc>
+					</TipStrip>
+					<Documentation>
+						<eng />
+						<loc />
+					</Documentation>
+				</Button>
+			</ButtonList>
 		</Page>
 		<Page>
 			<Name>
@@ -3048,6 +3138,60 @@
 			<Glyph>
 				<Type>To Common Doc Dir</Type>
 				<Path>Custom Devices\Diagnostics Addon\Windows\Glyphs\StopDPIDs.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\Default Section.vi</Path>
+			</Item2Launch>
+		</Page>
+		<Page>
+			<Name>
+				<eng>Service Response</eng>
+				<loc>Service Response</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
+			<ExcludeFromAlphabeticalOrder>true</ExcludeFromAlphabeticalOrder>
+			<GUID>2FD9705E-A3C4-4FDD-BCC4-9A14EB459DC7</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\xnet incoming.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\Default Section.vi</Path>
+			</Item2Launch>
+		</Page>
+		<Page>
+			<Name>
+				<eng>Service Command</eng>
+				<loc>Service Command</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
+			<ExcludeFromAlphabeticalOrder>true</ExcludeFromAlphabeticalOrder>
+			<GUID>CD4ADA30-2AAD-4769-A327-34E422452A7D</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\xnet outgoing.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\Default Section.vi</Path>
+			</Item2Launch>
+		</Page>
+		<Page>
+			<Name>
+				<eng>Diag CAN Control</eng>
+				<loc>Diag CAN Control</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
+			<ExcludeFromAlphabeticalOrder>true</ExcludeFromAlphabeticalOrder>
+			<GUID>9B8C8DBD-2385-4800-B95A-DC5808FA6AFE</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\ni-can port.png</Path>
 			</Glyph>
 			<Item2Launch>
 				<Type>To Common Doc Dir</Type>

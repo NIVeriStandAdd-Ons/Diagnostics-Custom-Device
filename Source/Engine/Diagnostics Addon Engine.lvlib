@@ -46,6 +46,7 @@
 		<Item Name="Bitfile.Unload.vi" Type="VI" URL="../SubVIs/Bitfile.Unload.vi"/>
 		<Item Name="CAN.Cleanup.vi" Type="VI" URL="../SubVIs/CAN.Cleanup.vi"/>
 		<Item Name="CAN.Initialize.vi" Type="VI" URL="../SubVIs/CAN.Initialize.vi"/>
+		<Item Name="Commands.vi" Type="VI" URL="../SubVIs/Commands.vi"/>
 		<Item Name="CustomerSpecific_SendReceive.vi" Type="VI" URL="../SubVIs/CustomerSpecific_SendReceive.vi"/>
 		<Item Name="Diagnostics.Channel.Engine.vi" Type="VI" URL="../SubVIs/Diagnostics.Channel.Engine.vi"/>
 		<Item Name="Diagnostics.Cleanup.vi" Type="VI" URL="../SubVIs/Diagnostics.Cleanup.vi"/>
@@ -84,6 +85,6 @@
 		<Item Name="XNET.Cluster.ctl" Type="VI" URL="../Types/XNET.Cluster.ctl"/>
 		<Item Name="XNET.Refs.ctl" Type="VI" URL="../Types/XNET.Refs.ctl"/>
 	</Item>
-	<Item Name="Commands.vi" Type="VI" URL="../SubVIs/Commands.vi"/>
+	<Item Name="DiagCANControl.WaitForFinish.vi" Type="VI" URL="../SubVIs/DiagCANControl.WaitForFinish.vi"/>
 	<Item Name="RT Driver VI.vi" Type="VI" URL="../RT Driver VI.vi"/>
 </Library>

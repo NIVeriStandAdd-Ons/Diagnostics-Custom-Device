@@ -51,7 +51,6 @@
 				<Item Name="Default Section.vi" Type="VI" URL="../Pages/Default Section.vi"/>
 				<Item Name="DPID.vi" Type="VI" URL="../Pages/DPID.vi"/>
 				<Item Name="DPIDs.vi" Type="VI" URL="../Pages/DPIDs.vi"/>
-				<Item Name="DTCs.vi" Type="VI" URL="../Pages/DTCs.vi"/>
 				<Item Name="EU Signal Page.vi" Type="VI" URL="../Pages/EU Signal Page.vi"/>
 				<Item Name="Frame.vi" Type="VI" URL="../Pages/Frame.vi"/>
 				<Item Name="Frames.vi" Type="VI" URL="../Pages/Frames.vi"/>
@@ -59,6 +58,7 @@
 				<Item Name="Polling.vi" Type="VI" URL="../Pages/Polling.vi"/>
 				<Item Name="Protected.vi" Type="VI" URL="../Pages/Protected.vi"/>
 				<Item Name="Raw Signal Page.vi" Type="VI" URL="../Pages/Raw Signal Page.vi"/>
+				<Item Name="Read DTCs.vi" Type="VI" URL="../Pages/Read DTCs.vi"/>
 				<Item Name="User Defined Collections.vi" Type="VI" URL="../Pages/User Defined Collections.vi"/>
 				<Item Name="User Defined Message.vi" Type="VI" URL="../Pages/User Defined Message.vi"/>
 			</Item>
@@ -66,6 +66,7 @@
 				<Item Name="Add Collection.vi" Type="VI" URL="../RTMs/Add Collection.vi"/>
 				<Item Name="Add DPID.vi" Type="VI" URL="../RTMs/Add DPID.vi"/>
 				<Item Name="Add Frame.vi" Type="VI" URL="../RTMs/Add Frame.vi"/>
+				<Item Name="Add Poll.vi" Type="VI" URL="../RTMs/Add Poll.vi"/>
 				<Item Name="Add User Defined Group.vi" Type="VI" URL="../RTMs/Add User Defined Group.vi"/>
 				<Item Name="Add User Defined Message.vi" Type="VI" URL="../RTMs/Add User Defined Message.vi"/>
 				<Item Name="Edit DPID.vi" Type="VI" URL="../RTMs/Edit DPID.vi"/>
@@ -127,6 +128,7 @@
 			<Item Name="Poll.ConvertChannelsToString.vi" Type="VI" URL="../SubVIs/Poll.ConvertChannelsToString.vi"/>
 			<Item Name="Poll.FG.vi" Type="VI" URL="../SubVIs/Poll.FG.vi"/>
 			<Item Name="Poll.Selection.vi" Type="VI" URL="../SubVIs/Poll.Selection.vi"/>
+			<Item Name="Polls.Compile.vi" Type="VI" URL="../SubVIs/Polls.Compile.vi"/>
 			<Item Name="ReadSignal.Create.vi" Type="VI" URL="../SubVIs/ReadSignal.Create.vi"/>
 			<Item Name="ReadSignals.Compile.vi" Type="VI" URL="../SubVIs/ReadSignals.Compile.vi"/>
 			<Item Name="Routine.Create.vi" Type="VI" URL="../SubVIs/Routine.Create.vi"/>
@@ -164,7 +166,9 @@
 			<Item Name="Frame.Export.ctl" Type="VI" URL="../Types/Frame.Export.ctl"/>
 			<Item Name="Frame.Ref.ctl" Type="VI" URL="../Types/Frame.Ref.ctl"/>
 			<Item Name="IO.Export.ctl" Type="VI" URL="../Types/IO.Export.ctl"/>
+			<Item Name="Poll.Create.ctl" Type="VI" URL="../Types/Poll.Create.ctl"/>
 			<Item Name="Poll.LinkedNode.ctl" Type="VI" URL="../Types/Poll.LinkedNode.ctl"/>
+			<Item Name="Poll.Settings.ctl" Type="VI" URL="../Types/Poll.Settings.ctl"/>
 			<Item Name="Routine.Export.ctl" Type="VI" URL="../Types/Routine.Export.ctl"/>
 			<Item Name="Service.Export.ctl" Type="VI" URL="../Types/Service.Export.ctl"/>
 			<Item Name="Service.Settings.ctl" Type="VI" URL="../Types/Service.Settings.ctl"/>
