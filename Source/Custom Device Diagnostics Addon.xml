@@ -2948,8 +2948,8 @@
 		</Page>
 		<Page>
 			<Name>
-				<eng>ECU Control</eng>
-				<loc>ECU Control</loc>
+				<eng>Diag Control</eng>
+				<loc>Diag Control</loc>
 			</Name>
 			<DisallowRenaming>true</DisallowRenaming>
 			<DeleteProtection>true</DeleteProtection>
