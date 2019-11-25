@@ -18,36 +18,6 @@
 <p class="Body">The Commands section contains the command channels for the add-on.  To use the command channels, first set the meta data channels to the desired value.  Then set the command channel to the desired value.  Command and meta data pairs are as follows.</p>
 <p><strong>Clear Status Bit</strong><br>
 Clears previous command's status information (Success, Error Byte, VeriStand Error, & Data Length).  It is best to call this after each command has been completed and evaluated.<br>
-Command =23<br>
-No MetaData</p>
-<p><strong>PassThru Channel Based</strong><br>
-Sends a raw byte array out.  Allows the user to enter anything.<br>
-Command =30<br>
-MetaData1 = Service
-<ul>
-<li>Allows user to enter anything Service ID + SubType values up to 8 bytes in length.</li>
-<li>e.g. Diagnostic Session would be a x10 03 where x10 is the Service and x03 is the SubType.</li>
-</ul>
-MetaData2 = Service Length
-<ul>
-<li>Defines the number of bytes to use in the Service ID.</li>
-<li>eg. Diagnostic Session would be 2.</li>
-</ul>
-MetaData3 = DataLength
-<ul>
-<li>Allows user to enter any number of additional bytes to pad the raw message with.  Padded value will be 0.</li>
-</ul>
-MetaData4 = Response Required?
-<ul>
-<li>0 = No</li>
-<li>1 = Yes</li></ul></p>
-<p><strong>Disconnect CAN Communication</strong><br>
-Stops all CAN communication with the ECU and closes all references to CAN and diagnostics. This would allow a third party diagnostics tool to connect to the ECU.<br>
-Command = 33<br>
-No MetaData</p>
-<p><strong>Connect CAN Communication</strong><br>
-Re-opens all references to CAN and diagnostics and starts CAN communication with the ECU.<br>
-Command = 34<br>
-No MetaData</p>
+Command =1<br><p>
 </body>
 </html> 

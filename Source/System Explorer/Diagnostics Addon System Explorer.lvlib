@@ -59,6 +59,7 @@
 				<Item Name="Protected.vi" Type="VI" URL="../Pages/Protected.vi"/>
 				<Item Name="Raw Signal Page.vi" Type="VI" URL="../Pages/Raw Signal Page.vi"/>
 				<Item Name="Read DTCs.vi" Type="VI" URL="../Pages/Read DTCs.vi"/>
+				<Item Name="Unlock ECU.vi" Type="VI" URL="../Pages/Unlock ECU.vi"/>
 				<Item Name="User Defined Collections.vi" Type="VI" URL="../Pages/User Defined Collections.vi"/>
 				<Item Name="User Defined Message.vi" Type="VI" URL="../Pages/User Defined Message.vi"/>
 			</Item>
@@ -95,10 +96,10 @@
 			<Item Name="Dialog.Name.CheckErrors.vi" Type="VI" URL="../SubVIs/Dialog.Name.CheckErrors.vi"/>
 			<Item Name="DPID.CheckErrors.vi" Type="VI" URL="../SubVIs/DPID.CheckErrors.vi"/>
 			<Item Name="DPID.Convert.Name.vi" Type="VI" URL="../SubVIs/DPID.Convert.Name.vi"/>
-			<Item Name="DPID.Create.vi" Type="VI" URL="../SubVIs/DPID.Create.vi"/>
 			<Item Name="DPID.Dialog.vi" Type="VI" URL="../SubVIs/DPID.Dialog.vi"/>
 			<Item Name="DPID.FG.vi" Type="VI" URL="../SubVIs/DPID.FG.vi"/>
 			<Item Name="DPIDs.Compile.vi" Type="VI" URL="../SubVIs/DPIDs.Compile.vi"/>
+			<Item Name="DPIDs.CompileServices.vi" Type="VI" URL="../SubVIs/DPIDs.CompileServices.vi"/>
 			<Item Name="DPIDs.GetPIDs.vi" Type="VI" URL="../SubVIs/DPIDs.GetPIDs.vi"/>
 			<Item Name="DTC.StatusCode.Set.vi" Type="VI" URL="../SubVIs/DTC.StatusCode.Set.vi"/>
 			<Item Name="DTC.StatusCode.UpdateTable.vi" Type="VI" URL="../SubVIs/DTC.StatusCode.UpdateTable.vi"/>
@@ -133,6 +134,7 @@
 			<Item Name="ReadSignals.Compile.vi" Type="VI" URL="../SubVIs/ReadSignals.Compile.vi"/>
 			<Item Name="Routine.Create.vi" Type="VI" URL="../SubVIs/Routine.Create.vi"/>
 			<Item Name="Routines.Compile.vi" Type="VI" URL="../SubVIs/Routines.Compile.vi"/>
+			<Item Name="Security.FG.vi" Type="VI" URL="../SubVIs/Security.FG.vi"/>
 			<Item Name="Service.Create.vi" Type="VI" URL="../SubVIs/Service.Create.vi"/>
 			<Item Name="Service.EnumToGUID.vi" Type="VI" URL="../SubVIs/Service.EnumToGUID.vi"/>
 			<Item Name="ServiceChannels.Create.vi" Type="VI" URL="../SubVIs/ServiceChannels.Create.vi"/>
@@ -153,6 +155,7 @@
 			<Item Name="SysDef.Create.vi" Type="VI" URL="../SubVIs/SysDef.Create.vi"/>
 			<Item Name="Type.Determine.vi" Type="VI" URL="../SubVIs/Type.Determine.vi"/>
 			<Item Name="Type.FG.vi" Type="VI" URL="../SubVIs/Type.FG.vi"/>
+			<Item Name="UnlockECU.Compile.vi" Type="VI" URL="../SubVIs/UnlockECU.Compile.vi"/>
 			<Item Name="UserDefined.Compile.vi" Type="VI" URL="../SubVIs/UserDefined.Compile.vi"/>
 			<Item Name="WriteSignal.Create.vi" Type="VI" URL="../SubVIs/WriteSignal.Create.vi"/>
 			<Item Name="WriteSignals.Compile.vi" Type="VI" URL="../SubVIs/WriteSignals.Compile.vi"/>
@@ -161,7 +164,6 @@
 		<Item Name="Types" Type="Folder">
 			<Item Name="Addon.Initialize.ctl" Type="VI" URL="../Types/Addon.Initialize.ctl"/>
 			<Item Name="CmdResp.Export.ctl" Type="VI" URL="../Types/CmdResp.Export.ctl"/>
-			<Item Name="DPID.Export.ctl" Type="VI" URL="../Types/DPID.Export.ctl"/>
 			<Item Name="FG.Action.ctl" Type="VI" URL="../Types/FG.Action.ctl"/>
 			<Item Name="Frame.Export.ctl" Type="VI" URL="../Types/Frame.Export.ctl"/>
 			<Item Name="Frame.Ref.ctl" Type="VI" URL="../Types/Frame.Ref.ctl"/>

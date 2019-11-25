@@ -57,6 +57,7 @@
 		<Item Name="Diagnostics.Main.vi" Type="VI" URL="../SubVIs/Diagnostics.Main.vi"/>
 		<Item Name="Diagnostics.Protocol.Initialize.vi" Type="VI" URL="../SubVIs/Diagnostics.Protocol.Initialize.vi"/>
 		<Item Name="Diagnostics.Restart.Loop.vi" Type="VI" URL="../SubVIs/Diagnostics.Restart.Loop.vi"/>
+		<Item Name="DPIDs.Find.vi" Type="VI" URL="../SubVIs/DPIDs.Find.vi"/>
 		<Item Name="DPIDs.IDs.Sort.vi" Type="VI" URL="../SubVIs/DPIDs.IDs.Sort.vi"/>
 		<Item Name="DPIDs.Initialize.vi" Type="VI" URL="../SubVIs/DPIDs.Initialize.vi"/>
 		<Item Name="DTC.Descriptor.Override.vi" Type="VI" URL="../SubVIs/DTC.Descriptor.Override.vi"/>
@@ -78,6 +79,7 @@
 		<Item Name="XNET.DB.Initialize.vi" Type="VI" URL="../SubVIs/XNET.DB.Initialize.vi"/>
 	</Item>
 	<Item Name="Types" Type="Folder">
+		<Item Name="Diagnostics.Command.ctl" Type="VI" URL="../Types/Diagnostics.Command.ctl"/>
 		<Item Name="Diagnostics.State.ctl" Type="VI" URL="../Types/Diagnostics.State.ctl"/>
 		<Item Name="DPIDs.IDs.Sorted.ctl" Type="VI" URL="../Types/DPIDs.IDs.Sorted.ctl"/>
 		<Item Name="DTC.ChangeCount.Info.ctl" Type="VI" URL="../Types/DTC.ChangeCount.Info.ctl"/>

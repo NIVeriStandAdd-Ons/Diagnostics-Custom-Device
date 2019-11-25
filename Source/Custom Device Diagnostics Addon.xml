@@ -1262,16 +1262,16 @@
 		</Page>
 		<Page>
 			<Name>
-				<eng>Configure DPID </eng>
-				<loc>Configure DPID</loc>
+				<eng>DPIDs</eng>
+				<loc>DPIDs</loc>
 			</Name>
 			<DisallowRenaming>true</DisallowRenaming>
 			<DeleteProtection>true</DeleteProtection>
 			<ExcludeFromAlphabeticalOrder>true</ExcludeFromAlphabeticalOrder>
 			<GUID>186cc3e9-a602-40ff-b933-3b68f6fbfaf8</GUID>
 			<Glyph>
-				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Diagnostics Addon\Windows\Glyphs\DPIDSettings.png</Path>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\NI-XNET Periodic.png</Path>
 			</Glyph>
 			<Item2Launch>
 				<Type>To Common Doc Dir</Type>
@@ -2930,24 +2930,6 @@
 		</Page>
 		<Page>
 			<Name>
-				<eng>DPIDs Collection</eng>
-				<loc>DPIDs Collection</loc>
-			</Name>
-			<DisallowRenaming>true</DisallowRenaming>
-			<DeleteProtection>true</DeleteProtection>
-			<ExcludeFromAlphabeticalOrder>true</ExcludeFromAlphabeticalOrder>
-			<GUID>D25154B4-FEA9-42AF-8ECB-5796C8AD0272</GUID>
-			<Glyph>
-				<Type>To Application Data Dir</Type>
-				<Path>System Explorer\Glyphs\NI-XNET Periodic.png</Path>
-			</Glyph>
-			<Item2Launch>
-				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\Default Section.vi</Path>
-			</Item2Launch>
-		</Page>
-		<Page>
-			<Name>
 				<eng>Diag Control</eng>
 				<loc>Diag Control</loc>
 			</Name>
@@ -3051,7 +3033,7 @@
 			</Glyph>
 			<Item2Launch>
 				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\Default Section.vi</Path>
+				<Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\Unlock ECU.vi</Path>
 			</Item2Launch>
 		</Page>
 		<Page>
@@ -3102,42 +3084,6 @@
 			<Glyph>
 				<Type>To Common Doc Dir</Type>
 				<Path>Custom Devices\Diagnostics Addon\Windows\Glyphs\NormalCommunication.png</Path>
-			</Glyph>
-			<Item2Launch>
-				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\Default Section.vi</Path>
-			</Item2Launch>
-		</Page>
-		<Page>
-			<Name>
-				<eng>Start DPIDs</eng>
-				<loc>Start DPIDs</loc>
-			</Name>
-			<DisallowRenaming>true</DisallowRenaming>
-			<DeleteProtection>true</DeleteProtection>
-			<ExcludeFromAlphabeticalOrder>true</ExcludeFromAlphabeticalOrder>
-			<GUID>D96DFC42-A958-431A-ABF4-3CA30D72B55B</GUID>
-			<Glyph>
-				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Diagnostics Addon\Windows\Glyphs\StartDPIDs.png</Path>
-			</Glyph>
-			<Item2Launch>
-				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\Default Section.vi</Path>
-			</Item2Launch>
-		</Page>
-		<Page>
-			<Name>
-				<eng>Stop DPIDs</eng>
-				<loc>Stop DPIDs</loc>
-			</Name>
-			<DisallowRenaming>true</DisallowRenaming>
-			<DeleteProtection>true</DeleteProtection>
-			<ExcludeFromAlphabeticalOrder>true</ExcludeFromAlphabeticalOrder>
-			<GUID>24912C74-9B50-4EEA-ABD9-3E5C676695FD</GUID>
-			<Glyph>
-				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Diagnostics Addon\Windows\Glyphs\StopDPIDs.png</Path>
 			</Glyph>
 			<Item2Launch>
 				<Type>To Common Doc Dir</Type>

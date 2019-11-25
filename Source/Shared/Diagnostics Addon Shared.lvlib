@@ -51,7 +51,6 @@
 			<Item Name="Workspace.Targets.Get.vi" Type="VI" URL="../SubVIs/Workspace.Targets.Get.vi"/>
 			<Item Name="Workspace.UI.DisableState.Set.vi" Type="VI" URL="../SubVIs/Workspace.UI.DisableState.Set.vi"/>
 			<Item Name="Workspace.UI.Pull.vi" Type="VI" URL="../SubVIs/Workspace.UI.Pull.vi"/>
-			<Item Name="Workspace.UI.Update.Captions.vi" Type="VI" URL="../SubVIs/Workspace.UI.Update.Captions.vi"/>
 			<Item Name="Workspace.UI.Update.vi" Type="VI" URL="../SubVIs/Workspace.UI.Update.vi"/>
 			<Item Name="XNET.Create.Frame.vi" Type="VI" URL="../SubVIs/XNET.Create.Frame.vi"/>
 			<Item Name="XNET.Create.Signal.vi" Type="VI" URL="../SubVIs/XNET.Create.Signal.vi"/>
@@ -63,9 +62,9 @@
 			<Item Name="Command.ClearDTC.ctl" Type="VI" URL="../Types/Command.ClearDTC.ctl"/>
 			<Item Name="Command.Communication.ctl" Type="VI" URL="../Types/Command.Communication.ctl"/>
 			<Item Name="Command.ControlDTC.ctl" Type="VI" URL="../Types/Command.ControlDTC.ctl"/>
-			<Item Name="Command.ctl" Type="VI" URL="../Types/Command.ctl"/>
 			<Item Name="Command.IO.ctl" Type="VI" URL="../Types/Command.IO.ctl"/>
 			<Item Name="Command.Memory.ctl" Type="VI" URL="../Types/Command.Memory.ctl"/>
+			<Item Name="Command.New.ctl" Type="VI" URL="../Types/Command.New.ctl"/>
 			<Item Name="Command.PassThru.Channel.ctl" Type="VI" URL="../Types/Command.PassThru.Channel.ctl"/>
 			<Item Name="Command.ReadDTC.ctl" Type="VI" URL="../Types/Command.ReadDTC.ctl"/>
 			<Item Name="Command.ReadDTC.DTCs.ctl" Type="VI" URL="../Types/Command.ReadDTC.DTCs.ctl"/>

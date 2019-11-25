@@ -36,16 +36,15 @@ HTML Help Source\Commands_KWP.html
 HTML Help Source\Commands_UDS.html
 HTML Help Source\Commands_UserDefined.html
 HTML Help Source\Communication Control.html
-HTML Help Source\Configure DPIDs.html
 HTML Help Source\Control DTCs.html
 HTML Help Source\Diag CAN Control.html
+HTML Help Source\Diag Functions.html
 HTML Help Source\Diag Session Control.html
 HTML Help Source\DIDs.html
 HTML Help Source\DPID.html
-HTML Help Source\DPIDs Collection.html
+HTML Help Source\DPIDs.html
 HTML Help Source\DTC Change Count.html
 HTML Help Source\DTCs Collection.html
-HTML Help Source\ECU Control Collection.html
 HTML Help Source\ECU Reset.html
 HTML Help Source\Frame.html
 HTML Help Source\Inputs.html
@@ -61,9 +60,7 @@ HTML Help Source\Read DTCs.html
 HTML Help Source\Routine.html
 HTML Help Source\Routines.html
 HTML Help Source\Service Channels.html
-HTML Help Source\Start DPIDs.html
 HTML Help Source\Status.html
-HTML Help Source\Stop DPIDs.html
 HTML Help Source\Tester Present.html
 HTML Help Source\Unlock ECU.html
 HTML Help Source\User Defined Group.html

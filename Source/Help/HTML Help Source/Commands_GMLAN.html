@@ -16,155 +16,22 @@
 	</noscript>
 <h1>Commands</h1>
 <p class="Body">The Commands section contains the command channels for the add-on.  To use the command channels, first set the meta data channels to the desired value.  Then set the command channel to the desired value.  Command and meta data pairs are as follows.</p>
-<p><strong>Enable Diagnostic Session</strong><br>
-Command = 1<br>
-MetaData1 = Mode = SubType</p>
-<p><strong>Disable Diagnostic Session</strong><br>
-Forces the diagnostic session back to normal (x1)<br>
-Command = 2<br>
-No MetaData</p>
-<p><strong>Read Data Identifiers (DIDs)</strong><br>
-Reads all configured DIDs at once<br>
-Command = 3<br>
-No MetaData<br>
-Results returned in VeriStand Channels under configured DID</p>
-<p><strong>Read Data Identifier (DID)</strong><br>
-Command = 4<br>
-MetaData1 = ID value of the DID to read<br>
-Results returned in VeriStand Channels under configured DID</p>
-<p><strong>Write Data Identifier (DID)</strong><br>
-Command = 5<br>
-MetaData1 = ID value of the DID to write<br>
-Note: Signal values pulled from configured DID</p>
-<p><strong>Read Parameter Identifiers (PIDs)</strong><br>
-Reads all configured PIDs at once<br>
-Command = 6<br>
-No MetaData<br>
-Results returned in VeriStand Channels under configured PID</p>
-<p><strong>Read Parameter Identifier (PID)</strong><br>
-Command = 7<br>
-MetaData1 = ID value of the PID to read<br>
-Results returned in VeriStand Channels under configured PID</p>
-<p><strong>Write Control Parameter Identifier (CPID)</strong><br>
-Command = 8<br>
-MetaData1 = ID value of the CPID to write<br>
-Note: Signal values pulled from configured CPID</p>
-<p><strong>Read DTCs</strong><br>
-Read DTC By DTC Number
-Command = 11<br>
-MetaData1 = DTC ID<br>
-MetaData2 = Failure Type Byte<br>
-<p><strong>Clear DTCs</strong><br>
-Command =12<br>
-No MetaData</p>
-<p><strong>Tester Present</strong><br>
-Command =14<br>
-MetaData1 = Target Type
-<ul>
-<li>0 = Entire Network</li>
-<li>1 = Specific ECU</li>
-</ul>
-<p><strong>Disable Normal Communication</strong><br>
-Command =15<br>
-MetaData1 = Target Type
-<ul>
-<li>0 = Entire Network</li>
-<li>1 = Specific ECU</li>
-</ul>
-<p><strong>Return to Normal Mode</strong><br>
-Command =16<br>
-No MetaData</p>
-<p><strong>Unlock ECU</strong><br>
-Unlock the controller (UUT) with a seed key DLL.<br>
-Command =22<br>
-No MetaData</p>
 <p><strong>Clear Status Bit</strong><br>
 Clears previous command's status information (Success, Error Byte, VeriStand Error, & Data Length).  It is best to call this after each command has been completed and evaluated.<br>
-Command =23<br>
-No MetaData</p>
+Command =1<br></p>
+<p><strong>Read Data Identifiers (DIDs)</strong><br>
+Reads all configured DIDs at once<br>
+Command = 2<br>
+Results returned in VeriStand Channels under configured DID</p>
+<p><strong>Read Parameter Identifiers (PIDs)</strong><br>
+Reads all configured PIDs at once<br>
+Command = 3<br>
+Results returned in VeriStand Channels under configured PID</p>
 <p><strong>Configure and Start PIDs</strong><br>
 Sends configurations for DPIDs to the controller (UUT) and commands them to start generation<br>
-Command = 24<br>
-No MetaData</p>
+Command = 4<br></p>
 <p><strong>Stop PIDs</strong><br>
 Commands the controller (UUT) to stop generating all DPIDs<br>
-Command = 25<br>
-No MetaData</p>
-<p><strong>Start DTCs</strong><br>
-Requests the controller (UUT) to report DTCs by status mask<br>
-Command = 26<br>
-MetaData1 = Status Mask</p>
-<p><strong>Enable Change DTC Count</strong><br>
-Requests the controller (UUT) to report changes in the DTCs<br>
-Command = 27<br>
-MetaData1 = Status Mask</p>
-<p><strong>Disable Change DTC Count</strong><br>
-Requests the controller (UUT) to not report changes in the DTCs<br>
-Command = 28<br>
-MetaData1 = Status Mask</p>
-<p><strong>Read Failure Record Parameters</strong><br>
-Reads additional information about the situation causing a particular DTC<br>
-Command = 29<br>
-MetaData1 = Failure Record Number<br>
-MetaData2 = DTC ID<br>
-MetaData3 = Failure Type Byte</p>
-<p><strong>PassThru Channel Based</strong><br>
-Sends a raw byte array out.  Allows the user to enter anything.<br>
-Command =30<br>
-MetaData1 = Service
-<ul>
-<li>Allows user to enter anything Service ID + SubType values up to 8 bytes in length.</li>
-<li>e.g. Diagnostic Session would be a x10 03 where x10 is the Service and x03 is the SubType.</li>
-</ul>
-MetaData2 = Service Length
-<ul>
-<li>Defines the number of bytes to use in the Service ID.</li>
-<li>eg. Diagnostic Session would be 2.</li>
-</ul>
-MetaData3 = DataLength
-<ul>
-<li>Allows user to enter any number of additional bytes to pad the raw message with.  Padded value will be 0.</li>
-</ul>
-MetaData4 = Response Required?
-<ul>
-<li>0 = No</li>
-<li>1 = Yes</li></ul></p>
-<p><strong>Enable Tester Present</strong><br>
-Starts the periodic generation of the tester present message @ 1 Hz.<br>
-Command = 31<br>
-No MetaData</p>
-<p><strong>Disable Tester Present</strong><br>
-Stops the periodic generation of the tester present message.<br>
-Command = 32<br>
-No MetaData</p>
-<p><strong>Disconnect CAN Communication</strong><br>
-Stops all CAN communication with the ECU and closes all references to CAN and diagnostics. This would allow a third party diagnostics tool to connect to the ECU.<br>
-Command = 33<br>
-No MetaData</p>
-<p><strong>Connect CAN Communication</strong><br>
-Re-opens all references to CAN and diagnostics and starts CAN communication with the ECU.<br>
-Command = 34<br>
-No MetaData</p>
-<p><strong>Start Poll</strong><br>
-Starts the pre-configuered poll.<br>
-Command = 35<br>
-MetaData1 = Poll
-<ul>
-<li>0 = All
-<li>1 = Slow
-<li>2 = Medium
-<li>3 = Fast
-</ul></p>
-<p><strong>Stop Poll</strong><br>
-Stops the pre-configuered poll.<br>
-Command = 36<br>
-MetaData1 = Poll
-<ul>
-<li>0 = All
-<li>1 = Slow
-<li>2 = Medium
-<li>3 = Fast
-</ul>
-</p>
+Command = 5</p>
 </body>
 </html> 
