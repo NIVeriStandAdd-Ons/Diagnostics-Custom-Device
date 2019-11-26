@@ -16,5 +16,23 @@
 	</noscript>
 <h1>Control DTCs</h1>
 <p class="Body">Modifies Diagnostic Trouble Code (DTC) generation behavior.</p>
+<h2>Settings</h2>
+<h3>UDS Specific</h3>
+<p><strong>Type</strong> specifies the control mode:</p>
+<ul>
+<li>1 = On 
+<li>2 = Off
+</ul>
+<h3>KWP2000 Specific</h3>
+<p><strong>Group of DTCs</strong> specifies the group of Diagnostic Trouble Codes to be cleared.</p>
+<ul>
+<li>0x0000 (0) = All powertrain DTCs 
+<li>0x4000 (16384) = All chassis DTCs 
+<li>0x8000 (32768) = All body DTCs 
+<li>0xC000 (49152) = All network-related DTCs 
+<li>0xFF00 (65280) = All DTCs 
+</ul>
+<h3>GMLAN Specific</h3>
+<p>Not Supported.</p>
 </body>
 </html>
