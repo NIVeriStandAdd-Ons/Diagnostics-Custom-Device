@@ -2210,7 +2210,7 @@
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D2B3104C-D323-41E8-B4BA-9185D7889B63}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/Linux_x64/Diagnostics Addon Engine Linux64.llb</Property>
-				<Property Name="Bld_version.build" Type="Int">28</Property>
+				<Property Name="Bld_version.build" Type="Int">29</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">/Linux_x64/Diagnostics Addon Engine Linux64.llb</Property>

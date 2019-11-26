@@ -88,5 +88,6 @@
 		<Item Name="XNET.Cluster.ctl" Type="VI" URL="../Types/XNET.Cluster.ctl"/>
 		<Item Name="XNET.Refs.ctl" Type="VI" URL="../Types/XNET.Refs.ctl"/>
 	</Item>
+	<Item Name="Diagnostics.CheckTimeout.vi" Type="VI" URL="../SubVIs/Diagnostics.CheckTimeout.vi"/>
 	<Item Name="RT Driver VI.vi" Type="VI" URL="../RT Driver VI.vi"/>
 </Library>
