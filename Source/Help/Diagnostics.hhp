@@ -40,6 +40,7 @@ HTML Help Source\Control DTCs.html
 HTML Help Source\Diag CAN Control.html
 HTML Help Source\Diag Functions.html
 HTML Help Source\Diag Session Control.html
+HTML Help Source\DID ID.html
 HTML Help Source\DIDs.html
 HTML Help Source\DPID.html
 HTML Help Source\DPIDs.html
@@ -51,16 +52,21 @@ HTML Help Source\Inputs.html
 HTML Help Source\IO Controls.html
 HTML Help Source\IO.html
 HTML Help Source\Main.html
+HTML Help Source\Memory ID.html
 HTML Help Source\Memory.html
 HTML Help Source\Outputs.html
+HTML Help Source\PID ID.html
 HTML Help Source\PIDs.html
 HTML Help Source\Poll.html
 HTML Help Source\Polling.html
 HTML Help Source\Read DTCs.html
+HTML Help Source\Request Routine.html
 HTML Help Source\Routine.html
 HTML Help Source\Routines.html
 HTML Help Source\Service Channels.html
+HTML Help Source\Start Routine.html
 HTML Help Source\Status.html
+HTML Help Source\Stop Routine.html
 HTML Help Source\Tester Present.html
 HTML Help Source\Unlock ECU.html
 HTML Help Source\User Defined Group.html

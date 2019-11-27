@@ -16,5 +16,25 @@
 	</noscript>
 <h1>ECU Reset</h1>
 <p class="Body">Resets the ECU.</p>
+<h2>Settings</h2>
+<h3>UDS Specific</h3>
+<p><strong>Mode</strong> indicates the reset mode:</p>
+<ul>
+<li>x1 = Hard Reset 
+<li>x2 = Key Off On Reset 
+<li>x3 = Soft Reset 
+<li>x4 = Enable Rapid Power Shut Down 
+<li>x5 = Disable Rapid Power Shut Down 
+</ul>
+<h3>KWP2000 Specific</h3>
+<p><strong>Mode</strong> indicates the reset mode:</p>
+<ul>
+<li>x1 = PowerOn - Simulates reset that most ECUs perform after the ignition OFF/ON cycle.
+<li>x2= Power On While Maintaining Communication - Simulates reset that most ECUs perform after the ignition OFF/ON cycle but maintains communication with the client (tester). 
+<li>03-7F = Reserved 
+<li>80-FF = ManufacturerSpecific 
+</ul>
+<h3>GMLAN Specific</h3>
+<p>Not supported.</p>
 </body>
 </html>

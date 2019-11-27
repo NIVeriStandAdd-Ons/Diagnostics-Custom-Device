@@ -41,5 +41,48 @@ KWP2000 & GMLAN Defaults
 <p>By default, the user can see the most recent 10 DTCs received. If the user wants a different buffer length, they can set <strong>Number of DTCs</strong> to the desired value and hit <strong>Apply</strong>.</p>
 <h3>Monitor the total number of DTCs on an ECU</h3>
 <p>The # of DTCs channel allows the user to see the total number of DTCs received.</p>
+
+<h2>Settings</h2>
+<h3>UDS Specific</h3>
+<p><strong>Extension</strong> </p>
+<ul>
+<li>x2 (2) = Report DTC By Status Mask
+<li>x8 (8) = Report DTC By Severity Mask Record
+<li>x9 (9) = Report Severity Information Of DTC
+</ul>
+<p><strong>Mask</strong> defines the status of DTCs to be read. The values are application specific.</p>
+<p><strong>Status</strong> defines the status of DTCs to be read. The values are application specific. Ignored on x2 and x9 extensions.</p>
+<h3>KWP2000 Specific</h3>
+<p><strong>Extension</strong> changes which service is used.</p>
+<ul>
+<li>x17 (23) = Read Status of DTCs
+<li>x18 (24) = Read DTCs by Status 
+</ul>
+<p><strong>Group of DTCs</strong> specifies the group of Diagnostic Trouble Codes to be cleared.</p>
+<ul>
+<li>0x0000 (0) = All powertrain DTCs 
+<li>0x4000 (16384) = All chassis DTCs 
+<li>0x8000 (32768) = All body DTCs 
+<li>0xC000 (49152) = All network-related DTCs 
+<li>0xFF00 (65280) = All DTCs 
+</ul>
+<p><strong>Mode</strong> defines the type of DTCs to be read. Ignored if Extension is x17 (23). The values are application specific. The usual values are:</p>
+<ul>
+<li>2 = All Identified
+<li>3 = All Supported 
+</ul>
+<h3>GMLAN Specific</h3>
+<p>NOTE: This uses Service xA9 with extension x81.</p>
+<p><strong>Status Mask</strong> </p>
+<ul>
+<li>Bit 0 = DTC supported by calibration
+<li>Bit 1 = Current DTC
+<li>Bit 2 = test not passed since DTC cleared
+<li>Bit 3 = test failed since DTC cleared
+<li>Bit 4 = history DTC
+<li>Bit 5 = test not passed since current power up
+<li>Bit 6 = current DTC since power up
+<li>Bit 7 = warning indicator requested state
+</ul>
 </body>
 </html>

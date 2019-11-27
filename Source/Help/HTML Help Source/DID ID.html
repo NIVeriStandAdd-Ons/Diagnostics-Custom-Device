@@ -3,7 +3,7 @@
 	<head>
 		<meta http-equiv="Content-Style-Type" content="text/css">
 		<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=ISO-8859-1">
-		<title>IO</title>
+		<title>DID</title>
 		<link rel="STYLESHEET" type="text/css" href="css/VSsystemexplorer.css">
 		<script src="common.js" type="text/javascript"></script><script src="js/expandable_tree.js" type="text/javascript"></script>
 		<link rel="STYLESHEET" type="text/css" href="css/expandable_tree.css">
@@ -14,33 +14,15 @@
 		<p class="Body">JavaScript is disabled. <a href="veristandmerge.chm::/JavaScript_Disabled.html">Details</a></p>
 		<hr width="100%" noshade>
 	</noscript>
-<h1>IO</h1>
-<p class="Body">This service allows you to modify and control the controller's (UUT) default IO behavior. You reference an IO control by ID.</p>
+<h1>DID</h1>
+<p class="Body">DIDs are data identifiers. You can read and write data identifiers. These are named Inputs and Outputs respectively.</p>
+<p class="Body">GMLAN ONLY: DIDs, in the GMLAN context, are static in nature.  An example of a DID is vehicle identification number (VIN).  This is a value that doesn't change after being set.  Because DIDs are static, they should be read once at the being of a test and not again.</p>
 <h2>What do you want to do?</h2>
+<h3>Edit</h3>
+<p class="Body">To edit a item, right-click the object in the configuration tree and select <strong>Edit</strong> from the shortcut menu.</p>
 <h3>Delete item</h3>
 <p class="Body">To delete, right-click the object in the configuration tree and select <strong>Delete</strong> from the shortcut menu.</p>
 <h3>Delete multiple items</h3>
 <p class="Body">To delete multiple items, right-click the object in the configuration tree and select <strong>Delete Multiple Items</strong> from the shortcut menu.</p>
-<h2>Settings</h2>
-<h3>UDS Specific</h3>
-<p><strong>Mode</strong> defines the I/O control type. The values are application specific. The usual values are:</p>
-<ul>
-<li>0 = ReturnControlToECU 
-<li>1 = ResetToDefault 
-<li>2 = FreezeCurrentState 
-<li>3 = ShortTermAdjustment 
-</ul>
-<h3>KWP2000 Specific</h3>
-<p><strong>Mode</strong> mode defines the type of I/O control. The values are application specific. The usual values are:</p>
-<ul>
-<li>0 = ReturnControlToECU 
-<li>1 = ReportCurrentState 
-<li>4 = ResetToDefault 
-<li>5 = FreezeCurrentState 
-<li>7 = ShortTermAdjustment 
-<li>8 = LongTermAdjustment 
-</ul>
-<h3>GMLAN Specific</h3>
-<p>Not Supported.</p>
 </body>
 </html>

@@ -16,5 +16,23 @@
 	</noscript>
 <h1>DTC Change Count</h1>
 <p class="Body">Enables the ECU to publish a count of how many DTCs have occurred. When an update is recieved by the addon, the Start DTCs message is automatically sent to read the updated list.</p>
+<p>NOTE: This is a GMLAN specific service</p>
+<h2>Settings</h2>
+<p><strong>Enable</strong></p>
+<ul>
+<li>0 = Commands the ECU to stop generating the DTC change count message.
+<li>1 = Commands the ECU to start generating the DTC change count message.
+</ul>
+<p><strong>Status Mask</strong> </p>
+<ul>
+<li>Bit 0 = DTC supported by calibration
+<li>Bit 1 = Current DTC
+<li>Bit 2 = test not passed since DTC cleared
+<li>Bit 3 = test failed since DTC cleared
+<li>Bit 4 = history DTC
+<li>Bit 5 = test not passed since current power up
+<li>Bit 6 = current DTC since power up
+<li>Bit 7 = warning indicator requested state
+</ul>
 </body>
 </html>

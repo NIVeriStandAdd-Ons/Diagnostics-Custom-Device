@@ -1962,6 +1962,21 @@
 				<Type>To Common Doc Dir</Type>
 				<Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\Default Section.vi</Path>
 			</Item2Launch>
+			<RunTimeMenu>
+				<MenuItem>
+					<GUID>03D3BE0A-1485-13A6-563AEB9BF271825A</GUID>
+					<Type>VI</Type>
+					<MinNrOfChilds>1</MinNrOfChilds>
+					<Name>
+						<eng>Delete Multiple Items</eng>
+						<loc>Delete Multiple Items</loc>
+					</Name>
+					<Item2Launch>
+						<Type>Absolute</Type>
+						<Path>Dialogs\Delete Multiple Items.vi</Path>
+					</Item2Launch>
+				</MenuItem>
+			</RunTimeMenu>
 		</Page>
 		<Page>
 			<Name>
@@ -1980,6 +1995,21 @@
 				<Type>To Common Doc Dir</Type>
 				<Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\Default Section.vi</Path>
 			</Item2Launch>
+			<RunTimeMenu>
+				<MenuItem>
+					<GUID>03D3BE0A-1485-13A6-563AEB9BF271825A</GUID>
+					<Type>VI</Type>
+					<MinNrOfChilds>1</MinNrOfChilds>
+					<Name>
+						<eng>Delete Multiple Items</eng>
+						<loc>Delete Multiple Items</loc>
+					</Name>
+					<Item2Launch>
+						<Type>Absolute</Type>
+						<Path>Dialogs\Delete Multiple Items.vi</Path>
+					</Item2Launch>
+				</MenuItem>
+			</RunTimeMenu>
 		</Page>
 		<Page>
 			<Name>
@@ -1998,6 +2028,21 @@
 				<Type>To Common Doc Dir</Type>
 				<Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\Default Section.vi</Path>
 			</Item2Launch>
+			<RunTimeMenu>
+				<MenuItem>
+					<GUID>03D3BE0A-1485-13A6-563AEB9BF271825A</GUID>
+					<Type>VI</Type>
+					<MinNrOfChilds>1</MinNrOfChilds>
+					<Name>
+						<eng>Delete Multiple Items</eng>
+						<loc>Delete Multiple Items</loc>
+					</Name>
+					<Item2Launch>
+						<Type>Absolute</Type>
+						<Path>Dialogs\Delete Multiple Items.vi</Path>
+					</Item2Launch>
+				</MenuItem>
+			</RunTimeMenu>
 		</Page>
 		<Page>
 			<Name>
@@ -2830,8 +2875,8 @@
 					<GUID>49D1EBFE-CE3B-4459-A280-2BCBA9B2EC8B</GUID>
 					<Type>Action</Type>
 					<Name>
-						<eng>Add Poll</eng>
-						<loc>Add Poll</loc>
+						<eng>Add</eng>
+						<loc>Add</loc>
 					</Name>
 					<Item2Launch>
 						<Type>To Common Doc Dir</Type>
@@ -2866,7 +2911,7 @@
 			</RunTimeMenu>
 			<ButtonList>
 				<Button>
-					<ID>Add Poll</ID>
+					<ID>Add</ID>
 					<Glyph>
 						<Type>To Application Data Dir</Type>
 						<Path>System Explorer\Glyphs\Add Procedures.png</Path>
@@ -2874,16 +2919,16 @@
 					<Type>Action</Type>
 					<ReferencedGUID>49D1EBFE-CE3B-4459-A280-2BCBA9B2EC8B</ReferencedGUID>
 					<ButtonText>
-						<eng>Add Poll</eng>
-						<loc>Add Poll</loc>
+						<eng>Add</eng>
+						<loc>Add</loc>
 					</ButtonText>
 					<Caption>
-						<eng>Add Poll</eng>
-						<loc>Add Poll</loc>
+						<eng>Add</eng>
+						<loc>Add</loc>
 					</Caption>
 					<TipStrip>
-						<eng>Add Poll</eng>
-						<loc>Add Poll</loc>
+						<eng>Add</eng>
+						<loc>Add</loc>
 					</TipStrip>
 					<Documentation>
 						<eng />

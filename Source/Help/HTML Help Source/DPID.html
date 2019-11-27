@@ -16,10 +16,17 @@
 	</noscript>
 <h1>DPID</h1>
 <p class="Body">DPIDs are data parameter identifiers.  DPIDs are a collection of PIDs (parameter identifiers).  PIDs are added together under a DPID and set to generate at one of three rates (slow, medium, or fast).  DPIDs can't be more than 8 total bytes.  Valid DPID ID values are typically 1..7F and 90..FE.  To set up the DPIDs, first add the PIDs to the add-on.  Then add the PIDs to the DPID.</p>
+<p>NOTE: This is a GMLAN specific service</p>
 <h2>What do you want to do?</h2>
 <h3>Edit DPID</h3>
 <p class="Body">To edit a DPID, right-click the object in the configuration tree and select <strong>Edit DPID</strong> from the shortcut menu.</p>
 <h3>Delete item</h3>
 <p class="Body">To delete, right-click the object in the configuration tree and select <strong>Delete</strong> from the shortcut menu.</p>
+<h2>Settings</h2>
+<p><strong>Enable</strong></p>
+<ul>
+<li>0 = Stops the DPID configuration.
+<li>1 = Configures the DPID with the ECU and commands the ECU to start generation.
+</ul>
 </body>
 </html>
