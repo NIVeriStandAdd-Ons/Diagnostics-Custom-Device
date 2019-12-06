@@ -93,6 +93,7 @@
 			<Item Name="Collection.Dialog.vi" Type="VI" URL="../SubVIs/Collection.Dialog.vi"/>
 			<Item Name="CommandResponse.Create.vi" Type="VI" URL="../SubVIs/CommandResponse.Create.vi"/>
 			<Item Name="Controls.Set.Visible.vi" Type="VI" URL="../SubVIs/Controls.Set.Visible.vi"/>
+			<Item Name="Convert Error Cluster to Table.vi" Type="VI" URL="../SubVIs/Convert Error Cluster to Table.vi"/>
 			<Item Name="Dialog.Name.CheckErrors.vi" Type="VI" URL="../SubVIs/Dialog.Name.CheckErrors.vi"/>
 			<Item Name="DPID.CheckErrors.vi" Type="VI" URL="../SubVIs/DPID.CheckErrors.vi"/>
 			<Item Name="DPID.Convert.Name.vi" Type="VI" URL="../SubVIs/DPID.Convert.Name.vi"/>
@@ -177,4 +178,5 @@
 			<Item Name="Settings.Channel.ctl" Type="VI" URL="../Types/Settings.Channel.ctl"/>
 		</Item>
 	</Item>
+	<Item Name="ServiceStatusSignals.Create.vi" Type="VI" URL="../SubVIs/ServiceStatusSignals.Create.vi"/>
 </Library>
