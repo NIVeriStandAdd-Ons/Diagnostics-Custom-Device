@@ -3199,11 +3199,113 @@
 			<GUID>D2E29887-53A4-41DF-A894-75F3232784D2</GUID>
 			<Glyph>
 				<Type>To Application Data Dir</Type>
-				<Path>System Explorer\Glyphs\NI-XNET Error.png</Path>
+				<Path>System Explorer\Glyphs\NI-XNET Status.png</Path>
 			</Glyph>
 			<Item2Launch>
 				<Type>To Common Doc Dir</Type>
 				<Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\Default Section.vi</Path>
+			</Item2Launch>
+		</Page>
+		<Page>
+			<Name>
+				<eng>Trigger</eng>
+				<loc>Trigger</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
+			<GUID>07620D9D-7630-47C2-94EA-6EC090C7ED25</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\Triggers.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\Protected.vi</Path>
+			</Item2Launch>
+		</Page>
+		<Page>
+			<Name>
+				<eng>Error Code</eng>
+				<loc>Error Code</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
+			<GUID>702D1531-E61D-4E97-9600-C0343F3643DE</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\NI-XNET Error.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\Protected.vi</Path>
+			</Item2Launch>
+		</Page>
+		<Page>
+			<Name>
+				<eng>Success</eng>
+				<loc>Success</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
+			<GUID>250721A4-6B94-4316-BB53-871C460EF5BF</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\NI-XNET Status.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\Protected.vi</Path>
+			</Item2Launch>
+		</Page>
+		<Page>
+			<Name>
+				<eng>Timestamp</eng>
+				<loc>Timestamp</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
+			<GUID>DF42C646-E0F5-4FDC-B61F-A239DDC21DB6</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\NI-XNET Receive Time.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\Protected.vi</Path>
+			</Item2Launch>
+		</Page>
+		<Page>
+			<Name>
+				<eng>Command</eng>
+				<loc>Command</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
+			<GUID>8838CE65-E521-4441-9757-12B25FC7A11C</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\event-based.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\Protected.vi</Path>
+			</Item2Launch>
+		</Page>
+		<Page>
+			<Name>
+				<eng>CAN Connected</eng>
+				<loc>CAN Connected</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
+			<GUID>1FB7B5C2-C5A9-4D5A-B9BF-360A427E9C45</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\ni-can ports.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\Protected.vi</Path>
 			</Item2Launch>
 		</Page>
 	</Pages>

@@ -143,6 +143,7 @@
 			<Item Name="Services.Compile.vi" Type="VI" URL="../SubVIs/Services.Compile.vi"/>
 			<Item Name="Services.Settings.CreateChannelNames.vi" Type="VI" URL="../SubVIs/Services.Settings.CreateChannelNames.vi"/>
 			<Item Name="ServiceStatusSignals.Compile.vi" Type="VI" URL="../SubVIs/ServiceStatusSignals.Compile.vi"/>
+			<Item Name="ServiceStatusSignals.Create.vi" Type="VI" URL="../SubVIs/ServiceStatusSignals.Create.vi"/>
 			<Item Name="ServiceTrigger.Compile.vi" Type="VI" URL="../SubVIs/ServiceTrigger.Compile.vi"/>
 			<Item Name="SettingChannels.GetRefs.vi" Type="VI" URL="../SubVIs/SettingChannels.GetRefs.vi"/>
 			<Item Name="Settings.Create.vi" Type="VI" URL="../SubVIs/Settings.Create.vi"/>
@@ -178,5 +179,4 @@
 			<Item Name="Settings.Channel.ctl" Type="VI" URL="../Types/Settings.Channel.ctl"/>
 		</Item>
 	</Item>
-	<Item Name="ServiceStatusSignals.Create.vi" Type="VI" URL="../SubVIs/ServiceStatusSignals.Create.vi"/>
 </Library>

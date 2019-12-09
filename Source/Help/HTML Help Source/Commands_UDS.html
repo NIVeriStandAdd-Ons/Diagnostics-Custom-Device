@@ -15,13 +15,14 @@
 		<hr width="100%" noshade>
 	</noscript>
 <h1>Commands</h1>
-<p class="Body">The Commands section contains the command channels for the add-on.  To use the command channels, first set the meta data channels to the desired value.  Then set the command channel to the desired value.  Command and meta data pairs are as follows.</p>
-<p><strong>Clear Status Bit</strong><br>
-Clears previous command's status information (Success, Error Byte, VeriStand Error, & Data Length).  It is best to call this after each command has been completed and evaluated.<br>
-Command =1<br></p>
-<p><strong>Read Data Identifiers (DIDs)</strong><br>
-Reads all configured DIDs at once<br>
-Command = 2<br>
-Results returned in VeriStand Channels under configured DID</p>
+<p class="Body">The Commands section contains the command channel and related status channels for the add-on. 
+<p><strong>Command</strong> values are as follows.</p>
+<ul>
+<li><p><strong>1 = Clear Status Bit: </strong> Clears previous command's status information.
+<li><p><strong>2 = Read Data Identifiers (DIDs): </strong> Reads all configured DIDs at once. Results returned in VeriStand Channels under configured DID.
+</ul>
+<p><strong>Success:</strong> Returns the success of the command. 0 = unsuccessful and 1 = successful.</p>
+<p><strong>Error Code:</strong> This channel returns any error code from generating the service. If the error is from the service itself, the diagnostic error byte is return. Othewise, it is the addon error code.</p>
+<p><strong>Timestamp:</strong> This channel returns the absolute timestamp from when the service is finished.</p>
 </body>
 </html> 
