@@ -52,6 +52,7 @@
 		<Item Name="Diagnostics.Channel.Engine.vi" Type="VI" URL="../SubVIs/Diagnostics.Channel.Engine.vi"/>
 		<Item Name="Diagnostics.CheckTimeout.vi" Type="VI" URL="../SubVIs/Diagnostics.CheckTimeout.vi"/>
 		<Item Name="Diagnostics.Cleanup.vi" Type="VI" URL="../SubVIs/Diagnostics.Cleanup.vi"/>
+		<Item Name="Diagnostics.FormatDebugString.vi" Type="VI" URL="../SubVIs/Diagnostics.FormatDebugString.vi"/>
 		<Item Name="Diagnostics.Main.CmdResp.Engine.vi" Type="VI" URL="../SubVIs/Diagnostics.Main.CmdResp.Engine.vi"/>
 		<Item Name="Diagnostics.Main.Initialize.vi" Type="VI" URL="../SubVIs/Diagnostics.Main.Initialize.vi"/>
 		<Item Name="Diagnostics.Main.UUDT.Engine.vi" Type="VI" URL="../SubVIs/Diagnostics.Main.UUDT.Engine.vi"/>
