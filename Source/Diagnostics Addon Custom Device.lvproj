@@ -30,8 +30,11 @@
 		<Item Name="Import File Formats" Type="Folder">
 			<Item Name="DPIDs.csv" Type="Document" URL="../Import File Formats/DPIDs.csv"/>
 			<Item Name="DTCs.csv" Type="Document" URL="../Import File Formats/DTCs.csv"/>
+			<Item Name="IO Control Messages.csv" Type="Document" URL="../Import File Formats/IO Control Messages.csv"/>
 			<Item Name="PIDs DIDs Memory.csv" Type="Document" URL="../Import File Formats/PIDs DIDs Memory.csv"/>
+			<Item Name="Routines.csv" Type="Document" URL="../Import File Formats/Routines.csv"/>
 			<Item Name="Status Codes.csv" Type="Document" URL="../Import File Formats/Status Codes.csv"/>
+			<Item Name="User Defined Messages.csv" Type="Document" URL="../Import File Formats/User Defined Messages.csv"/>
 		</Item>
 		<Item Name="NI VeriStand APIs" Type="Folder">
 			<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device API/Custom Device API.lvlib"/>
