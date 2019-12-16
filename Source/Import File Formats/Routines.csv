@@ -1,0 +1,9 @@
+Routine Name (xID).<Start/Request/Stop>.<Command/Response>.Signal Name,Start Bit,Length,Factor,Offset,Minimum,Maximum,Type,Endian,Default,Units
+Routine1 (xAAAA).Start.Command.Signal1,8,16,1,0,0,1000,Unsigned,Big,0,V
+Routine1 (xAAAA).Request.Response.Signal1,8,16,1,0,0,1000,Unsigned,Big,0,V
+Routine1 (xAAAA).Stop.Response.Signal1,8,16,1,0,0,1000,Unsigned,Big,0,V
+Routine2 (xBBBB).Start.Command.Signal1,8,16,1,0,0,1000,Unsigned,Big,0,V
+Routine2 (xBBBB).Start.Command.Signal2,24,16,1,0,0,1000,Unsigned,Big,0,V
+Routine2 (xBBBB).Start.Response.Signal1,8,16,1,0,0,1000,Unsigned,Big,0,V
+Routine2 (xBBBB).Request.Response.Signal1,8,16,1,0,0,1000,Unsigned,Big,0,V
+Routine2 (xBBBB).Stop.Response.Signal1,8,16,1,0,0,1000,Unsigned,Big,0,V

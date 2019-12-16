@@ -1,4 +1,4 @@
-Frame (xID).Signal,Start Bit,Length,Factor,Offset,Minimum,Maximum,Type,Endian,Default,Units
+Frame Name (xID).Signal Name,Start Bit,Length,Factor,Offset,Minimum,Maximum,Type,Endian,Default,Units
 Frame1 (x1234).Signal1,8,16,1,0,0,1000,Unsigned,Big,0,V
 Frame1 (x1234).Signal2,24,16,1,0,0,1000,Unsigned,Big,0,V
 Frame2 (x1235).Signal1,8,16,1,0,0,1000,Unsigned,Big,0,V

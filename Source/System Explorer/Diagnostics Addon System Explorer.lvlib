@@ -76,17 +76,22 @@
 				<Item Name="ExportConfigurationToFile.vi" Type="VI" URL="../SubVIs/ExportConfigurationToFile.vi"/>
 				<Item Name="Import DPIDs.vi" Type="VI" URL="../RTMs/Import DPIDs.vi"/>
 				<Item Name="Import Frames.vi" Type="VI" URL="../RTMs/Import Frames.vi"/>
+				<Item Name="Import IO Controls.vi" Type="VI" URL="../RTMs/Import IO Controls.vi"/>
+				<Item Name="Import Routines.vi" Type="VI" URL="../RTMs/Import Routines.vi"/>
+				<Item Name="Import User Defined Messages.vi" Type="VI" URL="../RTMs/Import User Defined Messages.vi"/>
 			</Item>
 			<Item Name="Initialization VI.vi" Type="VI" URL="../Initialization VI.vi"/>
 			<Item Name="Main Page.vi" Type="VI" URL="../Main Page.vi"/>
 		</Item>
 		<Item Name="SubVIs" Type="Folder">
+			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="986x.Compile.vi" Type="VI" URL="../SubVIs/986x.Compile.vi"/>
 			<Item Name="986x.Create.vi" Type="VI" URL="../SubVIs/986x.Create.vi"/>
 			<Item Name="986x.Export.vi" Type="VI" URL="../SubVIs/986x.Export.vi"/>
 			<Item Name="Addon.Dialog.vi" Type="VI" URL="../SubVIs/Addon.Dialog.vi"/>
 			<Item Name="Addon.GetRef.vi" Type="VI" URL="../SubVIs/Addon.GetRef.vi"/>
 			<Item Name="Addon.Initialize.vi" Type="VI" URL="../SubVIs/Addon.Initialize.vi"/>
+			<Item Name="Build Configuration Error String.vi" Type="VI" URL="../SubVIs/Build Configuration Error String.vi"/>
 			<Item Name="CAN.FG.vi" Type="VI" URL="../SubVIs/CAN.FG.vi"/>
 			<Item Name="CAN.Initialize.vi" Type="VI" URL="../SubVIs/CAN.Initialize.vi"/>
 			<Item Name="CAN.Protocol.Find.vi" Type="VI" URL="../SubVIs/CAN.Protocol.Find.vi"/>
@@ -131,11 +136,13 @@
 			<Item Name="Poll.FG.vi" Type="VI" URL="../SubVIs/Poll.FG.vi"/>
 			<Item Name="Poll.Selection.vi" Type="VI" URL="../SubVIs/Poll.Selection.vi"/>
 			<Item Name="Polls.Compile.vi" Type="VI" URL="../SubVIs/Polls.Compile.vi"/>
+			<Item Name="Read File and Remove Header.vi" Type="VI" URL="../SubVIs/Read File and Remove Header.vi"/>
 			<Item Name="ReadSignal.Create.vi" Type="VI" URL="../SubVIs/ReadSignal.Create.vi"/>
 			<Item Name="ReadSignals.Compile.vi" Type="VI" URL="../SubVIs/ReadSignals.Compile.vi"/>
 			<Item Name="Routine.Create.vi" Type="VI" URL="../SubVIs/Routine.Create.vi"/>
 			<Item Name="Routines.Compile.vi" Type="VI" URL="../SubVIs/Routines.Compile.vi"/>
 			<Item Name="Security.FG.vi" Type="VI" URL="../SubVIs/Security.FG.vi"/>
+			<Item Name="Seperate Signal Name and Parameters.vi" Type="VI" URL="../SubVIs/Seperate Signal Name and Parameters.vi"/>
 			<Item Name="Service.Create.vi" Type="VI" URL="../SubVIs/Service.Create.vi"/>
 			<Item Name="Service.EnumToGUID.vi" Type="VI" URL="../SubVIs/Service.EnumToGUID.vi"/>
 			<Item Name="ServiceChannels.Create.vi" Type="VI" URL="../SubVIs/ServiceChannels.Create.vi"/>
@@ -160,8 +167,12 @@
 			<Item Name="UnlockECU.Compile.vi" Type="VI" URL="../SubVIs/UnlockECU.Compile.vi"/>
 			<Item Name="UserDefined.Compile.vi" Type="VI" URL="../SubVIs/UserDefined.Compile.vi"/>
 			<Item Name="WriteSignal.Create.vi" Type="VI" URL="../SubVIs/WriteSignal.Create.vi"/>
+			<Item Name="Ask User For Import CSV File Location.vi" Type="VI" URL="../SubVIs/Ask User For Import CSV File Location.vi"/>
+			<Item Name="Remove Previous Configurations by ID.vi" Type="VI" URL="../SubVIs/Remove Previous Configurations by ID.vi"/>
+			<Item Name="Remove Previous Configurations by Name.vi" Type="VI" URL="../SubVIs/Remove Previous Configurations by Name.vi"/>
 			<Item Name="WriteSignals.Compile.vi" Type="VI" URL="../SubVIs/WriteSignals.Compile.vi"/>
 			<Item Name="XNETDB.Add.vi" Type="VI" URL="../SubVIs/XNETDB.Add.vi"/>
+			<Item Name="Name.CheckErrors.NoID.vi" Type="VI" URL="../SubVIs/Name.CheckErrors.NoID.vi"/>
 		</Item>
 		<Item Name="Types" Type="Folder">
 			<Item Name="Addon.Initialize.ctl" Type="VI" URL="../Types/Addon.Initialize.ctl"/>
@@ -177,6 +188,7 @@
 			<Item Name="Service.Export.ctl" Type="VI" URL="../Types/Service.Export.ctl"/>
 			<Item Name="Service.Settings.ctl" Type="VI" URL="../Types/Service.Settings.ctl"/>
 			<Item Name="Settings.Channel.ctl" Type="VI" URL="../Types/Settings.Channel.ctl"/>
+			<Item Name="UserDefinedMessage.Export.ctl" Type="VI" URL="../Types/UserDefinedMessage.Export.ctl"/>
 		</Item>
 	</Item>
 </Library>

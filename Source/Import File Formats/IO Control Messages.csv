@@ -1,0 +1,7 @@
+IO Control Name (xID).<Command/Response>.Signal Name,Start Bit,Length,Factor,Offset,Minimum,Maximum,Type,Endian,Default,Units
+IO Control1 (x1111).Command.Signal1,8,16,1,0,0,1000,Unsigned,Big,0,V
+IO Control1 (x1111).Command.Signal2,24,16,1,0,0,1000,Unsigned,Big,0,V
+IO Control1 (x1111).Response.Signal1,8,16,1,0,0,1000,Unsigned,Big,0,V
+IO Control2 (x2222).Command.Signal1,8,16,1,0,0,1000,Unsigned,Big,0,V
+IO Control2 (x2222).Response.Signal1,8,16,1,0,0,1000,Unsigned,Big,0,V
+IO Control2 (x2222).Response.Signal2,24,16,1,0,0,1000,Unsigned,Big,0,V

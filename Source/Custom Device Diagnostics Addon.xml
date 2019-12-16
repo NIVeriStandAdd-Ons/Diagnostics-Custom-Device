@@ -1555,6 +1555,18 @@
 					</Item2Launch>
 				</MenuItem>
 				<MenuItem>
+					<GUID>E8938DB5-6100-47B4-865D-F2B4BCF8DA64</GUID>
+					<Type>Action</Type>
+					<Name>
+						<eng>Import</eng>
+						<loc>Import</loc>
+					</Name>
+					<Item2Launch>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\Import IO Controls.vi</Path>
+					</Item2Launch>
+				</MenuItem>
+				<MenuItem>
 					<GUID>7755077A-1485-13A6-5674A23FB86277FF</GUID>
 					<Type>Separator</Type>
 					<Name>
@@ -1600,6 +1612,31 @@
 					<TipStrip>
 						<eng>Add</eng>
 						<loc>Add</loc>
+					</TipStrip>
+					<Documentation>
+						<eng />
+						<loc />
+					</Documentation>
+				</Button>
+				<Button>
+					<ID>Import Frames</ID>
+					<Glyph>
+						<Type>To Application Data Dir</Type>
+						<Path>System Explorer\Glyphs\NI-XNET ImportXNETFrames.png</Path>
+					</Glyph>
+					<Type>Action</Type>
+					<ReferencedGUID>E8938DB5-6100-47B4-865D-F2B4BCF8DA64</ReferencedGUID>
+					<ButtonText>
+						<eng>Import</eng>
+						<loc>Import</loc>
+					</ButtonText>
+					<Caption>
+						<eng>Import</eng>
+						<loc>Import</loc>
+					</Caption>
+					<TipStrip>
+						<eng>Import</eng>
+						<loc>Import</loc>
 					</TipStrip>
 					<Documentation>
 						<eng />
@@ -1849,6 +1886,18 @@
 					</Item2Launch>
 				</MenuItem>
 				<MenuItem>
+					<GUID>EAE8C286-A90E-4FE1-9005-9DD5BD6EF978</GUID>
+					<Type>Action</Type>
+					<Name>
+						<eng>Import</eng>
+						<loc>Import</loc>
+					</Name>
+					<Item2Launch>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\Import Routines.vi</Path>
+					</Item2Launch>
+				</MenuItem>
+				<MenuItem>
 					<GUID>7755077A-1485-13A6-5674A23FB86277FF</GUID>
 					<Type>Separator</Type>
 					<Name>
@@ -1894,6 +1943,31 @@
 					<TipStrip>
 						<eng>Add</eng>
 						<loc>Add</loc>
+					</TipStrip>
+					<Documentation>
+						<eng />
+						<loc />
+					</Documentation>
+				</Button>
+				<Button>
+					<ID>Import Frames</ID>
+					<Glyph>
+						<Type>To Application Data Dir</Type>
+						<Path>System Explorer\Glyphs\NI-XNET ImportXNETFrames.png</Path>
+					</Glyph>
+					<Type>Action</Type>
+					<ReferencedGUID>EAE8C286-A90E-4FE1-9005-9DD5BD6EF978</ReferencedGUID>
+					<ButtonText>
+						<eng>Import</eng>
+						<loc>Import</loc>
+					</ButtonText>
+					<Caption>
+						<eng>Import</eng>
+						<loc>Import</loc>
+					</Caption>
+					<TipStrip>
+						<eng>Import</eng>
+						<loc>Import</loc>
 					</TipStrip>
 					<Documentation>
 						<eng />
@@ -2666,6 +2740,18 @@
 					</Item2Launch>
 				</MenuItem>
 				<MenuItem>
+					<GUID>901B662E-BC5C-479E-B24E-042D746D7823</GUID>
+					<Type>Action</Type>
+					<Name>
+						<eng>Import</eng>
+						<loc>Import</loc>
+					</Name>
+					<Item2Launch>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics addon Configuration.llb\Import User Defined Messages.vi</Path>
+					</Item2Launch>
+				</MenuItem>
+				<MenuItem>
 					<GUID>7755077A-1485-13A6-5674A23FB86277FF</GUID>
 					<Type>Separator</Type>
 					<Name>
@@ -2723,6 +2809,31 @@
 					<TipStrip>
 						<eng>Add</eng>
 						<loc>Add</loc>
+					</TipStrip>
+					<Documentation>
+						<eng />
+						<loc />
+					</Documentation>
+				</Button>
+				<Button>
+					<ID>Import Frames</ID>
+					<Glyph>
+						<Type>To Application Data Dir</Type>
+						<Path>System Explorer\Glyphs\NI-XNET ImportXNETFrames.png</Path>
+					</Glyph>
+					<Type>Action</Type>
+					<ReferencedGUID>901B662E-BC5C-479E-B24E-042D746D7823</ReferencedGUID>
+					<ButtonText>
+						<eng>Import</eng>
+						<loc>Import</loc>
+					</ButtonText>
+					<Caption>
+						<eng>Import</eng>
+						<loc>Import</loc>
+					</Caption>
+					<TipStrip>
+						<eng>Import</eng>
+						<loc>Import</loc>
 					</TipStrip>
 					<Documentation>
 						<eng />

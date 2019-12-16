@@ -1,0 +1,7 @@
+Message Name.<Command/Response>.Signal Name,Start Bit,Length,Factor,Offset,Minimum,Maximum,Type,Endian,Default,Units
+Message1.Command.Signal1,8,16,1,0,0,1000,Unsigned,Big,0,V
+Message1.Command.Signal2,24,16,1,0,0,1000,Unsigned,Big,0,V
+Message1.Response.Signal1,8,16,1,0,0,1000,Unsigned,Big,0,V
+Message2.Command.Signal1,8,16,1,0,0,1000,Unsigned,Big,0,V
+Message2.Response.Signal1,8,16,1,0,0,1000,Unsigned,Big,0,V
+Message2.Response.Signal2,24,16,1,0,0,1000,Unsigned,Big,0,V
