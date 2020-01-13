@@ -15,7 +15,67 @@
 		<hr width="100%" noshade>
 	</noscript>
 <h1>Diagnostics</h1>
-<p class="Body">The diagnostics add-on reads DIDs, PIDs, and DTCs.  It writes CPIDs and clears DTCs.</p>
+<p class="Body">The diagnostic addon reads DIDs, PIDs (GMLAN only), memory (KWP/UDS only) and DTCs. It writes DIDs, CPIDs (GMLAN only), memory (KWP/UDS only) and clears DTCs. KWP/UDS also supports IO control, routines (start, stop, status), and custom (user defiend) messages.</p> The complete list of supported services are as follows:
+<p><strong>UDS</strong>
+<ul>
+<li>Tester Present (x3E)
+<li>Diagnostic Session Control (x10)
+<li>Communication Control (x28)
+<li>ECU Reset (x11)
+<li>Request Seed/Send Key (x27)
+<li>Read Data by Identifier (x22)
+<li>Write Data by Identifier (x2E)
+<li>Read Memory by Address (x23)
+<li>Write Memory by Address (x3D)
+<li>Input Output Control By Identifier (x2F)
+<li>Routine Control (x31)
+<li>Control DTC Setting (x85)
+<li>Report Severity Information of DTC (x19 with x9 option)
+<li>Report DTC by Status Mask (x19 with x2 option)
+<li>Clear Diagnostic Information (x14)
+</ul>
+</p>
+<p><strong>KWP</strong>
+<ul>
+<li>Tester Present (x3E)
+<li>Start Diagnostic Session (x10)
+<li>Stop Diagnostic Session (x20)
+<li>Disable Normal Message Transmission (x28)
+<li>Enable Normal Message Transmission (x29)
+<li>ECU Reset (x11)
+<li>Request Seed/Send Key (x27)
+<li>Read Data by Local Identifier (x21)
+<li>Write Data by Local Identifier (x3B)
+<li>Read Memory by Address (x23)
+<li>Write Memory by Address (x3D)
+<li>Input Output Control By Local Identifier (x30)
+<li>Start Routine by Local Identifier (x31)
+<li>Stop Routine by Local Identifier (x32)
+<li>Request Routine Results by Local Identifier (x33)
+<li>Control DTC Setting (x85)
+<li>Read Status of DTC (x17)
+<li>Read DTC by Status (x18)
+<li>Clear Diagnostic Information (x14)
+</ul>
+</p>
+<p><strong>GMLAN Only</strong>
+<ul>
+<li>Tester Present (x3E)
+<li>Initiate Diagnostic Operation (x10)
+<li>Disable Normal Communication (x28)
+<li>Return to Normal Mode (x20)
+<li>Request Seed/Send Key (x27)
+<li>Read Data by Identifier (x1A)
+<li>Write Data by Identifier (x3B)
+<li>Read Data By Parameter Identifier(x22)
+<li>Device Control (xAE)
+<li>Dynamically Define Message (x2C) 
+<li>Read Data By Packet Identifier (xAA)
+<li>Read Status Of DTC By DTC Number (xA9 with x80 option)
+<li>Read DTCs by Status (xA9 with x81 option)
+<li>Send On Change DTC Count (xA9 with x82 option)
+<li>Clear Diagnostic Information (x4)
+</ul>
 <h2>What do you want to do?</h2>
 <h3>Disable Add-on</h3>
 <p class="Body">To disable this add-on, right click on the add-on instance and select <strong>Disable</strong> from the shortcut menu.</p>
