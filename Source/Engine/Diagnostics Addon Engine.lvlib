@@ -85,7 +85,6 @@
 		<Item Name="Diagnostics.State.ctl" Type="VI" URL="../Types/Diagnostics.State.ctl"/>
 		<Item Name="DPIDs.IDs.Sorted.ctl" Type="VI" URL="../Types/DPIDs.IDs.Sorted.ctl"/>
 		<Item Name="DTC.ChangeCount.Info.ctl" Type="VI" URL="../Types/DTC.ChangeCount.Info.ctl"/>
-		<Item Name="Frame.Data.ctl" Type="VI" URL="../Types/Frame.Data.ctl"/>
 		<Item Name="Polling.States.ctl" Type="VI" URL="../Types/Polling.States.ctl"/>
 		<Item Name="XNET.Cluster.ctl" Type="VI" URL="../Types/XNET.Cluster.ctl"/>
 		<Item Name="XNET.Refs.ctl" Type="VI" URL="../Types/XNET.Refs.ctl"/>
