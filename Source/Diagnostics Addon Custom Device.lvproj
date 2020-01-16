@@ -710,7 +710,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{E856676F-7217-448B-BEC2-A97D093ABD05}</Property>
-				<Property Name="Bld_version.build" Type="Int">84</Property>
+				<Property Name="Bld_version.build" Type="Int">89</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../Built/Display Templates</Property>
@@ -787,7 +787,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{C021ABF5-F162-42ED-A3FE-E7F5C3071421}</Property>
-				<Property Name="Bld_version.build" Type="Int">67</Property>
+				<Property Name="Bld_version.build" Type="Int">75</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../Built/Workspace Tools/Diagnostics Tool</Property>
@@ -856,6 +856,51 @@
 				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Diagnostics Host Automation API.lvlib/UDS KWP</Property>
 				<Property Name="Source[9].type" Type="Str">Container</Property>
 				<Property Name="SourceCount" Type="Int">13</Property>
+			</Item>
+			<Item Name="Workspace Tool EXE" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{984AE479-D69E-4068-BEED-61204B8AEC3E}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{81B886B9-31BF-4F0B-95C2-A8F7B33097CC}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{BF5C9957-2403-427F-8F11-10BAEAEB1C98}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Workspace Tool EXE</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Built/Workspace Tools/Diagnostics Tool</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{AA8F946A-B854-4F6C-B81C-D118EB2E3293}</Property>
+				<Property Name="Bld_version.build" Type="Int">5</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">Diagnostics Tool.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../Built/Workspace Tools/Diagnostics Tool/Diagnostics Tool.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../Built/Workspace Tools/Diagnostics Tool/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{BDA63A62-E782-4035-A8D9-2E176B06FF6A}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Diagnostics Workspace Tool.lvlib/Diagnostics - Tool.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Diagnostics Workspace Tool.lvlib/Diagnostics - Tool.rtm</Property>
+				<Property Name="Source[2].lvfile" Type="Bool">true</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="SourceCount" Type="Int">3</Property>
+				<Property Name="TgtF_companyName" Type="Str">National Instruments</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Workspace Tool EXE</Property>
+				<Property Name="TgtF_internalName" Type="Str">Workspace Tool EXE</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2020 National Instruments</Property>
+				<Property Name="TgtF_productName" Type="Str">Workspace Tool EXE</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{F5956FDC-B488-454F-BF7C-63889CA82B31}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Diagnostics Tool.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
 	</Item>

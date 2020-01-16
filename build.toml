@@ -30,6 +30,13 @@ target = 'My Computer'
 build_spec = 'Workspace Tool'
 
 [[build.steps]]
+name = 'Workspace Tool EXE'
+type = 'lvBuildSpec'
+project = '{cd}'
+target = 'My Computer'
+build_spec = 'Workspace Tool EXE'
+
+[[build.steps]]
 name = 'Host API'
 type = 'lvBuildSpec'
 project = '{cd}'

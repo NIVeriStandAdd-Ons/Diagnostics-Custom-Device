@@ -5,13 +5,15 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Item Name="SubVIs" Type="Folder">
+		<Item Name="UI.Addon.Path.Parse.vi" Type="VI" URL="../SubVIs/UI.Addon.Path.Parse.vi"/>
+		<Item Name="UI.Connection.State.Get.vi" Type="VI" URL="../SubVIs/UI.Connection.State.Get.vi"/>
+		<Item Name="UI.Menu.Config.State.Set.vi" Type="VI" URL="../SubVIs/UI.Menu.Config.State.Set.vi"/>
 		<Item Name="Workspace.CAN.Protocol.Get.vi" Type="VI" URL="../SubVIs/Workspace.CAN.Protocol.Get.vi"/>
 		<Item Name="Workspace.Channels.Create.vi" Type="VI" URL="../SubVIs/Workspace.Channels.Create.vi"/>
 		<Item Name="Workspace.Close.vi" Type="VI" URL="../SubVIs/Workspace.Close.vi"/>
 		<Item Name="Workspace.CustomDevices.Get.vi" Type="VI" URL="../SubVIs/Workspace.CustomDevices.Get.vi"/>
 		<Item Name="Workspace.DTC.Update.vi" Type="VI" URL="../SubVIs/Workspace.DTC.Update.vi"/>
 		<Item Name="Workspace.Initialize.vi" Type="VI" URL="../SubVIs/Workspace.Initialize.vi"/>
-		<Item Name="Workspace.Path.RemoveIP.vi" Type="VI" URL="../SubVIs/Workspace.Path.RemoveIP.vi"/>
 		<Item Name="Workspace.Select.Dialog.vi" Type="VI" URL="../SubVIs/Workspace.Select.Dialog.vi"/>
 		<Item Name="Workspace.Select.Initialize.vi" Type="VI" URL="../SubVIs/Workspace.Select.Initialize.vi"/>
 		<Item Name="Workspace.Targets.Get.vi" Type="VI" URL="../SubVIs/Workspace.Targets.Get.vi"/>
