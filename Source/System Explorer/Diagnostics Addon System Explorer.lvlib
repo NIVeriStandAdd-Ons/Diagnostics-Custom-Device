@@ -73,7 +73,7 @@
 				<Item Name="Edit DPID.vi" Type="VI" URL="../RTMs/Edit DPID.vi"/>
 				<Item Name="Edit Frame.vi" Type="VI" URL="../RTMs/Edit Frame.vi"/>
 				<Item Name="Edit Poll.vi" Type="VI" URL="../RTMs/Edit Poll.vi"/>
-				<Item Name="ExportConfigurationToFile.vi" Type="VI" URL="../SubVIs/ExportConfigurationToFile.vi"/>
+				<Item Name="ExportConfigurationToFile.vi" Type="VI" URL="../RTMs/ExportConfigurationToFile.vi"/>
 				<Item Name="Import DPIDs.vi" Type="VI" URL="../RTMs/Import DPIDs.vi"/>
 				<Item Name="Import Frames.vi" Type="VI" URL="../RTMs/Import Frames.vi"/>
 				<Item Name="Import IO Controls.vi" Type="VI" URL="../RTMs/Import IO Controls.vi"/>
@@ -153,7 +153,7 @@
 			<Item Name="ServiceStatusSignals.Create.vi" Type="VI" URL="../SubVIs/ServiceStatusSignals.Create.vi"/>
 			<Item Name="ServiceTrigger.Compile.vi" Type="VI" URL="../SubVIs/ServiceTrigger.Compile.vi"/>
 			<Item Name="SettingChannels.GetRefs.vi" Type="VI" URL="../SubVIs/SettingChannels.GetRefs.vi"/>
-			<Item Name="Settings.Create.vi" Type="VI" URL="../SubVIs/Settings.Create.vi"/>
+			<Item Name="Settings.CreatePerType.vi" Type="VI" URL="../SubVIs/Settings.CreatePerType.vi"/>
 			<Item Name="Signal.Convert.StringArray.vi" Type="VI" URL="../SubVIs/Signal.Convert.StringArray.vi"/>
 			<Item Name="Signal.Export.StringArray.vi" Type="VI" URL="../SubVIs/Signal.Export.StringArray.vi"/>
 			<Item Name="Signal.FG.vi" Type="VI" URL="../SubVIs/Signal.FG.vi"/>
@@ -173,6 +173,9 @@
 			<Item Name="WriteSignals.Compile.vi" Type="VI" URL="../SubVIs/WriteSignals.Compile.vi"/>
 			<Item Name="XNETDB.Add.vi" Type="VI" URL="../SubVIs/XNETDB.Add.vi"/>
 			<Item Name="Name.CheckErrors.NoID.vi" Type="VI" URL="../SubVIs/Name.CheckErrors.NoID.vi"/>
+			<Item Name="Settings.Create.vi" Type="VI" URL="../SubVIs/Settings.Create.vi"/>
+			<Item Name="Security.MasterKeyChannelValues.Get.vi" Type="VI" URL="../SubVIs/Security.MasterKeyChannelValues.Get.vi"/>
+			<Item Name="Security.MasterKeyChannelValues.Set.vi" Type="VI" URL="../SubVIs/Security.MasterKeyChannelValues.Set.vi"/>
 		</Item>
 		<Item Name="Types" Type="Folder">
 			<Item Name="Addon.Initialize.ctl" Type="VI" URL="../Types/Addon.Initialize.ctl"/>

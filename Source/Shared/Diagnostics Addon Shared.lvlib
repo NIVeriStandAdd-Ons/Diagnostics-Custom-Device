@@ -37,6 +37,7 @@
 		<Item Name="SubVIs" Type="Folder">
 			<Item Name="Constants.vi" Type="VI" URL="../SubVIs/Constants.vi"/>
 			<Item Name="DTCs.Codes.Get.vi" Type="VI" URL="../SubVIs/DTCs.Codes.Get.vi"/>
+			<Item Name="Format ECU Master Key to String.vi" Type="VI" URL="../SubVIs/Format ECU Master Key to String.vi"/>
 			<Item Name="Frame.Get.Size.vi" Type="VI" URL="../SubVIs/Frame.Get.Size.vi"/>
 			<Item Name="LookupID.Create.vi" Type="VI" URL="../SubVIs/LookupID.Create.vi"/>
 			<Item Name="XNET.Create.Frame.vi" Type="VI" URL="../SubVIs/XNET.Create.Frame.vi"/>
