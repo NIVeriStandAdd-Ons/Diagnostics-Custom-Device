@@ -169,6 +169,7 @@
 			<Item Name="WriteSignal.Create.vi" Type="VI" URL="../SubVIs/WriteSignal.Create.vi"/>
 			<Item Name="Ask User For Import CSV File Location.vi" Type="VI" URL="../SubVIs/Ask User For Import CSV File Location.vi"/>
 			<Item Name="Remove Previous Configurations by ID.vi" Type="VI" URL="../SubVIs/Remove Previous Configurations by ID.vi"/>
+			<Item Name="Addon.Version.Upgrade.vi" Type="VI" URL="../SubVIs/Addon.Version.Upgrade.vi"/>
 			<Item Name="Remove Previous Configurations by Name.vi" Type="VI" URL="../SubVIs/Remove Previous Configurations by Name.vi"/>
 			<Item Name="WriteSignals.Compile.vi" Type="VI" URL="../SubVIs/WriteSignals.Compile.vi"/>
 			<Item Name="XNETDB.Add.vi" Type="VI" URL="../SubVIs/XNETDB.Add.vi"/>
