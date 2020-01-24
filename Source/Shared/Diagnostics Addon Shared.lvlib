@@ -35,13 +35,17 @@
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
 	<Item Name="Shared" Type="Folder">
 		<Item Name="SubVIs" Type="Folder">
+			<Item Name="Addon.Version.Upgrade.vi" Type="VI" URL="../SubVIs/Addon.Version.Upgrade.vi"/>
 			<Item Name="Constants.vi" Type="VI" URL="../SubVIs/Constants.vi"/>
 			<Item Name="DTCs.Codes.Get.vi" Type="VI" URL="../SubVIs/DTCs.Codes.Get.vi"/>
 			<Item Name="Format ECU Master Key to String.vi" Type="VI" URL="../SubVIs/Format ECU Master Key to String.vi"/>
 			<Item Name="Frame.Get.Size.vi" Type="VI" URL="../SubVIs/Frame.Get.Size.vi"/>
 			<Item Name="LookupID.Create.vi" Type="VI" URL="../SubVIs/LookupID.Create.vi"/>
+			<Item Name="MasterKey.String.ConvertToChannelValues.vi" Type="VI" URL="../SubVIs/MasterKey.String.ConvertToChannelValues.vi"/>
+			<Item Name="Settings.Create.vi" Type="VI" URL="../SubVIs/Settings.Create.vi"/>
 			<Item Name="XNET.Create.Frame.vi" Type="VI" URL="../SubVIs/XNET.Create.Frame.vi"/>
 			<Item Name="XNET.Create.Signal.vi" Type="VI" URL="../SubVIs/XNET.Create.Signal.vi"/>
+			<Item Name="XNETDB.Add.vi" Type="VI" URL="../SubVIs/XNETDB.Add.vi"/>
 		</Item>
 		<Item Name="Types" Type="Folder">
 			<Item Name="986x.ctl" Type="VI" URL="../Types/986x.ctl"/>
@@ -75,6 +79,7 @@
 			<Item Name="Security.ctl" Type="VI" URL="../Types/Security.ctl"/>
 			<Item Name="Security.Type.ctl" Type="VI" URL="../Types/Security.Type.ctl"/>
 			<Item Name="ServiceChannels.LookupType.ctl" Type="VI" URL="../Types/ServiceChannels.LookupType.ctl"/>
+			<Item Name="Settings.Channel.ctl" Type="VI" URL="../Types/Settings.Channel.ctl"/>
 			<Item Name="Signal.ctl" Type="VI" URL="../Types/Signal.ctl"/>
 			<Item Name="SysDef.Compile.ctl" Type="VI" URL="../Types/SysDef.Compile.ctl"/>
 			<Item Name="Transport.ctl" Type="VI" URL="../Types/Transport.ctl"/>

@@ -169,12 +169,9 @@
 			<Item Name="WriteSignal.Create.vi" Type="VI" URL="../SubVIs/WriteSignal.Create.vi"/>
 			<Item Name="Ask User For Import CSV File Location.vi" Type="VI" URL="../SubVIs/Ask User For Import CSV File Location.vi"/>
 			<Item Name="Remove Previous Configurations by ID.vi" Type="VI" URL="../SubVIs/Remove Previous Configurations by ID.vi"/>
-			<Item Name="Addon.Version.Upgrade.vi" Type="VI" URL="../SubVIs/Addon.Version.Upgrade.vi"/>
 			<Item Name="Remove Previous Configurations by Name.vi" Type="VI" URL="../SubVIs/Remove Previous Configurations by Name.vi"/>
 			<Item Name="WriteSignals.Compile.vi" Type="VI" URL="../SubVIs/WriteSignals.Compile.vi"/>
-			<Item Name="XNETDB.Add.vi" Type="VI" URL="../SubVIs/XNETDB.Add.vi"/>
 			<Item Name="Name.CheckErrors.NoID.vi" Type="VI" URL="../SubVIs/Name.CheckErrors.NoID.vi"/>
-			<Item Name="Settings.Create.vi" Type="VI" URL="../SubVIs/Settings.Create.vi"/>
 			<Item Name="Security.MasterKeyChannelValues.Get.vi" Type="VI" URL="../SubVIs/Security.MasterKeyChannelValues.Get.vi"/>
 			<Item Name="Security.MasterKeyChannelValues.Set.vi" Type="VI" URL="../SubVIs/Security.MasterKeyChannelValues.Set.vi"/>
 		</Item>
@@ -191,7 +188,6 @@
 			<Item Name="Routine.Export.ctl" Type="VI" URL="../Types/Routine.Export.ctl"/>
 			<Item Name="Service.Export.ctl" Type="VI" URL="../Types/Service.Export.ctl"/>
 			<Item Name="Service.Settings.ctl" Type="VI" URL="../Types/Service.Settings.ctl"/>
-			<Item Name="Settings.Channel.ctl" Type="VI" URL="../Types/Settings.Channel.ctl"/>
 			<Item Name="UserDefinedMessage.Export.ctl" Type="VI" URL="../Types/UserDefinedMessage.Export.ctl"/>
 		</Item>
 	</Item>
