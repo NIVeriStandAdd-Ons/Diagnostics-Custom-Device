@@ -47,7 +47,7 @@
 			<Item Name="Diagnostics_Addon_Temp_DB.xml" Type="Document" URL="../Diagnostics_Addon_Temp_DB.xml"/>
 			<Item Name="GMLAN.lvlib" Type="Library" URL="../Engine/SubVIs/GMLAN/GMLAN.lvlib"/>
 		</Item>
-		<Item Name="Utility" Type="Folder">
+		<Item Name="Utilities" Type="Folder">
 			<Item Name="Copy .LLB to NI VeriStand dir.vi" Type="VI" URL="../Utility/Copy .LLB to NI VeriStand dir.vi"/>
 			<Item Name="LLB Pre-Build CHM Build.vi" Type="VI" URL="../Utility/LLB Pre-Build CHM Build.vi"/>
 		</Item>
@@ -413,8 +413,8 @@
 				<Property Name="Bld_excludeTypedefs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">../Built/custom devices/Diagnostics Addon/Windows</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
-				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
-				<Property Name="Bld_preActionVIID" Type="Ref">/My Computer/Utility/LLB Pre-Build CHM Build.vi</Property>
+				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utilities/Copy .LLB to NI VeriStand dir.vi</Property>
+				<Property Name="Bld_preActionVIID" Type="Ref">/My Computer/Utilities/LLB Pre-Build CHM Build.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{E8035317-FDF9-4FC1-9EF0-1450E8CAE472}</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
@@ -512,13 +512,13 @@
 				<Property Name="Bld_buildSpecName" Type="Str">Engine Release</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../Built/Custom Devices/Diagnostics Addon/Windows/Diagnostics Addon Engine.llb</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Built/Custom Devices/Diagnostics Addon/Windows/Diagnostics Addon Engine Windows.llb</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
-				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
+				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utilities/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{32214451-43E2-4D3E-92C8-CE819321FAC4}</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
-				<Property Name="Destination[0].path" Type="Path">../Built/Custom Devices/Diagnostics Addon/Windows/Diagnostics Addon Engine.llb</Property>
+				<Property Name="Destination[0].path" Type="Path">../Built/Custom Devices/Diagnostics Addon/Windows/Diagnostics Addon Engine Windows.llb</Property>
 				<Property Name="Destination[0].type" Type="Str">LLB</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../Built/Custom Devices/Diagnostics Addon/Windows/Data</Property>
@@ -527,7 +527,7 @@
 				<Property Name="DestinationCount" Type="Int">3</Property>
 				<Property Name="Source[0].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{DDDD350B-8D0C-4293-8DAF-BE98B0AC5B0B}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{8654910B-F2AC-4AC7-B546-92168EC5EF80}</Property>
 				<Property Name="Source[0].properties[0].type" Type="Str">Allow debugging</Property>
 				<Property Name="Source[0].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[0].properties[1].type" Type="Str">Auto error handling</Property>
@@ -598,22 +598,22 @@
 				<Property Name="Source[4].type" Type="Str">Container</Property>
 				<Property Name="Source[5].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[5].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[5].itemID" Type="Ref"></Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Diagnostics Addon Engine.lvlib/SubVIs</Property>
 				<Property Name="Source[5].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[5].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[5].properties[1].type" Type="Str">Remove block diagram</Property>
 				<Property Name="Source[5].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[5].properties[2].type" Type="Str">Run when opened</Property>
+				<Property Name="Source[5].properties[2].type" Type="Str">Auto error handling</Property>
 				<Property Name="Source[5].properties[2].value" Type="Bool">false</Property>
 				<Property Name="Source[5].properties[3].type" Type="Str">Allow debugging</Property>
 				<Property Name="Source[5].properties[3].value" Type="Bool">false</Property>
-				<Property Name="Source[5].properties[4].type" Type="Str">Auto error handling</Property>
+				<Property Name="Source[5].properties[4].type" Type="Str">Run when opened</Property>
 				<Property Name="Source[5].properties[4].value" Type="Bool">false</Property>
 				<Property Name="Source[5].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[5].type" Type="Str">Container</Property>
 				<Property Name="Source[6].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[6].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Diagnostics Addon Engine.lvlib/SubVIs</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Diagnostics Addon Engine.lvlib/Types</Property>
 				<Property Name="Source[6].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[6].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[6].properties[1].type" Type="Str">Remove block diagram</Property>
@@ -626,37 +626,7 @@
 				<Property Name="Source[6].properties[4].value" Type="Bool">false</Property>
 				<Property Name="Source[6].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[6].type" Type="Str">Container</Property>
-				<Property Name="Source[7].Container.applyProperties" Type="Bool">true</Property>
-				<Property Name="Source[7].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[7].itemID" Type="Ref">/My Computer/Diagnostics Addon Engine.lvlib/Types</Property>
-				<Property Name="Source[7].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[7].properties[0].value" Type="Bool">true</Property>
-				<Property Name="Source[7].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[7].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[7].properties[2].type" Type="Str">Auto error handling</Property>
-				<Property Name="Source[7].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[7].properties[3].type" Type="Str">Allow debugging</Property>
-				<Property Name="Source[7].properties[3].value" Type="Bool">false</Property>
-				<Property Name="Source[7].properties[4].type" Type="Str">Run when opened</Property>
-				<Property Name="Source[7].properties[4].value" Type="Bool">false</Property>
-				<Property Name="Source[7].propertiesCount" Type="Int">5</Property>
-				<Property Name="Source[7].type" Type="Str">Container</Property>
-				<Property Name="Source[8].Container.applyProperties" Type="Bool">true</Property>
-				<Property Name="Source[8].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[8].itemID" Type="Ref"></Property>
-				<Property Name="Source[8].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[8].properties[0].value" Type="Bool">false</Property>
-				<Property Name="Source[8].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[8].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[8].properties[2].type" Type="Str">Run when opened</Property>
-				<Property Name="Source[8].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[8].properties[3].type" Type="Str">Allow debugging</Property>
-				<Property Name="Source[8].properties[3].value" Type="Bool">false</Property>
-				<Property Name="Source[8].properties[4].type" Type="Str">Auto error handling</Property>
-				<Property Name="Source[8].properties[4].value" Type="Bool">false</Property>
-				<Property Name="Source[8].propertiesCount" Type="Int">5</Property>
-				<Property Name="Source[8].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">9</Property>
+				<Property Name="SourceCount" Type="Int">7</Property>
 			</Item>
 			<Item Name="Host API" Type="Packed Library">
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
@@ -668,7 +638,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">../Built/Custom Devices/Diagnostics Addon/Windows/Host Automation API</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
+				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utilities/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{706BCA4B-DC79-44C7-B9C3-465B8696B650}</Property>
 				<Property Name="Bld_version.build" Type="Int">37</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
@@ -708,9 +678,9 @@
 				<Property Name="Bld_excludeTypedefs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">../Built/Display Templates</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
-				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
+				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utilities/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{E856676F-7217-448B-BEC2-A97D093ABD05}</Property>
-				<Property Name="Bld_version.build" Type="Int">90</Property>
+				<Property Name="Bld_version.build" Type="Int">91</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../Built/Display Templates</Property>
@@ -785,21 +755,21 @@
 				<Property Name="Bld_excludeTypedefs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">../Built/Workspace Tools/Diagnostics Tool</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
-				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
+				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utilities/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{C021ABF5-F162-42ED-A3FE-E7F5C3071421}</Property>
-				<Property Name="Bld_version.build" Type="Int">76</Property>
+				<Property Name="Bld_version.build" Type="Int">77</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../Built/Workspace Tools/Diagnostics Tool</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../Built/Workspace Tools/Diagnostics Tool/data</Property>
-				<Property Name="Destination[2].destName" Type="Str">Diagnostics Workspace Tool Support</Property>
-				<Property Name="Destination[2].path" Type="Path">../Built/Workspace Tools/Diagnostics Tool/Diagnostics Workspace Tool Support.llb</Property>
+				<Property Name="Destination[2].destName" Type="Str">Diagnostics Tool Support</Property>
+				<Property Name="Destination[2].path" Type="Path">../Built/Workspace Tools/Diagnostics Tool/Diagnostics Tool Support.llb</Property>
 				<Property Name="Destination[2].type" Type="Str">LLB</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
 				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[0].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{E2F6E23E-E259-4CBD-AEEF-44E4B7ECBA79}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{629B93DD-F964-433A-82A1-A8E161B97AD7}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">2</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Diagnostics Addon Shared.lvlib</Property>
@@ -871,9 +841,9 @@
 				<Property Name="Bld_localDestDir" Type="Path">../Built/Workspace Tools/Diagnostics Tool</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
+				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utilities/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{AA8F946A-B854-4F6C-B81C-D118EB2E3293}</Property>
-				<Property Name="Bld_version.build" Type="Int">6</Property>
+				<Property Name="Bld_version.build" Type="Int">7</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Diagnostics Tool.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../Built/Workspace Tools/Diagnostics Tool/Diagnostics Tool.exe</Property>
@@ -961,7 +931,6 @@
 		<Item Name="Diagnostics Addon Shared.lvlib" Type="Library" URL="../Shared/Diagnostics Addon Shared.lvlib"/>
 		<Item Name="GMLAN.lvlib" Type="Library" URL="../Engine/SubVIs/GMLAN/GMLAN.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
-			<Item Name="user.lib" Type="Folder"/>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="_XNET Close All.vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/_XNET Close All.vi"/>
 				<Item Name="_XNET Convert List From Array To Comma.vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/_XNET Convert List From Array To Comma.vi"/>
@@ -1257,7 +1226,7 @@
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">../Built/Custom Devices/Diagnostics Addon</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
-				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
+				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utilities/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{FFDCA642-638A-4664-9D94-164F9021CA4C}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/Pharlap/Diagnostics Addon Engine Pharlap.llb</Property>
 				<Property Name="Bld_version.build" Type="Int">139</Property>
@@ -1480,7 +1449,6 @@
 		<Item Name="Diagnostics Addon Shared.lvlib" Type="Library" URL="../Shared/Diagnostics Addon Shared.lvlib"/>
 		<Item Name="GMLAN.lvlib" Type="Library" URL="../Engine/SubVIs/GMLAN/GMLAN.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
-			<Item Name="user.lib" Type="Folder"/>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="_XNET Close All.vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/_XNET Close All.vi"/>
 				<Item Name="_XNET Convert List From Array To Comma.vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/_XNET Convert List From Array To Comma.vi"/>
@@ -1777,7 +1745,7 @@
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">../Built/Custom Devices/Diagnostics Addon</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
-				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
+				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utilities/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{3939FB3D-726E-4D10-82BD-7FE8FBCCD360}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/Linux_32_ARM/Diagnostics Addon Engine LinuxARM.llb</Property>
 				<Property Name="Bld_version.build" Type="Int">37</Property>
@@ -2009,7 +1977,6 @@
 		<Item Name="Diagnostics Addon Shared.lvlib" Type="Library" URL="../Shared/Diagnostics Addon Shared.lvlib"/>
 		<Item Name="GMLAN.lvlib" Type="Library" URL="../Engine/SubVIs/GMLAN/GMLAN.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
-			<Item Name="user.lib" Type="Folder"/>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="_XNET Close All.vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/_XNET Close All.vi"/>
 				<Item Name="_XNET Convert List From Array To Comma.vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/_XNET Convert List From Array To Comma.vi"/>
@@ -2306,7 +2273,7 @@
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">../Built/Custom Devices/Diagnostics Addon</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
-				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
+				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utilities/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D2B3104C-D323-41E8-B4BA-9185D7889B63}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/Linux_x64/Diagnostics Addon Engine Linux64.llb</Property>
 				<Property Name="Bld_version.build" Type="Int">39</Property>

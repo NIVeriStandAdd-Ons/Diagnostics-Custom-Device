@@ -5,7 +5,7 @@
 		<eng>National Instruments::Diagnostics Addon</eng>
 		<loc>National Instruments::Diagnostics Addon</loc>
 	</AddMenu>
-	<Version>1.0.2</Version>
+	<Version>1.0.3</Version>
 	<Type>Inline HW Interface</Type>
 	<MaxOccurrence>-1</MaxOccurrence>
 	<MainPageGUID>0B9E0FC8-0CF3-4008-BFB5-1E927C310F03</MainPageGUID>
@@ -22,9 +22,9 @@
 				<SupportedTarget>Windows</SupportedTarget>
 				<Source>
 					<Type>To Common Doc Dir</Type>
-					<Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics Addon Engine.llb\RT Driver VI.vi</Path>
+					<Path>Custom Devices\Diagnostics Addon\Windows\Diagnostics Addon Engine Windows.llb\RT Driver VI.vi</Path>
 				</Source>
-				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Diagnostics Addon\Diagnostics Addon Engine.llb\RT Driver VI.vi</RealTimeSystemDestination>
+				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Diagnostics Addon\Diagnostics Addon Engine Windows.llb\RT Driver VI.vi</RealTimeSystemDestination>
 			</Source>
 			<Source>
 				<SupportedTarget>Pharlap</SupportedTarget>
@@ -61,8 +61,8 @@
 			</Name>
 			<GUID>0B9E0FC8-0CF3-4008-BFB5-1E927C310F03</GUID>
 			<Glyph>
-				<Type>To Application Data Dir</Type>
-				<Path>System Explorer\Glyphs\NI-XNET Port.png</Path>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\Diagnostics Addon\Windows\Glyphs\Diag.png</Path>
 			</Glyph>
 			<Item2Launch>
 				<Type>To Common Doc Dir</Type>
@@ -155,8 +155,8 @@
 			</Name>
 			<GUID>F25C602E-152F-45E8-8766-09738EB15F4F</GUID>
 			<Glyph>
-				<Type>To Application Data Dir</Type>
-				<Path>System Explorer\Glyphs\NI-XNET Port Disabled.png</Path>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\Diagnostics Addon\Windows\Glyphs\Diag_Disabled.png</Path>
 			</Glyph>
 			<Item2Launch>
 				<Type>To Common Doc Dir</Type>

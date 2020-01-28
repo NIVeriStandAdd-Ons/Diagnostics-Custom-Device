@@ -13,10 +13,12 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="System Definition API" Type="Folder">
+			<Item Name="Diagnostics System Definition API.lvlib" Type="Library" URL="../System Definition API/Diagnostics System Definition API.lvlib"/>
+		</Item>
 		<Item Name="Utilities" Type="Folder">
 			<Item Name="Copy .LLB to NI VeriStand dir.vi" Type="VI" URL="../Utility/Copy .LLB to NI VeriStand dir.vi"/>
 		</Item>
-		<Item Name="Diagnostics Addon SysDef API.lvlib" Type="Library" URL="../System Definition API/Diagnostics Addon SysDef API.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Advanced System Definition.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NI VeriStand Advanced SysDef API/SysDef API/Advanced System Definition.lvlib"/>
@@ -94,7 +96,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utilities/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{1D4A5F48-8CAB-4E0A-88B5-1E80E621E437}</Property>
-				<Property Name="Bld_version.build" Type="Int">19</Property>
+				<Property Name="Bld_version.build" Type="Int">20</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Diagnostics System Definition API.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">../Built/custom devices/Diagnostics Addon/Windows/System Definition API/Diagnostics System Definition API.lvlibp</Property>
@@ -107,7 +109,7 @@
 				<Property Name="Source[0].itemID" Type="Str">{3CF4253A-E8B4-4216-9291-829D2D001AE6}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Diagnostics Addon SysDef API.lvlib</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/System Definition API/Diagnostics System Definition API.lvlib</Property>
 				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[1].Library.atomicCopy" Type="Bool">true</Property>
 				<Property Name="Source[1].Library.LVLIBPtopLevel" Type="Bool">true</Property>
