@@ -557,7 +557,7 @@
 				<Property Name="DestinationCount" Type="Int">3</Property>
 				<Property Name="Source[0].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{8654910B-F2AC-4AC7-B546-92168EC5EF80}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{7D8095A2-E5BC-4969-9445-0D06A114D926}</Property>
 				<Property Name="Source[0].properties[0].type" Type="Str">Allow debugging</Property>
 				<Property Name="Source[0].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[0].properties[1].type" Type="Str">Auto error handling</Property>
@@ -583,7 +583,7 @@
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[2].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Addon/Diagnostics Addon Engine.lvlib/Engines</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Addon/Diagnostics Addon Shared.lvlib/Shared</Property>
 				<Property Name="Source[2].properties[0].type" Type="Str">Run when opened</Property>
 				<Property Name="Source[2].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[2].properties[1].type" Type="Str">Allow debugging</Property>
@@ -591,46 +591,47 @@
 				<Property Name="Source[2].properties[2].type" Type="Str">Auto error handling</Property>
 				<Property Name="Source[2].properties[2].value" Type="Bool">false</Property>
 				<Property Name="Source[2].properties[3].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[2].properties[3].value" Type="Bool">false</Property>
+				<Property Name="Source[2].properties[3].value" Type="Bool">true</Property>
 				<Property Name="Source[2].properties[4].type" Type="Str">Remove block diagram</Property>
 				<Property Name="Source[2].properties[4].value" Type="Bool">true</Property>
 				<Property Name="Source[2].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[2].type" Type="Str">Container</Property>
 				<Property Name="Source[3].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[3].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[3].itemID" Type="Ref"></Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Addon/Diagnostics Addon Engine.lvlib/SubVIs</Property>
 				<Property Name="Source[3].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[3].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[3].properties[1].type" Type="Str">Remove block diagram</Property>
 				<Property Name="Source[3].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[3].properties[2].type" Type="Str">Run when opened</Property>
+				<Property Name="Source[3].properties[2].type" Type="Str">Auto error handling</Property>
 				<Property Name="Source[3].properties[2].value" Type="Bool">false</Property>
 				<Property Name="Source[3].properties[3].type" Type="Str">Allow debugging</Property>
 				<Property Name="Source[3].properties[3].value" Type="Bool">false</Property>
-				<Property Name="Source[3].properties[4].type" Type="Str">Auto error handling</Property>
+				<Property Name="Source[3].properties[4].type" Type="Str">Run when opened</Property>
 				<Property Name="Source[3].properties[4].value" Type="Bool">false</Property>
 				<Property Name="Source[3].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[3].type" Type="Str">Container</Property>
 				<Property Name="Source[4].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[4].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Addon/Diagnostics Addon Shared.lvlib/Shared</Property>
-				<Property Name="Source[4].properties[0].type" Type="Str">Run when opened</Property>
-				<Property Name="Source[4].properties[0].value" Type="Bool">false</Property>
-				<Property Name="Source[4].properties[1].type" Type="Str">Allow debugging</Property>
-				<Property Name="Source[4].properties[1].value" Type="Bool">false</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Addon/Diagnostics Addon Engine.lvlib/Types</Property>
+				<Property Name="Source[4].properties[0].type" Type="Str">Remove front panel</Property>
+				<Property Name="Source[4].properties[0].value" Type="Bool">true</Property>
+				<Property Name="Source[4].properties[1].type" Type="Str">Remove block diagram</Property>
+				<Property Name="Source[4].properties[1].value" Type="Bool">true</Property>
 				<Property Name="Source[4].properties[2].type" Type="Str">Auto error handling</Property>
 				<Property Name="Source[4].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[4].properties[3].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[4].properties[3].value" Type="Bool">true</Property>
-				<Property Name="Source[4].properties[4].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[4].properties[4].value" Type="Bool">true</Property>
+				<Property Name="Source[4].properties[3].type" Type="Str">Allow debugging</Property>
+				<Property Name="Source[4].properties[3].value" Type="Bool">false</Property>
+				<Property Name="Source[4].properties[4].type" Type="Str">Run when opened</Property>
+				<Property Name="Source[4].properties[4].value" Type="Bool">false</Property>
 				<Property Name="Source[4].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[4].type" Type="Str">Container</Property>
 				<Property Name="Source[5].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[5].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Addon/Diagnostics Addon Engine.lvlib/SubVIs</Property>
+				<Property Name="Source[5].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Addon/Diagnostics Addon Engine.lvlib/Processes</Property>
 				<Property Name="Source[5].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[5].properties[0].value" Type="Bool">true</Property>
+				<Property Name="Source[5].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[5].properties[1].type" Type="Str">Remove block diagram</Property>
 				<Property Name="Source[5].properties[1].value" Type="Bool">true</Property>
 				<Property Name="Source[5].properties[2].type" Type="Str">Auto error handling</Property>
@@ -641,22 +642,7 @@
 				<Property Name="Source[5].properties[4].value" Type="Bool">false</Property>
 				<Property Name="Source[5].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[5].type" Type="Str">Container</Property>
-				<Property Name="Source[6].Container.applyProperties" Type="Bool">true</Property>
-				<Property Name="Source[6].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Addon/Diagnostics Addon Engine.lvlib/Types</Property>
-				<Property Name="Source[6].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[6].properties[0].value" Type="Bool">true</Property>
-				<Property Name="Source[6].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[6].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[6].properties[2].type" Type="Str">Auto error handling</Property>
-				<Property Name="Source[6].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[6].properties[3].type" Type="Str">Allow debugging</Property>
-				<Property Name="Source[6].properties[3].value" Type="Bool">false</Property>
-				<Property Name="Source[6].properties[4].type" Type="Str">Run when opened</Property>
-				<Property Name="Source[6].properties[4].value" Type="Bool">false</Property>
-				<Property Name="Source[6].propertiesCount" Type="Int">5</Property>
-				<Property Name="Source[6].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">7</Property>
+				<Property Name="SourceCount" Type="Int">6</Property>
 			</Item>
 			<Item Name="Host API" Type="Packed Library">
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
@@ -954,17 +940,15 @@
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Item Name="Diagnostics Addon Engine.lvlib" Type="Library" URL="../Addon/Addon Engine/Diagnostics Addon Engine.lvlib"/>
-		<Item Name="Diagnostics Addon Shared.lvlib" Type="Library" URL="../Addon/Addon Shared/Diagnostics Addon Shared.lvlib"/>
-		<Item Name="GMLAN.lvlib" Type="Library" URL="../Addon/Support Libraries/GMLAN/GMLAN.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
+			<Property Name="NI.SortType" Type="Int">0</Property>
 			<Item Name="vi.lib" Type="Folder">
+				<Property Name="NI.SortType" Type="Int">3</Property>
 				<Item Name="_XNET Close All.vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/_XNET Close All.vi"/>
 				<Item Name="_XNET Convert List From Array To Comma.vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/_XNET Convert List From Array To Comma.vi"/>
 				<Item Name="_XNET Create Session.vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/_XNET Create Session.vi"/>
 				<Item Name="_XNET Split Database Cluster.vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/_XNET Split Database Cluster.vi"/>
 				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
-				<Item Name="Advanced System Definition.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NI VeriStand Advanced SysDef API/SysDef API/Advanced System Definition.lvlib"/>
-				<Item Name="AMC.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/AMC/AMC.lvlib"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
@@ -975,8 +959,6 @@
 				<Item Name="Convert GroupOfDTCs.vi" Type="VI" URL="/&lt;vilib&gt;/Automotive Diagnostic Command Set/Diagnostic Protocols.llb/Convert GroupOfDTCs.vi"/>
 				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
 				<Item Name="Convert to Phys.vi" Type="VI" URL="/&lt;vilib&gt;/Automotive Diagnostic Command Set/Diagnostic Protocols.llb/Convert to Phys.vi"/>
-				<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device API/Custom Device API.lvlib"/>
-				<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
 				<Item Name="Data Access Engine.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_Data Access Engine/Data Access Engine.lvlib"/>
 				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
 				<Item Name="Diagnostic Trouble Code.ctl" Type="VI" URL="/&lt;vilib&gt;/Automotive Diagnostic Command Set/Diagnostic Protocols.llb/Diagnostic Trouble Code.ctl"/>
@@ -1009,7 +991,6 @@
 				<Item Name="MD5Checksum format message-digest.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/MD5Checksum.llb/MD5Checksum format message-digest.vi"/>
 				<Item Name="MD5Checksum pad.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/MD5Checksum.llb/MD5Checksum pad.vi"/>
 				<Item Name="MergeError.vi" Type="VI" URL="/&lt;vilib&gt;/NI VeriStand/Execution/Shared/MergeError.vi"/>
-				<Item Name="NI STM.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/STM/NI STM.lvlib"/>
 				<Item Name="NI VeriStand Addon Network Comm Shared.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NI VeriStand Addon Network Comm/Shared/NI VeriStand Addon Network Comm Shared.lvlib"/>
 				<Item Name="NI VeriStand Addon Network Comm.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NI VeriStand Addon Network Comm/Engine/NI VeriStand Addon Network Comm.lvlib"/>
 				<Item Name="NI_Automotive Diagnostic Command Set.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/Automotive Diagnostic Command Set/NI_Automotive Diagnostic Command Set.lvlib"/>
@@ -1047,8 +1028,6 @@
 				<Item Name="TesterPresent.vi" Type="VI" URL="/&lt;vilib&gt;/Automotive Diagnostic Command Set/Diagnostic Protocols.llb/TesterPresent.vi"/>
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
-				<Item Name="Tools_KeyedArray.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Tools/Keyed Array/Tools_KeyedArray.lvlib"/>
-				<Item Name="Tools_String.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Tools/String/Tools_String.lvlib"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="UDS ClearDiagnosticInformation.vi" Type="VI" URL="/&lt;vilib&gt;/Automotive Diagnostic Command Set/Diagnostic Protocols.llb/UDS ClearDiagnosticInformation.vi"/>
 				<Item Name="UDS CommunicationControl.vi" Type="VI" URL="/&lt;vilib&gt;/Automotive Diagnostic Command Set/Diagnostic Protocols.llb/UDS CommunicationControl.vi"/>
@@ -1207,7 +1186,16 @@
 				<Item Name="XNET String To IO Name (Session).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET String To IO Name (Session).vi"/>
 				<Item Name="XNET String To IO Name (Signal).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET String To IO Name (Signal).vi"/>
 				<Item Name="XNET String To IO Name (Subframe).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET String To IO Name (Subframe).vi"/>
+				<Item Name="AMC.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/AMC/AMC.lvlib"/>
+				<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device API/Custom Device API.lvlib"/>
+				<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
+				<Item Name="NI STM.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/STM/NI STM.lvlib"/>
+				<Item Name="Tools_KeyedArray.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Tools/Keyed Array/Tools_KeyedArray.lvlib"/>
+				<Item Name="Tools_String.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Tools/String/Tools_String.lvlib"/>
+				<Item Name="Advanced System Definition.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NI VeriStand Advanced SysDef API/SysDef API/Advanced System Definition.lvlib"/>
 			</Item>
+			<Item Name="Diagnostics Addon Shared.lvlib" Type="Library" URL="../Addon/Addon Shared/Diagnostics Addon Shared.lvlib"/>
+			<Item Name="GMLAN.lvlib" Type="Library" URL="../Addon/Support Libraries/GMLAN/GMLAN.lvlib"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -1255,7 +1243,7 @@
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utilities/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{FFDCA642-638A-4664-9D94-164F9021CA4C}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/Pharlap/Diagnostics Addon Engine Pharlap.llb</Property>
-				<Property Name="Bld_version.build" Type="Int">139</Property>
+				<Property Name="Bld_version.build" Type="Int">141</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">/Pharlap/Diagnostics Addon Engine Pharlap.llb</Property>
@@ -1266,18 +1254,15 @@
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Source[0].Container.applyProperties" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{067AAD3F-487F-44FF-AE51-C2C359B99C2A}</Property>
-				<Property Name="Source[0].properties[0].type" Type="Str">Remove front panel</Property>
+				<Property Name="Source[0].Container.applySaveSettings" Type="Bool">true</Property>
+				<Property Name="Source[0].itemID" Type="Str">{FAB830E2-5056-4451-B51D-27E7FC5E4EDA}</Property>
+				<Property Name="Source[0].properties[0].type" Type="Str">Allow debugging</Property>
 				<Property Name="Source[0].properties[0].value" Type="Bool">false</Property>
-				<Property Name="Source[0].properties[1].type" Type="Str">Remove block diagram</Property>
+				<Property Name="Source[0].properties[1].type" Type="Str">Run when opened</Property>
 				<Property Name="Source[0].properties[1].value" Type="Bool">false</Property>
-				<Property Name="Source[0].properties[2].type" Type="Str">Allow debugging</Property>
+				<Property Name="Source[0].properties[2].type" Type="Str">Auto error handling</Property>
 				<Property Name="Source[0].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[0].properties[3].type" Type="Str">Run when opened</Property>
-				<Property Name="Source[0].properties[3].value" Type="Bool">false</Property>
-				<Property Name="Source[0].properties[4].type" Type="Str">Auto error handling</Property>
-				<Property Name="Source[0].properties[4].value" Type="Bool">false</Property>
-				<Property Name="Source[0].propertiesCount" Type="Int">5</Property>
+				<Property Name="Source[0].propertiesCount" Type="Int">3</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/RT PXI Target - Pharlap/Diagnostics Addon Engine.lvlib/RT Driver VI.vi</Property>
@@ -1296,22 +1281,22 @@
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[2].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/RT PXI Target - Pharlap/Diagnostics Addon Engine.lvlib/Engines</Property>
-				<Property Name="Source[2].properties[0].type" Type="Str">Auto error handling</Property>
-				<Property Name="Source[2].properties[0].value" Type="Bool">false</Property>
-				<Property Name="Source[2].properties[1].type" Type="Str">Allow debugging</Property>
-				<Property Name="Source[2].properties[1].value" Type="Bool">false</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/RT PXI Target - Pharlap/Diagnostics Addon Engine.lvlib/SubVIs</Property>
+				<Property Name="Source[2].properties[0].type" Type="Str">Remove front panel</Property>
+				<Property Name="Source[2].properties[0].value" Type="Bool">true</Property>
+				<Property Name="Source[2].properties[1].type" Type="Str">Remove block diagram</Property>
+				<Property Name="Source[2].properties[1].value" Type="Bool">true</Property>
 				<Property Name="Source[2].properties[2].type" Type="Str">Run when opened</Property>
 				<Property Name="Source[2].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[2].properties[3].type" Type="Str">Remove front panel</Property>
+				<Property Name="Source[2].properties[3].type" Type="Str">Allow debugging</Property>
 				<Property Name="Source[2].properties[3].value" Type="Bool">false</Property>
-				<Property Name="Source[2].properties[4].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[2].properties[4].value" Type="Bool">true</Property>
+				<Property Name="Source[2].properties[4].type" Type="Str">Auto error handling</Property>
+				<Property Name="Source[2].properties[4].value" Type="Bool">false</Property>
 				<Property Name="Source[2].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[2].type" Type="Str">Container</Property>
 				<Property Name="Source[3].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[3].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[3].itemID" Type="Ref"></Property>
+				<Property Name="Source[3].itemID" Type="Ref">/RT PXI Target - Pharlap/Diagnostics Addon Engine.lvlib/Types</Property>
 				<Property Name="Source[3].properties[0].type" Type="Str">Auto error handling</Property>
 				<Property Name="Source[3].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[3].properties[1].type" Type="Str">Allow debugging</Property>
@@ -1326,7 +1311,7 @@
 				<Property Name="Source[3].type" Type="Str">Container</Property>
 				<Property Name="Source[4].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[4].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/RT PXI Target - Pharlap/Diagnostics Addon Engine.lvlib/SubVIs</Property>
+				<Property Name="Source[4].itemID" Type="Ref"></Property>
 				<Property Name="Source[4].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[4].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[4].properties[1].type" Type="Str">Remove block diagram</Property>
@@ -1341,7 +1326,8 @@
 				<Property Name="Source[4].type" Type="Str">Container</Property>
 				<Property Name="Source[5].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[5].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/RT PXI Target - Pharlap/Diagnostics Addon Engine.lvlib/Types</Property>
+				<Property Name="Source[5].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/RT PXI Target - Pharlap/Diagnostics Addon Engine.lvlib/Processes</Property>
 				<Property Name="Source[5].properties[0].type" Type="Str">Auto error handling</Property>
 				<Property Name="Source[5].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[5].properties[1].type" Type="Str">Allow debugging</Property>
@@ -1349,19 +1335,20 @@
 				<Property Name="Source[5].properties[2].type" Type="Str">Run when opened</Property>
 				<Property Name="Source[5].properties[2].value" Type="Bool">false</Property>
 				<Property Name="Source[5].properties[3].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[5].properties[3].value" Type="Bool">true</Property>
+				<Property Name="Source[5].properties[3].value" Type="Bool">false</Property>
 				<Property Name="Source[5].properties[4].type" Type="Str">Remove block diagram</Property>
 				<Property Name="Source[5].properties[4].value" Type="Bool">true</Property>
 				<Property Name="Source[5].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[5].type" Type="Str">Container</Property>
 				<Property Name="Source[6].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[6].Container.applySaveSettings" Type="Bool">true</Property>
+				<Property Name="Source[6].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[6].itemID" Type="Ref"></Property>
-				<Property Name="Source[6].properties[0].type" Type="Str">Run when opened</Property>
+				<Property Name="Source[6].properties[0].type" Type="Str">Auto error handling</Property>
 				<Property Name="Source[6].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[6].properties[1].type" Type="Str">Allow debugging</Property>
 				<Property Name="Source[6].properties[1].value" Type="Bool">false</Property>
-				<Property Name="Source[6].properties[2].type" Type="Str">Auto error handling</Property>
+				<Property Name="Source[6].properties[2].type" Type="Str">Run when opened</Property>
 				<Property Name="Source[6].properties[2].value" Type="Bool">false</Property>
 				<Property Name="Source[6].properties[3].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[6].properties[3].value" Type="Bool">true</Property>
@@ -1369,52 +1356,7 @@
 				<Property Name="Source[6].properties[4].value" Type="Bool">true</Property>
 				<Property Name="Source[6].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[6].type" Type="Str">Container</Property>
-				<Property Name="Source[7].Container.applyProperties" Type="Bool">true</Property>
-				<Property Name="Source[7].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[7].itemID" Type="Ref"></Property>
-				<Property Name="Source[7].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[7].properties[0].value" Type="Bool">false</Property>
-				<Property Name="Source[7].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[7].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[7].properties[2].type" Type="Str">Auto error handling</Property>
-				<Property Name="Source[7].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[7].properties[3].type" Type="Str">Allow debugging</Property>
-				<Property Name="Source[7].properties[3].value" Type="Bool">false</Property>
-				<Property Name="Source[7].properties[4].type" Type="Str">Run when opened</Property>
-				<Property Name="Source[7].properties[4].value" Type="Bool">false</Property>
-				<Property Name="Source[7].propertiesCount" Type="Int">5</Property>
-				<Property Name="Source[7].type" Type="Str">Container</Property>
-				<Property Name="Source[8].Container.applyProperties" Type="Bool">true</Property>
-				<Property Name="Source[8].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[8].itemID" Type="Ref">/RT PXI Target - Pharlap/Diagnostics Addon Shared.lvlib/Shared</Property>
-				<Property Name="Source[8].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[8].properties[0].value" Type="Bool">true</Property>
-				<Property Name="Source[8].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[8].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[8].properties[2].type" Type="Str">Run when opened</Property>
-				<Property Name="Source[8].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[8].properties[3].type" Type="Str">Allow debugging</Property>
-				<Property Name="Source[8].properties[3].value" Type="Bool">false</Property>
-				<Property Name="Source[8].properties[4].type" Type="Str">Auto error handling</Property>
-				<Property Name="Source[8].properties[4].value" Type="Bool">false</Property>
-				<Property Name="Source[8].propertiesCount" Type="Int">5</Property>
-				<Property Name="Source[8].type" Type="Str">Container</Property>
-				<Property Name="Source[9].Container.applyProperties" Type="Bool">true</Property>
-				<Property Name="Source[9].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[9].itemID" Type="Ref">/RT PXI Target - Pharlap/GMLAN.lvlib/GMLAN</Property>
-				<Property Name="Source[9].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[9].properties[0].value" Type="Bool">true</Property>
-				<Property Name="Source[9].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[9].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[9].properties[2].type" Type="Str">Auto error handling</Property>
-				<Property Name="Source[9].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[9].properties[3].type" Type="Str">Allow debugging</Property>
-				<Property Name="Source[9].properties[3].value" Type="Bool">false</Property>
-				<Property Name="Source[9].properties[4].type" Type="Str">Run when opened</Property>
-				<Property Name="Source[9].properties[4].value" Type="Bool">false</Property>
-				<Property Name="Source[9].propertiesCount" Type="Int">5</Property>
-				<Property Name="Source[9].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">10</Property>
+				<Property Name="SourceCount" Type="Int">7</Property>
 			</Item>
 		</Item>
 	</Item>
@@ -1469,8 +1411,6 @@
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Item Name="Diagnostics Addon Engine.lvlib" Type="Library" URL="../Addon/Addon Engine/Diagnostics Addon Engine.lvlib"/>
-		<Item Name="Diagnostics Addon Shared.lvlib" Type="Library" URL="../Addon/Addon Shared/Diagnostics Addon Shared.lvlib"/>
-		<Item Name="GMLAN.lvlib" Type="Library" URL="../Addon/Support Libraries/GMLAN/GMLAN.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="_XNET Close All.vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/_XNET Close All.vi"/>
@@ -1723,6 +1663,8 @@
 				<Item Name="XNET String To IO Name (Signal).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET String To IO Name (Signal).vi"/>
 				<Item Name="XNET String To IO Name (Subframe).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET String To IO Name (Subframe).vi"/>
 			</Item>
+			<Item Name="Diagnostics Addon Shared.lvlib" Type="Library" URL="../Addon/Addon Shared/Diagnostics Addon Shared.lvlib"/>
+			<Item Name="GMLAN.lvlib" Type="Library" URL="../Addon/Support Libraries/GMLAN/GMLAN.lvlib"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -1781,18 +1723,15 @@
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Source[0].Container.applyProperties" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{CBDEE55D-B9FF-49C9-99AB-DCEEC74A06DF}</Property>
+				<Property Name="Source[0].Container.applySaveSettings" Type="Bool">true</Property>
+				<Property Name="Source[0].itemID" Type="Str">{078ED5F0-A758-4456-8DFE-2E07195225B4}</Property>
 				<Property Name="Source[0].properties[0].type" Type="Str">Run when opened</Property>
 				<Property Name="Source[0].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[0].properties[1].type" Type="Str">Allow debugging</Property>
 				<Property Name="Source[0].properties[1].value" Type="Bool">false</Property>
 				<Property Name="Source[0].properties[2].type" Type="Str">Auto error handling</Property>
 				<Property Name="Source[0].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[0].properties[3].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[0].properties[3].value" Type="Bool">true</Property>
-				<Property Name="Source[0].properties[4].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[0].properties[4].value" Type="Bool">true</Property>
-				<Property Name="Source[0].propertiesCount" Type="Int">5</Property>
+				<Property Name="Source[0].propertiesCount" Type="Int">3</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/RT CompactRIO Target - Linux ARM/Diagnostics Addon Engine.lvlib/RT Driver VI.vi</Property>
@@ -1812,132 +1751,68 @@
 				<Property Name="Source[2].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[2].Container.applySaveSettings" Type="Bool">true</Property>
 				<Property Name="Source[2].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref"></Property>
-				<Property Name="Source[2].properties[0].type" Type="Str">Run when opened</Property>
-				<Property Name="Source[2].properties[0].value" Type="Bool">false</Property>
-				<Property Name="Source[2].properties[1].type" Type="Str">Allow debugging</Property>
-				<Property Name="Source[2].properties[1].value" Type="Bool">false</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/RT CompactRIO Target - Linux ARM/Diagnostics Addon Engine.lvlib/SubVIs</Property>
+				<Property Name="Source[2].properties[0].type" Type="Str">Remove front panel</Property>
+				<Property Name="Source[2].properties[0].value" Type="Bool">true</Property>
+				<Property Name="Source[2].properties[1].type" Type="Str">Remove block diagram</Property>
+				<Property Name="Source[2].properties[1].value" Type="Bool">true</Property>
 				<Property Name="Source[2].properties[2].type" Type="Str">Auto error handling</Property>
 				<Property Name="Source[2].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[2].properties[3].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[2].properties[3].value" Type="Bool">true</Property>
-				<Property Name="Source[2].properties[4].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[2].properties[4].value" Type="Bool">true</Property>
+				<Property Name="Source[2].properties[3].type" Type="Str">Allow debugging</Property>
+				<Property Name="Source[2].properties[3].value" Type="Bool">false</Property>
+				<Property Name="Source[2].properties[4].type" Type="Str">Run when opened</Property>
+				<Property Name="Source[2].properties[4].value" Type="Bool">false</Property>
 				<Property Name="Source[2].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[2].type" Type="Str">Container</Property>
 				<Property Name="Source[3].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[3].Container.applySaveSettings" Type="Bool">true</Property>
 				<Property Name="Source[3].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/RT CompactRIO Target - Linux ARM/Diagnostics Addon Engine.lvlib/Engines</Property>
-				<Property Name="Source[3].properties[0].type" Type="Str">Auto error handling</Property>
-				<Property Name="Source[3].properties[0].value" Type="Bool">false</Property>
-				<Property Name="Source[3].properties[1].type" Type="Str">Allow debugging</Property>
-				<Property Name="Source[3].properties[1].value" Type="Bool">false</Property>
-				<Property Name="Source[3].properties[2].type" Type="Str">Run when opened</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/RT CompactRIO Target - Linux ARM/Diagnostics Addon Engine.lvlib/Types</Property>
+				<Property Name="Source[3].properties[0].type" Type="Str">Remove front panel</Property>
+				<Property Name="Source[3].properties[0].value" Type="Bool">true</Property>
+				<Property Name="Source[3].properties[1].type" Type="Str">Remove block diagram</Property>
+				<Property Name="Source[3].properties[1].value" Type="Bool">true</Property>
+				<Property Name="Source[3].properties[2].type" Type="Str">Allow debugging</Property>
 				<Property Name="Source[3].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[3].properties[3].type" Type="Str">Remove front panel</Property>
+				<Property Name="Source[3].properties[3].type" Type="Str">Run when opened</Property>
 				<Property Name="Source[3].properties[3].value" Type="Bool">false</Property>
-				<Property Name="Source[3].properties[4].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[3].properties[4].value" Type="Bool">true</Property>
+				<Property Name="Source[3].properties[4].type" Type="Str">Auto error handling</Property>
+				<Property Name="Source[3].properties[4].value" Type="Bool">false</Property>
 				<Property Name="Source[3].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[3].type" Type="Str">Container</Property>
 				<Property Name="Source[4].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[4].Container.applySaveSettings" Type="Bool">true</Property>
 				<Property Name="Source[4].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[4].itemID" Type="Ref"></Property>
-				<Property Name="Source[4].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[4].properties[0].value" Type="Bool">true</Property>
-				<Property Name="Source[4].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[4].properties[1].value" Type="Bool">true</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/RT CompactRIO Target - Linux ARM/Dependencies/Diagnostics Addon Shared.lvlib/Shared</Property>
+				<Property Name="Source[4].properties[0].type" Type="Str">Run when opened</Property>
+				<Property Name="Source[4].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[4].properties[1].type" Type="Str">Allow debugging</Property>
+				<Property Name="Source[4].properties[1].value" Type="Bool">false</Property>
 				<Property Name="Source[4].properties[2].type" Type="Str">Auto error handling</Property>
 				<Property Name="Source[4].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[4].properties[3].type" Type="Str">Allow debugging</Property>
-				<Property Name="Source[4].properties[3].value" Type="Bool">false</Property>
-				<Property Name="Source[4].properties[4].type" Type="Str">Run when opened</Property>
-				<Property Name="Source[4].properties[4].value" Type="Bool">false</Property>
+				<Property Name="Source[4].properties[3].type" Type="Str">Remove front panel</Property>
+				<Property Name="Source[4].properties[3].value" Type="Bool">true</Property>
+				<Property Name="Source[4].properties[4].type" Type="Str">Remove block diagram</Property>
+				<Property Name="Source[4].properties[4].value" Type="Bool">true</Property>
 				<Property Name="Source[4].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[4].type" Type="Str">Container</Property>
 				<Property Name="Source[5].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[5].Container.applySaveSettings" Type="Bool">true</Property>
 				<Property Name="Source[5].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/RT CompactRIO Target - Linux ARM/Diagnostics Addon Engine.lvlib/SubVIs</Property>
-				<Property Name="Source[5].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[5].properties[0].value" Type="Bool">true</Property>
-				<Property Name="Source[5].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[5].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[5].properties[2].type" Type="Str">Auto error handling</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/RT CompactRIO Target - Linux ARM/Diagnostics Addon Engine.lvlib/Processes</Property>
+				<Property Name="Source[5].properties[0].type" Type="Str">Allow debugging</Property>
+				<Property Name="Source[5].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[5].properties[1].type" Type="Str">Auto error handling</Property>
+				<Property Name="Source[5].properties[1].value" Type="Bool">false</Property>
+				<Property Name="Source[5].properties[2].type" Type="Str">Run when opened</Property>
 				<Property Name="Source[5].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[5].properties[3].type" Type="Str">Allow debugging</Property>
+				<Property Name="Source[5].properties[3].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[5].properties[3].value" Type="Bool">false</Property>
-				<Property Name="Source[5].properties[4].type" Type="Str">Run when opened</Property>
-				<Property Name="Source[5].properties[4].value" Type="Bool">false</Property>
+				<Property Name="Source[5].properties[4].type" Type="Str">Remove block diagram</Property>
+				<Property Name="Source[5].properties[4].value" Type="Bool">true</Property>
 				<Property Name="Source[5].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[5].type" Type="Str">Container</Property>
-				<Property Name="Source[6].Container.applyProperties" Type="Bool">true</Property>
-				<Property Name="Source[6].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[6].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[6].itemID" Type="Ref">/RT CompactRIO Target - Linux ARM/Diagnostics Addon Engine.lvlib/Types</Property>
-				<Property Name="Source[6].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[6].properties[0].value" Type="Bool">true</Property>
-				<Property Name="Source[6].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[6].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[6].properties[2].type" Type="Str">Allow debugging</Property>
-				<Property Name="Source[6].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[6].properties[3].type" Type="Str">Run when opened</Property>
-				<Property Name="Source[6].properties[3].value" Type="Bool">false</Property>
-				<Property Name="Source[6].properties[4].type" Type="Str">Auto error handling</Property>
-				<Property Name="Source[6].properties[4].value" Type="Bool">false</Property>
-				<Property Name="Source[6].propertiesCount" Type="Int">5</Property>
-				<Property Name="Source[6].type" Type="Str">Container</Property>
-				<Property Name="Source[7].Container.applyProperties" Type="Bool">true</Property>
-				<Property Name="Source[7].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[7].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[7].itemID" Type="Ref"></Property>
-				<Property Name="Source[7].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[7].properties[0].value" Type="Bool">false</Property>
-				<Property Name="Source[7].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[7].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[7].properties[2].type" Type="Str">Auto error handling</Property>
-				<Property Name="Source[7].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[7].properties[3].type" Type="Str">Allow debugging</Property>
-				<Property Name="Source[7].properties[3].value" Type="Bool">false</Property>
-				<Property Name="Source[7].properties[4].type" Type="Str">Run when opened</Property>
-				<Property Name="Source[7].properties[4].value" Type="Bool">false</Property>
-				<Property Name="Source[7].propertiesCount" Type="Int">5</Property>
-				<Property Name="Source[7].type" Type="Str">Container</Property>
-				<Property Name="Source[8].Container.applyProperties" Type="Bool">true</Property>
-				<Property Name="Source[8].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[8].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[8].itemID" Type="Ref">/RT CompactRIO Target - Linux ARM/Diagnostics Addon Shared.lvlib/Shared</Property>
-				<Property Name="Source[8].properties[0].type" Type="Str">Run when opened</Property>
-				<Property Name="Source[8].properties[0].value" Type="Bool">false</Property>
-				<Property Name="Source[8].properties[1].type" Type="Str">Allow debugging</Property>
-				<Property Name="Source[8].properties[1].value" Type="Bool">false</Property>
-				<Property Name="Source[8].properties[2].type" Type="Str">Auto error handling</Property>
-				<Property Name="Source[8].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[8].properties[3].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[8].properties[3].value" Type="Bool">true</Property>
-				<Property Name="Source[8].properties[4].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[8].properties[4].value" Type="Bool">true</Property>
-				<Property Name="Source[8].propertiesCount" Type="Int">5</Property>
-				<Property Name="Source[8].type" Type="Str">Container</Property>
-				<Property Name="Source[9].Container.applyProperties" Type="Bool">true</Property>
-				<Property Name="Source[9].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[9].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[9].itemID" Type="Ref">/RT CompactRIO Target - Linux ARM/GMLAN.lvlib/GMLAN</Property>
-				<Property Name="Source[9].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[9].properties[0].value" Type="Bool">true</Property>
-				<Property Name="Source[9].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[9].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[9].properties[2].type" Type="Str">Run when opened</Property>
-				<Property Name="Source[9].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[9].properties[3].type" Type="Str">Allow debugging</Property>
-				<Property Name="Source[9].properties[3].value" Type="Bool">false</Property>
-				<Property Name="Source[9].properties[4].type" Type="Str">Auto error handling</Property>
-				<Property Name="Source[9].properties[4].value" Type="Bool">false</Property>
-				<Property Name="Source[9].propertiesCount" Type="Int">5</Property>
-				<Property Name="Source[9].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">10</Property>
+				<Property Name="SourceCount" Type="Int">6</Property>
 			</Item>
 		</Item>
 	</Item>
@@ -1993,8 +1868,6 @@
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Item Name="Diagnostics Addon Engine.lvlib" Type="Library" URL="../Addon/Addon Engine/Diagnostics Addon Engine.lvlib"/>
-		<Item Name="Diagnostics Addon Shared.lvlib" Type="Library" URL="../Addon/Addon Shared/Diagnostics Addon Shared.lvlib"/>
-		<Item Name="GMLAN.lvlib" Type="Library" URL="../Addon/Support Libraries/GMLAN/GMLAN.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="_XNET Close All.vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/_XNET Close All.vi"/>
@@ -2247,6 +2120,8 @@
 				<Item Name="XNET String To IO Name (Signal).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET String To IO Name (Signal).vi"/>
 				<Item Name="XNET String To IO Name (Subframe).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET String To IO Name (Subframe).vi"/>
 			</Item>
+			<Item Name="Diagnostics Addon Shared.lvlib" Type="Library" URL="../Addon/Addon Shared/Diagnostics Addon Shared.lvlib"/>
+			<Item Name="GMLAN.lvlib" Type="Library" URL="../Addon/Support Libraries/GMLAN/GMLAN.lvlib"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -2305,18 +2180,15 @@
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Source[0].Container.applyProperties" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{671E86E6-ECB2-41B8-AE8E-EF421A83C0FB}</Property>
-				<Property Name="Source[0].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[0].properties[0].value" Type="Bool">true</Property>
-				<Property Name="Source[0].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[0].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[0].properties[2].type" Type="Str">Auto error handling</Property>
+				<Property Name="Source[0].Container.applySaveSettings" Type="Bool">true</Property>
+				<Property Name="Source[0].itemID" Type="Str">{CC7942A5-142D-4757-B0AF-E26CDF67031B}</Property>
+				<Property Name="Source[0].properties[0].type" Type="Str">Auto error handling</Property>
+				<Property Name="Source[0].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[0].properties[1].type" Type="Str">Run when opened</Property>
+				<Property Name="Source[0].properties[1].value" Type="Bool">false</Property>
+				<Property Name="Source[0].properties[2].type" Type="Str">Allow debugging</Property>
 				<Property Name="Source[0].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[0].properties[3].type" Type="Str">Run when opened</Property>
-				<Property Name="Source[0].properties[3].value" Type="Bool">false</Property>
-				<Property Name="Source[0].properties[4].type" Type="Str">Allow debugging</Property>
-				<Property Name="Source[0].properties[4].value" Type="Bool">false</Property>
-				<Property Name="Source[0].propertiesCount" Type="Int">5</Property>
+				<Property Name="Source[0].propertiesCount" Type="Int">3</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/RT CompactRIO Target - Linux x64/Diagnostics Addon Engine.lvlib/RT Driver VI.vi</Property>
@@ -2336,25 +2208,25 @@
 				<Property Name="Source[2].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[2].Container.applySaveSettings" Type="Bool">true</Property>
 				<Property Name="Source[2].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref"></Property>
-				<Property Name="Source[2].properties[0].type" Type="Str">Run when opened</Property>
-				<Property Name="Source[2].properties[0].value" Type="Bool">false</Property>
-				<Property Name="Source[2].properties[1].type" Type="Str">Allow debugging</Property>
-				<Property Name="Source[2].properties[1].value" Type="Bool">false</Property>
-				<Property Name="Source[2].properties[2].type" Type="Str">Auto error handling</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/RT CompactRIO Target - Linux x64/Diagnostics Addon Engine.lvlib/Types</Property>
+				<Property Name="Source[2].properties[0].type" Type="Str">Remove front panel</Property>
+				<Property Name="Source[2].properties[0].value" Type="Bool">true</Property>
+				<Property Name="Source[2].properties[1].type" Type="Str">Remove block diagram</Property>
+				<Property Name="Source[2].properties[1].value" Type="Bool">true</Property>
+				<Property Name="Source[2].properties[2].type" Type="Str">Run when opened</Property>
 				<Property Name="Source[2].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[2].properties[3].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[2].properties[3].value" Type="Bool">true</Property>
-				<Property Name="Source[2].properties[4].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[2].properties[4].value" Type="Bool">true</Property>
+				<Property Name="Source[2].properties[3].type" Type="Str">Allow debugging</Property>
+				<Property Name="Source[2].properties[3].value" Type="Bool">false</Property>
+				<Property Name="Source[2].properties[4].type" Type="Str">Auto error handling</Property>
+				<Property Name="Source[2].properties[4].value" Type="Bool">false</Property>
 				<Property Name="Source[2].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[2].type" Type="Str">Container</Property>
 				<Property Name="Source[3].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[3].Container.applySaveSettings" Type="Bool">true</Property>
 				<Property Name="Source[3].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/RT CompactRIO Target - Linux x64/Diagnostics Addon Engine.lvlib/Engines</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/RT CompactRIO Target - Linux x64/Diagnostics Addon Engine.lvlib/SubVIs</Property>
 				<Property Name="Source[3].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[3].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[3].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[3].properties[1].type" Type="Str">Remove block diagram</Property>
 				<Property Name="Source[3].properties[1].value" Type="Bool">true</Property>
 				<Property Name="Source[3].properties[2].type" Type="Str">Auto error handling</Property>
@@ -2368,100 +2240,36 @@
 				<Property Name="Source[4].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[4].Container.applySaveSettings" Type="Bool">true</Property>
 				<Property Name="Source[4].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[4].itemID" Type="Ref"></Property>
+				<Property Name="Source[4].itemID" Type="Ref">/RT CompactRIO Target - Linux x64/Dependencies/Diagnostics Addon Shared.lvlib/Shared</Property>
 				<Property Name="Source[4].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[4].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[4].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[4].properties[1].type" Type="Str">Remove block diagram</Property>
 				<Property Name="Source[4].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[4].properties[2].type" Type="Str">Auto error handling</Property>
+				<Property Name="Source[4].properties[2].type" Type="Str">Run when opened</Property>
 				<Property Name="Source[4].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[4].properties[3].type" Type="Str">Run when opened</Property>
+				<Property Name="Source[4].properties[3].type" Type="Str">Allow debugging</Property>
 				<Property Name="Source[4].properties[3].value" Type="Bool">false</Property>
-				<Property Name="Source[4].properties[4].type" Type="Str">Allow debugging</Property>
+				<Property Name="Source[4].properties[4].type" Type="Str">Auto error handling</Property>
 				<Property Name="Source[4].properties[4].value" Type="Bool">false</Property>
 				<Property Name="Source[4].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[4].type" Type="Str">Container</Property>
 				<Property Name="Source[5].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[5].Container.applySaveSettings" Type="Bool">true</Property>
 				<Property Name="Source[5].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/RT CompactRIO Target - Linux x64/Diagnostics Addon Engine.lvlib/Types</Property>
-				<Property Name="Source[5].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[5].properties[0].value" Type="Bool">true</Property>
-				<Property Name="Source[5].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[5].properties[1].value" Type="Bool">true</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/RT CompactRIO Target - Linux x64/Diagnostics Addon Engine.lvlib/Processes</Property>
+				<Property Name="Source[5].properties[0].type" Type="Str">Auto error handling</Property>
+				<Property Name="Source[5].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[5].properties[1].type" Type="Str">Allow debugging</Property>
+				<Property Name="Source[5].properties[1].value" Type="Bool">false</Property>
 				<Property Name="Source[5].properties[2].type" Type="Str">Run when opened</Property>
 				<Property Name="Source[5].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[5].properties[3].type" Type="Str">Allow debugging</Property>
+				<Property Name="Source[5].properties[3].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[5].properties[3].value" Type="Bool">false</Property>
-				<Property Name="Source[5].properties[4].type" Type="Str">Auto error handling</Property>
-				<Property Name="Source[5].properties[4].value" Type="Bool">false</Property>
+				<Property Name="Source[5].properties[4].type" Type="Str">Remove block diagram</Property>
+				<Property Name="Source[5].properties[4].value" Type="Bool">true</Property>
 				<Property Name="Source[5].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[5].type" Type="Str">Container</Property>
-				<Property Name="Source[6].Container.applyProperties" Type="Bool">true</Property>
-				<Property Name="Source[6].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[6].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[6].itemID" Type="Ref">/RT CompactRIO Target - Linux x64/Diagnostics Addon Engine.lvlib/SubVIs</Property>
-				<Property Name="Source[6].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[6].properties[0].value" Type="Bool">true</Property>
-				<Property Name="Source[6].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[6].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[6].properties[2].type" Type="Str">Auto error handling</Property>
-				<Property Name="Source[6].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[6].properties[3].type" Type="Str">Allow debugging</Property>
-				<Property Name="Source[6].properties[3].value" Type="Bool">false</Property>
-				<Property Name="Source[6].properties[4].type" Type="Str">Run when opened</Property>
-				<Property Name="Source[6].properties[4].value" Type="Bool">false</Property>
-				<Property Name="Source[6].propertiesCount" Type="Int">5</Property>
-				<Property Name="Source[6].type" Type="Str">Container</Property>
-				<Property Name="Source[7].Container.applyProperties" Type="Bool">true</Property>
-				<Property Name="Source[7].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[7].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[7].itemID" Type="Ref"></Property>
-				<Property Name="Source[7].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[7].properties[0].value" Type="Bool">true</Property>
-				<Property Name="Source[7].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[7].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[7].properties[2].type" Type="Str">Auto error handling</Property>
-				<Property Name="Source[7].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[7].properties[3].type" Type="Str">Allow debugging</Property>
-				<Property Name="Source[7].properties[3].value" Type="Bool">false</Property>
-				<Property Name="Source[7].properties[4].type" Type="Str">Run when opened</Property>
-				<Property Name="Source[7].properties[4].value" Type="Bool">false</Property>
-				<Property Name="Source[7].propertiesCount" Type="Int">5</Property>
-				<Property Name="Source[7].type" Type="Str">Container</Property>
-				<Property Name="Source[8].Container.applyProperties" Type="Bool">true</Property>
-				<Property Name="Source[8].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[8].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[8].itemID" Type="Ref">/RT CompactRIO Target - Linux x64/Diagnostics Addon Shared.lvlib/Shared</Property>
-				<Property Name="Source[8].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[8].properties[0].value" Type="Bool">true</Property>
-				<Property Name="Source[8].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[8].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[8].properties[2].type" Type="Str">Run when opened</Property>
-				<Property Name="Source[8].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[8].properties[3].type" Type="Str">Allow debugging</Property>
-				<Property Name="Source[8].properties[3].value" Type="Bool">false</Property>
-				<Property Name="Source[8].properties[4].type" Type="Str">Auto error handling</Property>
-				<Property Name="Source[8].properties[4].value" Type="Bool">false</Property>
-				<Property Name="Source[8].propertiesCount" Type="Int">5</Property>
-				<Property Name="Source[8].type" Type="Str">Container</Property>
-				<Property Name="Source[9].Container.applyProperties" Type="Bool">true</Property>
-				<Property Name="Source[9].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[9].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[9].itemID" Type="Ref">/RT CompactRIO Target - Linux x64/GMLAN.lvlib/GMLAN</Property>
-				<Property Name="Source[9].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[9].properties[0].value" Type="Bool">true</Property>
-				<Property Name="Source[9].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[9].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[9].properties[2].type" Type="Str">Run when opened</Property>
-				<Property Name="Source[9].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[9].properties[3].type" Type="Str">Allow debugging</Property>
-				<Property Name="Source[9].properties[3].value" Type="Bool">false</Property>
-				<Property Name="Source[9].properties[4].type" Type="Str">Auto error handling</Property>
-				<Property Name="Source[9].properties[4].value" Type="Bool">false</Property>
-				<Property Name="Source[9].propertiesCount" Type="Int">5</Property>
-				<Property Name="Source[9].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">10</Property>
+				<Property Name="SourceCount" Type="Int">6</Property>
 			</Item>
 		</Item>
 	</Item>
