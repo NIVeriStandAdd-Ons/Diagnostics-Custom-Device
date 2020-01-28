@@ -45,23 +45,23 @@
 				<Item Name="ActionVIOnPaste.vi" Type="VI" URL="../Actions/ActionVIOnPaste.vi"/>
 			</Item>
 			<Item Name="Extra Pages" Type="Folder">
-				<Item Name="Collection.vi" Type="VI" URL="../Pages/Collection.vi"/>
-				<Item Name="Collections.vi" Type="VI" URL="../Pages/Collections.vi"/>
-				<Item Name="Commands.vi" Type="VI" URL="../Pages/Commands.vi"/>
-				<Item Name="Default Section.vi" Type="VI" URL="../Pages/Default Section.vi"/>
-				<Item Name="DPID.vi" Type="VI" URL="../Pages/DPID.vi"/>
-				<Item Name="DPIDs.vi" Type="VI" URL="../Pages/DPIDs.vi"/>
-				<Item Name="EU Signal Page.vi" Type="VI" URL="../Pages/EU Signal Page.vi"/>
-				<Item Name="Frame.vi" Type="VI" URL="../Pages/Frame.vi"/>
-				<Item Name="Frames.vi" Type="VI" URL="../Pages/Frames.vi"/>
-				<Item Name="Poll.vi" Type="VI" URL="../Pages/Poll.vi"/>
-				<Item Name="Polling.vi" Type="VI" URL="../Pages/Polling.vi"/>
-				<Item Name="Protected.vi" Type="VI" URL="../Pages/Protected.vi"/>
-				<Item Name="Raw Signal Page.vi" Type="VI" URL="../Pages/Raw Signal Page.vi"/>
-				<Item Name="Read DTCs.vi" Type="VI" URL="../Pages/Read DTCs.vi"/>
-				<Item Name="Unlock ECU.vi" Type="VI" URL="../Pages/Unlock ECU.vi"/>
-				<Item Name="User Defined Collections.vi" Type="VI" URL="../Pages/User Defined Collections.vi"/>
-				<Item Name="User Defined Message.vi" Type="VI" URL="../Pages/User Defined Message.vi"/>
+				<Item Name="Collection.vi" Type="VI" URL="../Extra Pages/Collection.vi"/>
+				<Item Name="Collections.vi" Type="VI" URL="../Extra Pages/Collections.vi"/>
+				<Item Name="Commands.vi" Type="VI" URL="../Extra Pages/Commands.vi"/>
+				<Item Name="Default Section.vi" Type="VI" URL="../Extra Pages/Default Section.vi"/>
+				<Item Name="DPID.vi" Type="VI" URL="../Extra Pages/DPID.vi"/>
+				<Item Name="DPIDs.vi" Type="VI" URL="../Extra Pages/DPIDs.vi"/>
+				<Item Name="EU Signal Page.vi" Type="VI" URL="../Extra Pages/EU Signal Page.vi"/>
+				<Item Name="Frame.vi" Type="VI" URL="../Extra Pages/Frame.vi"/>
+				<Item Name="Frames.vi" Type="VI" URL="../Extra Pages/Frames.vi"/>
+				<Item Name="Poll.vi" Type="VI" URL="../Extra Pages/Poll.vi"/>
+				<Item Name="Polling.vi" Type="VI" URL="../Extra Pages/Polling.vi"/>
+				<Item Name="Protected.vi" Type="VI" URL="../Extra Pages/Protected.vi"/>
+				<Item Name="Raw Signal Page.vi" Type="VI" URL="../Extra Pages/Raw Signal Page.vi"/>
+				<Item Name="Read DTCs.vi" Type="VI" URL="../Extra Pages/Read DTCs.vi"/>
+				<Item Name="Unlock ECU.vi" Type="VI" URL="../Extra Pages/Unlock ECU.vi"/>
+				<Item Name="User Defined Collections.vi" Type="VI" URL="../Extra Pages/User Defined Collections.vi"/>
+				<Item Name="User Defined Message.vi" Type="VI" URL="../Extra Pages/User Defined Message.vi"/>
 			</Item>
 			<Item Name="RTMs" Type="Folder">
 				<Item Name="Add Collection.vi" Type="VI" URL="../RTMs/Add Collection.vi"/>

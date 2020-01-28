@@ -33,8 +33,8 @@
 	<Property Name="SaveStatePeriod" Type="UInt">0</Property>
 	<Property Name="Serialized ACL" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!A1%!!!@````]!!".V&lt;H.J:WZF:#"C?82F)'&amp;S=G&amp;Z!!%!!1!!!!A)!!!!#!!!!!!!!!!</Property>
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
-	<Item Name="Engines" Type="Folder">
-		<Item Name="Diagnostics.vi" Type="VI" URL="../Async VIs/Diagnostics/Diagnostics.vi"/>
+	<Item Name="Processes" Type="Folder">
+		<Item Name="Diagnostics.vi" Type="VI" URL="../Processes/Diagnostics.vi"/>
 	</Item>
 	<Item Name="SubVIs" Type="Folder">
 		<Item Name="ADCS.Get.ErrorByte.vi" Type="VI" URL="../SubVIs/ADCS.Get.ErrorByte.vi"/>
