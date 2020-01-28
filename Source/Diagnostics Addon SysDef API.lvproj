@@ -14,7 +14,7 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="System Definition API" Type="Folder">
-			<Item Name="Diagnostics System Definition API.lvlib" Type="Library" URL="../System Definition API/Diagnostics System Definition API.lvlib"/>
+			<Item Name="Diagnostics System Definition API.lvlib" Type="Library" URL="../APIs/System Definition API/Diagnostics System Definition API.lvlib"/>
 		</Item>
 		<Item Name="Utilities" Type="Folder">
 			<Item Name="Copy .LLB to NI VeriStand dir.vi" Type="VI" URL="../Utility/Copy .LLB to NI VeriStand dir.vi"/>
