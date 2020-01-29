@@ -3,7 +3,7 @@ build_output_dir = 'Built'
 archive_location = '\\us-aus-hilbuild\builds\niveristandadd-ons\custom devices\diagnostics_addon'
 
 [projects.cd]
-path = 'Source\Diagnostics Addon Custom Device.lvproj'
+path = 'Source\Diagnostics Addon.lvproj'
 
 [projects.api]
 path = 'Source\Diagnostics Addon SysDef API.lvproj'
@@ -59,7 +59,7 @@ build_spec = 'System Definition API'
 [package]
 type = 'nipkg'
 name = 'diagnostics-addon-{veristand_version}'
-dev_xml_path = 'Source\Custom Device Diagnostics Addon.xml'
+dev_xml_path = 'Source\Addon\Custom Device Diagnostics Addon.xml'
 install_destination = 'documents\National Instruments\NI VeriStand {veristand_version}'
 
 [[release.steps]]

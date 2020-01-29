@@ -411,29 +411,29 @@
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeTypedefs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../Built/custom devices/Diagnostics Addon/Windows</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Built/custom devices/NI_AB_PROJECTNAME/Windows</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utilities/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_preActionVIID" Type="Ref">/My Computer/Utilities/LLB Pre-Build CHM Build.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{E8035317-FDF9-4FC1-9EF0-1450E8CAE472}</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
-				<Property Name="Destination[0].path" Type="Path">../Built/custom devices/Diagnostics Addon/Windows</Property>
+				<Property Name="Destination[0].path" Type="Path">../Built/custom devices/NI_AB_PROJECTNAME/Windows</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../Built/custom devices/Diagnostics Addon/Windows/Data</Property>
+				<Property Name="Destination[1].path" Type="Path">../Built/custom devices/NI_AB_PROJECTNAME/Windows/Data</Property>
 				<Property Name="Destination[2].destName" Type="Str">Diagnostics Addon Configuration LLB</Property>
-				<Property Name="Destination[2].path" Type="Path">../Built/custom devices/Diagnostics Addon/Windows/Diagnostics Addon Configuration.llb</Property>
+				<Property Name="Destination[2].path" Type="Path">../Built/custom devices/NI_AB_PROJECTNAME/Windows/Diagnostics Addon Configuration.llb</Property>
 				<Property Name="Destination[2].type" Type="Str">LLB</Property>
 				<Property Name="Destination[3].destName" Type="Str">XML Folder</Property>
-				<Property Name="Destination[3].path" Type="Path">../Built/custom devices/Diagnostics Addon</Property>
+				<Property Name="Destination[3].path" Type="Path">../Built/custom devices/NI_AB_PROJECTNAME</Property>
 				<Property Name="Destination[4].destName" Type="Str">Import File Formats</Property>
-				<Property Name="Destination[4].path" Type="Path">../Built/custom devices/Diagnostics Addon/Windows/Import File Formats</Property>
+				<Property Name="Destination[4].path" Type="Path">../Built/custom devices/NI_AB_PROJECTNAME/Windows/Import File Formats</Property>
 				<Property Name="Destination[5].destName" Type="Str">Glyphs</Property>
-				<Property Name="Destination[5].path" Type="Path">../Built/custom devices/Diagnostics Addon/Windows/Glyphs</Property>
+				<Property Name="Destination[5].path" Type="Path">../Built/custom devices/NI_AB_PROJECTNAME/Windows/Glyphs</Property>
 				<Property Name="DestinationCount" Type="Int">6</Property>
 				<Property Name="Source[0].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{EE648E91-5696-43F5-A8D4-F3B812E4F4FA}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{F291C3F4-9CC3-47AA-8FEF-D120E3E60C1F}</Property>
 				<Property Name="Source[0].properties[0].type" Type="Str">Auto error handling</Property>
 				<Property Name="Source[0].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[0].properties[1].type" Type="Str">Allow debugging</Property>
@@ -500,18 +500,31 @@
 				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Addon/Support Files/Glyphs</Property>
 				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[6].type" Type="Str">Container</Property>
-				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[7].itemID" Type="Ref">/My Computer/Addon/Support Files/Help/Diagnostics.chm</Property>
-				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[7].Container.applyProperties" Type="Bool">true</Property>
+				<Property Name="Source[7].Container.applySaveSettings" Type="Bool">true</Property>
+				<Property Name="Source[7].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/My Computer/Addon/Support Libraries/GMLAN.lvlib/GMLAN</Property>
+				<Property Name="Source[7].properties[0].type" Type="Str">Run when opened</Property>
+				<Property Name="Source[7].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[7].properties[1].type" Type="Str">Allow debugging</Property>
+				<Property Name="Source[7].properties[1].value" Type="Bool">false</Property>
+				<Property Name="Source[7].properties[2].type" Type="Str">Auto error handling</Property>
+				<Property Name="Source[7].properties[2].value" Type="Bool">false</Property>
+				<Property Name="Source[7].properties[3].type" Type="Str">Remove front panel</Property>
+				<Property Name="Source[7].properties[3].value" Type="Bool">false</Property>
+				<Property Name="Source[7].properties[4].type" Type="Str">Remove block diagram</Property>
+				<Property Name="Source[7].properties[4].value" Type="Bool">true</Property>
+				<Property Name="Source[7].propertiesCount" Type="Int">5</Property>
+				<Property Name="Source[7].type" Type="Str">Container</Property>
 				<Property Name="Source[8].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[8].Container.applySaveSettings" Type="Bool">true</Property>
 				<Property Name="Source[8].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[8].itemID" Type="Ref">/My Computer/Addon/Support Libraries/GMLAN.lvlib/GMLAN</Property>
-				<Property Name="Source[8].properties[0].type" Type="Str">Run when opened</Property>
+				<Property Name="Source[8].itemID" Type="Ref">/My Computer/Addon/Support Libraries</Property>
+				<Property Name="Source[8].properties[0].type" Type="Str">Auto error handling</Property>
 				<Property Name="Source[8].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[8].properties[1].type" Type="Str">Allow debugging</Property>
 				<Property Name="Source[8].properties[1].value" Type="Bool">false</Property>
-				<Property Name="Source[8].properties[2].type" Type="Str">Auto error handling</Property>
+				<Property Name="Source[8].properties[2].type" Type="Str">Run when opened</Property>
 				<Property Name="Source[8].properties[2].value" Type="Bool">false</Property>
 				<Property Name="Source[8].properties[3].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[8].properties[3].value" Type="Bool">false</Property>
@@ -519,22 +532,9 @@
 				<Property Name="Source[8].properties[4].value" Type="Bool">true</Property>
 				<Property Name="Source[8].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[8].type" Type="Str">Container</Property>
-				<Property Name="Source[9].Container.applyProperties" Type="Bool">true</Property>
-				<Property Name="Source[9].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[9].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Addon/Support Libraries</Property>
-				<Property Name="Source[9].properties[0].type" Type="Str">Auto error handling</Property>
-				<Property Name="Source[9].properties[0].value" Type="Bool">false</Property>
-				<Property Name="Source[9].properties[1].type" Type="Str">Allow debugging</Property>
-				<Property Name="Source[9].properties[1].value" Type="Bool">false</Property>
-				<Property Name="Source[9].properties[2].type" Type="Str">Run when opened</Property>
-				<Property Name="Source[9].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[9].properties[3].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[9].properties[3].value" Type="Bool">false</Property>
-				<Property Name="Source[9].properties[4].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[9].properties[4].value" Type="Bool">true</Property>
-				<Property Name="Source[9].propertiesCount" Type="Int">5</Property>
-				<Property Name="Source[9].type" Type="Str">Container</Property>
+				<Property Name="Source[9].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Addon/Support Files/Help/Diagnostics Addon.chm</Property>
+				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="SourceCount" Type="Int">10</Property>
 			</Item>
 			<Item Name="Engine Release" Type="Source Distribution">
