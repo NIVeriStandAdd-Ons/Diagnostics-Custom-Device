@@ -1,0 +1,3 @@
+[submodule "Source/SubModules/CAN-Streaming-Support"]
+	path = Source/SubModules/CAN-Streaming-Support
+	url = https://github.com/NIVeriStandAdd-Ons/CAN-Streaming-Support.git
