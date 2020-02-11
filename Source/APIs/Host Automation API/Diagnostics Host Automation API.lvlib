@@ -46,6 +46,7 @@
 		<Item Name="EnableDiagnosticSession.vi" Type="VI" URL="../EnableDiagnosticSession.vi"/>
 		<Item Name="EnableTesterPresent.vi" Type="VI" URL="../EnableTesterPresent.vi"/>
 		<Item Name="ForceTesterPresent.vi" Type="VI" URL="../ForceTesterPresent.vi"/>
+		<Item Name="GetStreamingFilterIDs.vi" Type="VI" URL="../GetStreamingFilterIDs.vi"/>
 		<Item Name="PassThru.vi" Type="VI" URL="../PassThru.vi"/>
 		<Item Name="ReadDID.vi" Type="VI" URL="../ReadDID.vi"/>
 		<Item Name="ReadDID_ReturnASCII.vi" Type="VI" URL="../ReadDID_ReturnASCII.vi"/>
@@ -55,6 +56,7 @@
 		<Item Name="StartPoll.vi" Type="VI" URL="../StartPoll.vi"/>
 		<Item Name="StopPoll.vi" Type="VI" URL="../StopPoll.vi"/>
 		<Item Name="UnlockECU.vi" Type="VI" URL="../UnlockECU.vi"/>
+		<Item Name="UpdateStreamingFilterIDs.vi" Type="VI" URL="../UpdateStreamingFilterIDs.vi"/>
 	</Item>
 	<Item Name="GMLAN Only" Type="Folder">
 		<Item Name="ConfigurePIDs.vi" Type="VI" URL="../ConfigurePIDs.vi"/>
@@ -79,5 +81,4 @@
 		<Item Name="WriteDID.vi" Type="VI" URL="../WriteDID.vi"/>
 		<Item Name="WriteMemory.vi" Type="VI" URL="../WriteMemory.vi"/>
 	</Item>
-	<Item Name="UpdateStreamingFilterIDs.vi" Type="VI" URL="../UpdateStreamingFilterIDs.vi"/>
 </Library>
