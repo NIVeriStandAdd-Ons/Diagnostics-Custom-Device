@@ -171,6 +171,7 @@
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVNumericRepresentation.ctl" Type="VI" URL="/&lt;vilib&gt;/numeric/LVNumericRepresentation.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
+				<Item Name="LVRowAndColumnUnsignedTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRowAndColumnUnsignedTypeDef.ctl"/>
 				<Item Name="MD5Checksum core.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/MD5Checksum.llb/MD5Checksum core.vi"/>
 				<Item Name="MD5Checksum File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/MD5Checksum.llb/MD5Checksum File.vi"/>
 				<Item Name="MD5Checksum format message-digest.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/MD5Checksum.llb/MD5Checksum format message-digest.vi"/>
@@ -400,7 +401,9 @@
 				<Item Name="XNET String To IO Name (Subframe).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET String To IO Name (Subframe).vi"/>
 			</Item>
 			<Item Name="CAN Streaming Support Engine.lvlib" Type="Library" URL="../SubModules/CAN-Streaming-Support/Addon/Addon Engine/CAN Streaming Support Engine.lvlib"/>
+			<Item Name="CAN Streaming Support Shared.lvlib" Type="Library" URL="../SubModules/CAN-Streaming-Support/Addon/Addon Shared/CAN Streaming Support Shared.lvlib"/>
 			<Item Name="CAN Streaming Support Workspace Shared.lvlib" Type="Library" URL="../SubModules/CAN-Streaming-Support/UIs/Workspace Shared/CAN Streaming Support Workspace Shared.lvlib"/>
+			<Item Name="Get Engine Stream Filter IDs.vi" Type="VI" URL="../SubModules/CAN-Streaming-Support/Addon/Addon Engine/SubVIs/Get Engine Stream Filter IDs.vi"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -441,6 +444,7 @@
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Update Engine Stream Filter IDs.vi" Type="VI" URL="../SubModules/CAN-Streaming-Support/Addon/Addon Engine/SubVIs/Update Engine Stream Filter IDs.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Configuration Release" Type="Source Distribution">
@@ -1233,7 +1237,9 @@
 				<Item Name="Advanced System Definition.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NI VeriStand Advanced SysDef API/SysDef API/Advanced System Definition.lvlib"/>
 			</Item>
 			<Item Name="CAN Streaming Support Engine.lvlib" Type="Library" URL="../SubModules/CAN-Streaming-Support/Addon/Addon Engine/CAN Streaming Support Engine.lvlib"/>
+			<Item Name="CAN Streaming Support Shared.lvlib" Type="Library" URL="../SubModules/CAN-Streaming-Support/Addon/Addon Shared/CAN Streaming Support Shared.lvlib"/>
 			<Item Name="Diagnostics Addon Shared.lvlib" Type="Library" URL="../Addon/Addon Shared/Diagnostics Addon Shared.lvlib"/>
+			<Item Name="Get Engine Stream Filter IDs.vi" Type="VI" URL="../SubModules/CAN-Streaming-Support/Addon/Addon Engine/SubVIs/Get Engine Stream Filter IDs.vi"/>
 			<Item Name="GMLAN.lvlib" Type="Library" URL="../Addon/Support Libraries/GMLAN/GMLAN.lvlib"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
@@ -1269,6 +1275,7 @@
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Update Engine Stream Filter IDs.vi" Type="VI" URL="../SubModules/CAN-Streaming-Support/Addon/Addon Engine/SubVIs/Update Engine Stream Filter IDs.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Engine Release" Type="Source Distribution">
@@ -1282,7 +1289,7 @@
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utilities/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{FFDCA642-638A-4664-9D94-164F9021CA4C}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/Pharlap/Diagnostics Addon Engine Pharlap.llb</Property>
-				<Property Name="Bld_version.build" Type="Int">146</Property>
+				<Property Name="Bld_version.build" Type="Int">153</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">/Pharlap/Diagnostics Addon Engine Pharlap.llb</Property>
@@ -1703,7 +1710,9 @@
 				<Item Name="XNET String To IO Name (Subframe).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET String To IO Name (Subframe).vi"/>
 			</Item>
 			<Item Name="CAN Streaming Support Engine.lvlib" Type="Library" URL="../SubModules/CAN-Streaming-Support/Addon/Addon Engine/CAN Streaming Support Engine.lvlib"/>
+			<Item Name="CAN Streaming Support Shared.lvlib" Type="Library" URL="../SubModules/CAN-Streaming-Support/Addon/Addon Shared/CAN Streaming Support Shared.lvlib"/>
 			<Item Name="Diagnostics Addon Shared.lvlib" Type="Library" URL="../Addon/Addon Shared/Diagnostics Addon Shared.lvlib"/>
+			<Item Name="Get Engine Stream Filter IDs.vi" Type="VI" URL="../SubModules/CAN-Streaming-Support/Addon/Addon Engine/SubVIs/Get Engine Stream Filter IDs.vi"/>
 			<Item Name="GMLAN.lvlib" Type="Library" URL="../Addon/Support Libraries/GMLAN/GMLAN.lvlib"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
@@ -1739,6 +1748,7 @@
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Update Engine Stream Filter IDs.vi" Type="VI" URL="../SubModules/CAN-Streaming-Support/Addon/Addon Engine/SubVIs/Update Engine Stream Filter IDs.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Engine Release" Type="Source Distribution">
@@ -2161,7 +2171,9 @@
 				<Item Name="XNET String To IO Name (Subframe).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET String To IO Name (Subframe).vi"/>
 			</Item>
 			<Item Name="CAN Streaming Support Engine.lvlib" Type="Library" URL="../SubModules/CAN-Streaming-Support/Addon/Addon Engine/CAN Streaming Support Engine.lvlib"/>
+			<Item Name="CAN Streaming Support Shared.lvlib" Type="Library" URL="../SubModules/CAN-Streaming-Support/Addon/Addon Shared/CAN Streaming Support Shared.lvlib"/>
 			<Item Name="Diagnostics Addon Shared.lvlib" Type="Library" URL="../Addon/Addon Shared/Diagnostics Addon Shared.lvlib"/>
+			<Item Name="Get Engine Stream Filter IDs.vi" Type="VI" URL="../SubModules/CAN-Streaming-Support/Addon/Addon Engine/SubVIs/Get Engine Stream Filter IDs.vi"/>
 			<Item Name="GMLAN.lvlib" Type="Library" URL="../Addon/Support Libraries/GMLAN/GMLAN.lvlib"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
@@ -2197,6 +2209,7 @@
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Update Engine Stream Filter IDs.vi" Type="VI" URL="../SubModules/CAN-Streaming-Support/Addon/Addon Engine/SubVIs/Update Engine Stream Filter IDs.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Engine Release" Type="Source Distribution">
