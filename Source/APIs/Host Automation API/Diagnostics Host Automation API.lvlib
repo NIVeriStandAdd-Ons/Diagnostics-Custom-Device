@@ -52,11 +52,12 @@
 		<Item Name="ReadDID_ReturnASCII.vi" Type="VI" URL="../ReadDID_ReturnASCII.vi"/>
 		<Item Name="ReadDIDs.vi" Type="VI" URL="../ReadDIDs.vi"/>
 		<Item Name="ReadDTCs.vi" Type="VI" URL="../ReadDTCs.vi"/>
+		<Item Name="ResetStreamingFilter.vi" Type="VI" URL="../ResetStreamingFilter.vi"/>
 		<Item Name="ReturnToNormalMode.vi" Type="VI" URL="../ReturnToNormalMode.vi"/>
+		<Item Name="SetStreamingFilter.vi" Type="VI" URL="../SetStreamingFilter.vi"/>
 		<Item Name="StartPoll.vi" Type="VI" URL="../StartPoll.vi"/>
 		<Item Name="StopPoll.vi" Type="VI" URL="../StopPoll.vi"/>
 		<Item Name="UnlockECU.vi" Type="VI" URL="../UnlockECU.vi"/>
-		<Item Name="UpdateStreamingFilter.vi" Type="VI" URL="../UpdateStreamingFilter.vi"/>
 	</Item>
 	<Item Name="GMLAN Only" Type="Folder">
 		<Item Name="ConfigurePIDs.vi" Type="VI" URL="../ConfigurePIDs.vi"/>
