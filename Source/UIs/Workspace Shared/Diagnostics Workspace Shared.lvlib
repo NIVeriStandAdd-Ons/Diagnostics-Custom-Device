@@ -53,6 +53,7 @@
 		<Item Name="Workspace.UI.Update.vi" Type="VI" URL="../SubVIs/Workspace.UI.Update.vi"/>
 	</Item>
 	<Item Name="Types" Type="Folder">
+		<Item Name="UI.Refs.ctl" Type="VI" URL="../Types/UI.Refs.ctl"/>
 		<Item Name="Workspace.SavedState.ctl" Type="VI" URL="../Types/Workspace.SavedState.ctl"/>
 		<Item Name="Workspace.State.ctl" Type="VI" URL="../Types/Workspace.State.ctl"/>
 	</Item>
