@@ -21,6 +21,8 @@ NI Automotive Diagnostic Command Set 19.0 or later
 
 NI XNET 19.0 or later
 
+Network Streams 19.0 or later
+
 ### Quality, Limitations ###
 
 IP has been tested by developer. It meets VeriStand addon coding best practices.
