@@ -36,6 +36,9 @@
 				<Item Name="Import File Formats" Type="Folder" URL="../Addon/Support Files/Import File Formats">
 					<Property Name="NI.DISK" Type="Bool">true</Property>
 				</Item>
+				<Item Name="Quick Start Documentation" Type="Folder" URL="../Addon/Support Files/Quick Start Documentation">
+					<Property Name="NI.DISK" Type="Bool">true</Property>
+				</Item>
 			</Item>
 			<Item Name="Support Libraries" Type="Folder">
 				<Item Name="GMLAN.lvlib" Type="Library" URL="../Addon/Support Libraries/GMLAN/GMLAN.lvlib"/>
@@ -471,10 +474,13 @@
 				<Property Name="Destination[4].path" Type="Path">../Built/custom devices/NI_AB_PROJECTNAME/Windows/Import File Formats</Property>
 				<Property Name="Destination[5].destName" Type="Str">Glyphs</Property>
 				<Property Name="Destination[5].path" Type="Path">../Built/custom devices/NI_AB_PROJECTNAME/Windows/Glyphs</Property>
-				<Property Name="DestinationCount" Type="Int">6</Property>
+				<Property Name="Destination[6].destName" Type="Str">Quick Start Documentation</Property>
+				<Property Name="Destination[6].path" Type="Path">../Built/custom devices/NI_AB_PROJECTNAME/Windows/Quick Start Documentation</Property>
+				<Property Name="Destination[6].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="DestinationCount" Type="Int">7</Property>
 				<Property Name="Source[0].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{9C0F15DE-7DFD-4D63-9D6F-8CC3923CE473}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{2B4A196A-D2A7-45F0-8547-41C4C9FD2D7D}</Property>
 				<Property Name="Source[0].properties[0].type" Type="Str">Auto error handling</Property>
 				<Property Name="Source[0].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[0].properties[1].type" Type="Str">Allow debugging</Property>
@@ -506,6 +512,13 @@
 				<Property Name="Source[1].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[1].type" Type="Str">Container</Property>
+				<Property Name="Source[10].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[10].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[10].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[10].destinationIndex" Type="Int">6</Property>
+				<Property Name="Source[10].itemID" Type="Ref">/My Computer/Addon/Support Files/Quick Start Documentation</Property>
+				<Property Name="Source[10].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[10].type" Type="Str">Container</Property>
 				<Property Name="Source[2].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[2].Container.applySaveSettings" Type="Bool">true</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Addon/Diagnostics Addon Shared.lvlib/Shared</Property>
@@ -576,7 +589,7 @@
 				<Property Name="Source[9].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Addon/Support Files/Help/Diagnostics Addon.chm</Property>
 				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="SourceCount" Type="Int">10</Property>
+				<Property Name="SourceCount" Type="Int">11</Property>
 			</Item>
 			<Item Name="Engine Release" Type="Source Distribution">
 				<Property Name="Bld_buildCacheID" Type="Str">{BDB37E78-1B48-4DD8-B51B-9DFE56743A02}</Property>
