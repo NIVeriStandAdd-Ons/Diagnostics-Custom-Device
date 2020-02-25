@@ -1,23 +1,23 @@
 Diagnostics-Custom-Device
 =========================
 
-###MAJOR UPDATE ###
+### MAJOR UPDATE ###
 
 THIS VERSION HAS MAJOR CHANGES.  THESE CHANGES WILL BREAK ANY PREVIOUS ADDON CONFIGURATION. TO USE, DELETE THE OLDER VERSION DIAGNOSTIC ADDON, UINSTALL THE ADDON USING THE NI PACKAGE MANAGER, REMOVE THE XNET DATABASE FROM ANY RT TARGETS, INSTALL THIS VERSION, AND MANUALLY RE-ADD THE ADDON.
 
-###Description ###
+### Description ###
 
 This addon reads DIDs, PIDs, and DTCs.  It writes CPIDs and clears DTCs.  It can also control IO and start/stop/read routines.  It does this over various protocols with varying levels of support.  GMLAN, KWP, and UDS are supported.  Please review the in addon help for a full list of available commands.
 
-###Getting Started Documentation ###
+### Getting Started Documentation ###
 
-A quick start document provides an overview of the addon capabilities. It is located at:
+The quick start document provides an overview of the addon's capabilities. It is located at:
 
 Built: C:\Users\Public\Documents\National Instruments\NI VeriStand <YEAR>\Custom Devices\Diagnostics Addon\Windows\Quick Start Documentation\Diagnostics Addon Quick Start.html
 
 Source: \Source\Addon\Support Files\Quick Start Documentation\Diagnostics Addon Quick Start.html
 
-Most of the addon sections contain additional built-in documentation.
+Most of the addon's system definition sections contain additional built-in documentation.
 
 ### LabVIEW Version ###
 
