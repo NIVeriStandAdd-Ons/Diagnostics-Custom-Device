@@ -25,15 +25,15 @@ w\:* {behavior:url(#default#VML);}
   <o:Author>Daniel Eaton</o:Author>
   <o:LastAuthor>Daniel Eaton</o:LastAuthor>
   <o:Revision>2</o:Revision>
-  <o:TotalTime>4</o:TotalTime>
-  <o:Created>2020-02-24T20:05:00Z</o:Created>
-  <o:LastSaved>2020-02-24T20:09:00Z</o:LastSaved>
+  <o:TotalTime>5</o:TotalTime>
+  <o:Created>2020-02-27T20:25:00Z</o:Created>
+  <o:LastSaved>2020-02-27T20:25:00Z</o:LastSaved>
   <o:Pages>1</o:Pages>
-  <o:Words>1436</o:Words>
-  <o:Characters>8188</o:Characters>
-  <o:Lines>68</o:Lines>
+  <o:Words>1469</o:Words>
+  <o:Characters>8378</o:Characters>
+  <o:Lines>69</o:Lines>
   <o:Paragraphs>19</o:Paragraphs>
-  <o:CharactersWithSpaces>9605</o:CharactersWithSpaces>
+  <o:CharactersWithSpaces>9828</o:CharactersWithSpaces>
   <o:Version>16.00</o:Version>
  </o:DocumentProperties>
  <o:OfficeDocumentSettings>
@@ -48,7 +48,6 @@ href="Diagnostics%20Addon%20Quick%20Start_files/colorschememapping.xml">
  <w:WordDocument>
   <w:DontDisplayPageBoundaries/>
   <w:SpellingState>Clean</w:SpellingState>
-  <w:GrammarState>Clean</w:GrammarState>
   <w:TrackMoves>false</w:TrackMoves>
   <w:TrackFormatting/>
   <w:PunctuationKerning/>
@@ -71,6 +70,7 @@ href="Diagnostics%20Addon%20Quick%20Start_files/colorschememapping.xml">
    <w:DontFlipMirrorIndents/>
    <w:OverrideTableStyleHps/>
   </w:Compatibility>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
   <m:mathPr>
    <m:mathFont m:val="Cambria Math"/>
    <m:brkBin m:val="before"/>
@@ -293,6 +293,8 @@ href="Diagnostics%20Addon%20Quick%20Start_files/colorschememapping.xml">
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="HTML Variable"/>
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Normal Table"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="annotation subject"/>
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="No List"/>
@@ -385,8 +387,12 @@ href="Diagnostics%20Addon%20Quick%20Start_files/colorschememapping.xml">
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="Table Web 2"/>
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Web 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="Balloon Text"/>
   <w:LsdException Locked="false" Priority="39" Name="Table Grid"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Theme"/>
   <w:LsdException Locked="false" SemiHidden="true" Name="Placeholder Text"/>
   <w:LsdException Locked="false" Priority="1" QFormat="true" Name="No Spacing"/>
   <w:LsdException Locked="false" Priority="60" Name="Light Shading"/>
@@ -705,7 +711,7 @@ href="Diagnostics%20Addon%20Quick%20Start_files/colorschememapping.xml">
 	margin-right:0in;
 	margin-bottom:8.0pt;
 	margin-left:0in;
-	line-height:107%;
+	line-height:105%;
 	mso-pagination:widow-orphan;
 	font-size:11.0pt;
 	font-family:"Calibri",sans-serif;
@@ -733,8 +739,8 @@ h1
 	mso-fareast-font-family:"Times New Roman";
 	font-weight:bold;}
 h2
-	{mso-style-priority:9;
-	mso-style-unhide:no;
+	{mso-style-noshow:yes;
+	mso-style-priority:9;
 	mso-style-qformat:yes;
 	mso-style-link:"Heading 2 Char";
 	mso-margin-top-alt:auto;
@@ -748,8 +754,8 @@ h2
 	mso-fareast-font-family:"Times New Roman";
 	font-weight:bold;}
 h3
-	{mso-style-priority:9;
-	mso-style-unhide:no;
+	{mso-style-noshow:yes;
+	mso-style-priority:9;
 	mso-style-qformat:yes;
 	mso-style-link:"Heading 3 Char";
 	mso-margin-top-alt:auto;
@@ -803,6 +809,7 @@ span.Heading1Char
 	font-weight:bold;}
 span.Heading2Char
 	{mso-style-name:"Heading 2 Char";
+	mso-style-noshow:yes;
 	mso-style-priority:9;
 	mso-style-unhide:no;
 	mso-style-locked:yes;
@@ -817,6 +824,7 @@ span.Heading2Char
 	font-weight:bold;}
 span.Heading3Char
 	{mso-style-name:"Heading 3 Char";
+	mso-style-noshow:yes;
 	mso-style-priority:9;
 	mso-style-unhide:no;
 	mso-style-locked:yes;
@@ -829,15 +837,28 @@ span.Heading3Char
 	mso-hansi-font-family:"Times New Roman";
 	mso-bidi-font-family:"Times New Roman";
 	font-weight:bold;}
+p.msonormal0, li.msonormal0, div.msonormal0
+	{mso-style-name:msonormal;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";}
 span.SpellE
 	{mso-style-name:"";
 	mso-spl-e:yes;}
-span.GramE
-	{mso-style-name:"";
-	mso-gram-e:yes;}
 .MsoChpDefault
 	{mso-style-type:export-only;
 	mso-default-props:yes;
+	font-size:10.0pt;
+	mso-ansi-font-size:10.0pt;
+	mso-bidi-font-size:10.0pt;
 	font-family:"Calibri",sans-serif;
 	mso-ascii-font-family:Calibri;
 	mso-ascii-theme-font:minor-latin;
@@ -847,10 +868,6 @@ span.GramE
 	mso-hansi-theme-font:minor-latin;
 	mso-bidi-font-family:"Times New Roman";
 	mso-bidi-theme-font:minor-bidi;}
-.MsoPapDefault
-	{mso-style-type:export-only;
-	margin-bottom:8.0pt;
-	line-height:107%;}
 @page WordSection1
 	{size:8.5in 11.0in;
 	margin:1.0in 1.0in 1.0in 1.0in;
@@ -1088,6 +1105,82 @@ div.WordSection1
 	text-indent:-.25in;
 	mso-ansi-font-size:10.0pt;
 	font-family:Wingdings;}
+@list l3
+	{mso-list-id:1956984574;
+	mso-list-template-ids:-655448086;}
+@list l3:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l3:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:"Courier New";
+	mso-bidi-font-family:"Times New Roman";}
+@list l3:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l3:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l3:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l3:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l3:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l3:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l3:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
 ol
 	{margin-bottom:0in;}
 ul
@@ -1105,13 +1198,10 @@ ul
 	mso-style-priority:99;
 	mso-style-parent:"";
 	mso-padding-alt:0in 5.4pt 0in 5.4pt;
-	mso-para-margin-top:0in;
-	mso-para-margin-right:0in;
-	mso-para-margin-bottom:8.0pt;
-	mso-para-margin-left:0in;
-	line-height:107%;
+	mso-para-margin:0in;
+	mso-para-margin-bottom:.0001pt;
 	mso-pagination:widow-orphan;
-	font-size:11.0pt;
+	font-size:10.0pt;
 	font-family:"Calibri",sans-serif;
 	mso-ascii-font-family:Calibri;
 	mso-ascii-theme-font:minor-latin;
@@ -1190,6 +1280,35 @@ style='color:#663399'>/Diagnostics-Custom-Device · GitHub</span></a>&#8203;<o:p>
 <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
 line-height:normal;mso-outline-level:1'><span style='font-size:27.5pt;
 font-family:"Segoe UI Light",sans-serif;mso-fareast-font-family:"Times New Roman";
+mso-bidi-font-family:"Times New Roman";color:#0072C6;mso-font-kerning:18.0pt'>Requirements<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;line-height:normal'><span
+style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+"Times New Roman";color:#444444'>These drivers must be installed on the
+deployment computer/target to function.<o:p></o:p></span></p>
+
+<ul type=disc>
+ <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
+     auto;line-height:normal;mso-list:l3 level1 lfo1;tab-stops:list .5in'><span
+     style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+     "Times New Roman"'>NI VeriStand 2019 or later<o:p></o:p></span></li>
+ <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
+     auto;line-height:normal;mso-list:l3 level1 lfo1;tab-stops:list .5in'><span
+     style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+     "Times New Roman"'>NI Automotive Diagnostic Command Set 19.0 or later<o:p></o:p></span></li>
+ <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
+     auto;line-height:normal;mso-list:l3 level1 lfo1;tab-stops:list .5in'><span
+     style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+     "Times New Roman"'>NI XNET 19.0 or later<o:p></o:p></span></li>
+ <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
+     auto;line-height:normal;mso-list:l3 level1 lfo1;tab-stops:list .5in'><span
+     style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+     "Times New Roman"'>Network Streams 19.0 or later&#8203;<o:p></o:p></span></li>
+</ul>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+line-height:normal;mso-outline-level:1'><span style='font-size:27.5pt;
+font-family:"Segoe UI Light",sans-serif;mso-fareast-font-family:"Times New Roman";
 mso-bidi-font-family:"Times New Roman";color:#0072C6;mso-font-kerning:18.0pt'>Addon
 Specifics<o:p></o:p></span></p>
 
@@ -1210,7 +1329,7 @@ DIDs are dynamic and static data. DTCs are diagnostic trouble codes.&nbsp;CPIDs
 are output PIDs.&nbsp;KWP/UDS also supports&nbsp;IO control and&nbsp;routines
 (start, stop,&nbsp;status).&nbsp;Custom (user <span class=SpellE>defiend</span>)&nbsp;messages
 are supported by all protocols.&nbsp;&#8203;More specifically, the services
-currently implemented <span class=GramE>are:&#8203;</span><o:p></o:p></span></p>
+currently implemented are:&#8203;<o:p></o:p></span></p>
 
 <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
 line-height:normal;mso-outline-level:3'><span style='font-size:14.0pt;
@@ -1219,64 +1338,63 @@ color:#262626'>UDS<o:p></o:p></span></p>
 
 <ul type=disc>
  <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
-     auto;line-height:normal;mso-list:l2 level1 lfo1;tab-stops:list .5in'><span
+     auto;line-height:normal;mso-list:l2 level1 lfo2;tab-stops:list .5in'><span
      style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
      "Times New Roman"'>Tester Present (x3E)<o:p></o:p></span></li>
  <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
-     auto;line-height:normal;mso-list:l2 level1 lfo1;tab-stops:list .5in'><span
+     auto;line-height:normal;mso-list:l2 level1 lfo2;tab-stops:list .5in'><span
      style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
      "Times New Roman"'>Diagnostic Session Control (x10)<o:p></o:p></span></li>
  <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
-     auto;line-height:normal;mso-list:l2 level1 lfo1;tab-stops:list .5in'><span
+     auto;line-height:normal;mso-list:l2 level1 lfo2;tab-stops:list .5in'><span
      style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
      "Times New Roman"'>Communication Control (x28)<o:p></o:p></span></li>
  <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
-     auto;line-height:normal;mso-list:l2 level1 lfo1;tab-stops:list .5in'><span
+     auto;line-height:normal;mso-list:l2 level1 lfo2;tab-stops:list .5in'><span
      style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
      "Times New Roman"'>ECU Reset (x11)<o:p></o:p></span></li>
  <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
-     auto;line-height:normal;mso-list:l2 level1 lfo1;tab-stops:list .5in'><span
+     auto;line-height:normal;mso-list:l2 level1 lfo2;tab-stops:list .5in'><span
      style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
      "Times New Roman"'>Request Seed/Send Key (x27)<o:p></o:p></span></li>
  <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
-     auto;line-height:normal;mso-list:l2 level1 lfo1;tab-stops:list .5in'><span
+     auto;line-height:normal;mso-list:l2 level1 lfo2;tab-stops:list .5in'><span
      style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
      "Times New Roman"'>Read Data by Identifier (x22)<o:p></o:p></span></li>
  <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
-     auto;line-height:normal;mso-list:l2 level1 lfo1;tab-stops:list .5in'><span
+     auto;line-height:normal;mso-list:l2 level1 lfo2;tab-stops:list .5in'><span
      style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
      "Times New Roman"'>Write Data by Identifier (x2E)<o:p></o:p></span></li>
  <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
-     auto;line-height:normal;mso-list:l2 level1 lfo1;tab-stops:list .5in'><span
+     auto;line-height:normal;mso-list:l2 level1 lfo2;tab-stops:list .5in'><span
      style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
      "Times New Roman"'>Read Memory by Address (x23)<o:p></o:p></span></li>
  <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
-     auto;line-height:normal;mso-list:l2 level1 lfo1;tab-stops:list .5in'><span
+     auto;line-height:normal;mso-list:l2 level1 lfo2;tab-stops:list .5in'><span
      style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
      "Times New Roman"'>Write Memory by Address (x3D)<o:p></o:p></span></li>
  <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
-     auto;line-height:normal;mso-list:l2 level1 lfo1;tab-stops:list .5in'><span
+     auto;line-height:normal;mso-list:l2 level1 lfo2;tab-stops:list .5in'><span
      style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
-     "Times New Roman"'>Input Output Control <span class=GramE>By</span>
-     Identifier (x2F)<o:p></o:p></span></li>
+     "Times New Roman"'>Input Output Control By Identifier (x2F)<o:p></o:p></span></li>
  <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
-     auto;line-height:normal;mso-list:l2 level1 lfo1;tab-stops:list .5in'><span
+     auto;line-height:normal;mso-list:l2 level1 lfo2;tab-stops:list .5in'><span
      style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
      "Times New Roman"'>Routine Control (x31)<o:p></o:p></span></li>
  <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
-     auto;line-height:normal;mso-list:l2 level1 lfo1;tab-stops:list .5in'><span
+     auto;line-height:normal;mso-list:l2 level1 lfo2;tab-stops:list .5in'><span
      style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
      "Times New Roman"'>Control DTC Setting (x85)<o:p></o:p></span></li>
  <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
-     auto;line-height:normal;mso-list:l2 level1 lfo1;tab-stops:list .5in'><span
+     auto;line-height:normal;mso-list:l2 level1 lfo2;tab-stops:list .5in'><span
      style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
      "Times New Roman"'>Report Severity Information of DTC (x19 with x9 option)<o:p></o:p></span></li>
  <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
-     auto;line-height:normal;mso-list:l2 level1 lfo1;tab-stops:list .5in'><span
+     auto;line-height:normal;mso-list:l2 level1 lfo2;tab-stops:list .5in'><span
      style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
      "Times New Roman"'>Report DTC by Status Mask (x19 with x2 option)<o:p></o:p></span></li>
  <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
-     auto;line-height:normal;mso-list:l2 level1 lfo1;tab-stops:list .5in'><span
+     auto;line-height:normal;mso-list:l2 level1 lfo2;tab-stops:list .5in'><span
      style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
      "Times New Roman"'>Clear Diagnostic Information (x14)<o:p></o:p></span></li>
 </ul>
@@ -1288,80 +1406,79 @@ color:#262626'>KWP<o:p></o:p></span></p>
 
 <ul type=disc>
  <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
-     auto;line-height:normal;mso-list:l0 level1 lfo2;tab-stops:list .5in'><span
+     auto;line-height:normal;mso-list:l0 level1 lfo3;tab-stops:list .5in'><span
      style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
      "Times New Roman"'>Tester Present (x3E)<o:p></o:p></span></li>
  <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
-     auto;line-height:normal;mso-list:l0 level1 lfo2;tab-stops:list .5in'><span
+     auto;line-height:normal;mso-list:l0 level1 lfo3;tab-stops:list .5in'><span
      style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
      "Times New Roman"'>Start Diagnostic Session (x10)<o:p></o:p></span></li>
  <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
-     auto;line-height:normal;mso-list:l0 level1 lfo2;tab-stops:list .5in'><span
+     auto;line-height:normal;mso-list:l0 level1 lfo3;tab-stops:list .5in'><span
      style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
      "Times New Roman"'>Stop Diagnostic Session (x20)<o:p></o:p></span></li>
  <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
-     auto;line-height:normal;mso-list:l0 level1 lfo2;tab-stops:list .5in'><span
+     auto;line-height:normal;mso-list:l0 level1 lfo3;tab-stops:list .5in'><span
      style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
      "Times New Roman"'>Disable Normal Message Transmission (x28)<o:p></o:p></span></li>
  <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
-     auto;line-height:normal;mso-list:l0 level1 lfo2;tab-stops:list .5in'><span
+     auto;line-height:normal;mso-list:l0 level1 lfo3;tab-stops:list .5in'><span
      style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
      "Times New Roman"'>Enable Normal Message Transmission (x29)<o:p></o:p></span></li>
  <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
-     auto;line-height:normal;mso-list:l0 level1 lfo2;tab-stops:list .5in'><span
+     auto;line-height:normal;mso-list:l0 level1 lfo3;tab-stops:list .5in'><span
      style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
      "Times New Roman"'>ECU Reset (x11)<o:p></o:p></span></li>
  <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
-     auto;line-height:normal;mso-list:l0 level1 lfo2;tab-stops:list .5in'><span
+     auto;line-height:normal;mso-list:l0 level1 lfo3;tab-stops:list .5in'><span
      style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
      "Times New Roman"'>Request Seed/Send Key (x27)<o:p></o:p></span></li>
  <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
-     auto;line-height:normal;mso-list:l0 level1 lfo2;tab-stops:list .5in'><span
+     auto;line-height:normal;mso-list:l0 level1 lfo3;tab-stops:list .5in'><span
      style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
      "Times New Roman"'>Read Data by Local Identifier (x21)<o:p></o:p></span></li>
  <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
-     auto;line-height:normal;mso-list:l0 level1 lfo2;tab-stops:list .5in'><span
+     auto;line-height:normal;mso-list:l0 level1 lfo3;tab-stops:list .5in'><span
      style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
      "Times New Roman"'>Write Data by Local Identifier (x3B)<o:p></o:p></span></li>
  <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
-     auto;line-height:normal;mso-list:l0 level1 lfo2;tab-stops:list .5in'><span
+     auto;line-height:normal;mso-list:l0 level1 lfo3;tab-stops:list .5in'><span
      style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
      "Times New Roman"'>Read Memory by Address (x23)<o:p></o:p></span></li>
  <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
-     auto;line-height:normal;mso-list:l0 level1 lfo2;tab-stops:list .5in'><span
+     auto;line-height:normal;mso-list:l0 level1 lfo3;tab-stops:list .5in'><span
      style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
      "Times New Roman"'>Write Memory by Address (x3D)<o:p></o:p></span></li>
  <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
-     auto;line-height:normal;mso-list:l0 level1 lfo2;tab-stops:list .5in'><span
+     auto;line-height:normal;mso-list:l0 level1 lfo3;tab-stops:list .5in'><span
      style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
-     "Times New Roman"'>Input Output Control <span class=GramE>By</span> Local
-     Identifier (x30)<o:p></o:p></span></li>
+     "Times New Roman"'>Input Output Control By Local Identifier (x30)<o:p></o:p></span></li>
  <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
-     auto;line-height:normal;mso-list:l0 level1 lfo2;tab-stops:list .5in'><span
+     auto;line-height:normal;mso-list:l0 level1 lfo3;tab-stops:list .5in'><span
      style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
      "Times New Roman"'>Start Routine by Local Identifier (x31)<o:p></o:p></span></li>
  <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
-     auto;line-height:normal;mso-list:l0 level1 lfo2;tab-stops:list .5in'><span
+     auto;line-height:normal;mso-list:l0 level1 lfo3;tab-stops:list .5in'><span
      style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
      "Times New Roman"'>Stop Routine by Local Identifier (x32)<o:p></o:p></span></li>
  <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
-     auto;line-height:normal;mso-list:l0 level1 lfo2;tab-stops:list .5in'><span
+     auto;line-height:normal;mso-list:l0 level1 lfo3;tab-stops:list .5in'><span
      style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
      "Times New Roman"'>Request Routine Results by Local Identifier (x33)<o:p></o:p></span></li>
  <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
-     auto;line-height:normal;mso-list:l0 level1 lfo2;tab-stops:list .5in'><span
+     auto;line-height:normal;mso-list:l0 level1 lfo3;tab-stops:list .5in'><span
      style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
      "Times New Roman"'>Control DTC Setting (x85)<o:p></o:p></span></li>
  <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
-     auto;line-height:normal;mso-list:l0 level1 lfo2;tab-stops:list .5in'><span
+     auto;line-height:normal;mso-list:l0 level1 lfo3;tab-stops:list .5in'><span
      style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
      "Times New Roman"'>Read Status of DTC (x17)<o:p></o:p></span></li>
  <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
-     auto;line-height:normal;mso-list:l0 level1 lfo2;tab-stops:list .5in'><span
+     auto;line-height:normal;mso-list:l0 level1 lfo3;tab-stops:list .5in'><span
      style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
      "Times New Roman"'>Read DTC by Status (x18)<o:p></o:p></span></li>
  <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
-     auto;line-height:normal;mso-list:l0 level1 lfo2;tab-stops:list .5in'><span
+     auto;line-height:normal;mso-list:l0 level1 lfo3;tab-stops:list .5in'><span
      style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
      "Times New Roman"'>Clear Diagnostic Information (x14)<o:p></o:p></span></li>
 </ul>
@@ -1373,69 +1490,65 @@ color:#262626'>GMLAN Only<o:p></o:p></span></p>
 
 <ul type=disc>
  <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
-     auto;line-height:normal;mso-list:l1 level1 lfo3;tab-stops:list .5in'><span
+     auto;line-height:normal;mso-list:l1 level1 lfo4;tab-stops:list .5in'><span
      style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
      "Times New Roman"'>Tester Present (x3E)<o:p></o:p></span></li>
  <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
-     auto;line-height:normal;mso-list:l1 level1 lfo3;tab-stops:list .5in'><span
+     auto;line-height:normal;mso-list:l1 level1 lfo4;tab-stops:list .5in'><span
      style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
      "Times New Roman"'>Initiate Diagnostic Operation (x10)<o:p></o:p></span></li>
  <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
-     auto;line-height:normal;mso-list:l1 level1 lfo3;tab-stops:list .5in'><span
+     auto;line-height:normal;mso-list:l1 level1 lfo4;tab-stops:list .5in'><span
      style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
      "Times New Roman"'>Disable Normal Communication (x28)<o:p></o:p></span></li>
  <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
-     auto;line-height:normal;mso-list:l1 level1 lfo3;tab-stops:list .5in'><span
+     auto;line-height:normal;mso-list:l1 level1 lfo4;tab-stops:list .5in'><span
      style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
      "Times New Roman"'>Return to Normal Mode (x20)<o:p></o:p></span></li>
  <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
-     auto;line-height:normal;mso-list:l1 level1 lfo3;tab-stops:list .5in'><span
+     auto;line-height:normal;mso-list:l1 level1 lfo4;tab-stops:list .5in'><span
      style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
      "Times New Roman"'>Request Seed/Send Key (x27)<o:p></o:p></span></li>
  <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
-     auto;line-height:normal;mso-list:l1 level1 lfo3;tab-stops:list .5in'><span
+     auto;line-height:normal;mso-list:l1 level1 lfo4;tab-stops:list .5in'><span
      style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
      "Times New Roman"'>Read Data by Identifier (x1A)<o:p></o:p></span></li>
  <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
-     auto;line-height:normal;mso-list:l1 level1 lfo3;tab-stops:list .5in'><span
+     auto;line-height:normal;mso-list:l1 level1 lfo4;tab-stops:list .5in'><span
      style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
      "Times New Roman"'>Write Data by Identifier (x3B)<o:p></o:p></span></li>
  <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
-     auto;line-height:normal;mso-list:l1 level1 lfo3;tab-stops:list .5in'><span
+     auto;line-height:normal;mso-list:l1 level1 lfo4;tab-stops:list .5in'><span
      style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
-     "Times New Roman"'>Read Data <span class=GramE>By</span> Parameter
-     Identifier(x22)<o:p></o:p></span></li>
+     "Times New Roman"'>Read Data By Parameter Identifier(x22)<o:p></o:p></span></li>
  <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
-     auto;line-height:normal;mso-list:l1 level1 lfo3;tab-stops:list .5in'><span
+     auto;line-height:normal;mso-list:l1 level1 lfo4;tab-stops:list .5in'><span
      style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
      "Times New Roman"'>Device Control (<span class=SpellE>xAE</span>)<o:p></o:p></span></li>
  <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
-     auto;line-height:normal;mso-list:l1 level1 lfo3;tab-stops:list .5in'><span
+     auto;line-height:normal;mso-list:l1 level1 lfo4;tab-stops:list .5in'><span
      style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
      "Times New Roman"'>Dynamically Define Message (x2C)<o:p></o:p></span></li>
  <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
-     auto;line-height:normal;mso-list:l1 level1 lfo3;tab-stops:list .5in'><span
+     auto;line-height:normal;mso-list:l1 level1 lfo4;tab-stops:list .5in'><span
      style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
-     "Times New Roman"'>Read Data <span class=GramE>By</span> Packet Identifier
-     (<span class=SpellE>xAA</span>)<o:p></o:p></span></li>
+     "Times New Roman"'>Read Data By Packet Identifier (<span class=SpellE>xAA</span>)<o:p></o:p></span></li>
  <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
-     auto;line-height:normal;mso-list:l1 level1 lfo3;tab-stops:list .5in'><span
+     auto;line-height:normal;mso-list:l1 level1 lfo4;tab-stops:list .5in'><span
      style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
-     "Times New Roman"'>Read Status <span class=GramE>Of</span> DTC By DTC
-     Number (xA9 with x80 option)<o:p></o:p></span></li>
+     "Times New Roman"'>Read Status Of DTC By DTC Number (xA9 with x80 option)<o:p></o:p></span></li>
  <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
-     auto;line-height:normal;mso-list:l1 level1 lfo3;tab-stops:list .5in'><span
+     auto;line-height:normal;mso-list:l1 level1 lfo4;tab-stops:list .5in'><span
      style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
      "Times New Roman"'>Read DTCs by Status (xA9 with x81 option)<o:p></o:p></span></li>
  <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
-     auto;line-height:normal;mso-list:l1 level1 lfo3;tab-stops:list .5in'><span
+     auto;line-height:normal;mso-list:l1 level1 lfo4;tab-stops:list .5in'><span
      style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
-     "Times New Roman"'>Send <span class=GramE>On</span> Change DTC Count (xA9
-     with x82 option)<o:p></o:p></span></li>
+     "Times New Roman"'>Send On Change DTC Count (xA9 with x82 option)<o:p></o:p></span></li>
  <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
-     auto;line-height:normal;mso-list:l1 level1 lfo3;tab-stops:list .5in'><span
+     auto;line-height:normal;mso-list:l1 level1 lfo4;tab-stops:list .5in'><span
      style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
-     "Times New Roman"'>Clear Diagnostic Information (x<span class=GramE>4)&#8203;</span><o:p></o:p></span></li>
+     "Times New Roman"'>Clear Diagnostic Information (x4)&#8203;<o:p></o:p></span></li>
 </ul>
 
 <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
@@ -1445,10 +1558,10 @@ color:#0072C6'>&#8203;&#8203;Addon Configuration<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:7.5pt;line-height:normal'><span
 style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
-"Times New Roman";color:#444444'>Upon adding the addon, <span class=GramE>an</span>
-configuration GUI will open. Select the desired diagnostic protocol and base
-baud rate. Optionally, a previously exported diagnostics addon configuration
-can&nbsp;be imported.<o:p></o:p></span></p>
+"Times New Roman";color:#444444'>Upon adding the addon, an configuration GUI
+will open. Select the desired diagnostic protocol and base baud rate.
+Optionally, a previously exported diagnostics addon configuration can&nbsp;be
+imported.<o:p></o:p></span></p>
 
 <p class=MsoNormal align=center style='margin-bottom:7.5pt;text-align:center;
 line-height:normal'><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
@@ -1464,8 +1577,8 @@ style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-famil
 
 <p class=MsoNormal style='margin-bottom:7.5pt;line-height:normal'><span
 style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
-"Times New Roman";color:#444444'>The addon will be added to the system definition.
-There will sections added for all the supported services.<o:p></o:p></span></p>
+"Times New Roman";color:#444444'>The addon will be added to the system
+definition. There will sections added for all the supported services.<o:p></o:p></span></p>
 
 <p class=MsoNormal align=center style='margin-bottom:7.5pt;text-align:center;
 line-height:normal'><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
@@ -1488,8 +1601,8 @@ CAN ports on the current Target/Controller.&nbsp;<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:7.5pt;line-height:normal'><span
 style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
-"Times New Roman";color:#444444'>Also,&nbsp;notice the <span class=GramE>built
-in</span> help. This help provides the details needed to use each service.<o:p></o:p></span></p>
+"Times New Roman";color:#444444'>Also,&nbsp;notice the built in help. This help
+provides the details needed to use each service.<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:7.5pt;line-height:normal'><span
 style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
@@ -1497,8 +1610,8 @@ style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-famil
 and set the Transmit ID (master to ECU)&nbsp;and Receive&nbsp;ID&nbsp;(ECU to
 master). Diagnostic protocols are command/response based. These IDs are the
 specific frame command and response IDs used for the&nbsp;communication. They
-are company and ECU specific.&nbsp;GMLAN has a third ID for push-based&nbsp;messages
-(breaks the normal command/response paradigm).&nbsp;<o:p></o:p></span></p>
+are company and ECU specific.&nbsp;GMLAN has a third ID for
+push-based&nbsp;messages (breaks the normal command/response paradigm).&nbsp;<o:p></o:p></span></p>
 
 <p class=MsoNormal align=center style='margin-bottom:7.5pt;text-align:center;
 line-height:normal'><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
@@ -1515,16 +1628,16 @@ style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-famil
 <p class=MsoNormal style='margin-bottom:7.5pt;line-height:normal'><span
 style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
 "Times New Roman";color:#444444'>After these settings are entered, an initial
-test of the configuration is <span class=GramE>recommend</span>.
-Deploy&nbsp;the system definition,&nbsp;check that the Tester Present service
-is working without <span class=GramE>errors, and</span> confirm&nbsp;the
-expected Transmit and <span class=SpellE>Recieve</span> IDs&nbsp;are on the bus
-(using NI XNET Bus Monitor or the included tool's&nbsp;bus s&#8203;<span
-class=SpellE>tream</span> discussed below). If this test is not successful,
-make sure the ECU is powered and wired,&nbsp;confirm basic CAN is
-working,&nbsp;check for&nbsp;bus errors,&nbsp;confirm&nbsp;the CAN and protocol
-settings with the ECU experts, check for&nbsp;negative diagnostic responses,
-etc. If the test is successful, continue setting up the addon.<o:p></o:p></span></p>
+test of the configuration is recommend. Deploy&nbsp;the system
+definition,&nbsp;check that the Tester Present service is working without
+errors, and confirm&nbsp;the expected Transmit and <span class=SpellE>Recieve</span>
+IDs&nbsp;are on the bus (using NI XNET Bus Monitor or the included
+tool's&nbsp;bus s&#8203;<span class=SpellE>tream</span> discussed below). If
+this test is not successful, make sure the ECU is powered and
+wired,&nbsp;confirm basic CAN is working,&nbsp;check for&nbsp;bus
+errors,&nbsp;confirm&nbsp;the CAN and protocol settings with the ECU experts,
+check for&nbsp;negative diagnostic responses, etc. If the test is successful,
+continue setting up the addon.<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:7.5pt;line-height:normal'><span
 style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
@@ -1550,8 +1663,8 @@ Error Code report the service status.<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:7.5pt;line-height:normal'><span
 style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
-"Times New Roman";color:#444444'>Additionally, some service <span class=GramE>have</span>
-Settings, Command, or Response sections.<o:p></o:p></span></p>
+"Times New Roman";color:#444444'>Additionally, some service have Settings,
+Command, or Response sections.<o:p></o:p></span></p>
 
 <p class=MsoNormal align=center style='margin-bottom:7.5pt;text-align:center;
 line-height:normal'><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
@@ -1664,9 +1777,8 @@ style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-famil
 
 <p class=MsoNormal style='margin-bottom:7.5pt;line-height:normal'><span
 style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
-"Times New Roman";color:#444444'>Select the PID from the <span class=GramE>drop
-down</span> box and hit the check button. Repeat until all desired PIDs are
-selected.&nbsp;Hit Apply.<o:p></o:p></span></p>
+"Times New Roman";color:#444444'>Select the PID from the drop down box and hit
+the check button. Repeat until all desired PIDs are selected.&nbsp;Hit Apply.<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:7.5pt;line-height:normal'><span
 style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
@@ -1717,10 +1829,9 @@ style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-famil
 <p class=MsoNormal style='margin-bottom:7.5pt;line-height:normal'><span
 style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
 "Times New Roman";color:#444444'>Some of the services have special
-configurations on the section itself. Unlock ECU and Read DTCs are two <span
-class=GramE>example</span>. For Unlock ECU, select None (ECU already unlocked),
-DLL (or shared object depending on the target's operating system) or use a
-Master Key.<o:p></o:p></span></p>
+configurations on the section itself. Unlock ECU and Read DTCs are two example.
+For Unlock ECU, select None (ECU already unlocked), DLL (or shared object
+depending on the target's operating system) or use a Master Key.<o:p></o:p></span></p>
 
 <p class=MsoNormal align=center style='margin-bottom:7.5pt;text-align:center;
 line-height:normal'><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
@@ -1782,12 +1893,11 @@ Addon\Windows\Import File Formats<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:7.5pt;line-height:normal'><span
 style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
-"Times New Roman";color:#444444'>Polling of <span class=GramE>particular
-services</span> is supported by the addon.&nbsp;Polls are an
-application&nbsp;feature of the addon,&nbsp;not a diagnostic service. The
-normal operation of diagnostics is event based.&nbsp;However, users&nbsp;often
-want to periodically monitor&nbsp;a <span class=GramE>particular&nbsp;DID</span>,
-PID, or memory location. Polls were added to make this
+"Times New Roman";color:#444444'>Polling of particular services is supported by
+the addon.&nbsp;Polls are an application&nbsp;feature of the addon,&nbsp;not a
+diagnostic service. The normal operation of diagnostics is event
+based.&nbsp;However, users&nbsp;often want to periodically monitor&nbsp;a
+particular&nbsp;DID, PID, or memory location. Polls were added to make this
 simpler.&nbsp;&#8203;&#8203;Add a poll, select the desired items to monitor,
 and select the rate.<o:p></o:p></span></p>
 
@@ -1821,15 +1931,13 @@ style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-famil
 "Times New Roman";color:#444444'>&nbsp;<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:7.5pt;line-height:normal'><span
-class=GramE><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
-mso-fareast-font-family:"Times New Roman";color:#444444'>Similar to</span></span><span
 style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
-"Times New Roman";color:#444444'> polls, there is an application feature (not a
-service)&nbsp;to do mass functions through the Command channel. As an example,
-if there are multiple DID inputs, normally the&nbsp;&quot;Trigger&quot; channel
-must be set to 1&nbsp;per each DID&nbsp;to read the latest value. The Command
-channel can be set to &quot;2&quot; or&nbsp;&quot;Read All DIDs&quot;&nbsp;to
-do a mass reading.<o:p></o:p></span></p>
+"Times New Roman";color:#444444'>Similar to polls, there is an application
+feature (not a service)&nbsp;to do mass functions through the Command channel.
+As an example, if there are multiple DID inputs, normally
+the&nbsp;&quot;Trigger&quot; channel must be set to 1&nbsp;per each DID&nbsp;to
+read the latest value. The Command channel can be set to &quot;2&quot;
+or&nbsp;&quot;Read All DIDs&quot;&nbsp;to do a mass reading.<o:p></o:p></span></p>
 
 <p class=MsoNormal align=center style='margin-bottom:7.5pt;text-align:center;
 line-height:normal'><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
@@ -1934,9 +2042,9 @@ style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-famil
 
 <p class=MsoNormal style='margin-bottom:7.5pt;line-height:normal'><span
 style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
-"Times New Roman";color:#444444'>And <span class=GramE>so</span> do DTC Value
-and DTC Status channels, if they have been setup on the Read/Start&nbsp;DTCs
-section in the system definition.<o:p></o:p></span></p>
+"Times New Roman";color:#444444'>And so do DTC Value and DTC Status channels,
+if they have been setup on the Read/Start&nbsp;DTCs section in the system
+definition.<o:p></o:p></span></p>
 
 <p class=MsoNormal align=center style='margin-bottom:7.5pt;text-align:center;
 line-height:normal'><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
@@ -2040,9 +2148,8 @@ style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-famil
 
 <p class=MsoNormal style='margin-bottom:7.5pt;line-height:normal'><span
 style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
-"Times New Roman";color:#444444'>Send raw commands. <span class=GramE>These
-command</span> go over the ISO TP layer directly. Therefore, they can be over 8
-bytes.<o:p></o:p></span></p>
+"Times New Roman";color:#444444'>Send raw commands. These command go over the
+ISO TP layer directly. Therefore, they can be over 8 bytes.<o:p></o:p></span></p>
 
 <p class=MsoNormal align=center style='margin-bottom:7.5pt;text-align:center;
 line-height:normal'><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
@@ -2126,7 +2233,7 @@ style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-famil
 style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
 "Times New Roman";color:#444444'>Notice that the read&nbsp;DTCs function
 returns an array of&nbsp;variable size.&nbsp;This is a feature which VeriStand
-can't inherently <span class=GramE>support&#8203;.&#8203;</span><o:p></o:p></span></p>
+can't inherently support&#8203;.&#8203;<o:p></o:p></span></p>
 
 <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
 line-height:normal;mso-outline-level:2'><span style='font-size:17.5pt;
@@ -2143,13 +2250,12 @@ installed at:<o:p></o:p></span></p>
 <p class=MsoNormal style='margin-bottom:7.5pt;line-height:normal'><span
 style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
 "Times New Roman";color:#444444'>C:\Users\Public\Documents\National
-Instruments\NI VeriStand &lt;Year&gt;\Custom Devices\Diagnostics Addon\Windows\System
-Definition&nbsp;API<o:p></o:p></span></p>
+Instruments\NI VeriStand &lt;Year&gt;\Custom Devices\Diagnostics
+Addon\Windows\System Definition&nbsp;API<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:7.5pt;line-height:normal'><span
 style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
-"Times New Roman";color:#444444'>An example of using this API is as <span
-class=GramE>follows:&#8203;</span>&#8203;<o:p></o:p></span></p>
+"Times New Roman";color:#444444'>An example of using this API is as follows:&#8203;&#8203;<o:p></o:p></span></p>
 
 <p class=MsoNormal align=center style='margin-bottom:7.5pt;text-align:center;
 line-height:normal'><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
