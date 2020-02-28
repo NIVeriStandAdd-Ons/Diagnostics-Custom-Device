@@ -58,7 +58,7 @@ build_spec = 'System Definition API'
 
 [package]
 type = 'nipkg'
-name = 'diagnostics-addon-{veristand_version}'
+name = 'ni-diagnostics-addon-{veristand_version}'
 dev_xml_path = 'Source\Addon\Custom Device Diagnostics Addon.xml'
 install_destination = 'documents\National Instruments\NI VeriStand {veristand_version}'
 

@@ -1,6 +1,6 @@
-Package: diagnostics-addon-{veristand_version}
+Package: ni-diagnostics-addon-{veristand_version}
 Version: {nipkg_version}
-Architecture: windows_x64
+Architecture: windows_all
 Maintainer: National Instruments <support@ni.com>
 XB-Plugin: file
 Description:  This addon reads DIDs, PIDs, and DTCs.  It writes CPIDs and clears DTCs.  It can also control IO and start/stop/read routines.  It does this over various protocols with varying levels of support.  GMLAN, KWP, and UDS are supported.  Please review the in addon help for a full list of available commands.
