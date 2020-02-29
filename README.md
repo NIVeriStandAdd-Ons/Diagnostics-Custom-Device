@@ -1,4 +1,4 @@
-Diagnostics-Custom-Device
+Diagnostics-Addon
 =========================
 
 ### MAJOR UPDATE ###
@@ -9,19 +9,15 @@ THIS VERSION HAS MAJOR CHANGES.  THESE CHANGES WILL BREAK ANY PREVIOUS ADDON CON
 
 This addon reads DIDs, PIDs, and DTCs.  It writes CPIDs and clears DTCs.  It can also control IO and start/stop/read routines.  It does this over various protocols with varying levels of support.  GMLAN, KWP, and UDS are supported.  Please review the in addon help for a full list of available commands.
 
-### Getting Started Documentation ###
+### Help ###
 
-The quick start document provides an overview of the addon's capabilities. It is located at:
+Quick Start Documentation is at
 
-Built: C:\Users\Public\Documents\National Instruments\NI VeriStand <YEAR>\Custom Devices\Diagnostics Addon\Windows\Quick Start Documentation\Diagnostics Addon Quick Start.html
+Built: C:\Users\Public\Documents\National Instruments\NI VeriStand (Year)\Custom Devices\Diagnostics Addon\Windows\Quick Start Documentation
 
-Source: \Source\Addon\Support Files\Quick Start Documentation\Diagnostics Addon Quick Start.html
+Source: Source\Addon\Support Files\Quick Start Documentation
 
-Most of the addon's system definition sections contain additional built-in documentation.
-
-### LabVIEW Version ###
-
-LabVIEW 2019.
+Help is also included in most System Explorer sections.
 
 ### Built Availability ###
 
@@ -41,7 +37,9 @@ IP has been tested by developer. It meets VeriStand addon coding best practices.
 
 No database support for diagnostic messages (ODX or AUTOSARs).
 
-Protocol support outside of GMLAN is partially implemented.
+### Source Version ###
+
+LabVIEW 2019
 
 ### Source Dependencies ###
 
