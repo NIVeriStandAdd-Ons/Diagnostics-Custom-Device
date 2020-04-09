@@ -78,7 +78,6 @@
 		<Item Name="Status.Set.vi" Type="VI" URL="../SubVIs/Status.Set.vi"/>
 		<Item Name="Type.Convert.String.vi" Type="VI" URL="../SubVIs/Type.Convert.String.vi"/>
 		<Item Name="XNET.Cluster.Convert.Initialize.vi" Type="VI" URL="../SubVIs/XNET.Cluster.Convert.Initialize.vi"/>
-		<Item Name="XNET.Cluster.Stream.Initialize.vi" Type="VI" URL="../SubVIs/XNET.Cluster.Stream.Initialize.vi"/>
 		<Item Name="XNET.DB.Initialize.vi" Type="VI" URL="../SubVIs/XNET.DB.Initialize.vi"/>
 	</Item>
 	<Item Name="Types" Type="Folder">

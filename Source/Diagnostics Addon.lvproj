@@ -407,6 +407,7 @@
 			<Item Name="CAN Stream Support Engine.lvlib" Type="Library" URL="../SubModules/CAN-Streaming-Support/Source/Addon/Addon Engine/CAN Stream Support Engine.lvlib"/>
 			<Item Name="CAN Stream Support Shared.lvlib" Type="Library" URL="../SubModules/CAN-Streaming-Support/Source/Addon/Addon Shared/CAN Stream Support Shared.lvlib"/>
 			<Item Name="CAN Stream Support Workspace Shared.lvlib" Type="Library" URL="../SubModules/CAN-Streaming-Support/Source/UIs/Workspace Shared/CAN Stream Support Workspace Shared.lvlib"/>
+			<Item Name="Engine Stream Port Settings.ctl" Type="VI" URL="../SubModules/CAN-Streaming-Support/Source/Addon/Addon Engine/Types/Engine Stream Port Settings.ctl"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -1251,6 +1252,7 @@
 			<Item Name="CAN Stream Support Engine.lvlib" Type="Library" URL="../SubModules/CAN-Streaming-Support/Source/Addon/Addon Engine/CAN Stream Support Engine.lvlib"/>
 			<Item Name="CAN Stream Support Shared.lvlib" Type="Library" URL="../SubModules/CAN-Streaming-Support/Source/Addon/Addon Shared/CAN Stream Support Shared.lvlib"/>
 			<Item Name="Diagnostics Addon Shared.lvlib" Type="Library" URL="../Addon/Addon Shared/Diagnostics Addon Shared.lvlib"/>
+			<Item Name="Engine Stream Port Settings.ctl" Type="VI" URL="../SubModules/CAN-Streaming-Support/Source/Addon/Addon Engine/Types/Engine Stream Port Settings.ctl"/>
 			<Item Name="GMLAN.lvlib" Type="Library" URL="../Addon/Support Libraries/GMLAN/GMLAN.lvlib"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
@@ -1299,7 +1301,7 @@
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utilities/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{FFDCA642-638A-4664-9D94-164F9021CA4C}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/Pharlap/Diagnostics Addon Engine Pharlap.llb</Property>
-				<Property Name="Bld_version.build" Type="Int">161</Property>
+				<Property Name="Bld_version.build" Type="Int">163</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">/Pharlap/Diagnostics Addon Engine Pharlap.llb</Property>
@@ -1722,6 +1724,7 @@
 			<Item Name="CAN Stream Support Engine.lvlib" Type="Library" URL="../SubModules/CAN-Streaming-Support/Source/Addon/Addon Engine/CAN Stream Support Engine.lvlib"/>
 			<Item Name="CAN Stream Support Shared.lvlib" Type="Library" URL="../SubModules/CAN-Streaming-Support/Source/Addon/Addon Shared/CAN Stream Support Shared.lvlib"/>
 			<Item Name="Diagnostics Addon Shared.lvlib" Type="Library" URL="../Addon/Addon Shared/Diagnostics Addon Shared.lvlib"/>
+			<Item Name="Engine Stream Port Settings.ctl" Type="VI" URL="../SubModules/CAN-Streaming-Support/Source/Addon/Addon Engine/Types/Engine Stream Port Settings.ctl"/>
 			<Item Name="GMLAN.lvlib" Type="Library" URL="../Addon/Support Libraries/GMLAN/GMLAN.lvlib"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
@@ -2181,6 +2184,7 @@
 			<Item Name="CAN Stream Support Engine.lvlib" Type="Library" URL="../SubModules/CAN-Streaming-Support/Source/Addon/Addon Engine/CAN Stream Support Engine.lvlib"/>
 			<Item Name="CAN Stream Support Shared.lvlib" Type="Library" URL="../SubModules/CAN-Streaming-Support/Source/Addon/Addon Shared/CAN Stream Support Shared.lvlib"/>
 			<Item Name="Diagnostics Addon Shared.lvlib" Type="Library" URL="../Addon/Addon Shared/Diagnostics Addon Shared.lvlib"/>
+			<Item Name="Engine Stream Port Settings.ctl" Type="VI" URL="../SubModules/CAN-Streaming-Support/Source/Addon/Addon Engine/Types/Engine Stream Port Settings.ctl"/>
 			<Item Name="GMLAN.lvlib" Type="Library" URL="../Addon/Support Libraries/GMLAN/GMLAN.lvlib"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
