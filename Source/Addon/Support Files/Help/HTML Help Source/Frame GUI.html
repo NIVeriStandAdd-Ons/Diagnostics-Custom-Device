@@ -1,0 +1,44 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+	<head>
+		<meta http-equiv="Content-Style-Type" content="text/css">
+		<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=ISO-8859-1">
+		<title>Configure Service and Signals</title>
+		<link rel="STYLESHEET" type="text/css" href="css/VSsystemexplorer.css">
+		<script src="common.js" type="text/javascript"></script><script src="js/expandable_tree.js" type="text/javascript"></script>
+		<link rel="STYLESHEET" type="text/css" href="css/expandable_tree.css">
+		<script src="launchhelp.js" type="text/javascript"></script><script src="js/dynamicjumps.js" type="text/javascript"></script>
+	</head>
+<body>
+	<noscript>
+		<p class="Body">JavaScript is disabled. <a href="veristandmerge.chm::/JavaScript_Disabled.html">Details</a></p>
+		<hr width="100%" noshade>
+	</noscript>
+<h1>Configure Service and Signals</h1>
+<p class="Body">Some services have parameters and data. For example, the Read DID (data identifier) service, has a paramter "ID" that defines which DID to read. The data is then the signal values associated with that "ID". 
+This section sets the service's ID/address and signals/data.</p>
+<h2>What do you want to do?</h2>
+<h3>Set ID/Address Name</h3>
+<p class="Body">Enter the ID/Address's name in <strong>Name</strong>. This must be unique for a given service type. Not all services require this.</p>
+<h3>Set ID/Address</h3>
+<p class="Body">Enter the value in <strong>ID/Address</strong>. This must be unique for a given service type. Not all services require this.</p>
+<h3>Set Data</h3>
+<p class="Body">To add a signal, select the <strong>Add</strong> button. Fields will appear that relate to the table columns.</p>
+<ul>
+<li><Strong>Signal Name:</Strong> The name of signal. The name must be unique within the service data, start with an alphabetical character, and not use special characters or spaces.
+<li><Strong>Start Bit:</Strong> The start location of the signal within the service data (not the location within the raw byte stream). It is subject to Endian. It follows the rules used in the NI-XNET Database Editor.
+E.g. If the first signal is 16 bits, is the first item in the service data, and little endian, the start bit will be 0. If big endian, the start bit will be 8.
+<li><Strong>Length:</Strong> Length of the signal in bits. The maximum supported length is 64 bits.
+<li><Strong>Factor:</Strong> The multiplication factor to convert the signal binary value to its physical value.
+<li><Strong>Offset:</Strong> The offset to add to the signal scaled physical value.
+<li><Strong>Minimum:</Strong> The smallest possible signal value.
+<li><Strong>Maximum:</Strong> The largest possible signal value.
+<li><Strong>Type:</Strong> Signed, Unsigned, or Float. 
+<li><Strong>Endian:</Strong> The ordering of bytes for this signal. Little or Big.
+<li><Strong>Default:</Strong> The value read or written for the signal if no physical data are yet available
+<li><Strong>Units:</Strong> The signal physical unit
+</ul>
+<h3>Edit Data</h3>
+<p class="Body">Single click on any existing signal column field and type in the edits. Make sure the formats, spellings, and capitalizations are correct.</p>
+</body>
+</html>
