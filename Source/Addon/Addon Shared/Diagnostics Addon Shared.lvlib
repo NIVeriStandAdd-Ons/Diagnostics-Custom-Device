@@ -44,6 +44,7 @@
 			<Item Name="LookupID.Create.vi" Type="VI" URL="../SubVIs/LookupID.Create.vi"/>
 			<Item Name="MasterKey.String.ConvertToChannelValues.vi" Type="VI" URL="../SubVIs/MasterKey.String.ConvertToChannelValues.vi"/>
 			<Item Name="Settings.Create.vi" Type="VI" URL="../SubVIs/Settings.Create.vi"/>
+			<Item Name="Version.Convert.StringToCluster.vi" Type="VI" URL="../SubVIs/Version.Convert.StringToCluster.vi"/>
 			<Item Name="XNET.Create.Frame.vi" Type="VI" URL="../SubVIs/XNET.Create.Frame.vi"/>
 			<Item Name="XNET.Create.Signal.vi" Type="VI" URL="../SubVIs/XNET.Create.Signal.vi"/>
 			<Item Name="XNETDB.Add.vi" Type="VI" URL="../SubVIs/XNETDB.Add.vi"/>
