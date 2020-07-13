@@ -66,3 +66,4 @@ install_destination = 'documents\National Instruments\NI VeriStand {veristand_ve
 name = 'Master Release'
 type = 'githubRelease'
 2019_release_branches = ["master",]
+2020_release_branches = ["master",]
