@@ -90,4 +90,5 @@
 			<Item Name="XNET.Frame.ctl" Type="VI" URL="../Types/XNET.Frame.ctl"/>
 		</Item>
 	</Item>
+	<Item Name="XNET.Create.DatabasePath.vi" Type="VI" URL="../SubVIs/XNET.Create.DatabasePath.vi"/>
 </Library>
