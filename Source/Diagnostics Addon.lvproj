@@ -67,7 +67,41 @@
 				<Item Name="Get PString__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get PString__ogtk.vi"/>
 				<Item Name="Get Strings from Enum TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Strings from Enum TD__ogtk.vi"/>
 				<Item Name="Get Strings from Enum__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Strings from Enum__ogtk.vi"/>
+				<Item Name="Reorder 1D Array (CDB)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Reorder 1D Array (CDB)__ogtk.vi"/>
+				<Item Name="Reorder 1D Array (CSG)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Reorder 1D Array (CSG)__ogtk.vi"/>
+				<Item Name="Reorder 1D Array (CXT)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Reorder 1D Array (CXT)__ogtk.vi"/>
+				<Item Name="Sort 1D Array (CDB)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 1D Array (CDB)__ogtk.vi"/>
+				<Item Name="Sort 1D Array (CSG)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 1D Array (CSG)__ogtk.vi"/>
+				<Item Name="Sort 1D Array (CXT)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 1D Array (CXT)__ogtk.vi"/>
+				<Item Name="Sort 1D Array (DBL)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 1D Array (DBL)__ogtk.vi"/>
+				<Item Name="Sort 1D Array (EXT)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 1D Array (EXT)__ogtk.vi"/>
+				<Item Name="Sort 1D Array (I8)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 1D Array (I8)__ogtk.vi"/>
+				<Item Name="Sort 1D Array (I16)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 1D Array (I16)__ogtk.vi"/>
+				<Item Name="Sort 1D Array (I32)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 1D Array (I32)__ogtk.vi"/>
+				<Item Name="Sort 1D Array (I64)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 1D Array (I64)__ogtk.vi"/>
+				<Item Name="Sort 1D Array (Path)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 1D Array (Path)__ogtk.vi"/>
+				<Item Name="Sort 1D Array (SGL)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 1D Array (SGL)__ogtk.vi"/>
+				<Item Name="Sort 1D Array (String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 1D Array (String)__ogtk.vi"/>
+				<Item Name="Sort 1D Array (U8)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 1D Array (U8)__ogtk.vi"/>
+				<Item Name="Sort 1D Array (U16)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 1D Array (U16)__ogtk.vi"/>
+				<Item Name="Sort 1D Array (U32)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 1D Array (U32)__ogtk.vi"/>
+				<Item Name="Sort 1D Array (U64)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 1D Array (U64)__ogtk.vi"/>
+				<Item Name="Sort 2D Array (CDB)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 2D Array (CDB)__ogtk.vi"/>
+				<Item Name="Sort 2D Array (CSG)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 2D Array (CSG)__ogtk.vi"/>
+				<Item Name="Sort 2D Array (CXT)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 2D Array (CXT)__ogtk.vi"/>
+				<Item Name="Sort 2D Array (DBL)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 2D Array (DBL)__ogtk.vi"/>
+				<Item Name="Sort 2D Array (EXT)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 2D Array (EXT)__ogtk.vi"/>
+				<Item Name="Sort 2D Array (I8)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 2D Array (I8)__ogtk.vi"/>
+				<Item Name="Sort 2D Array (I16)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 2D Array (I16)__ogtk.vi"/>
+				<Item Name="Sort 2D Array (I32)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 2D Array (I32)__ogtk.vi"/>
+				<Item Name="Sort 2D Array (I64)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 2D Array (I64)__ogtk.vi"/>
+				<Item Name="Sort 2D Array (Path)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 2D Array (Path)__ogtk.vi"/>
+				<Item Name="Sort 2D Array (SGL)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 2D Array (SGL)__ogtk.vi"/>
 				<Item Name="Sort 2D Array (String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 2D Array (String)__ogtk.vi"/>
+				<Item Name="Sort 2D Array (U8)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 2D Array (U8)__ogtk.vi"/>
+				<Item Name="Sort 2D Array (U16)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 2D Array (U16)__ogtk.vi"/>
+				<Item Name="Sort 2D Array (U32)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 2D Array (U32)__ogtk.vi"/>
+				<Item Name="Sort 2D Array (U64)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 2D Array (U64)__ogtk.vi"/>
 				<Item Name="Sort Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort Array__ogtk.vi"/>
 				<Item Name="Type Descriptor Enumeration__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor Enumeration__ogtk.ctl"/>
 				<Item Name="Type Descriptor Header__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor Header__ogtk.ctl"/>
@@ -1218,20 +1252,12 @@
 				<Item Name="Unset Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Unset Busy.vi"/>
 				<Item Name="XNET Database Get List.vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Database Get List.vi"/>
 			</Item>
-			<Item Name="CAN Frame Filter.vi" Type="VI" URL="../SubModules/CAN-Streaming-Support/Source/Addon/Addon Engine/SubVIs/CAN Frame Filter.vi"/>
-			<Item Name="Cleanup Engine Stream.vi" Type="VI" URL="../SubModules/CAN-Streaming-Support/Source/Addon/Addon Engine/SubVIs/Cleanup Engine Stream.vi"/>
-			<Item Name="Create Engine Stream Refs.vi" Type="VI" URL="../SubModules/CAN-Streaming-Support/Source/Addon/Addon Engine/SubVIs/Create Engine Stream Refs.vi"/>
+			<Item Name="CAN Stream Support Engine.lvlib" Type="Library" URL="../SubModules/CAN-Streaming-Support/Source/Addon/Addon Engine/CAN Stream Support Engine.lvlib"/>
+			<Item Name="CAN Stream Support Shared.lvlib" Type="Library" URL="../SubModules/CAN-Streaming-Support/Source/Addon/Addon Shared/CAN Stream Support Shared.lvlib"/>
 			<Item Name="Diagnostics Addon Shared.lvlib" Type="Library" URL="../Addon/Addon Shared/Diagnostics Addon Shared.lvlib"/>
 			<Item Name="Diagnostics Addon System Explorer.lvlib" Type="Library" URL="../Addon/Addon System Explorer/Diagnostics Addon System Explorer.lvlib"/>
-			<Item Name="Direction Filter.ctl" Type="VI" URL="../SubModules/CAN-Streaming-Support/Source/Addon/Addon Shared/Types/Direction Filter.ctl"/>
-			<Item Name="Engine Steam Format Debug String.vi" Type="VI" URL="../SubModules/CAN-Streaming-Support/Source/Addon/Addon Engine/SubVIs/Engine Steam Format Debug String.vi"/>
-			<Item Name="Engine Stream Port Settings.ctl" Type="VI" URL="../SubModules/CAN-Streaming-Support/Source/Addon/Addon Engine/Types/Engine Stream Port Settings.ctl"/>
-			<Item Name="Engine Stream Refs.ctl" Type="VI" URL="../SubModules/CAN-Streaming-Support/Source/Addon/Addon Engine/Types/Engine Stream Refs.ctl"/>
-			<Item Name="Filter Parameters.ctl" Type="VI" URL="../SubModules/CAN-Streaming-Support/Source/Addon/Addon Shared/Types/Filter Parameters.ctl"/>
-			<Item Name="Get Engine Stream Filter.vi" Type="VI" URL="../SubModules/CAN-Streaming-Support/Source/Addon/Addon Engine/SubVIs/Get Engine Stream Filter.vi"/>
 			<Item Name="GMLAN.lvlib" Type="Library" URL="../Addon/Support Libraries/GMLAN/GMLAN.lvlib"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
-			<Item Name="Main Engine Stream Process.vi" Type="VI" URL="../SubModules/CAN-Streaming-Support/Source/Addon/Addon Engine/SubVIs/Main Engine Stream Process.vi"/>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -1268,12 +1294,9 @@
 			<Item Name="niyanci.dll" Type="Document" URL="niyanci.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Reset Engine Stream Filter.vi" Type="VI" URL="../SubModules/CAN-Streaming-Support/Source/Addon/Addon Engine/SubVIs/Reset Engine Stream Filter.vi"/>
-			<Item Name="Set Engine Stream Filter.vi" Type="VI" URL="../SubModules/CAN-Streaming-Support/Source/Addon/Addon Engine/SubVIs/Set Engine Stream Filter.vi"/>
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Type Filter.ctl" Type="VI" URL="../SubModules/CAN-Streaming-Support/Source/Addon/Addon Shared/Types/Type Filter.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Engine Release" Type="Source Distribution">
@@ -1721,20 +1744,12 @@
 				<Item Name="XNET Read.vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Read.vi"/>
 				<Item Name="XNET Session Info State.ctl" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Session Info State.ctl"/>
 			</Item>
-			<Item Name="CAN Frame Filter.vi" Type="VI" URL="../SubModules/CAN-Streaming-Support/Source/Addon/Addon Engine/SubVIs/CAN Frame Filter.vi"/>
-			<Item Name="Cleanup Engine Stream.vi" Type="VI" URL="../SubModules/CAN-Streaming-Support/Source/Addon/Addon Engine/SubVIs/Cleanup Engine Stream.vi"/>
-			<Item Name="Create Engine Stream Refs.vi" Type="VI" URL="../SubModules/CAN-Streaming-Support/Source/Addon/Addon Engine/SubVIs/Create Engine Stream Refs.vi"/>
+			<Item Name="CAN Stream Support Engine.lvlib" Type="Library" URL="../SubModules/CAN-Streaming-Support/Source/Addon/Addon Engine/CAN Stream Support Engine.lvlib"/>
+			<Item Name="CAN Stream Support Shared.lvlib" Type="Library" URL="../SubModules/CAN-Streaming-Support/Source/Addon/Addon Shared/CAN Stream Support Shared.lvlib"/>
 			<Item Name="Diagnostics Addon Shared.lvlib" Type="Library" URL="../Addon/Addon Shared/Diagnostics Addon Shared.lvlib"/>
 			<Item Name="Diagnostics Addon System Explorer.lvlib" Type="Library" URL="../Addon/Addon System Explorer/Diagnostics Addon System Explorer.lvlib"/>
-			<Item Name="Direction Filter.ctl" Type="VI" URL="../SubModules/CAN-Streaming-Support/Source/Addon/Addon Shared/Types/Direction Filter.ctl"/>
-			<Item Name="Engine Steam Format Debug String.vi" Type="VI" URL="../SubModules/CAN-Streaming-Support/Source/Addon/Addon Engine/SubVIs/Engine Steam Format Debug String.vi"/>
-			<Item Name="Engine Stream Port Settings.ctl" Type="VI" URL="../SubModules/CAN-Streaming-Support/Source/Addon/Addon Engine/Types/Engine Stream Port Settings.ctl"/>
-			<Item Name="Engine Stream Refs.ctl" Type="VI" URL="../SubModules/CAN-Streaming-Support/Source/Addon/Addon Engine/Types/Engine Stream Refs.ctl"/>
-			<Item Name="Filter Parameters.ctl" Type="VI" URL="../SubModules/CAN-Streaming-Support/Source/Addon/Addon Shared/Types/Filter Parameters.ctl"/>
-			<Item Name="Get Engine Stream Filter.vi" Type="VI" URL="../SubModules/CAN-Streaming-Support/Source/Addon/Addon Engine/SubVIs/Get Engine Stream Filter.vi"/>
 			<Item Name="GMLAN.lvlib" Type="Library" URL="../Addon/Support Libraries/GMLAN/GMLAN.lvlib"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
-			<Item Name="Main Engine Stream Process.vi" Type="VI" URL="../SubModules/CAN-Streaming-Support/Source/Addon/Addon Engine/SubVIs/Main Engine Stream Process.vi"/>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -1771,12 +1786,9 @@
 			<Item Name="niyanci.dll" Type="Document" URL="niyanci.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Reset Engine Stream Filter.vi" Type="VI" URL="../SubModules/CAN-Streaming-Support/Source/Addon/Addon Engine/SubVIs/Reset Engine Stream Filter.vi"/>
-			<Item Name="Set Engine Stream Filter.vi" Type="VI" URL="../SubModules/CAN-Streaming-Support/Source/Addon/Addon Engine/SubVIs/Set Engine Stream Filter.vi"/>
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Type Filter.ctl" Type="VI" URL="../SubModules/CAN-Streaming-Support/Source/Addon/Addon Shared/Types/Type Filter.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Engine Release" Type="Source Distribution">
@@ -2212,20 +2224,12 @@
 				<Item Name="XNET Read.vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Read.vi"/>
 				<Item Name="XNET Session Info State.ctl" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Session Info State.ctl"/>
 			</Item>
-			<Item Name="CAN Frame Filter.vi" Type="VI" URL="../SubModules/CAN-Streaming-Support/Source/Addon/Addon Engine/SubVIs/CAN Frame Filter.vi"/>
-			<Item Name="Cleanup Engine Stream.vi" Type="VI" URL="../SubModules/CAN-Streaming-Support/Source/Addon/Addon Engine/SubVIs/Cleanup Engine Stream.vi"/>
-			<Item Name="Create Engine Stream Refs.vi" Type="VI" URL="../SubModules/CAN-Streaming-Support/Source/Addon/Addon Engine/SubVIs/Create Engine Stream Refs.vi"/>
+			<Item Name="CAN Stream Support Engine.lvlib" Type="Library" URL="../SubModules/CAN-Streaming-Support/Source/Addon/Addon Engine/CAN Stream Support Engine.lvlib"/>
+			<Item Name="CAN Stream Support Shared.lvlib" Type="Library" URL="../SubModules/CAN-Streaming-Support/Source/Addon/Addon Shared/CAN Stream Support Shared.lvlib"/>
 			<Item Name="Diagnostics Addon Shared.lvlib" Type="Library" URL="../Addon/Addon Shared/Diagnostics Addon Shared.lvlib"/>
 			<Item Name="Diagnostics Addon System Explorer.lvlib" Type="Library" URL="../Addon/Addon System Explorer/Diagnostics Addon System Explorer.lvlib"/>
-			<Item Name="Direction Filter.ctl" Type="VI" URL="../SubModules/CAN-Streaming-Support/Source/Addon/Addon Shared/Types/Direction Filter.ctl"/>
-			<Item Name="Engine Steam Format Debug String.vi" Type="VI" URL="../SubModules/CAN-Streaming-Support/Source/Addon/Addon Engine/SubVIs/Engine Steam Format Debug String.vi"/>
-			<Item Name="Engine Stream Port Settings.ctl" Type="VI" URL="../SubModules/CAN-Streaming-Support/Source/Addon/Addon Engine/Types/Engine Stream Port Settings.ctl"/>
-			<Item Name="Engine Stream Refs.ctl" Type="VI" URL="../SubModules/CAN-Streaming-Support/Source/Addon/Addon Engine/Types/Engine Stream Refs.ctl"/>
-			<Item Name="Filter Parameters.ctl" Type="VI" URL="../SubModules/CAN-Streaming-Support/Source/Addon/Addon Shared/Types/Filter Parameters.ctl"/>
-			<Item Name="Get Engine Stream Filter.vi" Type="VI" URL="../SubModules/CAN-Streaming-Support/Source/Addon/Addon Engine/SubVIs/Get Engine Stream Filter.vi"/>
 			<Item Name="GMLAN.lvlib" Type="Library" URL="../Addon/Support Libraries/GMLAN/GMLAN.lvlib"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
-			<Item Name="Main Engine Stream Process.vi" Type="VI" URL="../SubModules/CAN-Streaming-Support/Source/Addon/Addon Engine/SubVIs/Main Engine Stream Process.vi"/>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -2262,12 +2266,9 @@
 			<Item Name="niyanci.dll" Type="Document" URL="niyanci.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Reset Engine Stream Filter.vi" Type="VI" URL="../SubModules/CAN-Streaming-Support/Source/Addon/Addon Engine/SubVIs/Reset Engine Stream Filter.vi"/>
-			<Item Name="Set Engine Stream Filter.vi" Type="VI" URL="../SubModules/CAN-Streaming-Support/Source/Addon/Addon Engine/SubVIs/Set Engine Stream Filter.vi"/>
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Type Filter.ctl" Type="VI" URL="../SubModules/CAN-Streaming-Support/Source/Addon/Addon Shared/Types/Type Filter.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Engine Release" Type="Source Distribution">
