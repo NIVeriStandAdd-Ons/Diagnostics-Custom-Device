@@ -59,6 +59,7 @@
 		<Item Name="Diagnostics.Main.vi" Type="VI" URL="../SubVIs/Diagnostics.Main.vi"/>
 		<Item Name="Diagnostics.Protocol.Initialize.vi" Type="VI" URL="../SubVIs/Diagnostics.Protocol.Initialize.vi"/>
 		<Item Name="Diagnostics.Restart.Loop.vi" Type="VI" URL="../SubVIs/Diagnostics.Restart.Loop.vi"/>
+		<Item Name="Diagnostics.Restart.WaitForRestart.vi" Type="VI" URL="../SubVIs/Diagnostics.Restart.WaitForRestart.vi"/>
 		<Item Name="DPIDs.Find.vi" Type="VI" URL="../SubVIs/DPIDs.Find.vi"/>
 		<Item Name="DPIDs.IDs.Sort.vi" Type="VI" URL="../SubVIs/DPIDs.IDs.Sort.vi"/>
 		<Item Name="DPIDs.Initialize.vi" Type="VI" URL="../SubVIs/DPIDs.Initialize.vi"/>
@@ -76,6 +77,7 @@
 		<Item Name="Signals.Scale.EU.vi" Type="VI" URL="../SubVIs/Signals.Scale.EU.vi"/>
 		<Item Name="Signals.Scale.Raw.vi" Type="VI" URL="../SubVIs/Signals.Scale.Raw.vi"/>
 		<Item Name="Status.Set.vi" Type="VI" URL="../SubVIs/Status.Set.vi"/>
+		<Item Name="Stream.Initialize.vi" Type="VI" URL="../SubVIs/Stream.Initialize.vi"/>
 		<Item Name="Type.Convert.String.vi" Type="VI" URL="../SubVIs/Type.Convert.String.vi"/>
 		<Item Name="XNET.Cluster.Convert.Initialize.vi" Type="VI" URL="../SubVIs/XNET.Cluster.Convert.Initialize.vi"/>
 		<Item Name="XNET.DB.Initialize.vi" Type="VI" URL="../SubVIs/XNET.DB.Initialize.vi"/>

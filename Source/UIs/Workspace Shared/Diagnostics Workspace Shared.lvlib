@@ -57,4 +57,5 @@
 		<Item Name="Workspace.SavedState.ctl" Type="VI" URL="../Types/Workspace.SavedState.ctl"/>
 		<Item Name="Workspace.State.ctl" Type="VI" URL="../Types/Workspace.State.ctl"/>
 	</Item>
+	<Item Name="Workspace.CAN.TransportProtocol.Get.vi" Type="VI" URL="../SubVIs/Workspace.CAN.TransportProtocol.Get.vi"/>
 </Library>
