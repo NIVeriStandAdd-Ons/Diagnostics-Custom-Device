@@ -40,6 +40,7 @@
 		<Item Name="UI.Stream.Disable.vi" Type="VI" URL="../SubVIs/UI.Stream.Disable.vi"/>
 		<Item Name="UI.Stream.Enable.vi" Type="VI" URL="../SubVIs/UI.Stream.Enable.vi"/>
 		<Item Name="Workspace.CAN.Protocol.Get.vi" Type="VI" URL="../SubVIs/Workspace.CAN.Protocol.Get.vi"/>
+		<Item Name="Workspace.CAN.TransportProtocol.Get.vi" Type="VI" URL="../SubVIs/Workspace.CAN.TransportProtocol.Get.vi"/>
 		<Item Name="Workspace.Channels.Create.vi" Type="VI" URL="../SubVIs/Workspace.Channels.Create.vi"/>
 		<Item Name="Workspace.Close.vi" Type="VI" URL="../SubVIs/Workspace.Close.vi"/>
 		<Item Name="Workspace.CustomDevices.Get.vi" Type="VI" URL="../SubVIs/Workspace.CustomDevices.Get.vi"/>
@@ -57,5 +58,4 @@
 		<Item Name="Workspace.SavedState.ctl" Type="VI" URL="../Types/Workspace.SavedState.ctl"/>
 		<Item Name="Workspace.State.ctl" Type="VI" URL="../Types/Workspace.State.ctl"/>
 	</Item>
-	<Item Name="Workspace.CAN.TransportProtocol.Get.vi" Type="VI" URL="../SubVIs/Workspace.CAN.TransportProtocol.Get.vi"/>
 </Library>
