@@ -47,23 +47,13 @@ NI Automotive Diagnostic Command Set 19.0 or later
 
 NI XNET 19.0 or later
 
+NI Veristand Custom Device Development Tools (https://github.com/ni/niveristand-custom-device-development-tools/releases)
+
 NI GXML 1.4.2.8
 
 NI Simple Messaging Library 3.0.0.7 or later
 
 NI Asynchronous Messaging Communication Library 3.3.1.22 or later
-
-VeriStand Addon Inline Async API (https://github.com/ni/niveristand-custom-device-inline-async-api)
-
-VeriStand Addon Network Comm (https://github.com/NIVeriStandAdd-Ons/VeriStand-Addon-Network-Comm)
-
-VeriStand Addon System Definition Utilities (https://github.com/NIVeriStandAdd-Ons/VeriStand-Addon-System-Definition-Utilities)
-
-VeriStand Addon CD Import and Export Tool (https://github.com/NIVeriStandAdd-Ons/VeriStand-Addon-CD-Import-and-Export-Tool)
-
-VeriStand Addon Hardware Resource Discovery (https://github.com/NIVeriStandAdd-Ons/Hardware-Resource-Discovery)
-
-HTML Help File Tools (https://github.com/NIVeriStandAdd-Ons/HTML-Help-File-Tools)
 
 ### License ###
 
