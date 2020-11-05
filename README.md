@@ -49,7 +49,7 @@ NI XNET 19.0 or later
 
 NI Veristand Custom Device Development Tools (https://github.com/ni/niveristand-custom-device-development-tools/releases)
 
-NI GXML 1.4.2.8
+NI GXML 1.4.2.8 (https://www.vipm.io/package/ni_lib_gxml/)
 
 NI Simple Messaging Library 3.1.0.9 (https://www.vipm.io/package/ni_lib_stm/)
 
