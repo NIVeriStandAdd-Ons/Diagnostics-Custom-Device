@@ -175,6 +175,7 @@
 			<Item Name="Security.MasterKeyChannelValues.Get.vi" Type="VI" URL="../SubVIs/Security.MasterKeyChannelValues.Get.vi"/>
 			<Item Name="Security.MasterKeyChannelValues.Set.vi" Type="VI" URL="../SubVIs/Security.MasterKeyChannelValues.Set.vi"/>
 			<Item Name="Services.Compile.Comm.State.GetDefault.vi" Type="VI" URL="../SubVIs/Services.Compile.Comm.State.GetDefault.vi"/>
+			<Item Name="Settings.Create.vi" Type="VI" URL="../SubVIs/Settings.Create.vi"/>
 		</Item>
 		<Item Name="Types" Type="Folder">
 			<Item Name="Addon.Initialize.ctl" Type="VI" URL="../Types/Addon.Initialize.ctl"/>
