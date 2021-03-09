@@ -50,6 +50,7 @@
 			<Item Name="XNETDB.Add.vi" Type="VI" URL="../SubVIs/XNETDB.Add.vi"/>
 		</Item>
 		<Item Name="Types" Type="Folder">
+			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="986x.ctl" Type="VI" URL="../Types/986x.ctl"/>
 			<Item Name="CAN.ctl" Type="VI" URL="../Types/CAN.ctl"/>
 			<Item Name="CAN.Interface.ctl" Type="VI" URL="../Types/CAN.Interface.ctl"/>

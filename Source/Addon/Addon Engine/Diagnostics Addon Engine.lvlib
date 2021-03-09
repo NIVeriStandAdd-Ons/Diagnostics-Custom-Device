@@ -89,8 +89,6 @@
 		<Item Name="DPIDs.IDs.Sorted.ctl" Type="VI" URL="../Types/DPIDs.IDs.Sorted.ctl"/>
 		<Item Name="DTC.ChangeCount.Info.ctl" Type="VI" URL="../Types/DTC.ChangeCount.Info.ctl"/>
 		<Item Name="Polling.States.ctl" Type="VI" URL="../Types/Polling.States.ctl"/>
-		<Item Name="UnlockECU.SendSeedToWindowsAndWaitOnKeyCmd.ctl" Type="VI" URL="../Types/UnlockECU.SendSeedToWindowsAndWaitOnKeyCmd.ctl"/>
-		<Item Name="UnlockECU.SendSeedToWindowsAndWaitOnKeyResp.ctl" Type="VI" URL="../Types/UnlockECU.SendSeedToWindowsAndWaitOnKeyResp.ctl"/>
 		<Item Name="XNET.Cluster.ctl" Type="VI" URL="../Types/XNET.Cluster.ctl"/>
 		<Item Name="XNET.Refs.ctl" Type="VI" URL="../Types/XNET.Refs.ctl"/>
 	</Item>

@@ -64,6 +64,11 @@
 		<Item Name="APIs" Type="Folder">
 			<Item Name="Diagnostics Host Automation API.lvlib" Type="Library" URL="../APIs/Host Automation API/Diagnostics Host Automation API.lvlib"/>
 		</Item>
+		<Item Name="Service" Type="Folder">
+			<Item Name="Diagnostic Unlock ECU Service Launcher.lvlib" Type="Library" URL="../Service/Service Launcher/Diagnostic Unlock ECU Service Launcher.lvlib"/>
+			<Item Name="Diagnostic Unlock ECU Service Shared.lvlib" Type="Library" URL="../Service/Service Shared/Diagnostic Unlock ECU Service Shared.lvlib"/>
+			<Item Name="Diagnostic Unlock ECU Service.lvlib" Type="Library" URL="../Service/Service Engine/Diagnostic Unlock ECU Service.lvlib"/>
+		</Item>
 		<Item Name="UIs" Type="Folder">
 			<Item Name="Diagnostics Workspace Object.lvlib" Type="Library" URL="../UIs/Workspace Objects/Diagnostics Workspace Object.lvlib"/>
 			<Item Name="Diagnostics Workspace Shared.lvlib" Type="Library" URL="../UIs/Workspace Shared/Diagnostics Workspace Shared.lvlib"/>
@@ -404,6 +409,7 @@
 				<Item Name="XNET Read.vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Read.vi"/>
 				<Item Name="XNET Session Info State.ctl" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Session Info State.ctl"/>
 			</Item>
+			<Item Name="CalculateDiagnosticKeyFromSeed.vi" Type="VI" URL="../Service/Service Engine/SubVIs/CalculateDiagnosticKeyFromSeed.vi"/>
 			<Item Name="CAN Stream Support Workspace Shared.lvlib" Type="Library" URL="../SubModules/CAN-Streaming-Support/Source/UIs/Workspace Shared/CAN Stream Support Workspace Shared.lvlib"/>
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -447,6 +453,7 @@
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
+			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="Configuration Release" Type="Source Distribution">
 				<Property Name="Bld_buildCacheID" Type="Str">{F7E936A1-C50B-4217-AC2B-A4DA3629CD4B}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Configuration Release</Property>
@@ -588,6 +595,92 @@
 				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Addon/Support Files/Help/Diagnostics Addon.chm</Property>
 				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="SourceCount" Type="Int">11</Property>
+			</Item>
+			<Item Name="Diagnostic Unlock ECU Service Support" Type="Packed Library">
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{D1214BED-045B-418E-A89C-BE1643E609A5}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Diagnostic Unlock ECU Service Support</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/Services/Diagnostic Unlock ECU Service</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{E985D8F0-FB4C-4F2F-B24E-5F9271DC3E42}</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">Diagnostic Unlock ECU Service Support.lvlibp</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/Services/Diagnostic Unlock ECU Service/Diagnostic Unlock ECU Service Support.lvlibp</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/Services/Diagnostic Unlock ECU Service</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
+				<Property Name="Source[0].itemID" Type="Str">{F637C155-9FE9-4B8C-9E71-4B6534738057}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Service/Diagnostic Unlock ECU Service.lvlib</Property>
+				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[1].Library.atomicCopy" Type="Bool">true</Property>
+				<Property Name="Source[1].Library.LVLIBPtopLevel" Type="Bool">true</Property>
+				<Property Name="Source[1].preventRename" Type="Bool">true</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">Library</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Service/Diagnostic Unlock ECU Service Shared.lvlib</Property>
+				<Property Name="Source[2].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[2].type" Type="Str">Library</Property>
+				<Property Name="SourceCount" Type="Int">3</Property>
+				<Property Name="TgtF_companyName" Type="Str">National Instruments</Property>
+				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Diagnostic Unlock ECU Service Support</Property>
+				<Property Name="TgtF_internalName" Type="Str">Diagnostic Unlock ECU Service Support</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2021 National Instruments</Property>
+				<Property Name="TgtF_productName" Type="Str">Diagnostic Unlock ECU Service Support</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{7CE9296C-D6B3-4CF7-9B5B-B946BFC3287E}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Diagnostic Unlock ECU Service Support.lvlibp</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
+			<Item Name="Diagnostic Unlock ECU Service Launcher" Type="Source Distribution">
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{E6A3A086-7DED-4B1D-8B9B-2D68A1B35BC7}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Diagnostic Unlock ECU Service Launcher</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeTypedefs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/Services/Diagnostic Unlock ECU Service</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{1CE56C54-93D6-45F9-A273-E64AD4C2E8B5}</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/Services/Diagnostic Unlock ECU Service</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/Services/Diagnostic Unlock ECU Service/data</Property>
+				<Property Name="Destination[2].destName" Type="Str">Diagnostic Unlock ECU Service Support</Property>
+				<Property Name="Destination[2].path" Type="Path">../builds/Services/Diagnostic Unlock ECU Service Support/Diagnostic Unlock ECU Service.llb</Property>
+				<Property Name="Destination[2].type" Type="Str">LLB</Property>
+				<Property Name="DestinationCount" Type="Int">3</Property>
+				<Property Name="Source[0].itemID" Type="Str">{F637C155-9FE9-4B8C-9E71-4B6534738057}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Service/Diagnostic Unlock ECU Service Launcher.lvlib</Property>
+				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[1].type" Type="Str">Library</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Service/Diagnostic Unlock ECU Service Launcher.lvlib/Diagnostic Unlock ECU Service Launcher.vi</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[2].type" Type="Str">VI</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Service/Diagnostic Unlock ECU Service.lvlib</Property>
+				<Property Name="Source[3].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[3].sourceInclusion" Type="Str">Exclude</Property>
+				<Property Name="Source[3].type" Type="Str">Library</Property>
+				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Service/Diagnostic Unlock ECU Service Shared.lvlib</Property>
+				<Property Name="Source[4].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[4].sourceInclusion" Type="Str">Exclude</Property>
+				<Property Name="Source[4].type" Type="Str">Library</Property>
+				<Property Name="SourceCount" Type="Int">5</Property>
 			</Item>
 			<Item Name="Engine Release" Type="Source Distribution">
 				<Property Name="Bld_buildCacheID" Type="Str">{BDB37E78-1B48-4DD8-B51B-9DFE56743A02}</Property>
@@ -1238,6 +1331,7 @@
 				<Item Name="compatReadText.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatReadText.vi"/>
 				<Item Name="compatWriteText.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatWriteText.vi"/>
 			</Item>
+			<Item Name="Diagnostic Unlock ECU Service Shared.lvlib" Type="Library" URL="../Service/Service Shared/Diagnostic Unlock ECU Service Shared.lvlib"/>
 			<Item Name="Diagnostics Addon Shared.lvlib" Type="Library" URL="../Addon/Addon Shared/Diagnostics Addon Shared.lvlib"/>
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -1671,6 +1765,7 @@
 				<Item Name="XNET Read.vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Read.vi"/>
 				<Item Name="XNET Session Info State.ctl" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Session Info State.ctl"/>
 			</Item>
+			<Item Name="Diagnostic Unlock ECU Service Shared.lvlib" Type="Library" URL="../Service/Service Shared/Diagnostic Unlock ECU Service Shared.lvlib"/>
 			<Item Name="Diagnostics Addon Shared.lvlib" Type="Library" URL="../Addon/Addon Shared/Diagnostics Addon Shared.lvlib"/>
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -2107,6 +2202,7 @@
 				<Item Name="XNET Read.vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Read.vi"/>
 				<Item Name="XNET Session Info State.ctl" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Session Info State.ctl"/>
 			</Item>
+			<Item Name="Diagnostic Unlock ECU Service Shared.lvlib" Type="Library" URL="../Service/Service Shared/Diagnostic Unlock ECU Service Shared.lvlib"/>
 			<Item Name="Diagnostics Addon Shared.lvlib" Type="Library" URL="../Addon/Addon Shared/Diagnostics Addon Shared.lvlib"/>
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
