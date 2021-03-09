@@ -79,6 +79,7 @@
 		<Item Name="Status.Set.vi" Type="VI" URL="../SubVIs/Status.Set.vi"/>
 		<Item Name="Stream.Initialize.vi" Type="VI" URL="../SubVIs/Stream.Initialize.vi"/>
 		<Item Name="Type.Convert.String.vi" Type="VI" URL="../SubVIs/Type.Convert.String.vi"/>
+		<Item Name="UnlockECU.SendSeedToWindowsAndWaitOnKey.vi" Type="VI" URL="../SubVIs/UnlockECU.SendSeedToWindowsAndWaitOnKey.vi"/>
 		<Item Name="XNET.Cluster.Convert.Initialize.vi" Type="VI" URL="../SubVIs/XNET.Cluster.Convert.Initialize.vi"/>
 		<Item Name="XNET.DB.Initialize.vi" Type="VI" URL="../SubVIs/XNET.DB.Initialize.vi"/>
 	</Item>
@@ -88,6 +89,8 @@
 		<Item Name="DPIDs.IDs.Sorted.ctl" Type="VI" URL="../Types/DPIDs.IDs.Sorted.ctl"/>
 		<Item Name="DTC.ChangeCount.Info.ctl" Type="VI" URL="../Types/DTC.ChangeCount.Info.ctl"/>
 		<Item Name="Polling.States.ctl" Type="VI" URL="../Types/Polling.States.ctl"/>
+		<Item Name="UnlockECU.SendSeedToWindowsAndWaitOnKeyCmd.ctl" Type="VI" URL="../Types/UnlockECU.SendSeedToWindowsAndWaitOnKeyCmd.ctl"/>
+		<Item Name="UnlockECU.SendSeedToWindowsAndWaitOnKeyResp.ctl" Type="VI" URL="../Types/UnlockECU.SendSeedToWindowsAndWaitOnKeyResp.ctl"/>
 		<Item Name="XNET.Cluster.ctl" Type="VI" URL="../Types/XNET.Cluster.ctl"/>
 		<Item Name="XNET.Refs.ctl" Type="VI" URL="../Types/XNET.Refs.ctl"/>
 	</Item>
