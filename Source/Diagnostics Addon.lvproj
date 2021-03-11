@@ -606,7 +606,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utilities/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{E985D8F0-FB4C-4F2F-B24E-5F9271DC3E42}</Property>
-				<Property Name="Bld_version.build" Type="Int">2</Property>
+				<Property Name="Bld_version.build" Type="Int">3</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Diagnostic Unlock ECU Service Support.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">../Built/Services/Diagnostic Unlock ECU Service/Diagnostic Unlock ECU Service Support.lvlibp</Property>
@@ -616,7 +616,7 @@
 				<Property Name="Destination[1].path" Type="Path">../Built/Services/Diagnostic Unlock ECU Service</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{DDABA733-80F0-4209-AB58-0C491D00EF90}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{2EAD32B5-6836-4D48-9F77-D0D6E9588C78}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Service/Diagnostic Unlock ECU Service.lvlib</Property>
@@ -631,7 +631,13 @@
 				<Property Name="Source[2].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">Library</Property>
-				<Property Name="SourceCount" Type="Int">3</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Service/Diagnostic Unlock ECU Service Shared.lvlib/UnlockECU.SendSeedToWindowsAndWaitOnKeyCmd.ctl</Property>
+				<Property Name="Source[3].type" Type="Str">VI</Property>
+				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Service/Diagnostic Unlock ECU Service Shared.lvlib/UnlockECU.SendSeedToWindowsAndWaitOnKeyResp.ctl</Property>
+				<Property Name="Source[4].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">5</Property>
 				<Property Name="TgtF_companyName" Type="Str">National Instruments</Property>
 				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">Diagnostic Unlock ECU Service Support</Property>
@@ -653,7 +659,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utilities/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{1CE56C54-93D6-45F9-A273-E64AD4C2E8B5}</Property>
-				<Property Name="Bld_version.build" Type="Int">4</Property>
+				<Property Name="Bld_version.build" Type="Int">5</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../Built/Services/Diagnostic Unlock ECU Service</Property>
