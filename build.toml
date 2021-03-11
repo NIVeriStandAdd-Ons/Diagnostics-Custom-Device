@@ -44,6 +44,20 @@ target = 'My Computer'
 build_spec = 'Host API'
 
 [[build.steps]]
+name = 'Unlock ECU Service Support'
+type = 'lvBuildSpec'
+project = '{cd}'
+target = 'My Computer'
+build_spec = 'Diagnostic Unlock ECU Service Support'
+
+[[build.steps]]
+name = 'Unlock ECU Service Launcher'
+type = 'lvBuildSpec'
+project = '{cd}'
+target = 'My Computer'
+build_spec = 'Diagnostic Unlock ECU Service Launcher'
+
+[[build.steps]]
 name = 'Engine Libraries'
 type = 'lvBuildSpecAllTargets'
 project = '{cd}'
