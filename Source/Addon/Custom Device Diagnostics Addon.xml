@@ -2,8 +2,8 @@
 <CustomDevice xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Custom Device.xsd">
 	<XSDVersion Major="2010" Minor="0" Fix="0" Build="0" />
 	<AddMenu>
-		<eng>National Instruments::Diagnostics Addon</eng>
-		<loc>National Instruments::Diagnostics Addon</loc>
+		<eng>NI::Diagnostics Addon</eng>
+		<loc>NI::Diagnostics Addon</loc>
 	</AddMenu>
 	<Version>1.0.14</Version>
 	<Type>Inline HW Interface</Type>
