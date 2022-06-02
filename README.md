@@ -1,10 +1,6 @@
 Diagnostics-Addon
 =========================
 
-### MAJOR UPDATE ###
-
-THIS VERSION HAS MAJOR CHANGES.  THESE CHANGES WILL BREAK ANY PREVIOUS ADDON CONFIGURATION. TO USE, DELETE THE OLDER VERSION DIAGNOSTIC ADDON, UINSTALL THE ADDON USING THE NI PACKAGE MANAGER, REMOVE THE XNET DATABASE FROM ANY RT TARGETS, INSTALL THIS VERSION, AND MANUALLY RE-ADD THE ADDON.
-
 ### Description ###
 
 This addon reads DIDs, PIDs, and DTCs.  It writes CPIDs and clears DTCs.  It can also control IO and start/stop/read routines.  It does this over various protocols with varying levels of support.  GMLAN, KWP, and UDS are supported.  Please review the in addon help for a full list of available commands.
@@ -25,27 +21,27 @@ https://github.com/NIVeriStandAdd-Ons/Diagnostics-Custom-Device/releases
 
 ### Built Dependencies ###
 
-NI Automotive Diagnostic Command Set 19.0 or later
+NI Automotive Diagnostic Command Set 21.5 or later
 
-NI XNET 19.0 or later
+NI XNET 21.5 or later
 
-Network Streams 19.0 or later
+Network Streams 21.0 or later
 
 ### Quality, Limitations ###
 
 IP has been tested by developer. It meets VeriStand addon coding best practices.
 
-No database support for diagnostic messages (ODX or AUTOSARs).
+No database support for diagnostic messages (ODX or AUTOSAR).
 
 ### Source Version ###
 
-LabVIEW 2019
+LabVIEW 2021
 
 ### Source Dependencies ###
 
-NI Automotive Diagnostic Command Set 19.0 or later
+NI Automotive Diagnostic Command Set 21.5 or later
 
-NI XNET 19.0 or later
+NI XNET 21.5 or later
 
 NI Veristand Custom Device Development Tools (https://github.com/ni/niveristand-custom-device-development-tools/releases)
 
