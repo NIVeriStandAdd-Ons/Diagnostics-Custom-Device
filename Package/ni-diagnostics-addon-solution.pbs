@@ -1,0 +1,1732 @@
+﻿<Solution xmlns:i="http://www.w3.org/2001/XMLSchema-instance" z:Id="i1" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" xmlns="http://schemas.datacontract.org/2004/07/NationalInstruments.PackageBuilder.Engine">
+    <Name>ni-protection-addon-solution</Name>
+    <SourceItems>
+        <SourceItem z:Id="i2">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\custom devices\Diagnostics Addon\Custom Device Diagnostics Addon.xml</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i3">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\custom devices\Diagnostics Addon\Engine Release_depinstr.bin</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i4">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\custom devices\Diagnostics Addon\Linux_x64\Diagnostics Addon Engine Linux64.llb</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i5">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\custom devices\Diagnostics Addon\Windows\Data\niadcs.chm</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i6">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\custom devices\Diagnostics Addon\Windows\Data\nisyscfg.chm</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i7">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\custom devices\Diagnostics Addon\Windows\Data\NIVeriStand_DataServices.dll</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i8">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\custom devices\Diagnostics Addon\Windows\Data\nixnet.chm</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i9">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\custom devices\Diagnostics Addon\Windows\Diagnostics Addon Configuration.llb</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i10">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\custom devices\Diagnostics Addon\Windows\Diagnostics Addon Engine Windows.llb</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i11">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\custom devices\Diagnostics Addon\Windows\Diagnostics Addon.chm</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i12">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\custom devices\Diagnostics Addon\Windows\Diagnostics_Addon_Temp_DB.xml</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i13">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\custom devices\Diagnostics Addon\Windows\Glyphs\ClearDTCs.png</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i14">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\custom devices\Diagnostics Addon\Windows\Glyphs\Diag.png</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i15">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\custom devices\Diagnostics Addon\Windows\Glyphs\Diag_Disabled.png</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i16">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\custom devices\Diagnostics Addon\Windows\Glyphs\DTCs.png</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i17">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\custom devices\Diagnostics Addon\Windows\Glyphs\NormalCommunication.png</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i18">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\custom devices\Diagnostics Addon\Windows\Glyphs\NotifyDTCs.png</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i19">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\custom devices\Diagnostics Addon\Windows\Glyphs\ReadDTCs.png</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i20">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\custom devices\Diagnostics Addon\Windows\Glyphs\ResetECU.png</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i21">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\custom devices\Diagnostics Addon\Windows\Glyphs\SessionControl.png</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i22">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\custom devices\Diagnostics Addon\Windows\Glyphs\TesterPresent.png</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i23">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\custom devices\Diagnostics Addon\Windows\Glyphs\UnlockECU.png</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i24">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\custom devices\Diagnostics Addon\Windows\Host Automation API\Diagnostics Host Automation API.lvlibp</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i25">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\custom devices\Diagnostics Addon\Windows\Import File Formats\DPIDs.csv</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i26">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\custom devices\Diagnostics Addon\Windows\Import File Formats\DTCs.csv</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i27">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\custom devices\Diagnostics Addon\Windows\Import File Formats\IO Control Messages.csv</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i28">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\custom devices\Diagnostics Addon\Windows\Import File Formats\PIDs DIDs Memory.csv</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i29">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\custom devices\Diagnostics Addon\Windows\Import File Formats\Routines.csv</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i30">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\custom devices\Diagnostics Addon\Windows\Import File Formats\Status Codes.csv</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i31">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\custom devices\Diagnostics Addon\Windows\Import File Formats\User Defined Messages.csv</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i32">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\custom devices\Diagnostics Addon\Windows\Quick Start Documentation\Diagnostics Addon Quick Start.html</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i33">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\custom devices\Diagnostics Addon\Windows\Quick Start Documentation\Diagnostics Addon Quick Start_files\colorschememapping.xml</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i34">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\custom devices\Diagnostics Addon\Windows\Quick Start Documentation\Diagnostics Addon Quick Start_files\filelist.xml</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i35">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\custom devices\Diagnostics Addon\Windows\Quick Start Documentation\Diagnostics Addon Quick Start_files\image001.gif</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i36">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\custom devices\Diagnostics Addon\Windows\Quick Start Documentation\Diagnostics Addon Quick Start_files\image002.png</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i37">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\custom devices\Diagnostics Addon\Windows\Quick Start Documentation\Diagnostics Addon Quick Start_files\image003.png</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i38">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\custom devices\Diagnostics Addon\Windows\Quick Start Documentation\Diagnostics Addon Quick Start_files\image004.jpg</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i39">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\custom devices\Diagnostics Addon\Windows\Quick Start Documentation\Diagnostics Addon Quick Start_files\image005.png</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i40">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\custom devices\Diagnostics Addon\Windows\Quick Start Documentation\Diagnostics Addon Quick Start_files\image006.png</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i41">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\custom devices\Diagnostics Addon\Windows\Quick Start Documentation\Diagnostics Addon Quick Start_files\image007.png</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i42">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\custom devices\Diagnostics Addon\Windows\Quick Start Documentation\Diagnostics Addon Quick Start_files\image008.jpg</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i43">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\custom devices\Diagnostics Addon\Windows\Quick Start Documentation\Diagnostics Addon Quick Start_files\image009.png</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i44">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\custom devices\Diagnostics Addon\Windows\Quick Start Documentation\Diagnostics Addon Quick Start_files\image010.png</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i45">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\custom devices\Diagnostics Addon\Windows\Quick Start Documentation\Diagnostics Addon Quick Start_files\image011.png</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i46">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\custom devices\Diagnostics Addon\Windows\Quick Start Documentation\Diagnostics Addon Quick Start_files\image012.png</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i47">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\custom devices\Diagnostics Addon\Windows\Quick Start Documentation\Diagnostics Addon Quick Start_files\image013.png</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i48">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\custom devices\Diagnostics Addon\Windows\Quick Start Documentation\Diagnostics Addon Quick Start_files\image014.png</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i49">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\custom devices\Diagnostics Addon\Windows\Quick Start Documentation\Diagnostics Addon Quick Start_files\image015.png</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i50">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\custom devices\Diagnostics Addon\Windows\Quick Start Documentation\Diagnostics Addon Quick Start_files\image016.jpg</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i51">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\custom devices\Diagnostics Addon\Windows\Quick Start Documentation\Diagnostics Addon Quick Start_files\image017.png</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i52">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\custom devices\Diagnostics Addon\Windows\Quick Start Documentation\Diagnostics Addon Quick Start_files\image018.jpg</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i53">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\custom devices\Diagnostics Addon\Windows\Quick Start Documentation\Diagnostics Addon Quick Start_files\image019.png</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i54">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\custom devices\Diagnostics Addon\Windows\Quick Start Documentation\Diagnostics Addon Quick Start_files\image020.jpg</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i55">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\custom devices\Diagnostics Addon\Windows\Quick Start Documentation\Diagnostics Addon Quick Start_files\image021.png</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i56">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\custom devices\Diagnostics Addon\Windows\Quick Start Documentation\Diagnostics Addon Quick Start_files\image022.png</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i57">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\custom devices\Diagnostics Addon\Windows\Quick Start Documentation\Diagnostics Addon Quick Start_files\image023.jpg</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i58">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\custom devices\Diagnostics Addon\Windows\Quick Start Documentation\Diagnostics Addon Quick Start_files\image024.png</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i59">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\custom devices\Diagnostics Addon\Windows\Quick Start Documentation\Diagnostics Addon Quick Start_files\image025.png</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i60">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\custom devices\Diagnostics Addon\Windows\Quick Start Documentation\Diagnostics Addon Quick Start_files\image026.jpg</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i61">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\custom devices\Diagnostics Addon\Windows\Quick Start Documentation\Diagnostics Addon Quick Start_files\image027.png</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i62">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\custom devices\Diagnostics Addon\Windows\Quick Start Documentation\Diagnostics Addon Quick Start_files\image028.png</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i63">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\custom devices\Diagnostics Addon\Windows\Quick Start Documentation\Diagnostics Addon Quick Start_files\image029.jpg</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i64">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\custom devices\Diagnostics Addon\Windows\Quick Start Documentation\Diagnostics Addon Quick Start_files\image030.png</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i65">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\custom devices\Diagnostics Addon\Windows\Quick Start Documentation\Diagnostics Addon Quick Start_files\image031.png</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i66">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\custom devices\Diagnostics Addon\Windows\Quick Start Documentation\Diagnostics Addon Quick Start_files\image032.png</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i67">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\custom devices\Diagnostics Addon\Windows\Quick Start Documentation\Diagnostics Addon Quick Start_files\image033.jpg</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i68">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\custom devices\Diagnostics Addon\Windows\Quick Start Documentation\Diagnostics Addon Quick Start_files\image034.png</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i69">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\custom devices\Diagnostics Addon\Windows\Quick Start Documentation\Diagnostics Addon Quick Start_files\image035.jpg</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i70">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\custom devices\Diagnostics Addon\Windows\Quick Start Documentation\Diagnostics Addon Quick Start_files\image036.png</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i71">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\custom devices\Diagnostics Addon\Windows\Quick Start Documentation\Diagnostics Addon Quick Start_files\image037.jpg</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i72">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\custom devices\Diagnostics Addon\Windows\Quick Start Documentation\Diagnostics Addon Quick Start_files\image038.png</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i73">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\custom devices\Diagnostics Addon\Windows\Quick Start Documentation\Diagnostics Addon Quick Start_files\image039.jpg</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i74">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\custom devices\Diagnostics Addon\Windows\Quick Start Documentation\Diagnostics Addon Quick Start_files\image040.png</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i75">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\custom devices\Diagnostics Addon\Windows\Quick Start Documentation\Diagnostics Addon Quick Start_files\image041.jpg</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i76">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\custom devices\Diagnostics Addon\Windows\Quick Start Documentation\Diagnostics Addon Quick Start_files\image042.png</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i77">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\custom devices\Diagnostics Addon\Windows\Quick Start Documentation\Diagnostics Addon Quick Start_files\image043.png</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i78">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\custom devices\Diagnostics Addon\Windows\Quick Start Documentation\Diagnostics Addon Quick Start_files\image044.jpg</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i79">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\custom devices\Diagnostics Addon\Windows\Quick Start Documentation\Diagnostics Addon Quick Start_files\image045.png</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i80">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\custom devices\Diagnostics Addon\Windows\Quick Start Documentation\Diagnostics Addon Quick Start_files\image046.jpg</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i81">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\custom devices\Diagnostics Addon\Windows\Quick Start Documentation\Diagnostics Addon Quick Start_files\image047.png</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i82">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\custom devices\Diagnostics Addon\Windows\Quick Start Documentation\Diagnostics Addon Quick Start_files\image048.jpg</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i83">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\custom devices\Diagnostics Addon\Windows\Quick Start Documentation\Diagnostics Addon Quick Start_files\image049.png</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i84">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\custom devices\Diagnostics Addon\Windows\Quick Start Documentation\Diagnostics Addon Quick Start_files\image050.jpg</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i85">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\custom devices\Diagnostics Addon\Windows\Quick Start Documentation\Diagnostics Addon Quick Start_files\image051.png</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i86">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\custom devices\Diagnostics Addon\Windows\Quick Start Documentation\Diagnostics Addon Quick Start_files\image052.jpg</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i87">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\custom devices\Diagnostics Addon\Windows\Quick Start Documentation\Diagnostics Addon Quick Start_files\image053.png</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i88">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\custom devices\Diagnostics Addon\Windows\Quick Start Documentation\Diagnostics Addon Quick Start_files\image054.jpg</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i89">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\custom devices\Diagnostics Addon\Windows\Quick Start Documentation\Diagnostics Addon Quick Start_files\themedata.thmx</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i90">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\custom devices\Diagnostics Addon\Windows\System Definition API\Diagnostics System Definition API.lvlibp</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i91">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\Display Templates\Diagnostics - Workspace Object.vi</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i92">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\Display Templates\Diagnostics Workspace Object Support.llb</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i93">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\Services\Diagnostic Unlock ECU Service\Diagnostic Unlock ECU Service Launcher.vi</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i94">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\Services\Diagnostic Unlock ECU Service\Diagnostic Unlock ECU Service Support.llb</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i95">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\Services\Diagnostic Unlock ECU Service\Diagnostic Unlock ECU Service Support.lvlibp</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i96">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\Workspace Tools\Diagnostics Tool\Diagnostics - Tool.rtm</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i97">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\Workspace Tools\Diagnostics Tool\Diagnostics - Tool.vi</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i98">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\Workspace Tools\Diagnostics Tool\Diagnostics Tool Support.llb</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i99">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\Workspace Tools\Diagnostics Tool\Diagnostics Tool.aliases</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i100">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\Workspace Tools\Diagnostics Tool\Diagnostics Tool.exe</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i101">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\Workspace Tools\Diagnostics Tool\Diagnostics Tool.ini</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i102">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\custom devices\Diagnostics Addon\Linux_x64</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i4" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i103">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\custom devices\Diagnostics Addon\Windows\Host Automation API</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i24" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i104">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\custom devices\Diagnostics Addon\Windows\System Definition API</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i90" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i105">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\Display Templates</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i91" />
+                <SourceItem z:Ref="i92" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i106">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\Services\Diagnostic Unlock ECU Service</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i93" />
+                <SourceItem z:Ref="i94" />
+                <SourceItem z:Ref="i95" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i107">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\custom devices\Diagnostics Addon\Windows\Data</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i5" />
+                <SourceItem z:Ref="i6" />
+                <SourceItem z:Ref="i7" />
+                <SourceItem z:Ref="i8" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i108">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\Workspace Tools\Diagnostics Tool</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i96" />
+                <SourceItem z:Ref="i97" />
+                <SourceItem z:Ref="i98" />
+                <SourceItem z:Ref="i99" />
+                <SourceItem z:Ref="i100" />
+                <SourceItem z:Ref="i101" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i109">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\custom devices\Diagnostics Addon\Windows\Import File Formats</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i25" />
+                <SourceItem z:Ref="i26" />
+                <SourceItem z:Ref="i27" />
+                <SourceItem z:Ref="i28" />
+                <SourceItem z:Ref="i29" />
+                <SourceItem z:Ref="i30" />
+                <SourceItem z:Ref="i31" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i110">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\custom devices\Diagnostics Addon\Windows\Glyphs</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i13" />
+                <SourceItem z:Ref="i14" />
+                <SourceItem z:Ref="i15" />
+                <SourceItem z:Ref="i16" />
+                <SourceItem z:Ref="i17" />
+                <SourceItem z:Ref="i18" />
+                <SourceItem z:Ref="i19" />
+                <SourceItem z:Ref="i20" />
+                <SourceItem z:Ref="i21" />
+                <SourceItem z:Ref="i22" />
+                <SourceItem z:Ref="i23" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i111">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\custom devices\Diagnostics Addon\Windows\Quick Start Documentation\Diagnostics Addon Quick Start_files</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i33" />
+                <SourceItem z:Ref="i34" />
+                <SourceItem z:Ref="i35" />
+                <SourceItem z:Ref="i36" />
+                <SourceItem z:Ref="i37" />
+                <SourceItem z:Ref="i38" />
+                <SourceItem z:Ref="i39" />
+                <SourceItem z:Ref="i40" />
+                <SourceItem z:Ref="i41" />
+                <SourceItem z:Ref="i42" />
+                <SourceItem z:Ref="i43" />
+                <SourceItem z:Ref="i44" />
+                <SourceItem z:Ref="i45" />
+                <SourceItem z:Ref="i46" />
+                <SourceItem z:Ref="i47" />
+                <SourceItem z:Ref="i48" />
+                <SourceItem z:Ref="i49" />
+                <SourceItem z:Ref="i50" />
+                <SourceItem z:Ref="i51" />
+                <SourceItem z:Ref="i52" />
+                <SourceItem z:Ref="i53" />
+                <SourceItem z:Ref="i54" />
+                <SourceItem z:Ref="i55" />
+                <SourceItem z:Ref="i56" />
+                <SourceItem z:Ref="i57" />
+                <SourceItem z:Ref="i58" />
+                <SourceItem z:Ref="i59" />
+                <SourceItem z:Ref="i60" />
+                <SourceItem z:Ref="i61" />
+                <SourceItem z:Ref="i62" />
+                <SourceItem z:Ref="i63" />
+                <SourceItem z:Ref="i64" />
+                <SourceItem z:Ref="i65" />
+                <SourceItem z:Ref="i66" />
+                <SourceItem z:Ref="i67" />
+                <SourceItem z:Ref="i68" />
+                <SourceItem z:Ref="i69" />
+                <SourceItem z:Ref="i70" />
+                <SourceItem z:Ref="i71" />
+                <SourceItem z:Ref="i72" />
+                <SourceItem z:Ref="i73" />
+                <SourceItem z:Ref="i74" />
+                <SourceItem z:Ref="i75" />
+                <SourceItem z:Ref="i76" />
+                <SourceItem z:Ref="i77" />
+                <SourceItem z:Ref="i78" />
+                <SourceItem z:Ref="i79" />
+                <SourceItem z:Ref="i80" />
+                <SourceItem z:Ref="i81" />
+                <SourceItem z:Ref="i82" />
+                <SourceItem z:Ref="i83" />
+                <SourceItem z:Ref="i84" />
+                <SourceItem z:Ref="i85" />
+                <SourceItem z:Ref="i86" />
+                <SourceItem z:Ref="i87" />
+                <SourceItem z:Ref="i88" />
+                <SourceItem z:Ref="i89" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i112">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\Services</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i106" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i113">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\Workspace Tools</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i108" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i114">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\custom devices\Diagnostics Addon\Windows\Quick Start Documentation</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i32" />
+                <SourceItem z:Ref="i111" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i115">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\custom devices\Diagnostics Addon\Windows</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i9" />
+                <SourceItem z:Ref="i10" />
+                <SourceItem z:Ref="i11" />
+                <SourceItem z:Ref="i12" />
+                <SourceItem z:Ref="i107" />
+                <SourceItem z:Ref="i110" />
+                <SourceItem z:Ref="i103" />
+                <SourceItem z:Ref="i109" />
+                <SourceItem z:Ref="i114" />
+                <SourceItem z:Ref="i104" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i116">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\custom devices\Diagnostics Addon</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i2" />
+                <SourceItem z:Ref="i3" />
+                <SourceItem z:Ref="i102" />
+                <SourceItem z:Ref="i115" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i117">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\custom devices</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i116" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i118">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i117" />
+                <SourceItem z:Ref="i105" />
+                <SourceItem z:Ref="i112" />
+                <SourceItem z:Ref="i113" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+    </SourceItems>
+    <InputSourceItems>
+        <SourceItem z:Ref="i118" />
+    </InputSourceItems>
+    <Distributions>
+        <Distribution z:Id="i119" i:type="Package">
+            <DistributionItems>
+                <DistributionItem z:Id="i120" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[Documents]\National Instruments</DestinationRelativePath>
+                    <Name>National Instruments</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i121" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025</DestinationRelativePath>
+                    <Name>NI VeriStand 2025</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i122" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\custom devices</DestinationRelativePath>
+                    <Name>custom devices</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i123" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\custom devices\Diagnostics Addon</DestinationRelativePath>
+                    <Name>Diagnostics Addon</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i124" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\custom devices\Diagnostics Addon\Custom Device Diagnostics Addon.xml</DestinationRelativePath>
+                    <Name>Custom Device Diagnostics Addon.xml</Name>
+                    <SourceItem z:Ref="i2" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i125" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\custom devices\Diagnostics Addon\Engine Release_depinstr.bin</DestinationRelativePath>
+                    <Name>Engine Release_depinstr.bin</Name>
+                    <SourceItem z:Ref="i3" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i126" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\custom devices\Diagnostics Addon\Linux_x64</DestinationRelativePath>
+                    <Name>Linux_x64</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i127" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\custom devices\Diagnostics Addon\Linux_x64\Diagnostics Addon Engine Linux64.llb</DestinationRelativePath>
+                    <Name>Diagnostics Addon Engine Linux64.llb</Name>
+                    <SourceItem z:Ref="i4" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i128" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\custom devices\Diagnostics Addon\Windows</DestinationRelativePath>
+                    <Name>Windows</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i129" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\custom devices\Diagnostics Addon\Windows\Diagnostics Addon Configuration.llb</DestinationRelativePath>
+                    <Name>Diagnostics Addon Configuration.llb</Name>
+                    <SourceItem z:Ref="i9" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i130" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\custom devices\Diagnostics Addon\Windows\Diagnostics Addon Engine Windows.llb</DestinationRelativePath>
+                    <Name>Diagnostics Addon Engine Windows.llb</Name>
+                    <SourceItem z:Ref="i10" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i131" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\custom devices\Diagnostics Addon\Windows\Diagnostics Addon.chm</DestinationRelativePath>
+                    <Name>Diagnostics Addon.chm</Name>
+                    <SourceItem z:Ref="i11" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i132" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\custom devices\Diagnostics Addon\Windows\Diagnostics_Addon_Temp_DB.xml</DestinationRelativePath>
+                    <Name>Diagnostics_Addon_Temp_DB.xml</Name>
+                    <SourceItem z:Ref="i12" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i133" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\custom devices\Diagnostics Addon\Windows\Data</DestinationRelativePath>
+                    <Name>Data</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i134" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\custom devices\Diagnostics Addon\Windows\Data\niadcs.chm</DestinationRelativePath>
+                    <Name>niadcs.chm</Name>
+                    <SourceItem z:Ref="i5" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i135" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\custom devices\Diagnostics Addon\Windows\Data\nisyscfg.chm</DestinationRelativePath>
+                    <Name>nisyscfg.chm</Name>
+                    <SourceItem z:Ref="i6" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i136" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\custom devices\Diagnostics Addon\Windows\Data\NIVeriStand_DataServices.dll</DestinationRelativePath>
+                    <Name>NIVeriStand_DataServices.dll</Name>
+                    <SourceItem z:Ref="i7" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i137" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\custom devices\Diagnostics Addon\Windows\Data\nixnet.chm</DestinationRelativePath>
+                    <Name>nixnet.chm</Name>
+                    <SourceItem z:Ref="i8" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i138" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\custom devices\Diagnostics Addon\Windows\Glyphs</DestinationRelativePath>
+                    <Name>Glyphs</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i139" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\custom devices\Diagnostics Addon\Windows\Glyphs\ClearDTCs.png</DestinationRelativePath>
+                    <Name>ClearDTCs.png</Name>
+                    <SourceItem z:Ref="i13" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i140" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\custom devices\Diagnostics Addon\Windows\Glyphs\Diag.png</DestinationRelativePath>
+                    <Name>Diag.png</Name>
+                    <SourceItem z:Ref="i14" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i141" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\custom devices\Diagnostics Addon\Windows\Glyphs\Diag_Disabled.png</DestinationRelativePath>
+                    <Name>Diag_Disabled.png</Name>
+                    <SourceItem z:Ref="i15" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i142" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\custom devices\Diagnostics Addon\Windows\Glyphs\DTCs.png</DestinationRelativePath>
+                    <Name>DTCs.png</Name>
+                    <SourceItem z:Ref="i16" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i143" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\custom devices\Diagnostics Addon\Windows\Glyphs\NormalCommunication.png</DestinationRelativePath>
+                    <Name>NormalCommunication.png</Name>
+                    <SourceItem z:Ref="i17" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i144" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\custom devices\Diagnostics Addon\Windows\Glyphs\NotifyDTCs.png</DestinationRelativePath>
+                    <Name>NotifyDTCs.png</Name>
+                    <SourceItem z:Ref="i18" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i145" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\custom devices\Diagnostics Addon\Windows\Glyphs\ReadDTCs.png</DestinationRelativePath>
+                    <Name>ReadDTCs.png</Name>
+                    <SourceItem z:Ref="i19" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i146" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\custom devices\Diagnostics Addon\Windows\Glyphs\ResetECU.png</DestinationRelativePath>
+                    <Name>ResetECU.png</Name>
+                    <SourceItem z:Ref="i20" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i147" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\custom devices\Diagnostics Addon\Windows\Glyphs\SessionControl.png</DestinationRelativePath>
+                    <Name>SessionControl.png</Name>
+                    <SourceItem z:Ref="i21" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i148" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\custom devices\Diagnostics Addon\Windows\Glyphs\TesterPresent.png</DestinationRelativePath>
+                    <Name>TesterPresent.png</Name>
+                    <SourceItem z:Ref="i22" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i149" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\custom devices\Diagnostics Addon\Windows\Glyphs\UnlockECU.png</DestinationRelativePath>
+                    <Name>UnlockECU.png</Name>
+                    <SourceItem z:Ref="i23" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i150" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\custom devices\Diagnostics Addon\Windows\Host Automation API</DestinationRelativePath>
+                    <Name>Host Automation API</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i151" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\custom devices\Diagnostics Addon\Windows\Host Automation API\Diagnostics Host Automation API.lvlibp</DestinationRelativePath>
+                    <Name>Diagnostics Host Automation API.lvlibp</Name>
+                    <SourceItem z:Ref="i24" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i152" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\custom devices\Diagnostics Addon\Windows\Import File Formats</DestinationRelativePath>
+                    <Name>Import File Formats</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i153" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\custom devices\Diagnostics Addon\Windows\Import File Formats\DPIDs.csv</DestinationRelativePath>
+                    <Name>DPIDs.csv</Name>
+                    <SourceItem z:Ref="i25" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i154" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\custom devices\Diagnostics Addon\Windows\Import File Formats\DTCs.csv</DestinationRelativePath>
+                    <Name>DTCs.csv</Name>
+                    <SourceItem z:Ref="i26" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i155" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\custom devices\Diagnostics Addon\Windows\Import File Formats\IO Control Messages.csv</DestinationRelativePath>
+                    <Name>IO Control Messages.csv</Name>
+                    <SourceItem z:Ref="i27" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i156" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\custom devices\Diagnostics Addon\Windows\Import File Formats\PIDs DIDs Memory.csv</DestinationRelativePath>
+                    <Name>PIDs DIDs Memory.csv</Name>
+                    <SourceItem z:Ref="i28" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i157" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\custom devices\Diagnostics Addon\Windows\Import File Formats\Routines.csv</DestinationRelativePath>
+                    <Name>Routines.csv</Name>
+                    <SourceItem z:Ref="i29" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i158" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\custom devices\Diagnostics Addon\Windows\Import File Formats\Status Codes.csv</DestinationRelativePath>
+                    <Name>Status Codes.csv</Name>
+                    <SourceItem z:Ref="i30" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i159" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\custom devices\Diagnostics Addon\Windows\Import File Formats\User Defined Messages.csv</DestinationRelativePath>
+                    <Name>User Defined Messages.csv</Name>
+                    <SourceItem z:Ref="i31" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i160" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\custom devices\Diagnostics Addon\Windows\Quick Start Documentation</DestinationRelativePath>
+                    <Name>Quick Start Documentation</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i161" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\custom devices\Diagnostics Addon\Windows\Quick Start Documentation\Diagnostics Addon Quick Start.html</DestinationRelativePath>
+                    <Name>Diagnostics Addon Quick Start.html</Name>
+                    <SourceItem z:Ref="i32" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i162" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\custom devices\Diagnostics Addon\Windows\Quick Start Documentation\Diagnostics Addon Quick Start_files</DestinationRelativePath>
+                    <Name>Diagnostics Addon Quick Start_files</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i163" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\custom devices\Diagnostics Addon\Windows\Quick Start Documentation\Diagnostics Addon Quick Start_files\colorschememapping.xml</DestinationRelativePath>
+                    <Name>colorschememapping.xml</Name>
+                    <SourceItem z:Ref="i33" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i164" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\custom devices\Diagnostics Addon\Windows\Quick Start Documentation\Diagnostics Addon Quick Start_files\filelist.xml</DestinationRelativePath>
+                    <Name>filelist.xml</Name>
+                    <SourceItem z:Ref="i34" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i165" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\custom devices\Diagnostics Addon\Windows\Quick Start Documentation\Diagnostics Addon Quick Start_files\image001.gif</DestinationRelativePath>
+                    <Name>image001.gif</Name>
+                    <SourceItem z:Ref="i35" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i166" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\custom devices\Diagnostics Addon\Windows\Quick Start Documentation\Diagnostics Addon Quick Start_files\image002.png</DestinationRelativePath>
+                    <Name>image002.png</Name>
+                    <SourceItem z:Ref="i36" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i167" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\custom devices\Diagnostics Addon\Windows\Quick Start Documentation\Diagnostics Addon Quick Start_files\image003.png</DestinationRelativePath>
+                    <Name>image003.png</Name>
+                    <SourceItem z:Ref="i37" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i168" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\custom devices\Diagnostics Addon\Windows\Quick Start Documentation\Diagnostics Addon Quick Start_files\image004.jpg</DestinationRelativePath>
+                    <Name>image004.jpg</Name>
+                    <SourceItem z:Ref="i38" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i169" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\custom devices\Diagnostics Addon\Windows\Quick Start Documentation\Diagnostics Addon Quick Start_files\image005.png</DestinationRelativePath>
+                    <Name>image005.png</Name>
+                    <SourceItem z:Ref="i39" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i170" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\custom devices\Diagnostics Addon\Windows\Quick Start Documentation\Diagnostics Addon Quick Start_files\image006.png</DestinationRelativePath>
+                    <Name>image006.png</Name>
+                    <SourceItem z:Ref="i40" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i171" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\custom devices\Diagnostics Addon\Windows\Quick Start Documentation\Diagnostics Addon Quick Start_files\image007.png</DestinationRelativePath>
+                    <Name>image007.png</Name>
+                    <SourceItem z:Ref="i41" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i172" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\custom devices\Diagnostics Addon\Windows\Quick Start Documentation\Diagnostics Addon Quick Start_files\image008.jpg</DestinationRelativePath>
+                    <Name>image008.jpg</Name>
+                    <SourceItem z:Ref="i42" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i173" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\custom devices\Diagnostics Addon\Windows\Quick Start Documentation\Diagnostics Addon Quick Start_files\image009.png</DestinationRelativePath>
+                    <Name>image009.png</Name>
+                    <SourceItem z:Ref="i43" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i174" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\custom devices\Diagnostics Addon\Windows\Quick Start Documentation\Diagnostics Addon Quick Start_files\image010.png</DestinationRelativePath>
+                    <Name>image010.png</Name>
+                    <SourceItem z:Ref="i44" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i175" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\custom devices\Diagnostics Addon\Windows\Quick Start Documentation\Diagnostics Addon Quick Start_files\image011.png</DestinationRelativePath>
+                    <Name>image011.png</Name>
+                    <SourceItem z:Ref="i45" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i176" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\custom devices\Diagnostics Addon\Windows\Quick Start Documentation\Diagnostics Addon Quick Start_files\image012.png</DestinationRelativePath>
+                    <Name>image012.png</Name>
+                    <SourceItem z:Ref="i46" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i177" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\custom devices\Diagnostics Addon\Windows\Quick Start Documentation\Diagnostics Addon Quick Start_files\image013.png</DestinationRelativePath>
+                    <Name>image013.png</Name>
+                    <SourceItem z:Ref="i47" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i178" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\custom devices\Diagnostics Addon\Windows\Quick Start Documentation\Diagnostics Addon Quick Start_files\image014.png</DestinationRelativePath>
+                    <Name>image014.png</Name>
+                    <SourceItem z:Ref="i48" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i179" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\custom devices\Diagnostics Addon\Windows\Quick Start Documentation\Diagnostics Addon Quick Start_files\image015.png</DestinationRelativePath>
+                    <Name>image015.png</Name>
+                    <SourceItem z:Ref="i49" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i180" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\custom devices\Diagnostics Addon\Windows\Quick Start Documentation\Diagnostics Addon Quick Start_files\image016.jpg</DestinationRelativePath>
+                    <Name>image016.jpg</Name>
+                    <SourceItem z:Ref="i50" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i181" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\custom devices\Diagnostics Addon\Windows\Quick Start Documentation\Diagnostics Addon Quick Start_files\image017.png</DestinationRelativePath>
+                    <Name>image017.png</Name>
+                    <SourceItem z:Ref="i51" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i182" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\custom devices\Diagnostics Addon\Windows\Quick Start Documentation\Diagnostics Addon Quick Start_files\image018.jpg</DestinationRelativePath>
+                    <Name>image018.jpg</Name>
+                    <SourceItem z:Ref="i52" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i183" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\custom devices\Diagnostics Addon\Windows\Quick Start Documentation\Diagnostics Addon Quick Start_files\image019.png</DestinationRelativePath>
+                    <Name>image019.png</Name>
+                    <SourceItem z:Ref="i53" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i184" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\custom devices\Diagnostics Addon\Windows\Quick Start Documentation\Diagnostics Addon Quick Start_files\image020.jpg</DestinationRelativePath>
+                    <Name>image020.jpg</Name>
+                    <SourceItem z:Ref="i54" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i185" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\custom devices\Diagnostics Addon\Windows\Quick Start Documentation\Diagnostics Addon Quick Start_files\image021.png</DestinationRelativePath>
+                    <Name>image021.png</Name>
+                    <SourceItem z:Ref="i55" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i186" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\custom devices\Diagnostics Addon\Windows\Quick Start Documentation\Diagnostics Addon Quick Start_files\image022.png</DestinationRelativePath>
+                    <Name>image022.png</Name>
+                    <SourceItem z:Ref="i56" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i187" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\custom devices\Diagnostics Addon\Windows\Quick Start Documentation\Diagnostics Addon Quick Start_files\image023.jpg</DestinationRelativePath>
+                    <Name>image023.jpg</Name>
+                    <SourceItem z:Ref="i57" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i188" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\custom devices\Diagnostics Addon\Windows\Quick Start Documentation\Diagnostics Addon Quick Start_files\image024.png</DestinationRelativePath>
+                    <Name>image024.png</Name>
+                    <SourceItem z:Ref="i58" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i189" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\custom devices\Diagnostics Addon\Windows\Quick Start Documentation\Diagnostics Addon Quick Start_files\image025.png</DestinationRelativePath>
+                    <Name>image025.png</Name>
+                    <SourceItem z:Ref="i59" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i190" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\custom devices\Diagnostics Addon\Windows\Quick Start Documentation\Diagnostics Addon Quick Start_files\image026.jpg</DestinationRelativePath>
+                    <Name>image026.jpg</Name>
+                    <SourceItem z:Ref="i60" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i191" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\custom devices\Diagnostics Addon\Windows\Quick Start Documentation\Diagnostics Addon Quick Start_files\image027.png</DestinationRelativePath>
+                    <Name>image027.png</Name>
+                    <SourceItem z:Ref="i61" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i192" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\custom devices\Diagnostics Addon\Windows\Quick Start Documentation\Diagnostics Addon Quick Start_files\image028.png</DestinationRelativePath>
+                    <Name>image028.png</Name>
+                    <SourceItem z:Ref="i62" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i193" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\custom devices\Diagnostics Addon\Windows\Quick Start Documentation\Diagnostics Addon Quick Start_files\image029.jpg</DestinationRelativePath>
+                    <Name>image029.jpg</Name>
+                    <SourceItem z:Ref="i63" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i194" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\custom devices\Diagnostics Addon\Windows\Quick Start Documentation\Diagnostics Addon Quick Start_files\image030.png</DestinationRelativePath>
+                    <Name>image030.png</Name>
+                    <SourceItem z:Ref="i64" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i195" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\custom devices\Diagnostics Addon\Windows\Quick Start Documentation\Diagnostics Addon Quick Start_files\image031.png</DestinationRelativePath>
+                    <Name>image031.png</Name>
+                    <SourceItem z:Ref="i65" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i196" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\custom devices\Diagnostics Addon\Windows\Quick Start Documentation\Diagnostics Addon Quick Start_files\image032.png</DestinationRelativePath>
+                    <Name>image032.png</Name>
+                    <SourceItem z:Ref="i66" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i197" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\custom devices\Diagnostics Addon\Windows\Quick Start Documentation\Diagnostics Addon Quick Start_files\image033.jpg</DestinationRelativePath>
+                    <Name>image033.jpg</Name>
+                    <SourceItem z:Ref="i67" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i198" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\custom devices\Diagnostics Addon\Windows\Quick Start Documentation\Diagnostics Addon Quick Start_files\image034.png</DestinationRelativePath>
+                    <Name>image034.png</Name>
+                    <SourceItem z:Ref="i68" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i199" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\custom devices\Diagnostics Addon\Windows\Quick Start Documentation\Diagnostics Addon Quick Start_files\image035.jpg</DestinationRelativePath>
+                    <Name>image035.jpg</Name>
+                    <SourceItem z:Ref="i69" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i200" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\custom devices\Diagnostics Addon\Windows\Quick Start Documentation\Diagnostics Addon Quick Start_files\image036.png</DestinationRelativePath>
+                    <Name>image036.png</Name>
+                    <SourceItem z:Ref="i70" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i201" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\custom devices\Diagnostics Addon\Windows\Quick Start Documentation\Diagnostics Addon Quick Start_files\image037.jpg</DestinationRelativePath>
+                    <Name>image037.jpg</Name>
+                    <SourceItem z:Ref="i71" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i202" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\custom devices\Diagnostics Addon\Windows\Quick Start Documentation\Diagnostics Addon Quick Start_files\image038.png</DestinationRelativePath>
+                    <Name>image038.png</Name>
+                    <SourceItem z:Ref="i72" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i203" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\custom devices\Diagnostics Addon\Windows\Quick Start Documentation\Diagnostics Addon Quick Start_files\image039.jpg</DestinationRelativePath>
+                    <Name>image039.jpg</Name>
+                    <SourceItem z:Ref="i73" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i204" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\custom devices\Diagnostics Addon\Windows\Quick Start Documentation\Diagnostics Addon Quick Start_files\image040.png</DestinationRelativePath>
+                    <Name>image040.png</Name>
+                    <SourceItem z:Ref="i74" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i205" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\custom devices\Diagnostics Addon\Windows\Quick Start Documentation\Diagnostics Addon Quick Start_files\image041.jpg</DestinationRelativePath>
+                    <Name>image041.jpg</Name>
+                    <SourceItem z:Ref="i75" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i206" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\custom devices\Diagnostics Addon\Windows\Quick Start Documentation\Diagnostics Addon Quick Start_files\image042.png</DestinationRelativePath>
+                    <Name>image042.png</Name>
+                    <SourceItem z:Ref="i76" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i207" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\custom devices\Diagnostics Addon\Windows\Quick Start Documentation\Diagnostics Addon Quick Start_files\image043.png</DestinationRelativePath>
+                    <Name>image043.png</Name>
+                    <SourceItem z:Ref="i77" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i208" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\custom devices\Diagnostics Addon\Windows\Quick Start Documentation\Diagnostics Addon Quick Start_files\image044.jpg</DestinationRelativePath>
+                    <Name>image044.jpg</Name>
+                    <SourceItem z:Ref="i78" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i209" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\custom devices\Diagnostics Addon\Windows\Quick Start Documentation\Diagnostics Addon Quick Start_files\image045.png</DestinationRelativePath>
+                    <Name>image045.png</Name>
+                    <SourceItem z:Ref="i79" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i210" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\custom devices\Diagnostics Addon\Windows\Quick Start Documentation\Diagnostics Addon Quick Start_files\image046.jpg</DestinationRelativePath>
+                    <Name>image046.jpg</Name>
+                    <SourceItem z:Ref="i80" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i211" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\custom devices\Diagnostics Addon\Windows\Quick Start Documentation\Diagnostics Addon Quick Start_files\image047.png</DestinationRelativePath>
+                    <Name>image047.png</Name>
+                    <SourceItem z:Ref="i81" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i212" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\custom devices\Diagnostics Addon\Windows\Quick Start Documentation\Diagnostics Addon Quick Start_files\image048.jpg</DestinationRelativePath>
+                    <Name>image048.jpg</Name>
+                    <SourceItem z:Ref="i82" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i213" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\custom devices\Diagnostics Addon\Windows\Quick Start Documentation\Diagnostics Addon Quick Start_files\image049.png</DestinationRelativePath>
+                    <Name>image049.png</Name>
+                    <SourceItem z:Ref="i83" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i214" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\custom devices\Diagnostics Addon\Windows\Quick Start Documentation\Diagnostics Addon Quick Start_files\image050.jpg</DestinationRelativePath>
+                    <Name>image050.jpg</Name>
+                    <SourceItem z:Ref="i84" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i215" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\custom devices\Diagnostics Addon\Windows\Quick Start Documentation\Diagnostics Addon Quick Start_files\image051.png</DestinationRelativePath>
+                    <Name>image051.png</Name>
+                    <SourceItem z:Ref="i85" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i216" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\custom devices\Diagnostics Addon\Windows\Quick Start Documentation\Diagnostics Addon Quick Start_files\image052.jpg</DestinationRelativePath>
+                    <Name>image052.jpg</Name>
+                    <SourceItem z:Ref="i86" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i217" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\custom devices\Diagnostics Addon\Windows\Quick Start Documentation\Diagnostics Addon Quick Start_files\image053.png</DestinationRelativePath>
+                    <Name>image053.png</Name>
+                    <SourceItem z:Ref="i87" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i218" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\custom devices\Diagnostics Addon\Windows\Quick Start Documentation\Diagnostics Addon Quick Start_files\image054.jpg</DestinationRelativePath>
+                    <Name>image054.jpg</Name>
+                    <SourceItem z:Ref="i88" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i219" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\custom devices\Diagnostics Addon\Windows\Quick Start Documentation\Diagnostics Addon Quick Start_files\themedata.thmx</DestinationRelativePath>
+                    <Name>themedata.thmx</Name>
+                    <SourceItem z:Ref="i89" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i220" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\custom devices\Diagnostics Addon\Windows\System Definition API</DestinationRelativePath>
+                    <Name>System Definition API</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i221" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\custom devices\Diagnostics Addon\Windows\System Definition API\Diagnostics System Definition API.lvlibp</DestinationRelativePath>
+                    <Name>Diagnostics System Definition API.lvlibp</Name>
+                    <SourceItem z:Ref="i90" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i222" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\Display Templates</DestinationRelativePath>
+                    <Name>Display Templates</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i223" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\Display Templates\Diagnostics - Workspace Object.vi</DestinationRelativePath>
+                    <Name>Diagnostics - Workspace Object.vi</Name>
+                    <SourceItem z:Ref="i91" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i224" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\Display Templates\Diagnostics Workspace Object Support.llb</DestinationRelativePath>
+                    <Name>Diagnostics Workspace Object Support.llb</Name>
+                    <SourceItem z:Ref="i92" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i225" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\Services</DestinationRelativePath>
+                    <Name>Services</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i226" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\Services\Diagnostic Unlock ECU Service</DestinationRelativePath>
+                    <Name>Diagnostic Unlock ECU Service</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i227" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\Services\Diagnostic Unlock ECU Service\Diagnostic Unlock ECU Service Launcher.vi</DestinationRelativePath>
+                    <Name>Diagnostic Unlock ECU Service Launcher.vi</Name>
+                    <SourceItem z:Ref="i93" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i228" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\Services\Diagnostic Unlock ECU Service\Diagnostic Unlock ECU Service Support.llb</DestinationRelativePath>
+                    <Name>Diagnostic Unlock ECU Service Support.llb</Name>
+                    <SourceItem z:Ref="i94" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i229" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\Services\Diagnostic Unlock ECU Service\Diagnostic Unlock ECU Service Support.lvlibp</DestinationRelativePath>
+                    <Name>Diagnostic Unlock ECU Service Support.lvlibp</Name>
+                    <SourceItem z:Ref="i95" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i230" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\Workspace Tools</DestinationRelativePath>
+                    <Name>Workspace Tools</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i231" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\Workspace Tools\Diagnostics Tool</DestinationRelativePath>
+                    <Name>Diagnostics Tool</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i232" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\Workspace Tools\Diagnostics Tool\Diagnostics - Tool.rtm</DestinationRelativePath>
+                    <Name>Diagnostics - Tool.rtm</Name>
+                    <SourceItem z:Ref="i96" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i233" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\Workspace Tools\Diagnostics Tool\Diagnostics - Tool.vi</DestinationRelativePath>
+                    <Name>Diagnostics - Tool.vi</Name>
+                    <SourceItem z:Ref="i97" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i234" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\Workspace Tools\Diagnostics Tool\Diagnostics Tool Support.llb</DestinationRelativePath>
+                    <Name>Diagnostics Tool Support.llb</Name>
+                    <SourceItem z:Ref="i98" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i235" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\Workspace Tools\Diagnostics Tool\Diagnostics Tool.aliases</DestinationRelativePath>
+                    <Name>Diagnostics Tool.aliases</Name>
+                    <SourceItem z:Ref="i99" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i236" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\Workspace Tools\Diagnostics Tool\Diagnostics Tool.exe</DestinationRelativePath>
+                    <Name>Diagnostics Tool.exe</Name>
+                    <SourceItem z:Ref="i100" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i237" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\Workspace Tools\Diagnostics Tool\Diagnostics Tool.ini</DestinationRelativePath>
+                    <Name>Diagnostics Tool.ini</Name>
+                    <SourceItem z:Ref="i101" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+            </DistributionItems>
+            <Name>Diagnostics Addon for VeriStand 2025</Name>
+            <OutputDirectory>..\..\..\packages</OutputDirectory>
+            <PluginConfigurationOptions />
+            <PrebuildAnalysisEnabled>true</PrebuildAnalysisEnabled>
+            <Architecture>windows_x64</Architecture>
+            <AutoIncrementVersion>Build</AutoIncrementVersion>
+            <BuildStatus z:Id="i238">
+                <FileName />
+                <Version>none</Version>
+            </BuildStatus>
+            <CompanyName>MyCompany</CompanyName>
+            <CustomExecutes />
+            <DisplayName>Diagnostics Addon for VeriStand 2025</DisplayName>
+            <FileName>ni-diagnostics-addon-2025_1.0.14.0_windows_x64.nipkg</FileName>
+            <MaintainerEmail>daniel.eaton@emerson.com</MaintainerEmail>
+            <MaintainerName>National Instruments</MaintainerName>
+            <Messages xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <PackageName>ni-diagnostics-addon-2025</PackageName>
+            <PackageRelationships />
+            <ProductName>MyProduct</ProductName>
+            <Section>Add-Ons</Section>
+            <Synopsis>Addon provides support for diagnostics in VeriStand.</Synopsis>
+            <Version>1.0.14.0</Version>
+        </Distribution>
+    </Distributions>
+    <Feeds />
+    <DistributionGroups>
+        <DistributionGroup z:Id="i239">
+            <Distributions>
+                <Distribution z:Ref="i119" />
+            </Distributions>
+            <Name>Distribution Group</Name>
+            <PrebuildAnalysisEnabled>true</PrebuildAnalysisEnabled>
+            <StageDirectory>ProcessingStage</StageDirectory>
+        </DistributionGroup>
+    </DistributionGroups>
+    <TestStandMode>true</TestStandMode>
+    <PluginConfigurationOptions>
+        <ConfigurationOption z:Id="i240">
+            <Definition z:Id="i241">
+                <Description i:nil="true" />
+                <Name>TestStand Options</Name>
+            </Definition>
+            <HasDefaultValues>true</HasDefaultValues>
+            <Value z:Id="i242" i:type="DialogConfigurationOptionValue">
+                <Values>
+                    <ConfigurationOptionValue z:Id="i243" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i244" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i245" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i246" i:type="StringConfigurationOptionValue">
+                        <Value />
+                    </ConfigurationOptionValue>
+                    <ConfigurationOptionValue z:Id="i247" i:type="StringConfigurationOptionValue">
+                        <Value>SupportVIs</Value>
+                    </ConfigurationOptionValue>
+                    <ConfigurationOptionValue z:Id="i248" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i249" i:type="StringConfigurationOptionValue">
+                        <Value />
+                    </ConfigurationOptionValue>
+                    <ConfigurationOptionValue z:Id="i250" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i251" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i252" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i253" i:type="BooleanConfigurationOptionValue">
+                        <Value>true</Value>
+                    </ConfigurationOptionValue>
+                    <ConfigurationOptionValue z:Id="i254" i:type="BooleanConfigurationOptionValue">
+                        <Value>true</Value>
+                    </ConfigurationOptionValue>
+                    <ConfigurationOptionValue z:Id="i255" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i256" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i257" i:type="PathConfigurationOptionValue">
+                        <RelativePath />
+                    </ConfigurationOptionValue>
+                    <ConfigurationOptionValue z:Id="i258" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i259" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i260" i:type="StringConfigurationOptionValue">
+                        <Value>[BootVolume]</Value>
+                    </ConfigurationOptionValue>
+                    <ConfigurationOptionValue z:Id="i261" i:type="StringConfigurationOptionValue">
+                        <Value />
+                    </ConfigurationOptionValue>
+                    <ConfigurationOptionValue z:Id="i262" i:type="StringConfigurationOptionValue">
+                        <Value />
+                    </ConfigurationOptionValue>
+                    <ConfigurationOptionValue z:Id="i263" i:type="StringConfigurationOptionValue">
+                        <Value />
+                    </ConfigurationOptionValue>
+                    <ConfigurationOptionValue z:Id="i264" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i265" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i266" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i267" i:type="BooleanConfigurationOptionValue" />
+                </Values>
+            </Value>
+        </ConfigurationOption>
+    </PluginConfigurationOptions>
+</Solution>
